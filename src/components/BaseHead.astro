@@ -1,0 +1,14 @@
+---
+import '../styles/global.css';
+const { title, description = '海外住宿编辑部' } = Astro.props as { title: string; description?: string };
+---
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<title>{title} · 海外住宿编辑部</title>
+<meta name="description" content={description} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:site_name" content="海外住宿编辑部" />
+<meta property="og:type" content="article" />
+<meta name="theme-color" content="#9C5BD9" />

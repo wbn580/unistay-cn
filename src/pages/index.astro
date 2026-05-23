@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+const entries = await getCollection('articles');
+---
+<BaseLayout title="海外住宿编辑部" description="中国留学生海外住宿决策站（公寓/宿舍/homestay 横评 + 区域指南）">
+  <section class="mx-auto max-w-4xl px-6 py-16">
+    <h1 class="font-heading text-4xl text-primary">海外住宿，<br/><span class="text-accent">一站看懂。</span></h1>
+    <p class="text-base text-muted mt-6">宿舍、公寓、homestay — 距离学校几分钟、每月多少租金、周边买菜方便吗？每篇区域指南都标了这三个数。</p>
+    <div class="mt-12 grid md:grid-cols-2 gap-4">{entries.map((entry) => <ArticleCard entry={entry} />)}</div>
+  </section>
+</BaseLayout>

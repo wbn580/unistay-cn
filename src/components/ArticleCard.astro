@@ -1,0 +1,8 @@
+---
+const { entry } = Astro.props as { entry: any };
+---
+<a href={`/${entry.id}/`} class="card-link bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow border border-primary/10">
+  <span class="text-xs font-bold uppercase text-accent">{entry.data.category}</span>
+  <h3 class="font-heading text-xl mt-3 text-primary">{entry.data.title}</h3>
+  <p class="text-sm text-muted mt-2">{entry.data.description}</p>
+</a>
