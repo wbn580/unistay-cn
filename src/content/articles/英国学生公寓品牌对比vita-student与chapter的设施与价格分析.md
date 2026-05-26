@@ -7,6 +7,7 @@ pubDatetime: "2025-12-25T04:32:35Z"
 modDatetime: "2025-12-25T04:32:35Z"
 readingTime: 3
 tags: ["featured"]
+
 ---
 
 英国学生公寓品牌对比：Vita Student与Chapter的设施与价格分析

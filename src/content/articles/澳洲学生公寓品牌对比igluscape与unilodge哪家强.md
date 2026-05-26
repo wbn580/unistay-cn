@@ -7,6 +7,7 @@ pubDatetime: "2025-11-30T12:25:44Z"
 modDatetime: "2025-11-30T12:25:44Z"
 readingTime: 3
 tags: ["featured"]
+
 ---
 
 2024年澳大利亚内政部（Department of Home Affairs）数据显示，持有学生签证的中国公民数量已回升至约12.6万人，较2023年增长14%。与此同时，悉尼、墨尔本、布里斯班三大城市的专用学生公寓（PBSA）平均周租金在2024年第三季度已达到489澳元，较疫情前上涨了32%（来源：Savills Australia, 2024, *Student Housing Market Report*）。面对Iglu、Scape和UniLodge这三个覆盖全澳的主流品牌，选哪家直接决定了你接下来一年的预算、通勤时间和生活质量。这篇评测从价格、距离、配套三个核心维度切入，结合真实住户反馈，帮你快速锁定选项。

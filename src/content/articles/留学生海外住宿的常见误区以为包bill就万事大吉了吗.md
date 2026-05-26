@@ -7,6 +7,7 @@ pubDatetime: "2025-12-10T20:10:34Z"
 modDatetime: "2025-12-10T20:10:34Z"
 readingTime: 3
 tags: ["featured"]
+
 ---
 
 “包Bill”三个字，几乎是每个中国留学生看房时眼睛最先锁定的关键词。根据英国学生住宿行业机构Cushman & Wakefield 2023年发布的《UK Student Accommodation Report》，全英约68%的专建学生公寓（PBSA）采用“全包价”模式，将水、电、气、网费打包进周租金。美国方面，National Multifamily Housing Council（NMHC）2024年调查显示，约52%的学生公寓租约明确要求租客单独缴纳电费和燃气费，与英国形成鲜明对比。这种信息差导致大量新生在签约前误以为“包Bill=财务无忧”，却在入住后发现：暖气使用上限、公共区域电费分摊、网络速度不达标等隐形条款，让每月实际支出比预期高出15%-30%。这篇文章会拆解“包Bill”合同里最容易被忽略的5个陷阱，并提供实操避坑清单。

@@ -7,6 +7,7 @@ pubDatetime: "2026-04-18T03:12:13Z"
 modDatetime: "2026-04-18T03:12:13Z"
 readingTime: 3
 tags: ["featured"]
+
 ---
 
 一份针对 18-28 岁中国留学生及家长的全包式租金（All-Inclusive Rent）水电燃气等杂费详解。以下为完整文章正文。

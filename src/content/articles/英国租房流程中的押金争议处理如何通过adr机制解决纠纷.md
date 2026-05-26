@@ -7,6 +7,7 @@ pubDatetime: "2026-02-17T14:52:45Z"
 modDatetime: "2026-02-17T14:52:45Z"
 readingTime: 3
 tags: ["featured"]
+
 ---
 
 在英国，留学生在租期结束后拿回全额押金的概率并不乐观。根据英格兰及威尔士物业监察专员（Property Ombudsman）2023年度报告，租赁押金争议中约有42%的案例最终判定了部分或全部扣款，而其中超过一半的扣款理由（如“正常磨损”与“清洁标准”）存在界定模糊问题。与此同时，英国政府自2019年起强制要求所有租赁押金必须在政府批准的押金保护计划（Tenancy Deposit Protection, TDP）中注册，截至2023年底，仍有约12%的私人租赁押金未按规定存入保护计划【Ministry of Housing, Communities and Local Government, 2023, English Private Landlord Survey】。这意味着每8个中国留学生中就有1人可能面临押金被无理扣押却不知如何申诉的困境。本文将拆解英国ADR（替代性争议解决）机制的具体操作路径，从证据链构建到申诉时间窗口，帮你把押金争议的主动权握在手里。
