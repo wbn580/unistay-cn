@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const hardcoded: string[] = ['dorm', 'homestay'];
+  return hardcoded.map(cat => ({ params: { category: cat } }));
+}
+
+const { category } = Astro.params;
+const lang = (Astro.url.pathname.startsWith('/zh/')) ? 'zh' : 'en';
+const allEntries = await getCollection('articles');
+const entries = allEntries
+  .filter(e => e.data.lang === lang)
+  .filter(e => e.data.category === category || (e.data.tags && e.data.tags.includes(category)))
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+---
+<BaseLayout title={`${category} — Articles`} description={`Articles about ${category}`} lang={lang}>
+  <section class="mx-auto max-w-4xl px-4 py-12">
+    <h1 class="font-mono text-3xl text-primary capitalize">{category.replace(/-/g, ' ')}</h1>
+    <p class="text-muted mt-2">{entries.length} article{entries.length !== 1 ? 's' : ''}</p>
+    <div class="mt-8 space-y-2">
+      {entries.map((entry) => <ArticleCard entry={entry} lang={lang} />)}
+    </div>
+  </section>
+</BaseLayout>
