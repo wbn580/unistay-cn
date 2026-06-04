@@ -5,7 +5,7 @@ pubDatetime: '2026-05-22T00:00:00Z'
 publishDate: '2026-05-22T00:00:00Z'
 modDatetime: '2026-05-22T00:00:00Z'
 slug: overseas-student-rental-deposit-dispute-guide
-ogImage: 'https://img.ulec.com.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg'
 tags:
   - '留学生租房'
   - '押金纠纷'
@@ -94,7 +94,7 @@ tags:
 
 ## 纠纷升级：协商、官方仲裁与法律路径
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg)
 
 
 押金纠纷首选书面协商，发出一封正式邮件，列出你不同意的扣款项目、附上证据（入住照片、退租照片、收据、合同条款），并引用当地法律条款，给予对方合理时间（如7-14天）解决。多数情况下，房东看到详细证据会妥协。
@@ -146,7 +146,7 @@ tags:
 
 ## 总结：守护押金从了解规则开始
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/overseas-student-rental-deposit-dispute-guide-2026-1880x1253.jpg)
 
 
 海外租房押金纠纷并非无解，关键在于事前认知与证据意识。中国留学生在踏上留学旅程前，就应该把当地租务法作为必做功课，尤其是押金保护制度。签约时咬文嚼字，入住时镜头留证，退租时依法索要，纠纷时勇敢维权。不同国家的法规虽然多样，但整体趋势都是保护租客权益，留学生只要顺势而为，完全可以守住自己的钱袋。希望这篇涵盖澳、美、英、加、欧亚的全攻略，能为你扫清海外住宿的财务隐患，让留学生活更加安稳。

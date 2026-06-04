@@ -5,7 +5,7 @@ pubDatetime: '2026-05-27T00:00:00Z'
 publishDate: '2026-05-27T00:00:00Z'
 modDatetime: '2026-05-27T00:00:00Z'
 slug: australia-rental-contract-key-clauses-nsw-vic-qld
-ogImage: 'https://img.ulec.com.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1253.jpg'
 category: 'general'
 tags:
   - '澳洲租房攻略'
@@ -60,7 +60,7 @@ tags:
 
 ## 五、租金上涨与分租限制：合同里容易忽略的隐藏条款
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1253.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1253.jpg)
 
 
 租金上涨的频率和分租规定，有时比押金条款更容易引发纠纷。签约前不看清这些“隐藏条款”，后续生活可能处处受限。
@@ -93,7 +93,7 @@ tags:
 
 ## 总结
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1254.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/australia-rental-contract-key-clauses-nsw-vic-qld-2026-1880x1254.jpg)
 
 
 澳大利亚新州、维州和昆州的租房法律规定，在租期设定、押金上限与退还流程、维修责任划分、提前解约条款等方面各有偏重。整体而言，维州租客保护力度最大，新州毁约费机制明确可控，昆州则需格外警惕押金保管和毁约成本的高弹性。不论你即将前往悉尼、墨尔本还是布里斯班，租房的核心安全法则不变——用官方标准合同、押金进入法定机构、所有事项白纸黑字、状况报告做细做全。提前花点时间理解这些条款差异，远比事后再去仲裁或维权来得划算。愿每一位留学生在澳洲都能找到安心且合规的住处，把精力留给学业与探索。

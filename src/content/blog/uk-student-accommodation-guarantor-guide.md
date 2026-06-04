@@ -5,7 +5,7 @@ pubDatetime: '2026-05-26T00:00:00Z'
 publishDate: '2026-05-26T00:00:00Z'
 modDatetime: '2026-05-26T00:00:00Z'
 slug: uk-student-accommodation-guarantor-guide
-ogImage: 'https://img.ulec.com.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1880x1253.jpg'
 tags:
   - '英国学生公寓'
   - '担保人'
@@ -42,7 +42,7 @@ tags:
 
 ## 主流学生公寓品牌担保人政策逐家对比
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1880x1253.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1880x1253.jpg)
 
 为了帮助中国留学生精准选择，我们详细梳理了 Unite Students、CRM Students、iQ Student Accommodation、Vita Student 和 Downing Students 这五家最常见品牌关于担保人的具体政策。
 
@@ -88,6 +88,6 @@ Downing Students 同样要求担保人居住在英国并有稳定收入。对于
 
 ## 总结
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1733x1300.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/uk-student-accommodation-guarantor-guide-2026-1733x1300.jpg)
 
 英国学生公寓担保人制度看似严苛，实则是租赁市场长期形成的风险控制工具。对于无英国本地担保人的中国留学生来说，看似是一道障碍，但只要提前了解硬性要求和替代方案，就完全能够从容地规划租房策略。无论是选择一次性付清全年租金，还是借助 Housing Hand 等专业担保服务，亦或是在个别公寓争取灵活条款，核心都在于尽早准备、细致对比政策、并主动与公寓方沟通。希望这篇系统梳理英国学生公寓租约中担保人（guarantor）的硬性要求与替代方案的指南，能够帮助你在留学住宿这条路上少走弯路，顺利锁定心仪的房间，开启安心充实的英国留学生活。
