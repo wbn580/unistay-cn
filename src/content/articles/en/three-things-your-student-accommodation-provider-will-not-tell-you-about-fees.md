@@ -8,6 +8,8 @@ modDatetime: "2026-05-16T16:09:14Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/three-things-your-student-accommodation-provider-will-not-te-6161512.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/three-things-your-student-accommodation-provider-will-not-te-6161512.jpg"
 ---
 
 留学合同上的租金数字，往往只是冰山一角。根据英国国家统计局（ONS, 2024, Private Rental Index），英格兰学生公寓的平均租金在过去三年上涨了 21.6%，但同期附加费用的涨幅却高达 34%。另一份来自澳大利亚竞争与消费者委员会（ACCC, 2023, Accommodation Inquiry Report）的数据显示，超过 40% 的留学生曾在搬出时遭遇押金扣除纠纷，其中近半数扣款与合同中的“隐藏费用”直接相关。当你签下那份看起来划算的住宿协议时，有几个收费条款正藏在字里行间，等着你的银行账户。这篇文章会拆解学生公寓供应商最不想让你知道的三个收费陷阱，帮你守住预算。

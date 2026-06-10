@@ -8,6 +8,8 @@ modDatetime: "2025-12-23T02:29:46Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/break-clause-renewal-early-termination-7841414.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/break-clause-renewal-early-termination-7841414.jpg"
 ---
 
 一份英国租赁合同通常长达 40-60 页，其中 **Break Clause（中断条款）**、**Renewal（续约机制）** 与 **Early Termination（提前解约）** 是留学生最容易踩坑的三个核心条款。根据英国住宅房东协会（NRLA）2023年发布的《学生租赁市场报告》，约 37% 的国际学生在租期内至少因合同条款模糊而产生过纠纷，其中 **Break Clause 的触发条件** 是最常见的争议焦点。与此同时，英格兰和威尔士的法律规定，任何固定期限合同（Fixed Term）如果未明确写入 Break Clause，租客在合同前 4-6 个月内几乎无法合法解约——这意味着一旦签约，你可能被锁定在一间不合适的房子里长达 12 个月。本文将结合英国政府《住房与租赁改革法案》（2023年修订版）的条款，逐条拆解这三个关键机制，帮你避开押金被扣、信用受损甚至被驱逐的风险。

@@ -8,6 +8,8 @@ modDatetime: "2026-05-03T16:46:27Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/detailed-rulebook-what-guests-are-allowed-in-a-standard-stu-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/detailed-rulebook-what-guests-are-allowed-in-a-standard-stu-36688004.jpg"
 ---
 
 每年有超过 120 万名中国留学生活跃在海外校园，其中约 45% 选择入住学校或运营商管理的标准学生公寓（数据来源：教育部《2023 中国留学回国就业蓝皮书》）。对于 18-28 岁的群体来说，住宿不仅是睡觉的地方，更是社交、学习和生活的核心场景。然而，一个被反复忽略却极易引发纠纷的问题是：**访客政策**。2024 年，英国全国学生联合会（NUS）的一项调查显示，约 32% 的学生住宿纠纷直接源于访客违规，包括过夜、噪音或超出人数限制。这篇文章将帮你拆解标准学生公寓的访客规则手册，从签到流程到过夜权限，从罚款金额到安全底线，让你在邀请朋友之前就心里有数。

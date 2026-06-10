@@ -8,6 +8,8 @@ modDatetime: "2026-03-19T23:31:26Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/legal-tip-understanding-cooling-off-periods-in-student-tena-36488760.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/legal-tip-understanding-cooling-off-periods-in-student-tena-36488760.jpg"
 ---
 
 你刚签下一份海外学生公寓的租赁合同，第二天却在学校群里刷到同一栋楼、同一户型降价 40 英镑/周的消息。更糟的是，房东告诉你“合同已生效，反悔要扣全部押金”。这种情况并非个例——根据英国住房慈善机构 Shelter 2023 年的统计，约 12% 的留学生曾因提前解约损失超过 500 英镑押金。但你可能不知道，英国、澳大利亚、新西兰等热门留学地都设有 **冷却期（Cooling-Off Period）** 法规，允许租客在签约后特定天数内无责解约。澳大利亚公平交易厅（NSW Fair Trading，2023 年数据）指出，仅在新南威尔士州，每年就有超过 2,000 份学生租约通过冷却期条款成功撤销。这篇文章将拆解各国冷却期的具体天数、适用条件，以及你如何利用这个“后悔药”保护自己的押金。

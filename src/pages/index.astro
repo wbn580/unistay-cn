@@ -2,12 +2,106 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { REGIONS, classifyRegion, getRegionStats } from '../utils/region';
+
 const entries = await getCollection('articles');
+
+// Build region stats from article titles + bodies
+const regionStats = getRegionStats(
+  entries.map(e => ({
+    data: { title: e.data.title, tags: e.data.tags },
+    body: e.body || '',
+  }))
+);
+
+// Only show regions with articles
+const activeRegions = regionStats.filter(r => r.count > 0);
+
+// Recent/featured: last 9 articles
+const recentEntries = entries
+  .filter(e => e.data.publishDate)
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+  .slice(0, 9);
+
+// Region card images - high quality Pexels photos on R2
+const REGION_IMAGES: Record<string, string> = {
+  australia:  'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  uk:         'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  usa:        'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  canada:     'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  hongkong:   'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  newzealand: 'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  singapore:  'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  ireland:    'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  europe:     'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+  other:      'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+};
 ---
+
 <BaseLayout title="海外住宿编辑部" description="中国留学生海外住宿决策站（公寓/宿舍/homestay 横评 + 区域指南）">
-  <section class="mx-auto max-w-4xl px-6 py-16">
-    <h1 class="font-heading text-4xl text-primary">海外住宿，<br/><span class="text-accent">一站看懂。</span></h1>
-    <p class="text-base text-muted mt-6">宿舍、公寓、homestay — 距离学校几分钟、每月多少租金、周边买菜方便吗？每篇区域指南都标了这三个数。</p>
-    <div class="mt-12 grid md:grid-cols-2 gap-4">{entries.map((entry) => <ArticleCard entry={entry} />)}</div>
+  <!-- Hero Section -->
+  <section class="relative w-full min-h-[520px] flex items-center justify-center overflow-hidden">
+    <!-- Background image -->
+    <img
+      src="https://img.ulec.com.cn/unistay/hero-student-apartment.jpg"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    />
+    <!-- Dark overlay for text readability -->
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/50 to-slate-900/80"></div>
+    <!-- Content -->
+    <div class="relative z-10 text-center px-6 py-20 max-w-3xl">
+      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl text-white leading-tight">
+        留学生公寓
+      </h1>
+      <p class="text-lg md:text-xl text-slate-200 mt-4 max-w-2xl mx-auto">
+        覆盖10个留学目的地的住宿指南 · 公寓/宿舍/homestay 实测对比 · 帮你找到海外的家
+      </p>
+    </div>
+  </section>
+
+  <!-- Region Navigation -->
+  <section class="mx-auto max-w-6xl px-6 py-16">
+    <h2 class="font-heading text-3xl text-primary text-center mb-2">按地区浏览</h2>
+    <p class="text-muted text-center mb-10">选择留学目的地，查看该地区全部住宿指南</p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {activeRegions.map((region) => (
+        <a
+          href={`/region/${region.slug}/`}
+          class="group relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-800 shadow-md hover:shadow-xl transition-all hover:scale-[1.02]"
+        >
+          <img
+            src={REGION_IMAGES[region.slug]}
+            alt={region.name}
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/30 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="font-heading text-lg text-white">{region.name}</h3>
+            <p class="text-xs text-slate-300 mt-1">{region.count} 篇指南</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="mx-auto max-w-6xl px-6 pb-16">
+    <h2 class="font-heading text-3xl text-primary text-center mb-2">最新住宿指南</h2>
+    <p class="text-muted text-center mb-10">新鲜出炉的留学住宿攻略</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {recentEntries.map((entry) => (
+        <ArticleCard entry={entry} />
+      ))}
+    </div>
+    <div class="text-center mt-10">
+      <a href="/region/australia/" class="inline-block px-6 py-3 bg-accent text-white rounded-lg font-semibold hover:bg-accent/90 transition-colors">
+        浏览全部地区 →
+      </a>
+    </div>
   </section>
 </BaseLayout>

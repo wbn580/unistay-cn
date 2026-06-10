@@ -8,6 +8,8 @@ modDatetime: "2026-03-30T04:18:21Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-near-a-night-market-be-a-noise-pro-31969409.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-near-a-night-market-be-a-noise-pro-31969409.jpg"
 ---
 
 你正在纠结要不要租夜市边的学生公寓，担心每晚的烧烤烟和叫卖声会不会毁掉你的睡眠。根据《2024 中国留学白皮书》，超过 63% 的留学生将“周边生活便利度”列为选房前三要素，而夜市恰恰是“便利”的代名词——步行 5 分钟内就有餐饮、超市和交通枢纽。但另一面，世界卫生组织（WHO）2023 年发布的《环境噪声指南》指出，夜间持续超过 55 分贝的噪声会显著影响睡眠质量，而中国多数城市夜市区域的夜间平均噪声在 60-70 分贝之间。这个矛盾让“夜市旁公寓”成了一个典型的两难选择：它到底是生活福利，还是睡眠杀手？本文将从价格、距离、配套三个维度，结合真实留学生案例，帮你做出判断。

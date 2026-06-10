@@ -8,6 +8,8 @@ modDatetime: "2026-02-25T18:44:08Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/seven-mistakes-to-avoid-when-applying-for-student-accommodat-15953135.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/seven-mistakes-to-avoid-when-applying-for-student-accommodat-15953135.jpg"
 ---
 
 每年有超过 18 万名中国留学生前往澳大利亚求学（澳大利亚教育部，2024，《国际学生数据》），而其中近 40% 的学生在抵澳后的前两周内会因住宿问题产生额外支出或心理压力。从押金纠纷到通勤超时，从虚假房源到合同陷阱，申请学生住宿并非简单的“订房”操作。本文基于澳大利亚公平交易厅（NSW Fair Trading，2023）和澳大利亚住宿协会（Student Accommodation Association，2024）的公开指引，拆解留学生最常踩的七个坑，并提供可落地的避坑清单。

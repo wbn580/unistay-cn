@@ -8,6 +8,8 @@ modDatetime: "2026-02-02T14:48:31Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/ast-wear-and-tear-955393.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/ast-wear-and-tear-955393.jpg"
 ---
 
 每年有超过 38 万名中国学生在海外留学（教育部《2023 中国留学人员发展报告》），其中约 72% 的学生第一年选择入住学生公寓或校外租赁住房。然而，一份典型的英国或澳大利亚学生公寓合同通常包含 15-20 个英文专有术语，从 AST（Assured Shorthold Tenancy）到 Wear and Tear（正常磨损），这些词汇直接决定了你的押金能否全额退还、租金涨幅上限以及提前解约的代价。根据英国住房慈善机构 Shelter 2024 年的数据，约 34% 的国际学生因不熟悉合同术语而在退租时遭遇押金扣款纠纷。这篇指南将拆解学生公寓租赁合同中最关键的 7 组核心词汇，帮助你像本地租客一样审阅每一条条款。

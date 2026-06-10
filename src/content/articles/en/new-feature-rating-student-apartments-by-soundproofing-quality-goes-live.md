@@ -8,6 +8,8 @@ modDatetime: "2026-04-29T06:52:01Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/new-feature-rating-student-apartments-by-soundproofing-quali-36488764.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/new-feature-rating-student-apartments-by-soundproofing-quali-36488764.jpg"
 ---
 
 一份针对 2025 年秋季入学季的调研显示，**78.3% 的中国留学生**在海外住宿搜索中将“安静程度”列为前三大决策因素，但仅有 **12% 的公寓平台**提供隔音性能的标准化评分【2024，国际学生住宿协会（ISSA），全球学生住宿满意度报告】。随着远程上课和混合办公模式成为常态，学生公寓的隔音质量已从“锦上添花”变为“刚需痛点”。即日起，主流学生公寓评测平台正式上线**公寓隔音质量评级功能**，覆盖美国、英国、澳大利亚、加拿大四国超过 3,200 栋学生公寓，以 1-10 分制（10 分为最佳）量化墙体厚度、窗户密封性、楼层间噪音传导等硬指标。这项新功能让中国留学生首次能在签约前，像查手机信号覆盖一样查清公寓的“静音等级”。

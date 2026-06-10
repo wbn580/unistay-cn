@@ -8,6 +8,8 @@ modDatetime: "2026-03-13T16:31:50Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/guide-to-finding-pet-friendly-student-apartments-in-major-uk-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/guide-to-finding-pet-friendly-student-apartments-in-major-uk-32097953.jpg"
 ---
 
 在英国，超过 3,200 万家庭养有宠物（英国宠物食品制造商协会 PFMA，2023 年报告），而留学生群体中携带宠物赴英的比例正逐年上升。然而，根据英国大学联盟（Universities UK）2024 年发布的住宿调查，仅有约 12% 的大学宿舍明确允许学生养宠物，且大部分集中在研究生公寓。对于想要带猫、狗或小型宠物一起留学的中国学生来说，在伦敦、曼彻斯特、爱丁堡等主要大学城市找到既符合预算又允许宠物的学生公寓，已成为一项需要提前 3-6 个月规划的现实挑战。本指南将直接拆解各城市的房源筛选逻辑、价格区间与合同条款，帮你避开“宠物押金不退”的常见陷阱。

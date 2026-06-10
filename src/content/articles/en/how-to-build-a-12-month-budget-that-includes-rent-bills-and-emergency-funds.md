@@ -8,6 +8,8 @@ modDatetime: "2026-03-06T16:06:28Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/how-to-build-a-12-month-budget-that-includes-rent-bills-an-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/how-to-build-a-12-month-budget-that-includes-rent-bills-an-32097953.jpg"
 ---
 
 留学预算翻车是海外生活最常见的“第一课”。根据澳洲统计局（ABS, 2024, *Household Expenditure Survey*）数据，国际学生在悉尼的平均周租金已突破$680澳元，较三年前上涨了18%。同时，英国高等教育统计局（HESA, 2023）报告显示，超过35%的留学生因预算超支在学期中途不得不求助父母或动用紧急贷款。你需要的不是一张简单的收入支出表，而是一套能扛住房租涨价、汇率波动和突发牙疼的12个月生存预算系统。这篇指南会从房租拆解到应急基金，用具体数字告诉你每一分钱该落在哪里。

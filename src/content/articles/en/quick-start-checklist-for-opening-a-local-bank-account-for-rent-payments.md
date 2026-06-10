@@ -8,6 +8,8 @@ modDatetime: "2026-04-02T04:05:33Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/quick-start-checklist-for-opening-a-local-bank-account-for-r-31969409.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/quick-start-checklist-for-opening-a-local-bank-account-for-r-31969409.jpg"
 ---
 
 刚到海外就遇到“房东只收本地账户转账，微信支付宝用不了”的窘境？根据英国金融行为监管局（FCA，2023年《支付服务调查》）数据，超过78%的英国私人房东明确要求租客通过本地银行账户自动扣款（Direct Debit）支付房租，而澳洲储备银行（RBA，2024年《支付系统报告》）也指出，在澳大利亚约65%的租赁合同强制使用本地银行转账或BPAY。对于中国留学生而言，没有本地银行账户，轻则错过押金支付截止日导致房源被取消，重则每月多付3%-5%的国际汇款手续费。这篇文章就是一份可直接对照执行的“开户速查清单”，从材料准备、银行选择到绑定房租支付，帮你把开户时间压缩到最短。

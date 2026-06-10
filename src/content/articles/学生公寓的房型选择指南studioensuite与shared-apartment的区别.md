@@ -8,6 +8,8 @@ modDatetime: "2025-12-11T18:55:33Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/studio-ensuite-shared-apartment-10376198.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/studio-ensuite-shared-apartment-10376198.jpg"
 ---
 
 2025年，**英国学生住宿的平均租金已升至每周 £182**，伦敦地区更是突破 £230/周【英国国家统计局 ONS，2024，Private Rental Market Summary】。与此同时，澳洲主要城市的学生公寓空置率已降至 **1.5% 以下**，悉尼部分热门区域甚至需要提前 6 个月预订【SQM Research，2024，Weekly Vacancy Rate】。面对越来越紧的房源和持续上涨的预算，选择哪种房型——Studio、Ensuite 还是 Shared Apartment——直接决定了你未来一年的生活成本、学习效率和社交体验。这不是简单的“住哪里”，而是一场关于隐私、预算和生活方式的关键决策。

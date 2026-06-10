@@ -8,6 +8,8 @@ modDatetime: "2026-03-07T23:05:59Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/quick-reference-sheet-for-comparing-contract-terms-across-th-15953135.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/quick-reference-sheet-for-comparing-contract-terms-across-th-15953135.jpg"
 ---
 
 对比三份英国品牌租房合同条款，是每个留学生入住前最容易被忽略、却成本最高的环节。根据英国住房慈善机构 Shelter 2023 年发布的《学生租房报告》，超过 42% 的留学生曾因未仔细阅读合同条款而损失押金，平均金额高达 342 英镑。同时，英国大学联盟（Universities UK）2024 年统计显示，仅过去一年，国际学生因合同纠纷产生的额外支出就超过 1800 万英镑。面对 Unite Students、iQ Student Accommodation 和私人房东这三大主流选择，合同中的押金保护、提前解约条款和账单包含范围，往往是决定你最终花多少钱、住得是否安心的关键。这份速查表帮你拆解三者的核心差异，让你在签字前心里有底。

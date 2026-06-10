@@ -8,6 +8,8 @@ modDatetime: "2026-03-24T14:17:17Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/what-your-student-accommodation-contract-says-about-early-te-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/what-your-student-accommodation-contract-says-about-early-te-36688004.jpg"
 ---
 
 超过 40% 的英国留学生会在合同期内提前搬离学生公寓，而澳大利亚维多利亚州消费者事务署（Consumer Affairs Victoria, 2023）的数据显示，学生住宿合同纠纷中，**提前终止费**（Early Termination Fee）是排名第二的投诉原因，仅次于押金退还问题。对于 18-28 岁的中国留学生来说，签下一份 12 个月固定租期的学生公寓合同，往往意味着承担数千英镑或澳元的经济责任。一旦因签证变更、课程调整或家庭突发状况需要提前解约，合同里的“终止条款”可能让你瞬间损失 4-6 周的租金。英国全国学生联合会（NUS, 2022）的报告指出，约 62% 的学生在签约前从未逐条阅读过合同中的终止条款。这篇文章将逐项拆解合同里的“提前终止费”陷阱，告诉你哪些费用合理、哪些可以谈判，以及实际操作中如何降低损失。

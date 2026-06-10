@@ -8,6 +8,8 @@ modDatetime: "2025-12-25T04:32:35Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-14998334.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-14998334.jpg"
 ---
 
 英国学生公寓品牌对比：Vita Student与Chapter的设施与价格分析

@@ -8,6 +8,8 @@ modDatetime: "2026-02-28T06:44:42Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/how-to-spot-an-illegal-sublet-before-you-wire-the-deposit-ov-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/how-to-spot-an-illegal-sublet-before-you-wire-the-deposit-ov-32097953.jpg"
 ---
 
 2024年英国私人租赁行业投诉量同比上升37%，其中**非法转租（illegal sublet）** 纠纷占比超过22%（来源：英国住房申诉专员 2024 年度报告）。与此同时，中国留学生因海外租房被骗的平均金额已达 2,800 英镑/笔（来源：中国驻英大使馆 2024 年领事保护案例统计）。当你在微信群里看到“房东直租、免中介费”的帖子，或在小红书上刷到“低于市场价 30% 的学生公寓”时，这很可能是一个精心包装的非法转租陷阱。问题在于：你远在国内，无法实地看房，如何仅凭线上信息就识别出对方根本没有转租权？本文为你拆解 6 个可独立操作的核查步骤，从官方产权数据库到押金保护计划，帮你把 2,800 英镑的风险降到零。

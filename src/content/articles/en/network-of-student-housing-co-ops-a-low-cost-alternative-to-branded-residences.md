@@ -8,6 +8,8 @@ modDatetime: "2026-04-04T00:01:29Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/network-of-student-housing-co-ops-a-low-cost-alternative-to-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/network-of-student-housing-co-ops-a-low-cost-alternative-to-36688004.jpg"
 ---
 
 对于每月房租动辄 1200—1800 美元的美国大学城单人公寓，学生住房合作社提供了一条完全不同的路径：住户既是租客也是股东，月费通常比市场价低 30%—50%。根据北美学生合作组织（NASCO）2023 年年度调查，全美运营超过 50 年的学生合作社平均月费仅为 650 美元（含水电和餐食），而同期美国公寓租赁网站 Zumper 数据显示，大学城周边一居室中位数租金已达 1,150 美元。这种模式并非新鲜事物——最早的合作社可追溯至 1930 年代，但近年来随着国际生签证收紧和学费上涨，合作社的低成本与社区属性重新进入中国留学家庭的视野。本文将用卡片式信息拆解合作社的真实成本、入住规则与区域分布，帮你判断它是否值得写入你的住宿备选清单。

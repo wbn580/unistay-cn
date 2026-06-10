@@ -8,6 +8,8 @@ modDatetime: "2026-04-10T07:07:01Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/quiz-which-australian-city-matches-your-student-housing-bud-36488764.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/quiz-which-australian-city-matches-your-student-housing-bud-36488764.jpg"
 ---
 
 澳洲八大所在城市的学生住宿成本差异比你想象的大得多。根据澳大利亚政府《2024年学生住宿报告》（Australian Government Student Accommodation Report 2024），悉尼市中心一间单人Studio的平均周租金已达$620澳元，而阿德莱德同类房型仅为$380澳元——差距超过60%。同时，澳洲统计局（ABS）2024年数据显示，国际学生签证持有者中，18-28岁群体占比超过72%，住宿预算直接影响着每周的生活质量与学业专注度。面对悉尼、墨尔本、布里斯班、阿德莱德、珀斯这五座主要留学城市，你的预算和生活方式偏好决定了哪个才是最优解。这篇评测将用精确数据帮你对号入座。

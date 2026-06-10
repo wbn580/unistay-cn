@@ -8,6 +8,8 @@ modDatetime: "2026-02-27T05:50:22Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/ranking-the-best-student-districts-in-melbourne-for-chinese-31969409.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/ranking-the-best-student-districts-in-melbourne-for-chinese-31969409.jpg"
 ---
 
 墨尔本目前有超过 **15 万名国际学生**，其中中国留学生占比长期维持在 **28%-30%** 左右（澳大利亚教育部，2024，《国际学生数据报告》）。对于刚到墨尔本的中国学生来说，找房不仅是签一份租约，更是在一个陌生城市里建立生活据点——距离学校多远、买菜方不方便、能不能用支付宝、室友是不是夜猫子，每一项都直接影响未来一年的学习状态。根据 **2024 年 QS 最佳学生城市排名**，墨尔本位列全球第五，但它的住宿市场却两极分化：市中心公寓周租中位数已达 **$600 澳元**，而离市区 15 公里外的郊区可能只要一半价格。这篇评测将按“价格-距离-配套”三要素，拆解最适合中文租户的六大居住区，帮你用最小试错成本找到落脚点。

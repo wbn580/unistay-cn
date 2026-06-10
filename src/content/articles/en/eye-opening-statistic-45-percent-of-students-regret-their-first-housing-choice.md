@@ -8,6 +8,8 @@ modDatetime: "2026-04-30T08:28:15Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/eye-opening-statistic-45-percent-of-students-regret-their-f-36488760.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/eye-opening-statistic-45-percent-of-students-regret-their-f-36488760.jpg"
 ---
 
 45% 的留学生对第一处海外住宿感到后悔——这不是网络段子，而是 **Sodexo 与 Universities UK 在 2023 年联合发布的《Student Living Index》** 中的核心结论。该报告调研了英国 12 个城市超过 3,000 名国际学生，发现 **住宿决策失误是新生第一学期退学意向的第二大诱因**，仅次于学术压力。另一组来自 **澳大利亚教育部 2024 年《国际学生住宿调查》** 的数据显示，在悉尼和墨尔本，提前 3 个月以上签约的学生中，有 38% 后来发现实际通勤时间比中介承诺多了 45 分钟以上。这两组数字指向同一个问题：海外住宿不是“订个房间”，而是一场信息不对称的决策战。本文从价格、距离、配套三个硬指标出发，结合真实案例，帮你避开 45% 的后悔陷阱。

@@ -8,6 +8,8 @@ modDatetime: "2026-04-09T21:39:43Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/checklist-to-verify-whether-a-student-property-provider-is-l-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/checklist-to-verify-whether-a-student-property-provider-is-l-36688004.jpg"
 ---
 
 每年有超过 18 万名中国留学生赴海外攻读学位（教育部《2023 年度出国留学人员统计》），其中约 65% 的学生在入学首年选择校外租房或学生公寓。然而，英国学生住宿协会（2023 年行业报告）指出，仅英国市场每年就有约 4% 的学生住宿供应商因资质不全或违规操作被投诉，涉及押金不退、合同欺诈甚至无证经营。对于人生地不熟的留学生来说，租到一套“合法注册”的房子，远比想象中复杂。这篇清单将帮你从官方登记、保险绑定、合同条款到投诉记录，逐项核验供应商的合法身份，避免成为下一个维权案例。

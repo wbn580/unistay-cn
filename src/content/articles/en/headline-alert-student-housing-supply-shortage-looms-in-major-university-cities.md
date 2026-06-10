@@ -8,6 +8,8 @@ modDatetime: "2026-04-19T05:03:04Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/headline-alert-student-housing-supply-shortage-looms-in-maj-15953135.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/headline-alert-student-housing-supply-shortage-looms-in-maj-15953135.jpg"
 ---
 
 2025年秋季入学季，中国留学生正面临一个严峻现实：全球主要大学城的**学生住宿空置率已降至历史最低点**。根据英国大学联盟（Universities UK）2025年1月发布的《学生住宿市场报告》，伦敦、曼彻斯特、悉尼和墨尔本等核心留学城市的**专用学生宿舍（PBSA）入住率已超过98%**，而新建供应量同比仅增长2.1%，远低于过去五年平均的4.7%。同时，澳大利亚统计局（ABS, 2025年3月）数据显示，2024年国际学生签证批准量反弹至72.4万份，比2022年低点高出31%，直接导致悉尼内城区一套一居室公寓的**周租金中位数飙升至680澳元**，同比上涨15%。这意味着，如果你计划在2025年秋季出国，从现在开始预订住宿，可能已经晚了——但仍有策略可以补救。

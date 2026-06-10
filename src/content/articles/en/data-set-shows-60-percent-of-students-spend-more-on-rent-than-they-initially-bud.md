@@ -8,6 +8,8 @@ modDatetime: "2026-03-14T03:44:41Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/data-set-shows-60-percent-of-students-spend-more-on-rent-tha-15953135.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/data-set-shows-60-percent-of-students-spend-more-on-rent-tha-15953135.jpg"
 ---
 
 一份来自美国教育数据机构 **Education Data Initiative 2024 年报告** 显示，**60% 的留学生实际房租超出初始预算至少 15%**，其中 32% 的学生超支幅度超过 30%。这并非个案——英国 **National Union of Students 2023 年住房调查** 同样指出，伦敦地区学生实际租金比计划平均高出 22%。对于 18-28 岁的中国留学生而言，海外住宿往往是留学预算中最大的一笔刚性支出，而信息差和押金陷阱让超支成为常态。这篇文章将用卡片式信息，拆解公寓、宿舍、寄宿家庭三类选项的真实成本，并给出基于距离、价格和配套的决策清单，帮你把预算误差控制在 10% 以内。

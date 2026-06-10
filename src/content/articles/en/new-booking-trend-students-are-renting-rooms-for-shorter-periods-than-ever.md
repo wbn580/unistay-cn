@@ -8,6 +8,8 @@ modDatetime: "2026-05-18T04:38:44Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/new-booking-trend-students-are-renting-rooms-for-shorter-pe-6161512.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/new-booking-trend-students-are-renting-rooms-for-shorter-pe-6161512.jpg"
 ---
 
 2025 年赴英中国留学生中，**有 37% 的人首次租房租期短于 6 个月**，而 2022 年这一比例仅为 14%。根据英国学生住宿协会（Student Accommodation Association, 2025）发布的《短期住宿趋势报告》，18-22 岁留学生群体正从传统的 12 个月长租合约转向 3-6 个月的灵活租期，部分预科和语言课程学生甚至只租 8-12 周。与此同时，澳大利亚内政部（2024）数据显示，持有 500 类学生签证的短期课程（不足 6 个月）注册量同比增长 22%，直接催生了“学期短租”这一细分市场。这种变化不是偶然：签证政策收紧、课程结构碎片化、以及留学决策趋于谨慎，都在推动新一代留学生用更短的时间窗口评估住宿体验。如果你正在规划 2025 年秋季入学，理解这个趋势意味着你能省下 15%-30% 的租金浪费。

@@ -8,6 +8,8 @@ modDatetime: "2026-04-28T12:13:36Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/practical-workshop-guide-to-hosting-a-roommate-meeting-in-a-36488764.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/practical-workshop-guide-to-hosting-a-roommate-meeting-in-a-36488764.jpg"
 ---
 
 你搬进学生公寓的第三周，冰箱里那盒标注了名字的牛奶被人喝了一半，洗碗池里的锅已经泡了48小时，客厅茶几上堆着三个人的快递但没人拆。这不是你一个人的遭遇。根据 **QS 2024 年国际学生调查**，**62%** 的合租留学生曾因公共区域卫生或物品使用问题与室友产生摩擦，而 **仅有 28%** 的受访者表示入住前与室友进行过正式的职责划分会议。英国高等教育统计局（HESA）2023 年的住宿数据显示，**每 5 个共享公寓的投诉中，有 3 起直接源于“沟通缺失”**——不是性格不合，而是没人坐下来把规则说清楚。今天这篇指南，就是帮你用一场 45 分钟的结构化会议，把合租从“忍耐模式”切换到“协作模式”。

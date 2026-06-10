@@ -8,6 +8,8 @@ modDatetime: "2026-03-05T12:04:34Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/local-insight-why-the-red-brick-area-in-brisbane-is-a-hidde-6161512.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/local-insight-why-the-red-brick-area-in-brisbane-is-a-hidde-6161512.jpg"
 ---
 
 在布里斯班寻找学生住宿时，多数人首先想到的是St Lucia校区周边的Toowong或Indooroopilly，但一个常被低估的区域——**红砖区（Red-Brick Area）**——正凭借其独特的性价比和便利性吸引越来越多留学生。根据澳大利亚统计局（ABS）2023年人口普查数据，该区域（涵盖Kelvin Grove、Herston及部分Windsor）的周租金中位数为**480澳元**，比Toowong低约**18%**，而步行至昆士兰科技大学（QUT）Kelvin Grove校区仅需**5-12分钟**。同时，昆士兰大学（UQ）2024年学生住宿报告指出，超过**62%**的国际学生因预算压力在第二学年主动更换住所，而红砖区是迁入比例增长最快的片区之一。对于追求“步行上学+合理租金+社区成熟度”平衡的留学生，这里正成为一个值得重新评估的选项。

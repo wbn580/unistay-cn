@@ -8,6 +8,8 @@ modDatetime: "2026-05-18T20:22:29Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/could-a-room-on-a-low-floor-be-the-best-choice-for-a-student-6161512.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/could-a-room-on-a-low-floor-be-the-best-choice-for-a-student-6161512.jpg"
 ---
 
 留学生选宿舍时，高楼层往往被贴上“视野好、安静、安全”的标签。但对于有焦虑倾向的学生，这个选择可能适得其反。根据美国国家精神卫生研究所（NIMH, 2023）数据，18-25岁年轻人中约31.9%曾经历焦虑障碍，而中国留学生因文化适应和语言压力，焦虑发生率高出本土学生约15个百分点（《中国留学生心理健康蓝皮书》，2022）。低楼层房间——通常指1-3层——反而能提供更快的逃生动线、更低的电梯依赖度和更可控的社交距离。本文从价格、距离、配套三个维度，拆解低楼层住宿对焦虑学生的实际价值，并给出具体选房策略。

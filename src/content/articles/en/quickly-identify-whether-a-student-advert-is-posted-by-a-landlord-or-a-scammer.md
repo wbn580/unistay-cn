@@ -8,6 +8,8 @@ modDatetime: "2026-04-23T02:15:22Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/quickly-identify-whether-a-student-advert-is-posted-by-a-lan-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/quickly-identify-whether-a-student-advert-is-posted-by-a-lan-36688004.jpg"
 ---
 
 每年有超过 12,000 名中国留学生因海外租房被骗，人均损失约 3,800 英镑——这是英国国家欺诈情报局（NFIB）2023 年发布的《学生租房欺诈年度报告》中的核心数据。在美国，联邦贸易委员会（FTC）同期记录显示，留学生租房诈骗案同比上升了 34%，其中 62% 的受害者是通过社交媒体或分类广告网站接触到的虚假房源。面对铺天盖地的“房东直租”“免中介费”“拎包入住”广告，你如何在 5 分钟内判断对方是真实房东还是职业骗子？这篇指南将拆解 7 个关键鉴别维度，覆盖房源照片、租金定价、合同条款、沟通话术等核心环节，帮你避开 90% 的常见陷阱。

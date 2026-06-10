@@ -8,6 +8,8 @@ modDatetime: "2026-03-09T05:36:28Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/inside-a-top-rated-y83-studio-real-photos-and-honest-pros-a-16997365.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/inside-a-top-rated-y83-studio-real-photos-and-honest-pros-a-16997365.jpg"
 ---
 
 Y83 是伦敦学生公寓市场里讨论度最高的项目之一，但网上大多照片都是开发商渲染图。根据英国学生住宿平台 **Student.com 2024 年报告**，伦敦学生公寓单间平均租金已达 **£342/周**，而 Y83 的 Studio 起价约 **£385/周**，比均值高出 12.6%。与此同时，**伦敦大学学院 (UCL) 2023/24 学年国际学生住宿调查**显示，超过 **37%** 的留学生入住后才发现房间实际面积、储物空间或隔音与预期不符。这套真实拍摄的 Y83 Studio 评测，将用实拍图拆解每个角落的优劣势，帮你判断这笔溢价到底值不值。

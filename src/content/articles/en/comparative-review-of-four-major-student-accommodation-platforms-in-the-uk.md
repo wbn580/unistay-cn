@@ -8,6 +8,8 @@ modDatetime: "2026-04-02T09:13:15Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/comparative-review-of-four-major-student-accommodation-platf-6161512.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/comparative-review-of-four-major-student-accommodation-platf-6161512.jpg"
 ---
 
 根据英国高等教育统计局（HESA）2023/24学年数据，英国国际学生总数已突破758,000人，其中中国内地学生占比约22%，接近167,000人。然而，超过60%的新生在抵达英国前三个月才开始寻找住宿，导致伦敦核心区学生公寓平均租金同比上涨12.7%，部分热门房型在8月底即告售罄【HESA 2024, Student Accommodation Report】。面对Unite Students、iQ Student Accommodation、CRM Students和Student Roost这四大主流平台，如何在预算、距离和配套之间找到最优解，成为留学生的第一道现实考题。

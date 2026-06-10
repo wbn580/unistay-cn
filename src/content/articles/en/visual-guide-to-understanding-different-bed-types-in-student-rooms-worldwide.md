@@ -8,6 +8,8 @@ modDatetime: "2026-05-07T08:15:04Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/visual-guide-to-understanding-different-bed-types-in-student-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/visual-guide-to-understanding-different-bed-types-in-student-36688004.jpg"
 ---
 
 当你打开海外学生公寓的预订页面时，最困惑的往往不是房租或押金，而是那个陌生的床型名称——Twin、Single、Double、King Single……这些术语在不同国家含义完全不同。2023年QS国际学生调查显示，**约37%的留学生**在首次预订住宿时因床型误解导致入住后需要更换房间【QS, 2023, International Student Survey】。更令人头疼的是，澳大利亚学生宿舍标准床垫长度（188cm）比英国标准（190cm）短2cm，而美国Twin XL床长达203cm——这些2-15cm的差异直接影响你能否睡个好觉。根据OECD 2022年住房数据，留学生住宿满意度与床铺舒适度的正相关系数高达0.74【OECD, 2022, Housing Affordability Database】。这篇指南用可视化逻辑帮你拆解全球6大主流床型，从尺寸到配套床品，一张表说清。

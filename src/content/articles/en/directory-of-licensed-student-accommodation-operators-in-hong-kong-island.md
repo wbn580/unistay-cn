@@ -8,6 +8,8 @@ modDatetime: "2026-03-22T16:36:53Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operators-in-hon-29299050.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operators-in-hon-29299050.jpg"
 ---
 
 香港岛持牌学生住宿运营商名录：2025年实地筛选指南

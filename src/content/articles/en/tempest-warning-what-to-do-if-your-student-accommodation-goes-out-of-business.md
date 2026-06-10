@@ -8,6 +8,8 @@ modDatetime: "2026-03-13T05:18:25Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/tempest-warning-what-to-do-if-your-student-accommodation-go-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/tempest-warning-what-to-do-if-your-student-accommodation-go-32097953.jpg"
 ---
 
 2023年9月至2024年6月，英国至少有 **23家** 学生公寓运营商进入破产管理程序或停止运营，影响超过 **4,200名** 留学生住宿合同（来源：英国学生住宿协会 Unipol 2024 年度报告）。美国方面，2023年学生公寓市场违约率同比上升 **47%** ，部分中小型运营商因利率飙升和入住率下滑被迫清算（来源：RealPage 2024年学生住房市场报告）。当你发现公寓运营方已申请破产或突然关门，押金和预付租金可能瞬间蒸发，更棘手的是——你必须在 **48-72小时** 内找到新住处。这篇文章拆解了从预警信号到紧急搬离、再到追回钱款的每一步实操，帮你把损失降到最低。

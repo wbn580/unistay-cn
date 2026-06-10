@@ -8,6 +8,8 @@ modDatetime: "2026-03-24T23:29:29Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/could-you-score-a-discount-on-student-rent-by-booking-with-a-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/could-you-score-a-discount-on-student-rent-by-booking-with-a-32097953.jpg"
 ---
 
 在伦敦租房，一个人签合同，一居室月租平均 £1,800；如果四个人合签一套两居室，人均可能降到 £950 以下。根据英国国家统计局（ONS 2024 年私人租赁市场报告），伦敦 18-25 岁租客中，**合租比独租平均节省 38%-45%** 的月租金。而在澳大利亚，悉尼大学 2025 年学生住宿调查显示，**Group Booking（团体预订）** 的学生公寓，人均租金比单人预订低 15%-22%。这些数字背后是一个被低估的省钱策略：用朋友组队去和房东或公寓运营商谈判，拿到的折扣往往比任何学生优惠码都大。这篇评测会帮你拆解哪些城市、哪种房型、什么时间点组队最划算，以及组队签约可能踩的坑。

@@ -4,6 +4,7 @@ Batch hero image fetcher for unistay-cn articles.
 Uses Pexels API → downloads → uploads to R2 → updates frontmatter.
 """
 import json, os, sys, time, re, hashlib, io, random
+from typing import Optional
 import requests
 import boto3
 from pathlib import Path
@@ -11,6 +12,17 @@ from pathlib import Path
 ARTICLES_DIR = Path(__file__).resolve().parent.parent / "src" / "content" / "articles"
 CREDS_PATH = os.path.expanduser("~/Library/CloudStorage/Dropbox-Personal/cowork/cowork-cloud-tools/credentials.json")
 CATALOG_PATH = os.path.expanduser("~/Library/CloudStorage/Dropbox-Personal/cowork/cowork-cloud-tools/r2-image-catalog.json")
+
+# SOCKS5 proxy for Pexels API (Mac direct connection blocked)
+SOCKS_PROXY = "socks5://127.0.0.1:10808"
+USE_PROXY = True  # Set to False if proxy not needed
+
+def get_session():
+    """Create a requests session with optional SOCKS5 proxy."""
+    session = requests.Session()
+    if USE_PROXY:
+        session.proxies = {"http": SOCKS_PROXY, "https": SOCKS_PROXY}
+    return session
 
 # Load creds
 creds = json.load(open(CREDS_PATH))
@@ -80,10 +92,11 @@ def extract_keywords(title: str) -> str:
     query = " ".join(parts[:3])
     return query
 
-def search_pexels(query: str, used_ids: set) -> dict | None:
+def search_pexels(query: str, used_ids: set) -> Optional[dict]:
     """Search Pexels, skip already-used photo IDs."""
+    session = get_session()
     try:
-        r = requests.get(
+        r = session.get(
             "https://api.pexels.com/v1/search",
             headers={"Authorization": PEXELS_KEY},
             params={"query": query, "per_page": 15, "orientation": "landscape", "size": "large"},
@@ -105,10 +118,11 @@ def search_pexels(query: str, used_ids: set) -> dict | None:
         print(f"  Pexels error: {e}")
         return None
 
-def download_image(url: str) -> bytes | None:
+def download_image(url: str) -> Optional[bytes]:
     """Download image bytes."""
+    session = get_session()
     try:
-        r = requests.get(url, timeout=30)
+        r = session.get(url, timeout=30)
         if r.status_code == 200:
             return r.content
     except Exception as e:
@@ -173,18 +187,20 @@ def main():
     catalog = load_catalog()
     used_ids = set(catalog.get("used_pexels_ids", []))
     
-    # Find all .md files without heroImage
+    # Find all .md files without heroImage (top-level + en/ subdirectory)
     articles = []
-    for md in sorted(ARTICLES_DIR.glob("*.md")):
-        if md.name.endswith(".bak"):
-            continue
-        content = md.read_text(encoding="utf-8")
-        if "heroImage:" in content:
-            continue
-        # Extract title
-        m = re.search(r'^title:\s*"([^"]*)"', content, re.MULTILINE)
-        title = m.group(1) if m else md.stem
-        articles.append((md, title))
+    patterns = ["*.md", "en/*.md"]
+    for pattern in patterns:
+        for md in sorted(ARTICLES_DIR.glob(pattern)):
+            if md.name.endswith(".bak"):
+                continue
+            content = md.read_text(encoding="utf-8")
+            if "heroImage:" in content:
+                continue
+            # Extract title
+            m = re.search(r'^title:\s*"([^"]*)"', content, re.MULTILINE)
+            title = m.group(1) if m else md.stem
+            articles.append((md, title))
     
     total = len(articles)
     print(f"=== Processing {total} articles without heroImage ===")
@@ -260,12 +276,13 @@ def main():
     # Verify: check first line of all md files
     print("\n=== Verifying frontmatter (first line must be ---) ===")
     broken = []
-    for md in sorted(ARTICLES_DIR.glob("*.md")):
-        if md.name.endswith(".bak"):
-            continue
-        first = md.read_text(encoding="utf-8")[:10]
-        if not first.startswith("---"):
-            broken.append(md.name)
+    for pattern in ["*.md", "en/*.md"]:
+        for md in sorted(ARTICLES_DIR.glob(pattern)):
+            if md.name.endswith(".bak"):
+                continue
+            first = md.read_text(encoding="utf-8")[:10]
+            if not first.startswith("---"):
+                broken.append(md.name)
     if broken:
         print(f"BROKEN FILES ({len(broken)}):")
         for b in broken:

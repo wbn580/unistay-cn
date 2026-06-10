@@ -8,6 +8,8 @@ modDatetime: "2026-02-25T14:13:31Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/case-study-how-a-chinese-student-in-sydney-cut-rent-by-30-7635620.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/case-study-how-a-chinese-student-in-sydney-cut-rent-by-30-7635620.jpg"
 ---
 
 2025年第一季度，悉尼内城区一居室公寓中位周租金已突破680澳元（Domain Rental Report, Q1 2025），同比上涨12.4%。对于预算有限的中国留学生而言，这意味着每年仅住宿就可能花掉超过3.5万澳元。但一位在悉尼大学读研二的李同学（化名）通过一套“空间拆分+合租协议”策略，将个人周租金从原本的520澳元压缩到365澳元，降幅达30%，同时仍拥有独立的卧室和书房——没有牺牲隐私。这个案例之所以值得关注，是因为它打破了“省钱=住客厅/挤床位”的固有认知，在澳洲租房空置率仅1.1%的极端卖方市场（SQM Research, Feb 2025）下，提供了一条可复用的实操路径。

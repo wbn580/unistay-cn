@@ -8,6 +8,8 @@ modDatetime: "2026-04-09T00:25:10Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/evergreen-guide-to-choosing-between-furnished-and-unfurnishe-32097953.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/evergreen-guide-to-choosing-between-furnished-and-unfurnishe-32097953.jpg"
 ---
 
 选择一间带家具还是不帶家具的学生公寓，看起来只是“拎包入住”还是“自己添置”的区别，但背后涉及一笔高达数千英镑的隐性支出。根据英国国家统计局（ONS）2024年发布的《私人租赁市场数据》，全英范围内带家具公寓的月租金平均比不帶家具的高出 **12%-18%**，而在伦敦这一差距可升至 **22%**。与此同时，澳洲租房网站Domain在2024年报告指出，不帶家具的房源通常要求租客自购床、桌椅、冰箱等大件，一次性置办成本在 **1,200-2,500 澳元** 之间。对于预算敏感、租期仅9-12个月的留学生来说，这并非一笔可以忽略的账。本文从价格、距离、配套三个核心维度，拆解带家具与不帶家具学生房间的真实成本与体验，帮你做出更理性的选择。

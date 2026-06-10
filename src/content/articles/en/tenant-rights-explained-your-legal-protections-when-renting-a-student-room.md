@@ -8,6 +8,8 @@ modDatetime: "2026-03-31T10:29:54Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/tenant-rights-explained-your-legal-protections-when-renting-36488764.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/tenant-rights-explained-your-legal-protections-when-renting-36488764.jpg"
 ---
 
 每年约有超过 120 万名中国留学生在海外就读高等教育课程（教育部《2023 中国留学回国就业蓝皮书》），而租房纠纷是留学生遭遇的第三大常见法律问题，仅次于签证和学业问题。根据澳大利亚维多利亚州消费者事务署（Consumer Affairs Victoria）2023 年的年度报告，仅该州一年内就处理了超过 2,400 起涉及学生租客的押金扣留投诉，其中 68% 的租客因不了解当地法律而未能拿回全额押金。这组数据说明：**了解租客权利**不是选修课，而是留学生在海外生存的必修技能。从押金保护到紧急维修权，本文将以实用评测的视角，拆解你在租学生公寓、合租房或 Homestay 时真正需要的法律护身符。

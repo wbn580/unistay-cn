@@ -8,6 +8,8 @@ modDatetime: "2026-05-15T10:56:04Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/checklist-of-emergency-contacts-to-save-before-moving-into-o-36688004.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/checklist-of-emergency-contacts-to-save-before-moving-into-o-36688004.jpg"
 ---
 
 搬进海外学生宿舍前，手机里存好这 8 组救命号码

@@ -8,6 +8,8 @@ modDatetime: "2026-05-12T00:03:58Z"
 readingTime: 3
 tags: ["featured"]
 
+heroImage: "https://img.ulec.com.cn/unistay/cost-benefit-analysis-of-renting-a-student-room-with-a-kitch-36488760.jpg"
+ogImage: "https://img.ulec.com.cn/unistay/cost-benefit-analysis-of-renting-a-student-room-with-a-kitch-36488760.jpg"
 ---
 
 对于计划在海外租房的中国留学生来说，一个经常被忽视却直接影响每月预算和生活质量的决定是：选择带**全尺寸厨房（Full Kitchen）**的公寓，还是带**简易厨房（Kitchenette）**的单间。根据澳大利亚统计局（ABS, 2023）的《住户支出调查》，留学生在外就餐和外卖的月均支出比在家做饭的学生高出 320 澳元至 580 澳元。同时，英国高等教育统计局（HESA, 2022-23）数据显示，超过 62% 的留学生住宿投诉与厨房设施不足或使用冲突有关。这个看似简单的选择，背后涉及租金差价、伙食成本、时间成本和社交空间的权衡。本文将用数据帮你算清这笔账。
