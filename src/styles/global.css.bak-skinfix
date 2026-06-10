@@ -4,8 +4,9 @@
 @import '@fontsource/noto-sans-sc/500.css';
 @import '@fontsource/ibm-plex-mono/400.css';
 
-@import "tailwindcss";
-@config "../../tailwind.config.mjs";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   font-family: 'PingFang SC', system-ui, sans-serif;
