@@ -8,8 +8,11 @@ modDatetime: "2026-03-11T01:43:32Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/new-service-launch-that-offers-free-property-verification-fo-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/new-service-launch-that-offers-free-property-verification-fo-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 65 万名中国留学生活跃在海外校园（中国教育部《2023 中国留学回国就业蓝皮书》），其中约 72% 的学生在抵达前 30 天内才完成住宿签约（OECD《Education at a Glance 2024》）。这意味着绝大多数人在时差和语言障碍下，仅凭几张照片和房东的几句话就交付了押金。近期一项针对 1,200 名中国留学生的调研显示，约 34% 的租客在入住后发现了合同未注明的房屋瑕疵，包括墙体渗水、电路老化或家具缺失。这正是为什么一项新上线的“留学生免费验房服务”值得你关注——它把原本只属于本地买家的验房流程，首次带到了国际学生租房市场，目标是在你签署任何租赁文件之前，就帮你排除 80% 以上的潜在物理风险。

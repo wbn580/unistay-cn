@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props as { frontmatter: any };
+<<<<<<< HEAD
 ---
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
   <article class="mx-auto max-w-4xl px-4 py-12">
@@ -10,3 +11,25 @@ const { frontmatter } = Astro.props as { frontmatter: any };
     <div class="article-prose"><slot /></div>
   </article>
 </BaseLayout>
+=======
+const heroImg = frontmatter.heroImage || frontmatter.ogImage;
+---
+
+<BaseLayout title={frontmatter.title} description={frontmatter.description} ogImage={heroImg}>
+  <article>
+    {heroImg ? (
+      <div class="relative w-full h-[50vh] md:h-[65vh] overflow-hidden bg-slate-200">
+        <img src={heroImg} alt={frontmatter.title} class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+      </div>
+    ) : null}
+
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 py-8 md:py-12">
+      <p class="text-xs font-semibold uppercase tracking-wider text-accent">{frontmatter.category}</p>
+      <h1 class="font-heading text-3xl md:text-4xl font-bold text-ink mt-2 mb-4 leading-tight">{frontmatter.title}</h1>
+      <p class="text-base text-muted mb-8 leading-relaxed">{frontmatter.description}</p>
+      <div class="article-prose"><slot /></div>
+    </div>
+  </article>
+</BaseLayout>
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)

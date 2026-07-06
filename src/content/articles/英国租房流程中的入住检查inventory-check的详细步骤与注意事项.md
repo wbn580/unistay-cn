@@ -6,10 +6,17 @@ publishDate: "2026-02-01"
 pubDatetime: "2026-02-01T18:56:24Z"
 modDatetime: "2026-02-01T18:56:24Z"
 readingTime: 3
+<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/inventory-check-30094324.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/inventory-check-30094324.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/inventory-check-2026.jpg"
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/inventory-check-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过**60万名**国际学生进入英国高等教育体系（英国高等教育统计局HESA，2023/24学年数据），其中中国学生占比约23%，是最大的留学生群体。当你终于签下租赁合同、拿到钥匙时，最容易被忽略却决定押金能否全额退还的关键步骤就是**Inventory Check（入住检查）**。根据英国押金保护计划（TDS）2023年年度报告，**约47%的押金纠纷**直接源于入住时未留存充分的证据记录。这意味着，如果你跳过这一步，几乎有一半的概率会损失数百甚至上千英镑。这篇文章将拆解Inventory Check的全流程，从预约、核对到签字，帮你把押金纠纷的主动权握在手里。

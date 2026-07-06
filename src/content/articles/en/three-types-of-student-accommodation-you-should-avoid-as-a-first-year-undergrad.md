@@ -8,8 +8,11 @@ modDatetime: "2026-03-16T20:38:27Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/three-types-of-student-accommodation-you-should-avoid-as-a-f-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/three-types-of-student-accommodation-you-should-avoid-as-a-f-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 大一新生选宿舍，踩坑的概率比你想象的高得多。根据英国高等教育统计局（HESA）2022-2023学年数据，约32%的本科新生在入学第一周内对住宿选择感到后悔，其中超过一半的投诉集中在三类房源上。澳洲租房平台Flatmates.com.au 2024年报告也指出，18-22岁留学生因合同纠纷平均损失$1,200澳元押金。这些数字背后是真实的代价：你不仅要为不合适的房间付钱，还可能影响学业适应和社交节奏。本文直接拆解三类最容易被“包装”成好选择、实则问题频发的住宿类型，帮你省下时间和金钱。

@@ -8,8 +8,11 @@ modDatetime: "2026-02-19T07:29:18Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/your-2026-checklist-for-renting-a-safe-and-compliant-student-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/your-2026-checklist-for-renting-a-safe-and-compliant-student-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年，英国租房投诉平台DPS（Deposit Protection Service）数据显示，学生租户因**合规问题**被扣押押金的比例同比上升了12%，平均每笔扣押金额达到£1,450。与此同时，澳大利亚公平交易厅（NSW Fair Trading 2024年度报告）指出，超过37%的国际留学生因不熟悉当地租赁法规，在入住后6个月内遭遇过租金纠纷或安全隐患。对于即将在2026年赴海外求学的你来说，**安全与合规**不再是可选项，而是必须提前掌握的基础生存技能。这份清单将帮你系统性地筛查房源，避开那些看似便宜但暗藏风险的“雷区”。

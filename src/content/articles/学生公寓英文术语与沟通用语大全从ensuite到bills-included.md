@@ -5,11 +5,19 @@ category: "学生公寓英文术语与沟通用"
 publishDate: "2025-12-03"
 pubDatetime: "2025-12-03T06:48:00Z"
 modDatetime: "2025-12-03T06:48:00Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/ensuite-bills-included-15953192.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/ensuite-bills-included-15953192.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/ensuite-bills-included-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/ensuite-bills-included-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 第一次接触海外学生公寓合同，80%的中国留学生至少会看错一个关键术语。根据英国高等教育统计局（HESA 2023）数据，2022/23学年在英中国留学生超过15万人，而澳大利亚教育部（2023国际学生数据）显示同期在澳中国学生约15.6万人。租房纠纷是留学生最常见的投诉之一，其中**合同术语理解偏差**是核心导火索。这篇文章帮你拆解从Ensuite到Bills Included的每一个高频词，配合真实沟通场景，让你签约前不再靠猜。

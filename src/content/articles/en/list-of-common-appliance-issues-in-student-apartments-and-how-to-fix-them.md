@@ -8,8 +8,11 @@ modDatetime: "2026-04-06T03:28:41Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/list-of-common-appliance-issues-in-student-apartments-and-ho-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/list-of-common-appliance-issues-in-student-apartments-and-ho-15953135.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 海外学生公寓的电器故障，往往是留学预算中一笔被严重低估的隐性支出。根据英国国家统计局（ONS, 2023）的数据，过去两年租户自行承担的维修费用平均上涨了 24%，而美国公寓租赁协会（NAR, 2024）的报告指出，超过 40% 的留学生押金纠纷直接源于对电器损坏的责任认定不清。当你刚落地时面对一台不制冷的冰箱或嗡嗡作响的洗衣机，第一反应是找房东还是自己动手？这篇文章拆解了学生公寓里最常见的 6 类电器问题，并给出从报修到自助修复的完整操作清单，帮你省下至少 200 美元的押金扣款风险。

@@ -8,8 +8,11 @@ modDatetime: "2026-05-18T05:34:46Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/first-person-narrative-of-a-nightmare-student-housing-situat-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/first-person-narrative-of-a-nightmare-student-housing-situat-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 我签下那份租约的时候，手都在抖。不是因为激动——而是因为房东告诉我，这套位于伦敦Zone 2的“精装Studio”月租仅£850，比同区均价低了将近30%。根据英国住宅房东协会（NRLA）2024年的数据，伦敦学生公寓平均月租金已达£1,047，而私人租赁市场的一居室均价更是突破了£1,400。我当时以为自己捡到了宝，直到搬进去的第一晚，天花板开始漏水，霉菌从墙角蔓延到床垫，房东的电话再也打不通。这不是个例——英国公民咨询局（Citizens Advice）2023年的报告显示，超过12%的留学生在入住后三个月内遭遇过严重住房纠纷，而其中只有不到四成最终成功维权。这篇文章，就是我从噩梦到脱身的完整记录，以及你如何避免重蹈覆辙。

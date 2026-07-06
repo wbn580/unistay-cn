@@ -8,8 +8,11 @@ modDatetime: "2026-05-10T12:34:46Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/step-by-step-plan-to-move-out-of-a-student-flat-without-dama-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/step-by-step-plan-to-move-out-of-a-student-flat-without-dama-36688004.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在英国，租住学生公寓的留学生平均每人支付 **£350–£600/月** 的押金，但根据 **Deposit Protection Service（DPS，2024年度报告）**，约 **37%** 的租客在退租时被扣除部分或全部押金，其中“房屋清洁不达标”和“墙面钉孔未修补”是两大主因。对于即将结束租期的你来说，这笔钱可能相当于半个月的生活费。本指南将拆解一套可执行的退租步骤，从检查清单到清洁技巧，帮你把押金全额拿回。

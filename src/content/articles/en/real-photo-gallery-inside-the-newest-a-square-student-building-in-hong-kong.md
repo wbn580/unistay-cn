@@ -5,11 +5,19 @@ category: "Real"
 publishDate: "2026-04-26"
 pubDatetime: "2026-04-26T15:06:14Z"
 modDatetime: "2026-04-26T15:06:14Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/real-photo-gallery-inside-the-newest-a-square-student-buildi-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/real-photo-gallery-inside-the-newest-a-square-student-buildi-36488760.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/real-photo-gallery-inside-the-newest-a-square-stud-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/real-photo-gallery-inside-the-newest-a-square-stud-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港留学住宿成本已连续三年上涨。根据香港教育局2024年《专上教育统计报告》，2023/24学年非本地本科生平均月租支出达到5,800港元，较2020年上升约18%。与此同时，港岛核心区私人公寓单间月租已突破1.2万港元，而学校宿舍中签率仅为35-40%（香港大学学生事务处2024年住宿数据）。在租金高企与床位稀缺的双重压力下，2024年9月新落成的A Square学生公寓（长沙湾道868号）成为不少留学生的关注焦点。这篇评测将以真实照片为线索，拆解A Square的房型配置、交通成本、周边配套与真实入住体验，帮你判断它是否值得列入你的住宿清单。

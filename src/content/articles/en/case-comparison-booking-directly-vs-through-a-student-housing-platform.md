@@ -8,8 +8,11 @@ modDatetime: "2026-03-21T10:48:22Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/case-comparison-booking-directly-vs-through-a-student-housi-13516410.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/case-comparison-booking-directly-vs-through-a-student-housi-13516410.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 拿到海外院校的offer只是第一步，如何在异国他乡找到一个安全、舒适且性价比高的住处，才是让许多留学生和家长真正头疼的事。你面前通常有两条路：自己直接在公寓官网或Booking.com这类平台上预订，或者通过专做学生住宿的中介平台（如Student.com、Unilodge等）搞定。根据英国高等教育统计局（HESA）2023年数据，超过62%的国际学生在前两年至少更换过一次住宿，其中因“与描述不符”或“隐性费用”导致的纠纷占投诉总量的34%。这意味着，选错渠道不仅影响钱包，更可能打乱整个学期的节奏。这篇横评将用真实的用户案例和硬数据，拆解两种方式在价格、安全性、售后和灵活性上的真实差异，帮你做出不后悔的决定。

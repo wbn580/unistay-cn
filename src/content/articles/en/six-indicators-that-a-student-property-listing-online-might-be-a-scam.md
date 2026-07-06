@@ -8,8 +8,11 @@ modDatetime: "2026-03-26T04:24:24Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/six-indicators-that-a-student-property-listing-online-might-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/six-indicators-that-a-student-property-listing-online-might-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年超过 **45%** 的中国留学生通过线上平台寻找海外住宿，但根据**美国联邦贸易委员会（FTC）2023年**发布的《租房诈骗报告》，18-25岁的国际学生群体在租房诈骗中损失的中位数金额高达 **1,200美元/笔**，且报案量同比增长 **37%**。当你刷到一个“绝佳房源”——价格低于周边均价 **30%**、房东“恰好”在国外无法看房、要求你通过西联汇款或加密货币支付押金时，这大概率不是幸运，而是一个精心设计的陷阱。本文基于**英国国家反犯罪局（NCA）2024年**的《租房欺诈预警》数据，拆解 **6个可操作的识别指标**，帮你用15分钟筛掉90%的虚假房源。

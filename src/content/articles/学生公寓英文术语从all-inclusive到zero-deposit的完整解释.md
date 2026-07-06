@@ -8,8 +8,11 @@ modDatetime: "2026-01-21T00:40:35Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/all-inclusive-zero-deposit-31681835.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/all-inclusive-zero-deposit-31681835.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 中国留学生签约海外学生公寓时，合同里出现的“All-inclusive”、“Guarantor Required”、“Zero Deposit”等英文术语，是每年导致押金纠纷和额外费用的主要来源。根据英国高等教育统计局（HESA 2023）的数据，2022/23学年在英中国留学生总数超过15万人，而英国 Deposit Protection Service 报告指出，约 34% 的租房押金争议源于学生对合同条款的误解。与此同时，澳大利亚公平交易厅（NSW Fair Trading 2023）的统计显示，国际学生因不清楚“Bond”与“Deposit”的区别，平均每人多支付了 420 澳元的非必要费用。这篇文章将拆解从 All-inclusive 到 Zero Deposit 的 12 个核心术语，帮你避开签约陷阱。

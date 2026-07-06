@@ -8,8 +8,11 @@ modDatetime: "2026-03-02T04:03:53Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/policy-alert-new-student-accommodation-regulations-taking-e-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/policy-alert-new-student-accommodation-regulations-taking-e-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2026年7月1日起，英国、澳大利亚和加拿大将同步实施新的国际学生住宿监管规定。根据英国《高等教育学生住宿标准2025》（UK Government, 2025），所有认证学生公寓的**最低使用面积**将从原来的13平方米提升至16平方米，并要求每间房配备独立温控系统。澳大利亚《留学生住宿保障法案》（Australian Government, 2025）则规定，大学必须为新生提供至少28天的过渡住宿，否则将面临最高12万澳元的罚款。加拿大移民部（IRCC, 2025）同步更新了**学签住宿核查清单**，要求申请人提交房东签署的合规声明。这三项法规直接影响2026年秋季入学的学生选房策略——你不必等到新政生效才调整方案，现在了解具体条款，就能避开明年可能出现的合规房源涨价潮。

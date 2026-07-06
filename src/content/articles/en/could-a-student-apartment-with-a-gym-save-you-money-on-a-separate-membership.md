@@ -8,8 +8,11 @@ modDatetime: "2026-04-24T09:20:35Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-with-a-gym-save-you-money-on-a-sep-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-with-a-gym-save-you-money-on-a-sep-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生的生活成本里，健身房会员费常常是一笔被低估的支出。根据英国国家统计局（ONS，2023年《家庭支出调查》），18-25岁学生群体平均每月在健身和体育休闲上的花费为£28-45，而在澳大利亚，**健身房会员费**的中位数已达到每月AUD 60-80（澳大利亚健身协会，2024年《行业基准报告》）。与此同时，专门为学生建造的公寓（PBSA）正大量配备免费健身房——这一趋势在2024年全球学生住宿报告中增长了22%（Unilink Education数据库，2024年）。如果你正在计划2025年的海外住宿，**选择带健身房的公寓**可能直接帮你省下每年£336-540或AUD 720-960的固定支出。这不仅仅是方便，而是一笔可以量化的财务决策。

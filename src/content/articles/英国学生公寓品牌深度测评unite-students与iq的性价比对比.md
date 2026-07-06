@@ -6,10 +6,17 @@ publishDate: "2025-12-14"
 pubDatetime: "2025-12-14T01:06:17Z"
 modDatetime: "2025-12-14T01:06:17Z"
 readingTime: 3
+<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/unite-students-iq-29095697.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/unite-students-iq-29095697.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/unite-students-iq-2026.jpg"
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/unite-students-iq-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 英国留学生住宿费用在过去五年间上涨了约 27%，根据英国国家统计局（ONS, 2024）的数据，2024/25 学年全英学生平均周租金已达到 182 英镑。对于计划赴英的 18-28 岁留学生而言，学生公寓品牌的选择直接影响每月 600-1200 英镑的预算分配。Unite Students 和 iQ Student Accommodation 是英国市场占有率最高的两大运营商，合计管理超过 110,000 张床位（Unite Group 2024 年报）。这篇测评将从价格、通勤距离、配套设施三个核心维度切入，对比这两个品牌在伦敦、曼彻斯特、伯明翰等主要留学城市的实际表现，帮助你避开签约前容易忽略的隐藏成本。

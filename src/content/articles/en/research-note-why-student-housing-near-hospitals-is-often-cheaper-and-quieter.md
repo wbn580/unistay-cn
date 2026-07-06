@@ -8,8 +8,11 @@ modDatetime: "2026-05-02T12:39:17Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/research-note-why-student-housing-near-hospitals-is-often-c-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/research-note-why-student-housing-near-hospitals-is-often-c-32097953.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 当大学城核心区的公寓月租突破 1,200 英镑、学生宿舍排队名单长达 6 个月时，一个被多数留学生忽略的选项正在浮现——医院周边学生住房。根据英国国家统计局（ONS）2023 年发布的《私人租赁市场报告》，距大型教学医院 500 米以内的学生公寓，平均租金比同城市大学主校区周边低 18%-25%。同时，英国 NHS 数字服务 2022 年的《医院周边环境噪音监测》数据显示，设有教学部门的综合医院区域夜间噪音水平（平均 45-50 分贝）反而低于大学商业街区域（55-65 分贝）。对于预算敏感、追求安静学习环境的 18-28 岁留学生，这个“价格洼地 + 噪音低地”的组合值得重新审视。

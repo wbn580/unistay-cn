@@ -8,8 +8,11 @@ modDatetime: "2026-04-30T03:10:45Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-medical-students-with-irr-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-medical-students-with-irr-15953135.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 医学类留学生通常面临全行业最不规律的作息表——英国医学总会（GMC）2023年《国家培训调查》显示，超过62%的临床医学生每周至少经历一次夜班或16小时跨日轮班，而美国医学院协会（AAMC）2022年数据指出，住院医师阶段平均每周工作时间仍维持在72小时以上。对于这样一群学生，住宿选择不再只是“离学校近不近”的问题，而是直接关系到睡眠恢复、轮班通勤安全以及24小时学习环境的刚性需求。传统的学生公寓按固定学期签约、白天集中授课的配套模式，几乎无法适配凌晨3点下班、下午2点起床的节奏。本文从价格、通勤距离、生活配套三个核心维度出发，横评公寓、宿舍和寄宿家庭三种方案，并给出针对不规则作息的区域筛选指南。

@@ -8,8 +8,11 @@ modDatetime: "2026-02-23T18:34:02Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/swap-your-deposit-anxiety-for-peace-of-mind-with-these-insur-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/swap-your-deposit-anxiety-for-peace-of-mind-with-these-insur-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在澳大利亚，租客押金（Bond）平均占周租的4-6周，按2024年全澳中位周租金$600澳元计算【澳洲统计局ABS 2024年租金报告】，一笔押金就高达$2,400-$3,600。这笔钱通常被政府机构（如RTBA/RTA）托管，但退租时因“清洁不达标”“墙面轻微划痕”等争议被扣款的比例高达23%【新州公平交易厅 2023年押金纠纷年报】。对刚落地、信用记录为零的留学生来说，押金被扣不仅意味着现金流断裂，更可能影响租房信用记录。别让押金焦虑毁了你对新家的期待——以下五种押金保险/保障方案，能帮你把“不可控扣款”变成“明码标价的风险管理”。

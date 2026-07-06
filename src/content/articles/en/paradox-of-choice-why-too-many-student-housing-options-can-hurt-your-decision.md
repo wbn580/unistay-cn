@@ -8,8 +8,11 @@ modDatetime: "2026-03-13T18:46:06Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/paradox-of-choice-why-too-many-student-housing-options-can-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/paradox-of-choice-why-too-many-student-housing-options-can-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你打开留学公寓平台，映入眼帘的是 300 多个筛选结果：Studio、En-suite、Shared House、Homestay……价格从每周 £150 到 £550 不等，距离学校从 0.3 英里到 3.2 英里。根据《QS 2024 国际学生调查报告》，**78% 的受访学生表示住房选择是留学决策中压力最大的环节之一**，而英国高等教育统计局（HESA）2023 年数据显示，**超过 42% 的国际学生在抵达后 2 周内更换过住宿**。选择太多，反而让你卡在“比较—犹豫—再比较”的循环里。心理学上这叫“选择悖论”——选项越多，决策满意度越低。这篇指南拆解 6 个核心维度，帮你从 300 个选项里精准锁定那 1 个对的。

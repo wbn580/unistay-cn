@@ -8,8 +8,11 @@ modDatetime: "2026-03-28T17:37:52Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/social-experiment-living-in-a-mixed-gender-student-flat-for-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/social-experiment-living-in-a-mixed-gender-student-flat-for-15953135.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 从2023年秋季学期开始，英国、澳大利亚和加拿大超过60%的大学宿舍开始推行或试点**混合性别住宿（Mixed-Gender Flats）**，即男女生共享同一套公寓的厨房、客厅和卫生间，仅卧室独立。根据英国高等教育统计局（HESA）2022-2023年度的住宿调查，全英大学宿舍中已有约38%的床位属于此类配置，而在伦敦、曼彻斯特等热门留学城市，这一比例更高达47%。对于中国留学生而言，这已不是“能否选择”的问题，而是“如何适应”的现实。一位在墨尔本大学就读的留学生告诉我们，他所在的8人混合公寓里，有5个国籍、3种宗教信仰，光是厨房冰箱的分配规则就开了两次会。这个学期，我们邀请三位来自不同国家、不同性别的中国留学生，记录了他们在一间**混合性别学生公寓**里生活四个月的完整经历，从**隐私边界**到**公共区域卫生**，从**文化冲突**到**省钱策略**，为你还原最真实的宿舍生态。

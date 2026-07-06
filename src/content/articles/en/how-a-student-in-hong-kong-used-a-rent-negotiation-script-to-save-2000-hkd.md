@@ -5,11 +5,19 @@ category: "How"
 publishDate: "2026-05-17"
 pubDatetime: "2026-05-17T04:54:09Z"
 modDatetime: "2026-05-17T04:54:09Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/how-a-student-in-hong-kong-used-a-rent-negotiation-script-to-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-a-student-in-hong-kong-used-a-rent-negotiation-script-to-36488760.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/how-a-student-in-hong-kong-used-a-rent-negotiation-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/how-a-student-in-hong-kong-used-a-rent-negotiation-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港留学生租一间12平方米的洋楼单间，月租金中位数已达12,000港元，较2022年上涨约18%，这是美联物业2024年《香港租赁市场报告》给出的数字。在九龙塘、港岛西等高校聚集区，一套两房单位月租甚至突破28,000港元，占留学生生活费总支出的55%以上。面对房东连续三年加租10%的惯例，香港大学一名内地硕士生通过一份结构化谈判脚本，成功将月租从12,500港元压至10,500港元，年省2,000港元。这并非运气，而是基于租赁数据、谈判时机和话术策略的实操结果。本文拆解这份脚本的每个步骤，并提供可直接套用的中文话术模板。

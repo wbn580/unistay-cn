@@ -8,8 +8,11 @@ modDatetime: "2026-05-03T16:59:51Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-with-a-shared-kitchen-actually-hel-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/could-a-student-apartment-with-a-shared-kitchen-actually-hel-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 共享厨房，听起来像是学生公寓里的“减配项”——少了一个私密空间，多了一堆与人相处的麻烦。但如果你仔细算一笔时间账，这个结论可能恰恰相反。根据英国高等教育统计局（HESA）2023年的数据，国际学生每周平均花费 **8.2 小时** 在采购食材和烹饪上，而其中 **2.5 小时** 浪费在往返超市和排队结账。美国国家教育统计中心（NCES）在2022年的一份住宿调查中也指出，拥有私人厨房的学生，其“做饭+清洁”总时长比共享厨房住户高出 **37%**，主要原因是个人厨房更容易因拖延清洁而降低效率。当“省时间”成为留学生活的第一刚需，共享厨房的设计逻辑或许比你想象中更聪明。

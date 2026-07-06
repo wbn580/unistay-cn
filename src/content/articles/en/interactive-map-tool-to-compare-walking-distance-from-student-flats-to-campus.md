@@ -8,8 +8,11 @@ modDatetime: "2026-02-26T15:21:57Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/interactive-map-tool-to-compare-walking-distance-from-studen-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/interactive-map-tool-to-compare-walking-distance-from-studen-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 选学生公寓时，中介常告诉你“步行10分钟到校”，但实际走起来可能要绕路、过天桥、爬坡。根据 **QS 2025 年国际学生调查**，**72%** 的中国留学生将“步行到教室的时间”列为选房第一或第二优先级，但只有 **23%** 的学生在签约前实际用地图工具验证过路线。同时，**英国国家统计局（ONS）2024年住房报告**指出，标注为“步行可达”的房源，实际通勤时间平均被低估 **4.2 分钟**。这意味着你很可能为了所谓的“近”多付了租金，却每天多走出一身汗。本文拆解一款 **交互式地图工具** 如何帮你精准计算从公寓门口到教学楼的实际步行距离，并对比价格、配套与真实通勤成本，让你不再被“步行10分钟”的广告词忽悠。

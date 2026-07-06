@@ -8,8 +8,11 @@ modDatetime: "2026-04-15T11:44:11Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/case-study-of-a-rent-dispute-resolved-through-mediation-with-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/case-study-of-a-rent-dispute-resolved-through-mediation-with-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在澳大利亚，租客与房东之间的纠纷每年影响超过 15 万户家庭，其中约 40% 的争议涉及押金退还问题【新南威尔士州公平交易厅 2023 年年度报告】。对于中国留学生而言，语言障碍与对当地法律体系的不熟悉，往往让这类摩擦升级为耗时数月的法律拉锯战。2024 年，一位就读于墨尔本大学的硕士生通过社区调解中心，在 3 周内解决了与房东关于 2,800 澳元押金的纠纷，全程未产生任何律师费。这一案例表明，**租务调解**并非遥不可及的司法程序，而是留学生可以主动利用的低成本维权路径。本文将以该案例为蓝本，拆解调解流程的关键节点，并结合澳大利亚各州租赁法规，提供可复用的实操指南。

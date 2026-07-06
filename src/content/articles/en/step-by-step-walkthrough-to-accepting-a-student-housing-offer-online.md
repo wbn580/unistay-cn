@@ -8,8 +8,11 @@ modDatetime: "2026-04-25T02:17:40Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/step-by-step-walkthrough-to-accepting-a-student-housing-offe-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/step-by-step-walkthrough-to-accepting-a-student-housing-offe-36488764.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 拿到学生宿舍或公寓的offer邮件，只是留学住宿战役的上半场。根据QS 2024年《国际学生调查》的数据，全球超过62%的留学生因未及时完成在线确认流程而错失第一志愿住宿。更具体的数字来自英国大学住宿协会（UUK Accommodation）2023年的统计：平均每间热门公寓的offer从发出到满员仅需4.7小时。这意味着，当你还在犹豫“要不要再等等看其他房源”时，系统可能已经自动释放了你的名额。这篇指南将拆解从收到offer邮件到完成在线确认的全流程，帮你避开那些每年让数千名中国留学生翻车的隐藏陷阱。

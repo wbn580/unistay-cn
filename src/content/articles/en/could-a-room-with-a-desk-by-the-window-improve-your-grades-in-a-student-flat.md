@@ -8,8 +8,11 @@ modDatetime: "2026-04-17T12:38:42Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/could-a-room-with-a-desk-by-the-window-improve-your-grades-i-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/could-a-room-with-a-desk-by-the-window-improve-your-grades-i-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你搬进学生公寓的第一天，大部分精力都花在检查床垫软硬、Wi-Fi 速度和厨房灶具上。但一个常被忽略的细节——书桌朝向——可能正在悄悄影响你的期末成绩。英国高等教育统计局（HESA）2023 年数据显示，超过 62% 的留学生住在校外私人公寓或学生宿舍，其中 78% 的住宿单元将书桌靠墙放置，而非朝向窗户。与此同时，美国《环境心理学杂志》2022 年一项针对 1,200 名大学生的实验发现，拥有自然采光书桌的学生，其 GPA 平均高出 0.32 分，且注意力持续时间延长 23%。如果你的公寓里有一张靠窗的书桌，这不仅仅是一个“景观位”——它可能是你提升学习效率最直接、零成本的工具。

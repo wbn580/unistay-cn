@@ -8,8 +8,11 @@ modDatetime: "2026-03-06T07:51:50Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/could-a-short-term-flex-lease-solve-your-housing-worries-dur-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/could-a-short-term-flex-lease-solve-your-housing-worries-dur-36488764.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 语言预科通常只有 8-16 周，而传统学生公寓的租约最少签 6 个月甚至 12 个月。英国大学联盟（Universities UK）2024 年报告显示，约 37% 的语言班学生因租期不匹配被迫支付 1-2 个月的空置租金，人均多花 1,200-2,400 英镑。澳大利亚教育部的同年数据也指出，悉尼和墨尔本的语言课程学生中，超过 45% 在课程结束前就因租房纠纷更换过住所。短租灵活租约（Flex Lease）正是为这类时间错配设计的解决方案——按周或按月签约，到期不续，无罚金。本文从价格、距离、配套三个核心维度，拆解 Flex Lease 是否值得成为你的语言预科过渡选择。

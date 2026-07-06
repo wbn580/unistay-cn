@@ -8,8 +8,11 @@ modDatetime: "2026-05-05T07:52:02Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/missed-connection-why-you-should-never-leave-the-student-ho-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/missed-connection-why-you-should-never-leave-the-student-ho-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年7月，当国内高校暑假刚过半，海外留学生的租房焦虑却已到达峰值。根据英国大学住宿管理机构（UUK Accommodation, 2024）的数据，**英国主要大学城的学生公寓在6月底之前的预订率已超过78%**，而到了7月中旬，这一数字会飙升至94%。这意味着，如果你等到7月才开始找房，市场上剩余的可选房源不仅数量骤减，且平均租金比春季预订高出12%-18%。更棘手的是，**澳大利亚租房平台Domain（2024年6月报告）指出，悉尼和墨尔本市中心的学生公寓空置率已跌破1.2%**，创下近五年新低。错过春季的“黄金窗口期”，你面对的将不仅是更贵的租金，还有更远的通勤距离和更差的居住条件。

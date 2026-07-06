@@ -5,11 +5,19 @@ category: "短租公寓的预订平台与渠道"
 publishDate: "2026-01-12"
 pubDatetime: "2026-01-12T21:46:15Z"
 modDatetime: "2026-01-12T21:46:15Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/airbnb-19923719.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/airbnb-19923719.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/airbnb-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/airbnb-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生海外找短租，最纠结的不是选哪个城市，而是选哪个平台。Airbnb 上房源照片精美但价格浮动大，学生公寓官网直订流程透明但库存紧张，中介渠道看似省心却暗藏押金陷阱。根据 **QS 2024 年《国际学生住宿调查》** 的数据，超过 62% 的留学生曾因短租预订失误产生至少 **800 英镑** 的额外支出，而 **英国国家统计局（ONS）2023 年住房市场报告** 指出，短租市场在过去三年内价格上涨了 **27%**，且临时预订的退改纠纷率高达 **34%**。在开学季房源被秒杀的背景下，选错渠道不仅意味着多花钱，更可能面临落地后无房可住的窘境。本文从价格、距离、配套三大核心要素出发，拆解三大主流渠道的真实优劣。

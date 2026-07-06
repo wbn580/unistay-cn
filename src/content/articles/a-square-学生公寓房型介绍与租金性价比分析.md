@@ -6,10 +6,17 @@ publishDate: "2026-05-20"
 pubDatetime: "2026-05-20T17:50:38Z"
 modDatetime: "2026-05-20T17:50:38Z"
 readingTime: 13
+<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/a-square-19059041.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/a-square-19059041.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/a-square-2026.jpg"
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/a-square-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据澳大利亚统计局2023年《国际学生住宿报告》，全澳学生公寓平均年租金涨幅达8.4%，而悉尼、墨尔本市中心一居室学生公寓的**周租金中位数已突破550澳元**。与此同时，英国高等教育统计局（HESA，2023）数据显示，英国专建学生公寓（PBSA）的空置率降至2.1%，创十年新低。在供需极度失衡的背景下，a square 作为覆盖英澳10余个城市的学生公寓品牌，其**房型分类与租金定价逻辑**直接关系到留学生每年约1.2万至2.4万英镑（或等值澳元）的住宿预算。本文以a square官网及实地调研数据为基础，拆解其主流房型、隐藏费用与真实性价比，帮你避开“低价陷阱”和“溢价误区”。

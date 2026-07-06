@@ -8,8 +8,11 @@ modDatetime: "2026-04-02T18:28:40Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/cultural-insight-how-student-housing-norms-differ-between-c-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/cultural-insight-how-student-housing-norms-differ-between-c-36488764.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 对于即将赴澳的中国留学生来说，住宿选择不仅是签一份租约，更是一场文化适应。根据澳大利亚教育部2024年《国际学生数据》报告，截至2024年8月，在澳中国留学生总数已超过17.5万人，其中约68%选择校外租赁或私人公寓，远高于选择校内宿舍的12%。与此同时，中国国内大学宿舍的覆盖率普遍超过90%（教育部2023年《全国教育事业发展统计公报》），这种从“包办式”集体住宿到“自主式”市场租赁的转变，往往成为留学生抵达后最先遭遇的文化冲击。理解中澳住宿文化差异，能帮你节省至少3000澳元的试错成本。

@@ -8,8 +8,11 @@ modDatetime: "2026-05-14T21:26:58Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/potential-pitfall-why-some-student-apartments-charge-a-prem-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/potential-pitfall-why-some-student-apartments-charge-a-prem-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你在海外学生公寓的预订页面看到“高层加价”选项时，可能以为只是景观溢价。但根据美国租房平台Zumper 2024年发布的《学生住房趋势报告》，**全美学生公寓顶层（10层及以上）的平均租金比同楼低层单元高出18%-25%**，而英国伦敦部分高端学生公寓的顶层溢价甚至达到30%。澳大利亚租房数据库Domain 2025年第一季度的数据显示，悉尼市中心学生公寓的顶层单元空置周期比中层长14天，这意味着高价并不等于高需求。这篇评测拆解“顶层加价”背后的真实成本结构，帮你判断这笔钱该不该花。

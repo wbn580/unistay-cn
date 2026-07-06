@@ -8,8 +8,11 @@ modDatetime: "2026-04-15T19:46:37Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/visual-diary-of-a-week-in-a-co-living-student-space-in-sydne-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/visual-diary-of-a-week-in-a-co-living-student-space-in-sydne-36488764.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 悉尼的留学生住宿市场正在经历结构性变化。根据澳大利亚统计局（ABS）2024年发布的《租赁市场报告》，悉尼内城区一居室公寓周租金中位数已突破680澳元，较2020年上涨了31%。与此同时，新南威尔士州公平交易厅2023年的数据显示，合租（co-living）模式在过去两年间增长了47%，成为18-28岁留学生群体的主流选择之一。这种模式通过分摊公共区域费用和灵活的租期，将单人住宿成本控制在每周350-550澳元区间。本周，我们跟随一位在悉尼大学就读硕士的中国留学生，用视觉日记的形式记录她在Ultimo区一间co-living空间的一周生活，从价格、距离、配套三个核心维度拆解这种住宿形态的真实体验。

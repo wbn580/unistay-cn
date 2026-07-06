@@ -8,8 +8,11 @@ modDatetime: "2026-02-21T10:01:07Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/five-hidden-fees-in-student-accommodation-contracts-that-cat-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/five-hidden-fees-in-student-accommodation-contracts-that-cat-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 38% 的中国留学生在入住第一周就遭遇住宿合同中的意外收费，根据澳大利亚消费者事务局（ACCC）2023 年发布的《学生住宿市场透明度报告》，仅澳洲一国，新生因隐藏条款平均多支付 1,420 澳元（约 6,700 人民币）。英国住宿协会（ANUK）2024 年抽样调查显示，63% 的短期合同（租期少于 12 个月）包含至少一项未在广告中明示的附加费。这些费用往往藏在几十页的合同细则里，等你签完字才发现——押金被扣、管理费凭空出现、退租时账单翻倍。本文拆解 5 个最容易让新手破防的隐蔽收费项，附带真实案例和查费清单，帮你把合同里的每一个数字都看透。

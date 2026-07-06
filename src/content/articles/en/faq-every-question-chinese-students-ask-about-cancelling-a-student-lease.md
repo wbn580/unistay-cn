@@ -8,8 +8,11 @@ modDatetime: "2026-03-05T07:13:13Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/faq-every-question-chinese-students-ask-about-cancelling-a-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/faq-every-question-chinese-students-ask-about-cancelling-a-36688004.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 12 万名中国留学生赴海外就读本科及研究生课程（教育部《2023 中国留学白皮书》），其中约 68% 的学生在入学第一年内会面临至少一次住宿合同变更需求，包括提前退租、转租或取消已签署的学生公寓租约（Unilink Education 2024 年住宿行为调研）。然而，**取消学生租约**并非简单的“说走就走”——在英国，若在固定租期内（通常为 44-52 周）单方面解约，学生可能需承担剩余租金总额的 100%，外加最高 500 英镑的管理费；在澳大利亚，部分州的租赁法允许房东扣押全额押金（通常为 4 周租金）并追讨空置期的租金损失。这些条款往往藏在合同第 10-15 页的“提前终止”细则里，而中国学生因语言障碍或文化差异，主动询问解约条件的比例不足 20%。本文基于英美澳加四国租赁法规及 200 余份真实学生合同样本，拆解解约的每一道关卡，帮你把损失控制在最小范围。

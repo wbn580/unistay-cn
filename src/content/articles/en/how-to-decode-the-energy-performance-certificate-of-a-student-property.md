@@ -8,8 +8,11 @@ modDatetime: "2026-04-06T15:31:45Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-decode-the-energy-performance-certificate-of-a-studen-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-decode-the-energy-performance-certificate-of-a-studen-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你刚拿到英国学生公寓的合同，目光扫到“EPC Rating: D”一行小字。房东说“这是标配”，但你知道这意味着什么吗？根据英国住房、社区与地方政府部（MHCLG）2023年数据，英格兰和威尔士约有**60%**的私人租赁房产EPC等级在D或以下，而这类房产的租户平均每年要多支付**£1,200-£1,800**的能源账单【MHCLG, 2023, English Housing Survey】。对于预算紧张的留学生，这笔钱足够覆盖一个月房租加两周伙食。EPC（Energy Performance Certificate）不是一张可有可无的贴纸——它直接决定了你的冬季取暖成本、空调使用权限，甚至租房合法性。自2025年起，英国政府计划将私人租赁房产的最低EPC标准提升至C级，这意味着你现在签下的D级公寓，两年后可能无法合法续租【英国政府官网, 2024, Minimum Energy Efficiency Standards Consultation】。看懂EPC，就是为自己省下真金白银，避免踩进“便宜租金、天价账单”的陷阱。

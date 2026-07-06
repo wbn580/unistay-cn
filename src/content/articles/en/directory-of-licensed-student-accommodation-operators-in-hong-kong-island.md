@@ -5,11 +5,19 @@ category: "Directory"
 publishDate: "2026-03-22"
 pubDatetime: "2026-03-22T16:36:53Z"
 modDatetime: "2026-03-22T16:36:53Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operators-in-hon-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operators-in-hon-29299050.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operat-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/directory-of-licensed-student-accommodation-operat-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港岛持牌学生住宿运营商名录：2025年实地筛选指南

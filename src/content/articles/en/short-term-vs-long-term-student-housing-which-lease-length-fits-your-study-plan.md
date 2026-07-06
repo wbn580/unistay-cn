@@ -8,8 +8,11 @@ modDatetime: "2026-02-26T02:45:51Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/short-term-vs-long-term-student-housing-which-lease-length-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/short-term-vs-long-term-student-housing-which-lease-length-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 拿到offer只是第一步，真正让人头疼的往往是落地后的第一个晚上住哪儿。面对海外租房，**短期租赁（通常1-6个月）** 与 **长期租赁（通常12个月起）** 的选择，直接决定了你未来一年的预算、学习节奏和生活自由度。根据QS 2024年国际学生调查，**43%** 的受访学生因租约长度与课程安排错配而被迫支付额外违约金或搬家费。同时，英国国家统计局（ONS, 2023）数据显示，2022-2023学年学生私人租赁市场的平均租金上涨了**9.2%**，这意味着押错租约的代价比以往任何时候都高。这篇文章将用数据拆解两种租约的利弊，帮你匹配自己的学习计划。

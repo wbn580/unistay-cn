@@ -8,8 +8,11 @@ modDatetime: "2026-04-16T16:09:14Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/from-deposit-to-refund-tracking-your-money-flow-in-a-studen-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/from-deposit-to-refund-tracking-your-money-flow-in-a-studen-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 押金、租金、中介费、担保费……一套学生租房走下来，钱从你的账户出去，再回到你手里时，可能已经缩水了三分之一。根据英国 Deposit Protection Service（DPS）2024 年度报告，英格兰与威尔士地区学生租客的押金平均金额为 £1,210，但约 28% 的租客在退租时未能拿回全额——平均被扣金额高达 £340。与此同时，澳大利亚维多利亚州消费者事务署（Consumer Affairs Victoria）2023 年数据显示，留学生押金纠纷占该州租赁投诉总量的 22%，其中“清洁费争议”和“正常磨损认定”是最常见的扣款理由。从你支付第一笔 holding deposit（预定押金）到最终收到 refund，这笔钱经历了哪些环节、可能卡在哪里、如何守住每一分钱——这篇文章按交易时间线拆解，帮你提前看清资金流动的每一个陷阱。

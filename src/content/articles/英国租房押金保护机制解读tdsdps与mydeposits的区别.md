@@ -6,10 +6,17 @@ publishDate: "2025-12-09"
 pubDatetime: "2025-12-09T18:01:29Z"
 modDatetime: "2025-12-09T18:01:29Z"
 readingTime: 3
+<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/tds-dps-mydeposits-8146214.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/tds-dps-mydeposits-8146214.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/tdsdps-mydeposits-2026.jpg"
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/tdsdps-mydeposits-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 赴英留学的同学，押金（Deposit）往往是租房中最大的一笔前期支出。根据英国住房与社区部2023年数据，私人租赁 sector 中约32%的租户曾遭遇押金纠纷，而英格兰地区平均押金金额高达1,195英镑。自2007年《住房法案》实施以来，英格兰和威尔士政府强制要求所有 assured shorthold tenancy (AST) 的押金必须存入政府认可的押金保护计划。目前市面上有三家官方授权机构：**TDS**（Tenancy Deposit Scheme）、**DPS**（Deposit Protection Service）和 **MyDeposits**。选错或忽视这一机制，可能导致房东非法扣留押金，甚至面临三倍赔偿。本文为你拆解这三者的核心区别，帮你守住留学期间的第一笔“保证金”。

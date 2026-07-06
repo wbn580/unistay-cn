@@ -8,8 +8,11 @@ modDatetime: "2026-02-18T03:39:24Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/student-accommodation-types-explained-dorms-studios-and-s-29174530.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/student-accommodation-types-explained-dorms-studios-and-s-29174530.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2024年，中国出国留学人数预计突破80万大关，而其中超过65%的学生在海外第一年面临住宿选择困难。根据QS《2024国际学生调查报告》，住宿成本与安全性已成为留学生择校的第三大考量因素，仅次于学术排名和就业前景。面对动辄每周300-500澳元的学生公寓、每月1200美元的校内宿舍，或是价格浮动极大的合租房，很多家庭在签下合同前并未真正理解三种主流住宿类型——学生宿舍（Dormitory）、单人公寓（Studio）和合租房（Share House）——在合同条款、隐性成本和居住体验上的本质差异。本文基于英国国家统计局（ONS）2023年租房市场数据、澳大利亚教育部的留学生住宿指南以及美国大学住房协会（ACUHO-I）的年度报告，为你拆解这三种住宿类型的真实性价比与避坑要点。

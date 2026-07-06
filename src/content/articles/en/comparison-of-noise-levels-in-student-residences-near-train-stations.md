@@ -8,8 +8,11 @@ modDatetime: "2026-04-15T01:08:41Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/comparison-of-noise-levels-in-student-residences-near-train-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/comparison-of-noise-levels-in-student-residences-near-train-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 住得离火车站近，通勤确实方便，但噪音问题往往是留学生租房时最容易忽略的“隐形代价”。根据世界卫生组织（WHO）2018年发布的《环境噪音指南》，长期暴露在超过55分贝的夜间交通噪音中，会显著增加心血管疾病和睡眠障碍的风险。而英国《卫报》2023年引用的一项针对伦敦学生公寓的调查显示，距主要火车站200米以内的学生宿舍，夜间平均噪音水平达到62-68分贝，远超WHO建议的40分贝夜间安全阈值。对于每天需要专注学习、保证睡眠质量的留学生来说，噪音直接决定了你的居住体验和学业效率。这篇评测将用数据告诉你，不同学生住宿类型在火车站附近的真实噪音表现，以及如何用具体方案平衡通勤便利与居住安静。

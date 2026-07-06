@@ -8,8 +8,11 @@ modDatetime: "2026-02-24T12:43:44Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/why-some-student-apartments-include-bills-while-others-charg-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/why-some-student-apartments-include-bills-while-others-charg-32097953.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 租房时看到“包Bill”和“不包Bill”两种报价，很多留学生第一反应是选便宜的。但根据英国学生住宿平台StuRents 2024年发布的《英国学生住宿成本报告》，**全包式（Bills Included）公寓平均月租金比不包式（Bills Excluded）高约12%-18%**，然而不包式租客在冬季供暖季（11月-3月）的额外能源支出可达每月£80-£150。澳大利亚竞争与消费者委员会（ACCC）2023年住房指南也指出，**学生公寓隐性费用（含水电燃气网络）平均占租客月支出的15%-22%**。这两组数据说明：报价数字不等于实际成本，选择哪种计费方式直接决定你未来一年的现金流压力。本文用实测数据拆解两类公寓的定价逻辑，帮你算出真实账单。

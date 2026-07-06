@@ -8,8 +8,11 @@ modDatetime: "2026-04-26T09:40:48Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/comparison-of-cleaning-services-included-in-student-residenc-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/comparison-of-cleaning-services-included-in-student-residenc-15953135.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 超过 60% 的英国大学住宿合同明确将“公共区域清洁”列为房东义务，而北美学生公寓市场中，约 35% 的私人运营商合同要求租客自行承担全部清洁责任（英国国家学生住宿协会 2024 年度调查）。这一差异意味着，同样支付每月 £800 的租金，你的实际到手时间可能相差每月 4-6 小时——这正是许多留学生刚落地就踩的隐形坑。本文以英国、澳洲、美国三大主流留学地的学生住宿合同为样本，拆解清洁服务条款的真实覆盖范围、隐藏费用和维权路径，帮你避免因“没打扫卫生”被扣 £150 押金。

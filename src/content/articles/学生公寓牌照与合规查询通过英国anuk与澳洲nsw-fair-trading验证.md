@@ -5,11 +5,19 @@ category: "学生公寓牌照与合规查询："
 publishDate: "2026-01-29"
 pubDatetime: "2026-01-29T03:25:33Z"
 modDatetime: "2026-01-29T03:25:33Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/anuk-nsw-fair-trading-7482739.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/anuk-nsw-fair-trading-7482739.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/anuk---nsw-fair-trading-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/anuk---nsw-fair-trading-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2023年，英国高等教育统计局（HESA）数据显示，在英中国留学生总数超过15万人，而同期澳大利亚内政部统计，在澳中国留学生签证持有者约12.6万人。面对庞大的海外住宿需求，学生公寓市场鱼龙混杂，过去两年间，仅澳大利亚新南威尔士州就查处了超过200处不合规的寄宿与学生公寓。对于18-28岁的中国留学生而言，租到一间“有牌照”的公寓，不仅是居住体验的保障，更直接关系到押金安全与法律权益。本文将以英国ANUK认证与澳大利亚NSW Fair Trading牌照为核心，教你一套可操作的查询方法，避开无证公寓的陷阱。

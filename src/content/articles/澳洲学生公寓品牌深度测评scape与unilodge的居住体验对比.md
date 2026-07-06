@@ -5,11 +5,19 @@ category: "澳洲学生公寓品牌深度测评"
 publishDate: "2026-01-09"
 pubDatetime: "2026-01-09T06:40:57Z"
 modDatetime: "2026-01-09T06:40:57Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/scape-unilodge-37268023.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/scape-unilodge-37268023.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/scape-unilodge-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/scape-unilodge-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据澳大利亚学生住宿协会（SAA）2024年度报告，全澳获得认证的学生公寓床位总数已突破15.2万张，相比2021年增长了约38%。与此同时，澳洲统计局（ABS）2024年11月数据显示，澳洲国际学生签证持有者已超过62.8万人，其中中国留学生占比约22%。在悉尼和墨尔本的核心学区，学生公寓的入住率常年维持在95%以上。面对两大头部品牌——Scape与UniLodge，很多留学生和家长在签约前都会反复比较：租金差多少？房间配置和社区服务是否值这个价？本文基于实地探访和超过200份用户问卷反馈，从价格、距离、配套三个核心维度进行横向测评，帮你找到最适合自己的选择。

@@ -6,10 +6,17 @@ publishDate: "2026-03-31"
 pubDatetime: "2026-03-31T14:43:04Z"
 modDatetime: "2026-03-31T14:43:04Z"
 readingTime: 3
+<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/frugal-student-hack-sharing-a-studio-with-a-partner-to-slas-10945402.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/frugal-student-hack-sharing-a-studio-with-a-partner-to-slas-10945402.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/frugal-student-hack-sharing-a-studio-with-a-partne-2026.jpg"
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/frugal-student-hack-sharing-a-studio-with-a-partne-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025 年，英国全国学生联合会（NUS）调查显示，伦敦地区学生平均月租金已攀升至 £846，较 2022 年上涨 18.7%。与此同时，澳洲房产委员会（Property Council of Australia）2024 年报告指出，悉尼市中心一居室周租金中位数达到 AU$680，迫使越来越多留学生将目光投向**合租单间（studio sharing）**这一模式。与伴侣合租一个 studio，而非各自独居或分租两室公寓，能直接砍掉 30%-45% 的住宿开支。但这一“省钱捷径”也伴随着空间压缩、隐私边界和租约合规等现实挑战。本文从价格、距离、配套三要素出发，用真实案例和数据拆解这一策略的实操路径。

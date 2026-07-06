@@ -5,11 +5,19 @@ category: "Data"
 publishDate: "2026-03-02"
 pubDatetime: "2026-03-02T06:43:16Z"
 modDatetime: "2026-03-02T06:43:16Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/data-deep-dive-average-rent-growth-in-hong-kong-student-hub-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/data-deep-dive-average-rent-growth-in-hong-kong-student-hub-36688004.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/data-deep-dive-average-rent-growth-in-hong-kong-st-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/data-deep-dive-average-rent-growth-in-hong-kong-st-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2019至2024年间，香港主要学生住宿区域的**平均租金累计上涨约18%**，远超同期香港整体住宅租金涨幅（约5%）。根据香港差饷物业估价署2024年发布的《香港物业报告》，港岛西区（香港大学周边）一个150-200平方尺的合租单间，月租金已从2019年的HKD 8,500攀升至2024年的HKD 10,200。这一增长背后是**内地赴港留学生人数五年内激增42%**（香港教育局2024年《高等教育学生统计》），而专为学生打造的宿舍床位供给仅增长11%。对于计划赴港的留学生家庭，理解各校区的租金走势已从“参考信息”变为刚性决策前提。

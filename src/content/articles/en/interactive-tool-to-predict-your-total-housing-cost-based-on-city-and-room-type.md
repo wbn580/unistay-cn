@@ -5,11 +5,19 @@ category: "Interactive"
 publishDate: "2026-04-19"
 pubDatetime: "2026-04-19T05:25:17Z"
 modDatetime: "2026-04-19T05:25:17Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/interactive-tool-to-predict-your-total-housing-cost-based-on-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/interactive-tool-to-predict-your-total-housing-cost-based-on-36488760.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/interactive-tool-to-predict-your-total-housing-cos-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/interactive-tool-to-predict-your-total-housing-cos-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 当你准备出国留学时，住宿预算往往是第一个让人头疼的变量。同一个城市，市中心单人公寓和郊区合租房的月租金可能相差 **2.5 倍以上**。根据 QS 2024 年国际学生调查报告，**68%** 的学生在抵达前低估了实际住房开销，尤其是在水电、网络等隐性费用上。与此同时，OECD 2023 年教育指标显示，留学生住宿支出平均占其总生活成本的 **40% 至 55%**，远超学费以外的其他单项开支。面对不同城市、不同房型的复杂组合，手动估算不仅耗时，还容易遗漏关键细节。一个能根据你输入的城市和房型自动计算总成本的交互工具，正在成为留学生做预算决策时的必备起点。

@@ -8,8 +8,11 @@ modDatetime: "2026-04-04T08:13:43Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据英国高等教育统计局（HESA）2023/24 学年数据，英国授课型硕士中带家属入境的国际学生人数较疫情前增长了 41%，达到约 6.2 万人。与此同时，澳大利亚内政部 2024 年 7 月数据显示，研究生签证持有者申请家属陪读的数量同比上升 28%，直接推高了 **两居室以上房源** 的租金中位数。对于 18-28 岁带着伴侣或子女赴英澳留学的中国学生，传统的学生宿舍单人房已无法满足需求，家庭型住宿的供给缺口正成为签证获批后的第一道现实难题。本文从公寓、校外合租、Homestay 三个维度，结合价格、距离、配套三要素，为你拆解带家属留学的住宿决策逻辑。

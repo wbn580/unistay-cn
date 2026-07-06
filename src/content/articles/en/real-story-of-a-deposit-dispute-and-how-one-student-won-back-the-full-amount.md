@@ -8,8 +8,11 @@ modDatetime: "2026-03-19T10:42:14Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/real-story-of-a-deposit-dispute-and-how-one-student-won-back-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/real-story-of-a-deposit-dispute-and-how-one-student-won-back-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生押金纠纷是海外租房中最常见的财务陷阱之一。根据英国住宅房东协会（NRLA）2023年发布的租赁纠纷报告，英格兰和威尔士地区每年约有15%的租户在退租时遭遇押金扣除，其中超过40%的扣款金额超过500英镑。而澳大利亚维多利亚州消费者事务局2022-2023年度数据显示，该州受理的押金纠纷案中，租户最终追回全额或部分押金的比例高达67%。这些数字说明，押金被扣并非“认栽”即可，掌握正确的维权路径完全可能全额拿回。本文通过一位中国留学生在墨尔本的真实案例，拆解从收到扣款通知到最终赢得全额退款的完整操作流程。

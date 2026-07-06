@@ -8,8 +8,11 @@ modDatetime: "2026-02-21T08:53:24Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/time-saving-tip-how-to-compare-10-student-properties-in-und-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/time-saving-tip-how-to-compare-10-student-properties-in-und-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 对于计划在海外租房的中国留学生，选房往往是一场信息战：打开 3 个租房平台、切换 5 个浏览器标签页、盯着 15 条房源描述发懵。根据 QS 2024 年《国际学生洞察报告》，**平均每位留学生会浏览 12.7 个房源**后才做决定，而整个决策周期长达 18 天。更棘手的是，英国高等教育统计局（HESA）2023 年数据显示，**约 34% 的留学生**在入住首月就因信息遗漏（如实际通勤时间比地图标注多 40%）产生换房念头。本文为你拆解一套 30 分钟横评 10 套学生公寓的实操框架，从价格锚点、距离实测到配套权重，让选房不再靠直觉。

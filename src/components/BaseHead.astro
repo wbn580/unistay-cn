@@ -1,10 +1,16 @@
 ---
 import '../styles/global.css';
+<<<<<<< HEAD
 const { title, description = '海外住宿编辑部' } = Astro.props as { title: string; description?: string };
+=======
+const { title, description = '留学生公寓 — 全球学生住宿指南' } = Astro.props as { title: string; description?: string };
+const ogImage = Astro.props.ogImage as string | undefined;
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<<<<<<< HEAD
 <title>{title} · 海外住宿编辑部</title>
 <meta name="description" content={description} />
 <meta property="og:title" content={title} />
@@ -13,3 +19,15 @@ const { title, description = '海外住宿编辑部' } = Astro.props as { title:
 <meta property="og:type" content="article" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="theme-color" content="#9C5BD9" />
+=======
+<title>{title} · 留学生公寓</title>
+<meta name="description" content={description} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:site_name" content="留学生公寓" />
+<meta property="og:type" content="article" />
+{ogImage ? <meta property="og:image" content={ogImage} /> : null}
+<meta name="twitter:card" content="summary_large_image" />
+{ogImage ? <meta name="twitter:image" content={ogImage} /> : null}
+<meta name="theme-color" content="#0D9488" />
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)

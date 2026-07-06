@@ -8,8 +8,11 @@ modDatetime: "2026-02-22T15:56:54Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/what-happens-if-your-student-apartment-loses-its-operating-l-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/what-happens-if-your-student-apartment-loses-its-operating-l-32097953.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你签了一年的学生公寓租约，刚住三个月，突然收到通知：大楼运营执照被吊销，所有租客必须在 14 天内搬离。这不是电影桥段。根据英国《卫报》2023 年调查，仅伦敦地区就有至少 47 栋学生公寓楼在运营期间被当地议会发出整改令或吊销执照。澳大利亚新南威尔士州公平交易署（NSW Fair Trading）2024 年数据显示，过去 3 年全州累计吊销了 112 个寄宿公寓及学生住宿类执照。当你的住所突然变成“非法运营”，押金、预付房租、签证所需的居住证明都可能瞬间失效。这篇文章会从法律赔偿、押金追回、临时安置三个维度，拆解你作为留学生可以动用的真实操作路径。

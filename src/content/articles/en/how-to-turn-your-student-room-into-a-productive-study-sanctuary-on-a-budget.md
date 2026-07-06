@@ -8,8 +8,11 @@ modDatetime: "2026-04-09T13:34:58Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-turn-your-student-room-into-a-productive-study-sanctu-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-turn-your-student-room-into-a-productive-study-sanctu-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生宿舍平均面积只有 9.3 平方米（英国大学宿舍协会 2023 年数据），而每周花在宿舍学习的时间却超过 28 小时。这意味着你的书桌不仅是吃饭、刷剧、打游戏的场所，更是决定 GPA 高低的关键战场。美国国家教育统计中心（NCES）2022 年的调查显示，拥有固定、整洁学习空间的学生，平均绩点比没有的学生高出 0.42 分。但大多数留学生预算有限——每月生活费中住宿外的可支配支出平均仅 180 英镑（英国全国学生联合会 2023 年报告）。如何在 50 英镑以内，把一个 9 平米的房间改造成高效学习圣地？这篇评测会给你一套可复制的方案。

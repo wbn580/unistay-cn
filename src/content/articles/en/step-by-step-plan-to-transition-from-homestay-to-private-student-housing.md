@@ -8,8 +8,11 @@ modDatetime: "2026-03-21T04:28:45Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/step-by-step-plan-to-transition-from-homestay-to-private-stu-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/step-by-step-plan-to-transition-from-homestay-to-private-stu-31969409.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 第一次搬出 homestay 家庭、自己签一份私人学生公寓的租约，对很多中国留学生来说，是留学生活中最重要的独立一步。根据澳大利亚统计局（ABS, 2023）的数据，国际学生在私人租赁市场的占比在过去五年上升了 12%，而英国高等教育统计局（HESA, 2022/23）的报告也显示，超过 38% 的非欧盟本科生在第二年从学校安排的住宿（包括 homestay）转向私人租赁。这个转变不仅是居住空间的升级，更涉及财务规划、法律文书和社交圈层的重新构建。如果你正在考虑从 homestay 搬出去，这篇计划会帮你把每一步拆解清楚，避免踩坑。

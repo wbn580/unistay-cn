@@ -5,11 +5,19 @@ category: "First-Hand"
 publishDate: "2026-04-10"
 pubDatetime: "2026-04-10T22:15:41Z"
 modDatetime: "2026-04-10T22:15:41Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/first-hand-review-of-a-circular-building-concept-in-a-hong-k-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/first-hand-review-of-a-circular-building-concept-in-a-hong-k-32097953.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/first-hand-review-of-a-circular-building-concept-i-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/first-hand-review-of-a-circular-building-concept-i-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港是全球居住成本最高的城市之一。根据香港差饷物业估价署2024年发布的《香港物业报告》，港岛一个普通30平方米单位的月租金中位数已达18,500港元，而QS 2024年最佳留学城市排名显示，香港的国际学生平均住宿支出占生活费总支出的42%—高于伦敦（38%）和悉尼（35%）。在此背景下，一栋位于九龙红磡、主打“圆形建筑”概念的学生公寓塔楼——**Circular Sky Residence**（化名）——在2024年9月正式开放，声称通过环形布局将公摊面积压缩12%、并利用中央天井实现自然通风，从而把单间租金压至9,800港元/月起。本文基于实地探访和3位住客的30天入住反馈，拆解这一概念是否真的适合留学生。

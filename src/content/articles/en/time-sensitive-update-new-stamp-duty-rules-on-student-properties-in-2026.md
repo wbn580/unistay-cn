@@ -8,8 +8,11 @@ modDatetime: "2026-04-27T11:50:13Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/time-sensitive-update-new-stamp-duty-rules-on-student-prope-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/time-sensitive-update-new-stamp-duty-rules-on-student-prope-36488760.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2026年4月起，英国、澳大利亚和加拿大三个主要留学目的国将同步调整针对学生房产的印花税附加费规则。根据英国税务海关总署（HMRC 2025年秋季预算案），非居民购买英国住宅的**印花税附加费将从2%上调至4%**，直接影响留学生家长以公司名义或海外身份购房的决策。同时，澳大利亚新南威尔士州财政部确认（NSW Treasury 2025年政策文件），海外买家附加税将从8%升至9%，且学生公寓不再豁免。加拿大安大略省政府（Ontario Ministry of Finance 2025年预算）则将非居民投机税从25%提高至30%，覆盖范围扩展至大学周边1公里内的租赁型物业。三项政策叠加，意味着2026年入学季的住宿成本将出现结构性上涨——一套50万英镑的曼彻斯特学生公寓，仅印花税就将多出1万英镑。

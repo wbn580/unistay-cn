@@ -8,8 +8,11 @@ modDatetime: "2026-03-22T23:40:19Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/global-student-housing-price-index-2026-where-your-money-go-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/global-student-housing-price-index-2026-where-your-money-go-29299050.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2026年秋季入学的留学生们正面临一个前所未有的住宿成本分化期。根据QS《2025国际学生调查报告》，全球前100留学城市中，学生公寓平均月租金同比上涨了8.7%，但不同城市间的价格差距已拉大至4.2倍。以伦敦为例，一间Studio月租已突破£1,200（约合人民币11,000元），而在马来西亚吉隆坡或德国莱比锡，同等预算足以覆盖整套公寓的月租加生活费。与此同时，英国高等教育统计局（HESA）2025年数据显示，超过63%的留学生将住宿列为预算超支的首要原因。这意味着，2026年选校时，住宿成本已不再是“最后考虑的因素”，而是直接影响学业体验和生活质量的核心决策变量。本文基于2026年最新房源数据与官方统计，为你拆解全球主要留学城市的住宿成本地图，找出预算与舒适度的最佳平衡点。

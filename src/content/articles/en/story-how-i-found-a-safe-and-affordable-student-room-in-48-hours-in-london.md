@@ -5,11 +5,19 @@ category: "Story:"
 publishDate: "2026-04-18"
 pubDatetime: "2026-04-18T07:53:26Z"
 modDatetime: "2026-04-18T07:53:26Z"
+<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/story-how-i-found-a-safe-and-affordable-student-room-in-48-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/story-how-i-found-a-safe-and-affordable-student-room-in-48-29299050.jpg"
+=======
+heroImage: "https://img.ulec.com.cn/unistay/story-how-i-found-a-safe-and-affordable-student-ro-2026.jpg"
+readingTime: 3
+tags: ["featured"]
+
+ogImage: "https://img.ulec.com.cn/unistay/story-how-i-found-a-safe-and-affordable-student-ro-2026.jpg"
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年9月，伦敦私人租赁市场的平均月租金已达到£2,121，同比上涨3.1%，而学生公寓的平均周租金也攀升至£253【HomeLet, 2025, HomeLet Rental Index】。与此同时，英国大学联盟（UUK）2025年报告指出，伦敦地区超过40%的国际学生在开学前两周内才确定住宿，其中近三分之一因房源紧张被迫接受超出预算15%以上的选择。这意味着，如果你只有48小时来锁定一间安全且价格合理的房间，你需要的不只是运气，而是一套经过验证的快速决策系统。本文基于一位中国留学生真实的48小时找房经历，拆解如何在时间压力下，平衡价格、安全性和通勤距离，最终在伦敦Zone 2锁定一间月租£850的ensuite。

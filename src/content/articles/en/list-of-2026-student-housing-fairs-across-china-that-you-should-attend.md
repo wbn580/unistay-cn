@@ -8,8 +8,11 @@ modDatetime: "2026-03-17T14:57:34Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/list-of-2026-student-housing-fairs-across-china-that-you-sho-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/list-of-2026-student-housing-fairs-across-china-that-you-sho-6161512.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2026 年中国留学生海外住宿决策的关键一步，就是参加线下学生住宿展会。根据教育部 2025 年 3 月发布的《中国留学发展报告》，2024 年中国出国留学人数已突破 **82 万人**，其中超过 **65%** 的学生在抵达前三个月内才启动住宿搜索，导致热门公寓租金平均上涨 12%-18%。与此同时，英国住宿协会（2024 年《学生住宿年度报告》）指出，提前 6 个月签约的学生平均节省 1,500 英镑/年。这意味着，在 2026 年春季的住宿展会上，你不仅能面对面比较公寓、宿舍与寄宿家庭的真实差异，还能锁定早鸟折扣——错过一场展会，可能意味着多付 2 个月房租。

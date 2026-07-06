@@ -2,15 +2,25 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+<<<<<<< HEAD
 const { title, description } = Astro.props as { title: string; description?: string };
 ---
 <html lang="en">
   <head><BaseHead title={title} description={description} /></head>
+=======
+const { title, description, ogImage } = Astro.props as { title: string; description?: string; ogImage?: string };
+---
+<html lang="zh-CN">
+  <head><BaseHead title={title} description={description} ogImage={ogImage} /></head>
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
   <body class="font-body">
     <Header />
     <main><slot /></main>
     <Footer />
+<<<<<<< HEAD
     <!-- Per-site widget -->
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
     <script src="https://chat.unistay.cn/assistant.js" defer></script>
   </body>
 </html>

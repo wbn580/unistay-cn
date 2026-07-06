@@ -8,8 +8,11 @@ modDatetime: "2026-04-05T11:14:52Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/time-sensitive-booking-hack-using-flash-sales-to-lock-in-lo-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/time-sensitive-booking-hack-using-flash-sales-to-lock-in-lo-36488764.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年，英国学生住宿平均租金同比上涨8.7%，伦敦单间月租已突破£1,050【Savills, 2025, Student Housing Report】。与此同时，澳洲主要城市的学生公寓提前预订折扣从往年的10%缩减至6%-8%，供需缺口持续扩大【Unilink Education, 2025, Student Accommodation Index】。在这种环境下，**限时闪购（Flash Sale）** 成为留学生锁定低价租金的少数有效窗口——部分公寓在每年3-4月和9-10月推出的48小时闪购，折扣幅度可达15%-20%，相当于省下2-3周房租。问题在于，多数学生并不知道闪购的启动规律，也缺乏在几分钟内完成决策的工具和策略。本文拆解闪购的底层逻辑、时间窗口和实操流程，帮你用最短时间拿到最低价。

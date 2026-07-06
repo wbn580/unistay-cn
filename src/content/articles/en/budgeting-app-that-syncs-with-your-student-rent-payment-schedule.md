@@ -8,8 +8,11 @@ modDatetime: "2026-05-06T21:32:32Z"
 readingTime: 3
 tags: ["featured"]
 
+<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/budgeting-app-that-syncs-with-your-student-rent-payment-sche-11237113.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/budgeting-app-that-syncs-with-your-student-rent-payment-sche-11237113.jpg"
+=======
+>>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生的房租通常是每月最大的一笔固定支出——根据 **OECD 2024 年教育指标报告**，在澳大利亚、英国和加拿大，留学生平均月租金占生活费总额的 **42% 至 55%**。更棘手的是，大多数海外公寓要求按学期或按周支付，与国内按月发放的生活费节奏完全错位。不少学生因此被扣滞纳金，甚至影响信用记录。一款能自动同步房租账单日、并提前划转资金的**预算管理 App**，正成为 2025 年留学圈的新刚需。
