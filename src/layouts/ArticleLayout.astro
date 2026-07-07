@@ -1,35 +1,92 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-const { frontmatter } = Astro.props as { frontmatter: any };
-<<<<<<< HEAD
----
-<BaseLayout title={frontmatter.title} description={frontmatter.description}>
-  <article class="mx-auto max-w-4xl px-4 py-12">
-    <p class="text-xs uppercase tracking-wide text-muted">{frontmatter.category}</p>
-    <h1 class="font-heading text-3xl md:text-4xl text-primary mt-2 mb-6 leading-tight">{frontmatter.title}</h1>
-    <p class="text-base text-muted mb-8">{frontmatter.description}</p>
-    <div class="article-prose"><slot /></div>
-  </article>
-</BaseLayout>
-=======
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaCard from '../components/CtaCard.astro';
+import { SITE } from '../lib/format';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+    category?: string;
+    publishDate?: string;
+    pubDatetime?: string;
+    modDatetime?: string;
+    ogImage?: string;
+    heroImage?: string;
+    readingTime?: number;
+  };
+}
+const { frontmatter } = Astro.props;
 const heroImg = frontmatter.heroImage || frontmatter.ogImage;
+const date = (frontmatter.publishDate || '').slice(0, 10);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: frontmatter.title,
+    description: frontmatter.description,
+    datePublished: frontmatter.pubDatetime,
+    dateModified: frontmatter.modDatetime || frontmatter.pubDatetime,
+    inLanguage: 'zh-CN',
+    ...(heroImg ? { image: heroImg } : {}),
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  },
+];
 ---
 
-<BaseLayout title={frontmatter.title} description={frontmatter.description} ogImage={heroImg}>
+<BaseLayout
+  title={`${frontmatter.title} | ${SITE.name}`}
+  description={frontmatter.description}
+  ogImage={heroImg}
+  ogType="article"
+  jsonLd={jsonLd}
+>
   <article>
-    {heroImg ? (
-      <div class="relative w-full h-[50vh] md:h-[65vh] overflow-hidden bg-slate-200">
-        <img src={heroImg} alt={frontmatter.title} class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+    {heroImg && (
+      <div style="position: relative; width: 100%; height: 38vh; min-height: 240px; overflow: hidden; background: var(--color-primary-deep);">
+        <img
+          src={heroImg}
+          alt={frontmatter.title}
+          style="width: 100%; height: 100%; object-fit: cover;"
+          onerror="this.parentElement.remove()"
+        />
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(22,48,61,0.45), transparent 55%);"></div>
       </div>
-    ) : null}
+    )}
 
-    <div class="mx-auto max-w-3xl px-4 sm:px-6 py-8 md:py-12">
-      <p class="text-xs font-semibold uppercase tracking-wider text-accent">{frontmatter.category}</p>
-      <h1 class="font-heading text-3xl md:text-4xl font-bold text-ink mt-2 mb-4 leading-tight">{frontmatter.title}</h1>
-      <p class="text-base text-muted mb-8 leading-relaxed">{frontmatter.description}</p>
-      <div class="article-prose"><slot /></div>
+    <div class="us-wrap" style="max-width: 46rem; padding-block: 2.5rem 4rem;">
+      <Breadcrumbs
+        items={[
+          { label: '首页', href: '/' },
+          { label: '租房指南', href: '/guides/' },
+          { label: frontmatter.title },
+        ]}
+      />
+      <h1 style="font-size: clamp(1.5rem, 3.5vw, 2.125rem); margin-top: 1.25rem;">
+        {frontmatter.title}
+      </h1>
+      <p style="margin-top: 0.75rem; color: var(--color-muted); font-size: 0.875rem;">
+        {date}
+        {frontmatter.readingTime && ` · 约 ${frontmatter.readingTime} 分钟读完`}
+        · UniStay 优住编辑部
+      </p>
+
+      <div class="article-prose" style="margin-top: 2rem;">
+        <slot />
+      </div>
+
+      <div style="margin-top: 3rem;">
+        <CtaCard
+          title="看完还是拿不准？"
+          desc="告诉住宿小助手你的学校、预算和入住时间，它帮你把同城几家的价格和评价摆到一起比。"
+        />
+      </div>
+
+      <p style="margin-top: 2rem; font-size: 0.75rem; color: var(--color-muted);">
+        {SITE.disclaimer}
+      </p>
     </div>
   </article>
 </BaseLayout>
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)

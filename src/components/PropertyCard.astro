@@ -1,0 +1,64 @@
+---
+import { numRating } from '../lib/data';
+import { cur, durUnit, fmtNum, propImg } from '../lib/format';
+
+interface Props {
+  slug: string;
+  name: string;
+  cityLabel?: string;
+  countryZh?: string;
+  currency: string;
+  min_price: number | null;
+  max_price?: number | null;
+  price_duration?: string;
+  rating?: number | boolean | null;
+  g_rating?: number | null;
+  g_reviews?: number | null;
+  image?: string | null;
+  metaExtra?: string;
+}
+
+const p = Astro.props;
+const img = propImg(p.image);
+const r = p.g_rating ?? numRating(p.rating);
+const showScore = !!(r && p.g_reviews && p.g_reviews > 0);
+const unit = durUnit(p.price_duration);
+---
+
+<a href={`/fangyuan/${p.slug}/`} class="us-entry us-reveal" aria-label={p.name}>
+  <div class="us-entry__media">
+    <div class="us-entry__ph" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h8A1.5 1.5 0 0 1 15 5.5V21M15 9h3.5A1.5 1.5 0 0 1 20 10.5V21M2 21h20" />
+        <path d="M7 8h2M7 12h2M7 16h2M11 8h1M11 12h1M11 16h1" />
+      </svg>
+    </div>
+    {img && <img src={img} alt={p.name} loading="lazy" decoding="async" onerror="this.remove()" />}
+  </div>
+  <div class="us-entry__body">
+    <span class="us-entry__title">{p.name}</span>
+    <span class="us-entry__meta">
+      {p.cityLabel && <span>{p.cityLabel}</span>}
+      {p.countryZh && <span>{p.countryZh}</span>}
+      {showScore && (
+        <span class="us-score">
+          {r}
+          <small>/5 · {fmtNum(p.g_reviews!)} 条评价</small>
+        </span>
+      )}
+      {p.metaExtra && <span>{p.metaExtra}</span>}
+    </span>
+    <span class="us-entry__price">
+      {p.min_price ? (
+        <>
+          <strong>{cur(p.currency)}{fmtNum(p.min_price)}</strong>
+          {p.max_price && p.max_price !== p.min_price
+            ? `–${fmtNum(p.max_price)}/${unit}`
+            : `/${unit}起`}
+        </>
+      ) : (
+        <span style="color: var(--color-muted); font-size: 0.875rem;">价格以运营方实时报价为准</span>
+      )}
+    </span>
+  </div>
+</a>

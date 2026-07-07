@@ -2,25 +2,101 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-<<<<<<< HEAD
-const { title, description } = Astro.props as { title: string; description?: string };
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: string;
+  canonical?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+  /** 首页 Hero 覆盖模式（Header 透明悬浮） */
+  overlayHeader?: boolean;
+}
+
+const { title, description, ogImage, ogType, canonical, jsonLd, noindex, overlayHeader = false } =
+  Astro.props;
 ---
-<html lang="en">
-  <head><BaseHead title={title} description={description} /></head>
-=======
-const { title, description, ogImage } = Astro.props as { title: string; description?: string; ogImage?: string };
----
+
 <html lang="zh-CN">
-  <head><BaseHead title={title} description={description} ogImage={ogImage} /></head>
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
-  <body class="font-body">
-    <Header />
-    <main><slot /></main>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      ogImage={ogImage}
+      ogType={ogType}
+      canonical={canonical}
+      jsonLd={jsonLd}
+      noindex={noindex}
+    />
+  </head>
+  <body>
+    <Header overlay={overlayHeader} />
+    <main>
+      <slot />
+    </main>
     <Footer />
-<<<<<<< HEAD
-    <!-- Per-site widget -->
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
-    <script src="https://chat.unistay.cn/assistant.js" defer></script>
+
+    <script is:inline>
+      // scroll-reveal（respect prefers-reduced-motion；防双绑）
+      (function () {
+        function initReveal() {
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('.us-reveal').forEach(function (el) {
+              el.classList.add('is-in');
+            });
+            return;
+          }
+          var io = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                  e.target.classList.add('is-in');
+                  io.unobserve(e.target);
+                }
+              });
+            },
+            { rootMargin: '0px 0px -8% 0px', threshold: 0.05 }
+          );
+          document.querySelectorAll('.us-reveal:not([data-us-rv])').forEach(function (el) {
+            el.setAttribute('data-us-rv', '1');
+            io.observe(el);
+          });
+        }
+        document.addEventListener('astro:page-load', initReveal);
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initReveal);
+        } else {
+          initReveal();
+        }
+      })();
+    </script>
+
+    <!-- UniStay 优住 · chatbot / 留资 / 归因 三件套 -->
+    <script
+      src="https://chat.unistay.cn/assistant.js"
+      data-site="unistay-cn"
+      data-bot-name="住宿小助手"
+      data-lang="zh-CN"
+      data-channel="web"
+      async></script>
+    <script
+      src="https://chat.unistay.cn/lead.js"
+      data-site="unistay-cn"
+      data-lang="zh-CN"
+      data-apply-base="https://apply.unistay.cn"
+      async
+      data-color="#22485A"
+      data-accent="#C9873B"></script>
+    <script
+      src="https://chat.unistay.cn/w.js"
+      data-site="unistay-cn"
+      data-lang="zh-CN"
+      data-bot-name="住宿小助手"
+      data-channel="organic"
+      data-color="#22485A"
+      data-accent="#C9873B"
+      async></script>
   </body>
 </html>

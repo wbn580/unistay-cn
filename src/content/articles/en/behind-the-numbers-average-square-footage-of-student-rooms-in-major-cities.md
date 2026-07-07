@@ -8,11 +8,8 @@ modDatetime: "2026-03-25T06:39:59Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/behind-the-numbers-average-square-footage-of-student-rooms-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/behind-the-numbers-average-square-footage-of-student-rooms-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 伦敦学生公寓平均面积仅 **13.5 平方米**，而悉尼同一价位段的单间可达 **21 平方米**——这是 2024 年《全球学生住宿成本与空间报告》中披露的显著差异。对于计划出国留学的中国学生而言，**房间实际面积**直接决定了你的生活舒适度、租金性价比以及合租摩擦概率。根据英国国家统计局（ONS）2023 年发布的《私人租赁市场数据》，伦敦市中心一间标准学生单间的中位数面积为 11.2 平方米，远低于英国其他主要城市。与此同时，澳大利亚物业委员会 2024 年《学生住宿基准报告》显示，悉尼新建学生公寓的**平均使用面积**为 19.8 平方米。这些数字背后，是不同城市土地政策、建筑标准与租金定价逻辑的博弈。本文基于各国官方统计与行业数据库，拆解全球 7 大留学热门城市的学生房间真实面积，帮你用“平方米”这把尺子，量出最划算的住宿选择。

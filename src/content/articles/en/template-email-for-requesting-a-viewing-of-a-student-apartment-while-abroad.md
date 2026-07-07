@@ -8,11 +8,8 @@ modDatetime: "2026-04-17T14:27:13Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/template-email-for-requesting-a-viewing-of-a-student-apartme-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/template-email-for-requesting-a-viewing-of-a-student-apartme-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年，超过**120万**中国留学生在海外就读高等教育课程（中国教育部《2024中国留学回国就业蓝皮书》），其中**82%**的学生在抵达目的地前从未实地看过房（QS《2025国际学生住宿调查》）。这意味着绝大多数人需要在时差、语言和地理距离的三重夹击下，仅凭几张照片和一段视频就签下未来一年的租约。当“照骗”公寓导致落地后被迫换房、损失押金甚至影响开学第一周状态时，一封结构清晰的看房请求邮件就成了你唯一能控制的信息入口。本文提供一套可直接套用的英文邮件模板，覆盖从公寓到私人房东的常见场景，并拆解每一段必须包含的关键信息，帮你把“远程看房”这件事的失败率降到最低。

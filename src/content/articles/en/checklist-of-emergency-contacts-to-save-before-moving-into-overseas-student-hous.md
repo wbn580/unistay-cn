@@ -8,11 +8,8 @@ modDatetime: "2026-05-15T10:56:04Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/checklist-of-emergency-contacts-to-save-before-moving-into-o-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/checklist-of-emergency-contacts-to-save-before-moving-into-o-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 搬进海外学生宿舍前，手机里存好这 8 组救命号码

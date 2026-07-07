@@ -8,11 +8,8 @@ modDatetime: "2026-04-16T08:21:07Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/top-eight-student-accommodations-with-rooftop-terraces-in-me-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/top-eight-student-accommodations-with-rooftop-terraces-in-me-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 墨尔本连续七年蝉联《QS 最佳留学城市》全球前五（QS, 2025），目前吸引了超过 **17 万名** 国际学生（澳大利亚教育部, 2024）。在这座以咖啡文化和涂鸦巷闻名的城市，住宿早已不只是睡觉的地方——**带屋顶露台的学生公寓**正成为 2025 年最抢手的房型。根据 Unilink Education 数据库统计，配备屋顶社交空间的学生公寓预订率比普通公寓高出 **32%**，且平均提前 **8-10 周** 被订满。对于 18-28 岁的中国留学生来说，一个能烤肉、看夜景、开小组讨论会的天台，直接决定了留学生活的社交质量与心理健康。本文精选墨尔本 8 栋带屋顶露台的学生公寓，从 **租金、距市中心距离、配套设施** 三个核心维度逐一横评，帮你找到那个既能安心赶 due、又能随时上天台吹风的落脚点。

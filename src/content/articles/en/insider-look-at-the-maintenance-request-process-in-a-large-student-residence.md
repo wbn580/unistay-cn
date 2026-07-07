@@ -8,11 +8,8 @@ modDatetime: "2026-05-13T18:36:44Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/insider-look-at-the-maintenance-request-process-in-a-large-s-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/insider-look-at-the-maintenance-request-process-in-a-large-s-36488760.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 住在大型学生公寓，报修流程往往是入住前最容易被忽略、入住后最让人头疼的环节。根据英国高等教育统计局（HESA, 2023）的数据，超过 62% 的国际学生在第一学期内至少提交过一次宿舍维修申请，而平均处理时长在 3.7 个工作日左右。在澳大利亚，新南威尔士州公平交易厅（NSW Fair Trading, 2022）的租赁指南明确指出，紧急维修（如热水、暖气中断）必须在 24 小时内响应，但非紧急项目的拖延率却高达 40%。这篇文章将带你拆解大型学生公寓的报修全流程——从提交入口、响应优先级，到沟通技巧和维权路径，帮你把“等维修”的时间从几天压缩到几小时。

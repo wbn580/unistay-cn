@@ -5,19 +5,11 @@ category: "FAQ"
 publishDate: "2026-04-22"
 pubDatetime: "2026-04-22T23:53:04Z"
 modDatetime: "2026-04-22T23:53:04Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/faq-on-deposit-protection-schemes-for-student-accommodation-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/faq-on-deposit-protection-schemes-for-student-accommodation-31969409.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/faq-on-deposit-protection-schemes-for-student-acco-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/faq-on-deposit-protection-schemes-for-student-acco-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在英国租房，押金纠纷是留学生最头疼的问题之一。根据英国政府2019年发布的《租户押金保护法》规定，房东或中介必须在收到押金后的**30天内**，将押金存入政府认可的**第三方保护计划**。然而，**2023年英格兰住房调查**显示，仍有约**12%**的私人租户声称其押金未被依法保护。对于初到英国的中国留学生来说，不了解押金保护制度，轻则损失**数百英镑**（通常押金为**5-6周租金**，约£500-£1200），重则影响个人信用记录。本文将拆解英国学生住宿押金保护的核心机制，帮你避开“退房扣款”的常见陷阱。

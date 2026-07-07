@@ -8,11 +8,8 @@ modDatetime: "2026-03-16T03:00:38Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/walk-through-video-tour-of-a-standard-ensuite-room-in-a-top-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/walk-through-video-tour-of-a-standard-ensuite-room-in-a-top-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 墨尔本市中心一栋品牌公寓的**标准套间（Ensuite）**，2025年周租金中位数已达 **$520–$680 AUD**，较2022年同期上涨 **23%**，而空置率在2024年底降至 **1.2%**（来源：SQM Research 2025年1月《Australian Rental Vacancy Rate Report》）。这意味着你每刷10套线上房源，可能只有1套真正可租。对18–28岁的中国留学生来说，只看平面图就签约的时代已经过去了——**视频实拍（Walk-Through Video）**正在成为判断房间真实采光、隔音、家具磨损度的唯一可靠方式。这篇评测将带你逐帧拆解墨尔本顶级品牌公寓的标准套间，从床垫厚度到窗帘遮光率，从Wi-Fi实测速度到退房扣费潜规则，用卡片式信息告诉你哪些细节值得在视频里盯死。

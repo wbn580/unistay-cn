@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CtaCard from '../../components/CtaCard.astro';
+import { getUniversities, getCountries } from '../../lib/data';
+import { fmtNum } from '../../lib/format';
+
+const unis = getUniversities();
+const countries = getCountries();
+
+// 按国家分组：我们有房源数据的 12 国靠前，其余归「其他国家/地区」
+const covered = new Map<string, typeof unis>();
+const others: typeof unis = [];
+for (const u of unis) {
+  if (u.country && countries.some((c) => c.slug === u.country)) {
+    if (!covered.has(u.country)) covered.set(u.country, []);
+    covered.get(u.country)!.push(u);
+  } else {
+    others.push(u);
+  }
+}
+const groups = countries
+  .filter((c) => covered.has(c.slug))
+  .map((c) => ({ zh: c.zh, slug: c.slug, list: covered.get(c.slug)!.sort((a, b) => a.rank - b.rank) }));
+
+const title = `QS 排名大学住宿索引（2026）：${fmtNum(unis.length)} 所大学周边学生公寓 | UniStay 优住`;
+const description = `按国家浏览 ${fmtNum(unis.length)} 所 QS 排名大学：每所大学附谷歌评分、真实校园评价与周边学生公寓参考。覆盖英美澳加新等 12 个留学目的地。`;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '看大学' }]} />
+  </div>
+
+  <section class="us-wrap" style="padding-block: 0.5rem 2rem; max-width: 52rem;">
+    <h1 class="us-h" style="font-size: clamp(1.6rem, 4vw, 2.5rem);">从学校出发找住宿</h1>
+    <p class="us-sub" style="margin-top: 1rem;">
+      这里收录 {fmtNum(unis.length)} 所 QS 排名大学（2026 版口径），每所附谷歌评分与真实校园评价；
+      在我们有房源数据的 {groups.length} 个国家，可以直接从大学页跳到同城学生公寓清单。
+    </p>
+    <nav style="margin-top: 1.25rem; display: flex; flex-wrap: wrap; gap: 0.5rem;" aria-label="按国家跳转">
+      {groups.map((g) => (
+        <a href={`#${g.slug}`} class="us-chip us-chip--tint">{g.zh}（{g.list.length}）</a>
+      ))}
+      {others.length > 0 && <a href="#others" class="us-chip">其他国家/地区（{others.length}）</a>}
+    </nav>
+  </section>
+
+  {groups.map((g) => (
+    <section class="us-section us-section--paper" id={g.slug} style="padding-block: 2rem;">
+      <div class="us-wrap">
+        <h2 class="us-h2">{g.zh}</h2>
+        <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {g.list.map((u) => (
+            <a href={`/daxue/${u.slug}/`} class="us-row us-reveal">
+              <span class="us-row__name">{u.name}</span>
+              <span class="us-row__meta">QS {u.rank}{u.g_rating && u.g_reviews ? ` · 谷歌 ${u.g_rating}/5` : ''}</span>
+            </a>
+          ))}
+        </div>
+        <p style="margin-top: 1rem;">
+          <a href={`/zhusu/${g.slug}/`} class="us-btn us-btn--ghost us-btn--sm">看{g.zh}全部房源 →</a>
+        </p>
+      </div>
+    </section>
+  ))}
+
+  {others.length > 0 && (
+    <section class="us-section us-section--tint" id="others" style="padding-block: 2rem;">
+      <div class="us-wrap">
+        <h2 class="us-h2">其他国家/地区</h2>
+        <p class="us-sub">以下大学暂无同城房源数据，先看排名与校园评价，住宿可让小助手按需求另找。</p>
+        <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {others.sort((a, b) => a.rank - b.rank).map((u) => (
+            <a href={`/daxue/${u.slug}/`} class="us-row us-reveal">
+              <span class="us-row__name">{u.name}</span>
+              <span class="us-row__meta">QS {u.rank}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <CtaCard
+        title="学校定了，住宿还没头绪？"
+        desc="把 Offer 上的学校发给住宿小助手，它先圈出通勤合理的片区和房源，再由公寓顾问跟进到签约。"
+      />
+    </div>
+  </section>
+</BaseLayout>

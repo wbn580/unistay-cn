@@ -5,19 +5,11 @@ category: "英国学生公寓品牌对比：V"
 publishDate: "2025-12-25"
 pubDatetime: "2025-12-25T04:32:35Z"
 modDatetime: "2025-12-25T04:32:35Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-14998334.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-14998334.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/vita-student-chapter-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 英国学生公寓品牌对比：Vita Student与Chapter的设施与价格分析

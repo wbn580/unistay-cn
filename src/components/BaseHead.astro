@@ -1,33 +1,53 @@
 ---
 import '../styles/global.css';
-<<<<<<< HEAD
-const { title, description = '海外住宿编辑部' } = Astro.props as { title: string; description?: string };
-=======
-const { title, description = '留学生公寓 — 全球学生住宿指南' } = Astro.props as { title: string; description?: string };
-const ogImage = Astro.props.ogImage as string | undefined;
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
+import { SITE } from '../lib/format';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: string;
+  canonical?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = 'UniStay 优住：中文留学生公寓查询平台。3,246 套真房源、228 个城市、12 个国家，条条带价格与真实评价。',
+  ogImage = SITE.heroImage,
+  ogType = 'website',
+  canonical,
+  jsonLd = [],
+  noindex = false,
+} = Astro.props;
+
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
 ---
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+{noindex && <meta name="robots" content="noindex, follow" />}
+
+<link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<<<<<<< HEAD
-<title>{title} · 海外住宿编辑部</title>
-<meta name="description" content={description} />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#22485A" />
+
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:site_name" content="海外住宿编辑部" />
-<meta property="og:type" content="article" />
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content="zh_CN" />
+{ogImage && <meta property="og:image" content={ogImage} />}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="theme-color" content="#9C5BD9" />
-=======
-<title>{title} · 留学生公寓</title>
-<meta name="description" content={description} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:site_name" content="留学生公寓" />
-<meta property="og:type" content="article" />
-{ogImage ? <meta property="og:image" content={ogImage} /> : null}
-<meta name="twitter:card" content="summary_large_image" />
-{ogImage ? <meta name="twitter:image" content={ogImage} /> : null}
-<meta name="theme-color" content="#0D9488" />
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
+{ogImage && <meta name="twitter:image" content={ogImage} />}
+
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+{jsonLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}

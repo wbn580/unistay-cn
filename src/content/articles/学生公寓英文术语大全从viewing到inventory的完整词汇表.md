@@ -8,11 +8,8 @@ modDatetime: "2025-12-31T02:23:50Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/viewing-inventory-26957419.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/viewing-inventory-26957419.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 **50 万** 中国留学生赴海外留学，其中约 **70%** 的学生在入学第一年选择校外住宿（来源：教育部《2023 中国留学白皮书》）。然而，面对全英文的租赁合同和看房流程，**“Viewing”、“Inventory”、“Guarantor”、“Tenancy Agreement”** 等术语常让新生一头雾水。根据英国住房慈善机构 Shelter（2024）的统计，超过 **30%** 的留学生因不理解合同条款而在押金纠纷中处于劣势。本文为你整理从看房到退租的 **30+ 核心英文术语**，配以真实场景解释，帮你避免因语言盲区导致的押金损失和合同陷阱。

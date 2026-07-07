@@ -8,11 +8,8 @@ modDatetime: "2026-04-14T00:39:52Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-use-google-street-view-to-pre-vet-student-property-ne-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-use-google-street-view-to-pre-vet-student-property-ne-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 45 万中国留学生赴海外求学，其中约 72% 选择校外租房（教育部《2023 中国留学白皮书》）。在签约前仅靠中介照片和文字描述做决定，导致 38% 的留学生入住后才发现街区治安差、通勤不便或生活配套缺失（OECD《留学生住宿满意度调查 2023》）。Google Street View 是一个被严重低估的免费工具——它让你在出发前就能像本地人一样“踩点”街区。本文教你用 5 步法，从街道实景、夜间照明、商业密度、通勤路线到邻里环境，系统性地预判学生公寓周边是否安全、便利、宜居，避免“照片 vs 现实”的巨大落差。

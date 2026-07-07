@@ -8,11 +8,8 @@ modDatetime: "2026-04-28T08:16:44Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/take-the-stress-out-of-student-housing-a-30-day-countdown-c-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/take-the-stress-out-of-student-housing-a-30-day-countdown-c-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 拿到海外院校的 offer 只是第一步，真正让学生和家长失眠的，往往是接下来 30 天里如何找到一个靠谱的住处。根据 QS 2024 年国际学生调研报告，**超过 62% 的中国留学生表示“住宿寻找过程”是留学准备中最令人焦虑的环节**，而 OECD 2023 年教育指标数据库指出，海外住宿成本通常占留学生活总开支的 35%-45%。距离出发仅剩一个月，时间窗口紧凑，但完全可以将混乱转化为有序。这篇 30 天倒计时日历，帮你把每个阶段的任务拆解到具体行动，从预算锁定到合同签署，一步步扫清盲区。

@@ -13,10 +13,7 @@ const articles = defineCollection({
     readingTime: z.number().optional(),
     tags: z.array(z.string()).default([]),
     ogImage: z.string().optional(),
-<<<<<<< HEAD
-=======
     heroImage: z.string().optional(),
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
   }),
 });
 

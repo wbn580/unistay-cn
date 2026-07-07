@@ -8,11 +8,8 @@ modDatetime: "2026-05-02T17:51:49Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/first-hand-account-of-living-in-a-converted-church-used-as-s-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/first-hand-account-of-living-in-a-converted-church-used-as-s-29299050.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 住进一座改造教堂是什么体验？2023年英国国家统计局（ONS）数据显示，全英约有超过1,200座闲置教堂被改造为住宅或学生公寓，其中约17%位于大学城核心区。作为曾在曼彻斯特一座建于1876年的圣马可教堂里住满一年的前住户，我的第一反应是：这绝对不是你爸朋友圈里那种“老建筑改造”的样板间。高耸的尖顶下，你的卧室可能曾是唱诗班席位，而公共厨房就设在原本的祭坛旁。根据英国高等教育统计局（HESA）2022-2023学年的报告，海外留学生选择非传统住宿（教堂改造、仓库Loft、历史建筑）的比例在五年内从3.8%上升至8.1%。这种住宿形态正在从小众猎奇变成可操作的选项，但价格、隔音、配套和通勤距离——这些硬指标——才是你真正需要衡量的东西。

@@ -1,130 +1,374 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
-<<<<<<< HEAD
-import { REGIONS, classifyRegion, getRegionStats } from '../utils/region';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PropertyCard from '../components/PropertyCard.astro';
+import FaqBlock from '../components/FaqBlock.astro';
+import {
+  getStats,
+  getCountries,
+  getCities,
+  getPropertyIndex,
+  getCountryProperties,
+  getUniversities,
+  numRating,
+  type ReviewT,
+} from '../lib/data';
+import { cityShort, cityDisplay, cur, fmtNum, priceFrom, SITE, stars, clip } from '../lib/format';
 
-const entries = await getCollection('articles');
+const stats = getStats();
+const countries = [...getCountries()].sort((a, b) => b.property_count - a.property_count);
+const cities = getCities();
+const pidx = getPropertyIndex();
 
-// Build region stats from article titles + bodies
-const regionStats = getRegionStats(
-  entries.map(e => ({
-    data: { title: e.data.title, tags: e.data.tags },
-    body: e.body || '',
-  }))
-);
+// 热门城市 · 前 12
+const topCities = [...cities].sort((a, b) => b.property_count - a.property_count).slice(0, 12);
 
-// Only show regions with articles
-const activeRegions = regionStats.filter(r => r.count > 0);
+// 评分靠前的公寓 · 谷歌评价 ≥ 50 条，评分降序
+const cityMap = new Map(cities.map((c) => [`${c.country}/${c.slug}`, c]));
+const topRated = pidx
+  .filter((p) => typeof p.rating === 'number' && p.rating >= 4.3 && (p.g_reviews ?? 0) >= 50)
+  .sort((a, b) => (b.g_reviews ?? 0) - (a.g_reviews ?? 0))
+  .slice(0, 8);
 
-// Recent/featured: last 9 articles
-const recentEntries = entries
-  .filter(e => e.data.publishDate)
-  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
-  .slice(0, 9);
+// 住客怎么说 · 3 条真实好评（不同国家）
+interface Quote {
+  review: ReviewT;
+  propName: string;
+  propSlug: string;
+  cityLabel: string;
+  countryZh: string;
+}
+const quotes: Quote[] = [];
+for (const cc of ['australia', 'united-kingdom', 'united-states', 'canada', 'singapore']) {
+  if (quotes.length >= 3) break;
+  const props = getCountryProperties(cc);
+  outer: for (const p of props) {
+    for (const r of p.reviews || []) {
+      if (r.rating >= 4 && r.text && r.text.length >= 80 && r.text.length <= 260) {
+        const c = cityMap.get(`${p.country}/${p.city_slug}`);
+        quotes.push({
+          review: r,
+          propName: p.name,
+          propSlug: p.slug,
+          cityLabel: c ? cityShort(c) : p.city,
+          countryZh: p.country_zh,
+        });
+        break outer;
+      }
+    }
+  }
+}
 
-// Region card images - high quality Pexels photos on R2
-const REGION_IMAGES: Record<string, string> = {
-  australia:  'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  uk:         'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  usa:        'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  canada:     'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  hongkong:   'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  newzealand: 'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  singapore:  'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  ireland:    'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  europe:     'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
-  other:      'https://img.ulec.com.cn/unistay/hero-student-apartment.jpg',
+// 一句中文提要（按评论关键词生成，非伪造评分）
+function zhGist(text: string): string {
+  const t = text.toLowerCase();
+  const hits: string[] = [];
+  if (/staff|helpful|friendly|team|management/.test(t)) hits.push('员工服务');
+  if (/location|close|walk|near|central/.test(t)) hits.push('位置');
+  if (/clean/.test(t)) hits.push('清洁');
+  if (/cheap|price|value|bills included|affordable/.test(t)) hits.push('价格');
+  if (/facilit|gym|room|kitchen|space|living/.test(t)) hits.push('设施空间');
+  if (/safe|secur/.test(t)) hits.push('安全');
+  return hits.length ? `提要：点名认可${hits.slice(0, 2).join('和')}。` : '提要：整体住宿体验正面。';
+}
+
+// QS 大学覆盖 · 中国学生常申 8 校
+const uniAll = getUniversities();
+const uniPick = [
+  'university-of-oxford',
+  'university-of-cambridge',
+  'imperial-college-london',
+  'ucl',
+  'the-university-of-manchester',
+  'the-university-of-sydney',
+  'the-university-of-melbourne',
+  'national-university-of-singapore',
+];
+const uniShort: Record<string, string> = {
+  'university-of-oxford': '牛津大学',
+  'university-of-cambridge': '剑桥大学',
+  'imperial-college-london': '帝国理工',
+  ucl: 'UCL 伦敦大学学院',
+  'the-university-of-manchester': '曼彻斯特大学',
+  'the-university-of-sydney': '悉尼大学',
+  'the-university-of-melbourne': '墨尔本大学',
+  'national-university-of-singapore': '新加坡国立大学',
 };
+const featuredUnis = uniPick
+  .map((slug) => uniAll.find((u) => u.slug === slug))
+  .filter((u) => !!u);
+
+// 最新指南 4 篇
+const articles = (await getCollection('articles'))
+  .sort((a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime())
+  .slice(0, 4);
+
+// FAQ
+const faqs = [
+  {
+    q: '优住上的房源和价格是真的吗？',
+    a: `是。全站 ${fmtNum(stats.properties)} 套房源都来自真实在租的学生公寓项目，标注价格区间、房型与起租时间；能核实到的房源附真实住客评价（含 Google 评价原文）。价格随房态浮动，最终以运营方实时报价为准。`,
+  },
+  {
+    q: '通过优住找房要收费吗？',
+    a: '查房源、看评价、用住宿小助手咨询都免费。你按运营方挂牌价签约，不额外加价；部分预订由合作公寓顾问跟进，费用同样以运营方报价为准。',
+  },
+  {
+    q: '覆盖哪些国家和城市？',
+    a: `目前覆盖 ${stats.countries} 个国家、${fmtNum(stats.cities)} 个城市，包括英国、美国、澳大利亚、加拿大、新加坡、爱尔兰、新西兰以及欧洲主要留学目的地，还按 ${fmtNum(stats.universities)} 所 QS 大学整理了周边住宿参考。`,
+  },
+  {
+    q: '人还没出国，能提前订房吗？',
+    a: '可以，多数学生公寓支持凭 Offer 远程预订、线上签约。建议拿到 Offer 后尽早锁房——热门城市开学季前 3 到 6 个月房型最全。把学校和预算告诉住宿小助手，它会帮你排预订节奏。',
+  },
+  {
+    q: '评价都是英文的，看不懂怎么办？',
+    a: `评论区保留英文原评（Google 评价）以保证真实，同时每套房源都配有基于评分维度和价格数据生成的中文「编辑速评」，${fmtNum(stats.review_snippets)} 条评价摘录也在持续整理中。实在拿不准，让住宿小助手帮你翻译和归纳。`,
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    alternateName: 'UniStay',
+    url: SITE.url,
+    logo: `${SITE.url}/icon-512.png`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    inLanguage: 'zh-CN',
+  },
+];
+
+const title = `UniStay 优住 | 留学生公寓查询平台：${fmtNum(stats.properties)} 套真房源 · ${stats.cities} 城市真实价格与评价`;
+const description = `留学住哪儿，先上优住查。覆盖 ${stats.countries} 国 ${stats.cities} 城 ${fmtNum(stats.properties)} 套学生公寓：真实价格、房型、${fmtNum(stats.google_reviews_total)}+ 条谷歌评价底数，${fmtNum(stats.universities)} 所 QS 大学周边住宿一站查清。`;
 ---
 
-<BaseLayout title="海外住宿编辑部" description="中国留学生海外住宿决策站（公寓/宿舍/homestay 横评 + 区域指南）">
-  <!-- Hero Section -->
-  <section class="relative w-full min-h-[520px] flex items-center justify-center overflow-hidden">
-    <!-- Background image -->
-    <img
-      src="https://img.ulec.com.cn/unistay/hero-student-apartment.jpg"
-      alt=""
-      class="absolute inset-0 w-full h-full object-cover"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high"
-    />
-    <!-- Dark overlay for text readability -->
-    <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/50 to-slate-900/80"></div>
-    <!-- Content -->
-    <div class="relative z-10 text-center px-6 py-20 max-w-3xl">
-      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl text-white leading-tight">
-        留学生公寓
-      </h1>
-      <p class="text-lg md:text-xl text-slate-200 mt-4 max-w-2xl mx-auto">
-        覆盖10个留学目的地的住宿指南 · 公寓/宿舍/homestay 实测对比 · 帮你找到海外的家
-=======
-const entries = await getCollection('articles');
----
-
-<BaseLayout title="留学生公寓 — 全球学生住宿指南" description="覆盖澳洲、英国、美国、加拿大、香港等主流留学目的地的学生公寓、租房攻略与住宿决策指南。">
+<BaseLayout title={title} description={description} jsonLd={jsonLd} overlayHeader={true}>
   <!-- Hero -->
-  <section class="relative w-full min-h-[70vh] flex items-center justify-center overflow-hidden bg-slate-900">
-    <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50 z-10"></div>
-    <div class="relative z-20 text-center px-6 max-w-3xl mx-auto">
-      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">
-        留学生公寓
-      </h1>
-      <p class="text-lg md:text-xl text-white/80 mt-6 leading-relaxed">
-        覆盖澳洲、英国、美国、加拿大、香港等主流留学目的地<br class="hidden sm:block" />实拍公寓、真实租金、通勤实测 — 帮你找到海外的第一个家
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
+  <section
+    style={`position: relative; min-height: 88vh; display: flex; align-items: center; background: var(--color-primary-deep) url('${SITE.heroImage}') center / cover no-repeat;`}
+  >
+    <div
+      style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(22,48,61,0.55) 0%, rgba(22,48,61,0.35) 45%, rgba(22,48,61,0.78) 100%);"
+      aria-hidden="true"
+    >
+    </div>
+    <div class="us-wrap" style="position: relative; padding-block: 9rem 6rem; color: #fff;">
+      <p style="font-size: 0.875rem; letter-spacing: 0.18em; font-weight: 600; color: var(--color-accent-soft); opacity: 0.9;">
+        UNISTAY · 中文留学生公寓查询平台
       </p>
-    </div>
-  </section>
+      <h1 style="color: #fff; font-size: clamp(2rem, 5.5vw, 3.5rem); line-height: 1.2; margin-top: 1rem; max-width: 40rem;">
+        留学住哪儿，<br />先上优住查
+      </h1>
+      <p style="margin-top: 1.25rem; font-size: clamp(1rem, 2vw, 1.1875rem); color: rgba(255,255,255,0.85); max-width: 34rem;">
+        {fmtNum(stats.properties)} 套真房源 · {stats.cities} 个城市 · {stats.countries} 个国家 · 条条带真实评价
+      </p>
+      <div style="margin-top: 2.25rem; display: flex; flex-wrap: wrap; gap: 0.9rem;">
+        <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.()">
+          AI 帮我找房
+        </button>
+        <a href="/zhusu/" class="us-btn us-btn--ghost-light">按城市浏览</a>
+      </div>
 
-<<<<<<< HEAD
-  <!-- Region Navigation -->
-  <section class="mx-auto max-w-6xl px-6 py-16">
-    <h2 class="font-heading text-3xl text-primary text-center mb-2">按地区浏览</h2>
-    <p class="text-muted text-center mb-10">选择留学目的地，查看该地区全部住宿指南</p>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-      {activeRegions.map((region) => (
-        <a
-          href={`/region/${region.slug}/`}
-          class="group relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-800 shadow-md hover:shadow-xl transition-all hover:scale-[1.02]"
-        >
-          <img
-            src={REGION_IMAGES[region.slug]}
-            alt={region.name}
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-            loading="lazy"
-          />
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/30 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-4">
-            <h3 class="font-heading text-lg text-white">{region.name}</h3>
-            <p class="text-xs text-slate-300 mt-1">{region.count} 篇指南</p>
+      <!-- 信任数字 -->
+      <div
+        style="margin-top: 4.5rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; max-width: 46rem; border-top: 1px solid rgba(255,255,255,0.25); padding-top: 1.75rem;"
+        class="md:!grid-cols-4"
+      >
+        {[
+          [fmtNum(stats.properties), '套真实房源'],
+          [fmtNum(stats.cities), '个留学城市'],
+          [fmtNum(stats.universities), '所 QS 大学'],
+          [`${Math.floor(stats.google_reviews_total / 10000)} 万+`, '条谷歌评价底数'],
+        ].map(([n, l]) => (
+          <div>
+            <strong style="display: block; font-size: 1.5rem; font-weight: 700; color: #fff; font-variant-numeric: tabular-nums;">{n}</strong>
+            <span style="font-size: 0.8125rem; color: rgba(255,255,255,0.7);">{l}</span>
           </div>
-        </a>
-      ))}
+        ))}
+      </div>
     </div>
   </section>
 
-  <!-- Latest Articles -->
-  <section class="mx-auto max-w-6xl px-6 pb-16">
-    <h2 class="font-heading text-3xl text-primary text-center mb-2">最新住宿指南</h2>
-    <p class="text-muted text-center mb-10">新鲜出炉的留学住宿攻略</p>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {recentEntries.map((entry) => (
-        <ArticleCard entry={entry} />
-      ))}
+  <!-- 怎么用优住 -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <span class="us-kicker">HOW IT WORKS</span>
+      <h2 class="us-h2">怎么用优住</h2>
+      <p class="us-sub">三步，从「不知道住哪」到「有人跟进到签约」。</p>
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        {[
+          ['01', '告诉小助手学校和预算', '点「AI 帮我找房」，说清楚去哪所学校、预算多少、什么时候入住，它先帮你圈出合适的城市片区和房源。'],
+          ['02', '对比真实价格和评价', '每套房源都有价格区间、房型、分维度评分和英文原评，横着比完再决定，不用来回翻十个网站。'],
+          ['03', '公寓顾问跟进到签约', '选定后由合作公寓顾问对接运营方，帮你核实房态、走预订和签约流程，价格以运营方实时报价为准。'],
+        ].map(([n, t, d]) => (
+          <div class="us-panel us-reveal" style="padding: 1.5rem 1.4rem;">
+            <span style="font-size: 0.8125rem; font-weight: 700; color: var(--color-accent); letter-spacing: 0.1em;">{n}</span>
+            <h3 style="margin-top: 0.6rem; font-size: 1.0625rem;">{t}</h3>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--color-muted);">{d}</p>
+          </div>
+        ))}
+      </div>
     </div>
-    <div class="text-center mt-10">
-      <a href="/region/australia/" class="inline-block px-6 py-3 bg-accent text-white rounded-lg font-semibold hover:bg-accent/90 transition-colors">
-        浏览全部地区 →
-      </a>
-=======
-  <!-- Article Grid -->
-  <section class="mx-auto max-w-6xl px-4 sm:px-6 py-16">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {entries.map((entry) => <ArticleCard entry={entry} />)}
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
+  </section>
+
+  <!-- 按国家找 -->
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <span class="us-kicker">BY COUNTRY</span>
+      <h2 class="us-h2">按国家找</h2>
+      <p class="us-sub">{stats.countries} 个国家的学生公寓清单，房源数、城市数一目了然。</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {countries.map((c) => (
+          <a href={`/zhusu/${c.slug}/`} class="us-row us-reveal">
+            <span class="us-row__name">{c.zh}学生公寓</span>
+            <span class="us-row__meta">
+              {fmtNum(c.property_count)} 套 · {c.city_count} 城
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门城市 -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <span class="us-kicker">TOP CITIES</span>
+      <h2 class="us-h2">热门城市</h2>
+      <p class="us-sub">按在库房源数排的前 12 城，点进去看全部房源和周边大学。</p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {topCities.map((c) => (
+          <a href={`/chengshi/${c.country}/${c.slug}/`} class="us-row us-reveal">
+            <span class="us-row__name">{cityDisplay(c)}</span>
+            <span class="us-row__meta">
+              {fmtNum(c.property_count)} 套{priceFrom({ currency: c.currency, min_price: c.min_price }) ? ` · ${cur(c.currency)}${fmtNum(c.min_price!)} 起` : ''}
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 评分靠前的公寓 -->
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <span class="us-kicker">TOP RATED</span>
+      <h2 class="us-h2">评分靠前的公寓</h2>
+      <p class="us-sub">平台评分 4.3 以上、谷歌评价 50 条起——评价多、分还高的才放得进这排。</p>
+      <div class="mt-8 grid gap-4 lg:grid-cols-2">
+        {topRated.map((p) => {
+          const c = cityMap.get(`${p.country}/${p.city_slug}`);
+          return (
+            <PropertyCard
+              slug={p.slug}
+              name={p.name}
+              cityLabel={c ? cityShort(c) : p.city}
+              countryZh={p.country_zh}
+              currency={p.currency}
+              min_price={p.min_price}
+              price_duration={p.price_duration}
+              rating={p.rating}
+              g_reviews={p.g_reviews}
+              image={p.image}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- 住客怎么说 -->
+  <section class="us-section us-section--soft">
+    <div class="us-wrap">
+      <span class="us-kicker">REAL REVIEWS</span>
+      <h2 class="us-h2">住客怎么说</h2>
+      <p class="us-sub">英文原评（Google 评价）直接放，不删不改；中文提要帮你快速扫。</p>
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        {quotes.map((q) => (
+          <figure class="us-review us-reveal">
+            <div class="us-review__head">
+              <span class="us-review__author">{q.review.author}</span>
+              <span class="us-review__stars" aria-label={`${q.review.rating} 星`}>{stars(q.review.rating)}</span>
+            </div>
+            <blockquote class="us-review__text">“{clip(q.review.text, 180)}”</blockquote>
+            <figcaption class="us-review__src">
+              英文原评（Google 评价）· {zhGist(q.review.text)}<br />
+              住在：<a href={`/fangyuan/${q.propSlug}/`}>{q.propName}</a>（{q.cityLabel} · {q.countryZh}）
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- QS 大学覆盖 -->
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <span class="us-kicker">BY UNIVERSITY</span>
+      <h2 class="us-h2">从学校出发找房</h2>
+      <p class="us-sub">
+        覆盖 {fmtNum(stats.universities)} 所 QS 排名大学的周边住宿参考。中国学生常申的这几所，直接点：
+      </p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {featuredUnis.map((u) => (
+          <a href={`/daxue/${u!.slug}/`} class="us-row us-reveal">
+            <span class="us-row__name">{uniShort[u!.slug]}</span>
+            <span class="us-chip us-chip--rank">QS {u!.rank}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6">
+        <a href="/daxue/" class="us-btn us-btn--ghost us-btn--sm">看全部 {fmtNum(stats.universities)} 所大学 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 最新指南 -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <span class="us-kicker">GUIDES</span>
+      <h2 class="us-h2">最新租房指南</h2>
+      <p class="us-sub">押金、合同、避坑、房型——学长学姐视角的实操攻略。</p>
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
+        {articles.map((a) => (
+          <a href={`/${a.id}/`} class="us-row us-reveal">
+            <span class="us-row__name">{a.data.title}</span>
+            <span class="us-row__meta">{(a.data.publishDate || '').slice(0, 10)}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6">
+        <a href="/guides/" class="us-btn us-btn--ghost us-btn--sm">全部指南 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="us-section us-section--tint">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <FaqBlock items={faqs} heading="关于优住，常被问到的" />
+    </div>
+  </section>
+
+  <!-- 底部 CTA -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <div class="us-cta us-reveal">
+        <div>
+          <h3>把学校和预算发给小助手，剩下的交给它</h3>
+          <p>圈房源、比价格、对接公寓顾问跟进到签约——全程免费，价格以运营方实时报价为准。</p>
+        </div>
+        <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.()">
+          AI 帮我找房
+        </button>
+      </div>
     </div>
   </section>
 </BaseLayout>

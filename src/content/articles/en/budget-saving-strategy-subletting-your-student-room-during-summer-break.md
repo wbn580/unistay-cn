@@ -8,11 +8,8 @@ modDatetime: "2026-03-27T20:57:47Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/budget-saving-strategy-subletting-your-student-room-during-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/budget-saving-strategy-subletting-your-student-room-during-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 暑假回国三个月，伦敦学生公寓的租金照付不误？根据英国高等教育统计局（HESA 2023）数据，超过 68% 的中国留学生会回国度过暑期，而同期英国私人租赁市场的空置率约为 12%（ONS 2024）。这意味着你每年可能白白支付 2,000 到 4,000 英镑的空置租金。转租你的学生房间，正是将这笔沉没成本转化为现金流的关键策略。本文将用 7 个实操段落，拆解从法律底线到定价技巧的全流程，帮你暑假省下一张回国机票钱。

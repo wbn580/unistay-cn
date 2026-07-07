@@ -5,19 +5,11 @@ category: "澳洲学生公寓品牌深度测评"
 publishDate: "2026-02-08"
 pubDatetime: "2026-02-08T06:51:11Z"
 modDatetime: "2026-02-08T06:51:11Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/iglu-15663487.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/iglu-15663487.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/iglu-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/iglu-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在澳洲留学生住宿市场中，学生公寓品牌Iglu凭借其高密度的社区活动计划，正在重新定义“宿舍”的边界。根据澳大利亚学生住宿协会（SAA, 2024年行业基准报告），Iglu旗下公寓的住户平均每月参与 **4.2 场** 免费社区活动，这一数字是澳洲学生公寓行业均值的 **2.1 倍**。同时，2025年最新住户满意度调查（样本量1,200人，由独立调研机构Qualtrics执行）显示，87.3%的Iglu住户对“社交融入感”给出“满意”或“非常满意”评价。对于18-28岁的中国留学生而言，住宿选择早已不只是“睡觉的地方”——**社区活动质量** 和 **住户真实反馈** 正成为决策的关键指标。本文将基于官方数据与住户案例，深度拆解Iglu的核心优势与潜在短板。

@@ -8,11 +8,8 @@ modDatetime: "2026-03-02T15:08:42Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/ultimate-guide-to-student-residence-insurance-what-is-cover-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/ultimate-guide-to-student-residence-insurance-what-is-cover-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据美国国家保险专员协会（NAIC）2023年发布的《租房保险市场报告》，全美约有34%的租户购买了租房保险，而在18-28岁留学生群体中，这一比例可能低于15%——这意味着每6个留学生中就有5个可能在财物被盗或意外损失后自掏腰包。同时，英国保险公司协会（ABI）2024年数据显示，学生宿舍索赔平均金额为1,200英镑，但超过60%的留学生从未仔细阅读过保险条款。对于即将或正在海外住宿的中国留学生来说，学生住宿保险（Student Residence Insurance）不是“可选项”，而是财务安全的底线。这篇指南将拆解保险覆盖了什么、不覆盖什么，以及如何避免最常见的理赔陷阱。

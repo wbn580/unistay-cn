@@ -8,11 +8,8 @@ modDatetime: "2026-02-23T08:04:07Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/decision-framework-for-choosing-between-university-halls-and-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/decision-framework-for-choosing-between-university-halls-and-36488764.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年英国大学入学季，超过 68% 的国际学生需要在 3 月前决定住宿类型，而 **University Halls（学校宿舍）** 与 **Private Student Flats（私人学生公寓）** 之间的价差最高可达 40%。根据 **英国高等教育统计局（HESA）2024 年** 发布的《学生住宿报告》，伦敦地区学校宿舍平均周租金为 £295，而同等位置私人公寓则高达 £410。这个差距直接决定了你未来一年每月的生活预算——是省下 £460/月用于旅行和社交，还是为独立空间多付 £5000/年。我们拆解了 6 个关键决策维度，帮你用一张表格搞定选择。

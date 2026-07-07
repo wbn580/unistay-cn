@@ -5,19 +5,11 @@ category: "Could"
 publishDate: "2026-04-30"
 pubDatetime: "2026-04-30T19:07:31Z"
 modDatetime: "2026-04-30T19:07:31Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/could-a-micro-studio-under-18-square-meters-be-a-livable-opt-3071587.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/could-a-micro-studio-under-18-square-meters-be-a-livable-opt-3071587.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/could-a-micro-studio-under-18-square-meters-be-a-l-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/could-a-micro-studio-under-18-square-meters-be-a-l-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 伦敦一间 18 平方米的“微型工作室”，月租金可以比同地段一居室便宜 45%——这是英国房产网站 Rightmove 在 2024 年发布的《租赁市场趋势报告》中统计出的数据。对于手握预算有限、又不想牺牲通勤时间的留学生来说，这类不到国内普通客厅大小的空间，正成为一个被反复讨论的选项。根据 QS 2025 年《国际学生调查报告》，超过 60% 的受访留学生将“租金占生活费比例低于 40%”列为选房的首要条件，而微型工作室恰好卡在这个临界点上。它真的能住人，还是仅仅“能睡觉”？我们从价格、布局、生活配套三个维度，拆解这个不到 18 平方米空间的真实居住体验。

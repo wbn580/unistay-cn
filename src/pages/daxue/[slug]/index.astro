@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import PropertyCard from '../../../components/PropertyCard.astro';
+import FaqBlock from '../../../components/FaqBlock.astro';
+import CtaCard from '../../../components/CtaCard.astro';
+import { getUniversities, getCities, getPropertyIndex, type UniversityT } from '../../../lib/data';
+import { SITE, cityShort, clip, cur, fmtNum, sortForListing, stars } from '../../../lib/format';
+
+export async function getStaticPaths() {
+  return getUniversities().map((u) => ({ params: { slug: u.slug }, props: { u } }));
+}
+
+const { u } = Astro.props as { u: UniversityT };
+
+// 同城房源（city_key = "country/city-slug"）
+const city = u.city_key
+  ? getCities().find((c) => `${c.country}/${c.slug}` === u.city_key)
+  : undefined;
+const zhCity = city ? cityShort(city) : null;
+const cityProps = city
+  ? getPropertyIndex()
+      .filter((p) => p.country === city.country && p.city_slug === city.slug)
+      .sort(sortForListing)
+      .slice(0, 6)
+  : [];
+
+const hasScore = !!(u.g_rating && u.g_reviews);
+const reviews = (u.reviews ?? []).slice(0, 4);
+const countryZh = u.country_zh ?? '';
+
+const faqs = [
+  {
+    q: `${u.name} 的 QS 排名是多少？`,
+    a: `QS 世界大学排名（2026 版口径）第 ${u.rank} 位${hasScore ? `；谷歌地图上有 ${fmtNum(u.g_reviews!)} 条公开评价，均分 ${u.g_rating}/5` : ''}。排名逐年更新，择校时建议结合专业排名一起看。`,
+  },
+  ...(city
+    ? [{
+        q: `${u.name} 附近住宿多少钱？`,
+        a: `学校所在的${zhCity}目前有 ${fmtNum(city.property_count)} 套学生公寓在库${city.min_price ? `，${cur(city.currency)}${fmtNum(city.min_price)} 起` : ''}。走读圈内价格更高，公交 30 分钟圈通常能省两到四成，最终以运营方实时报价为准。`,
+      }]
+    : [{
+        q: `${u.name} 附近怎么找住宿？`,
+        a: `我们暂未收录该校同城房源清单${u.country ? `，可以先看${countryZh}其他城市的行情` : ''}；也可以把学校和预算直接发给住宿小助手，让合作公寓顾问按需求人工找。`,
+      }]),
+  {
+    q: '拿到 Offer 后什么时候订房合适？',
+    a: '热门校区的学生公寓一般在开学季前 3-6 个月房型最全，越晚可选越少。建议 Offer 一到手就开始比价锁房，多数项目支持远程预订、线上签约。',
+  },
+];
+
+const title = `${u.name} 周边学生公寓与住宿指南（2026）| QS ${u.rank} | UniStay 优住`;
+const description = `${u.name}（QS ${u.rank}${countryZh ? ` · ${countryZh}` : ''}）住宿参考：${hasScore ? `谷歌 ${u.g_rating}/5（${fmtNum(u.g_reviews!)} 条评价），` : ''}${city ? `同城 ${fmtNum(city.property_count)} 套学生公寓可查，` : ''}真实校园评价与订房节奏建议。`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollegeOrUniversity',
+    name: u.name,
+    ...(u.website ? { url: u.website } : {}),
+    ...(u.address ? { address: u.address } : {}),
+    ...(hasScore
+      ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: u.g_rating, reviewCount: u.g_reviews, bestRating: 5 } }
+      : {}),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '看大学', href: '/daxue/' }, { label: u.name }]} />
+  </div>
+
+  <section class="us-wrap" style="padding-block: 0.5rem 2rem; max-width: 52rem;">
+    <h1 class="us-h" style="font-size: clamp(1.5rem, 3.6vw, 2.25rem);">{u.name} 周边住宿怎么选</h1>
+    <p style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
+      <span class="us-chip us-chip--rank">QS {u.rank}</span>
+      {countryZh && <span class="us-chip us-chip--tint">{countryZh}</span>}
+      {hasScore && <span class="us-score">{u.g_rating}<small>/5 · {fmtNum(u.g_reviews!)} 条谷歌评价</small></span>}
+    </p>
+    <p class="us-sub" style="margin-top: 1rem;">
+      {city
+        ? `学校在${zhCity}，同城目前有 ${fmtNum(city.property_count)} 套学生公寓在库${city.min_price ? `（${cur(city.currency)}${fmtNum(city.min_price)} 起）` : ''}。先定通勤方式再挑片区：走读圈省时间，公交圈省租金。`
+        : `我们暂未收录该校同城的房源清单。可以把学校和预算发给住宿小助手，由合作公寓顾问按需求人工找房。`}
+      {u.address ? ` 校区地址：${u.address}。` : ''}
+    </p>
+  </section>
+
+  {reviews.length > 0 && (
+    <section class="us-section us-section--paper">
+      <div class="us-wrap" style="max-width: 52rem;">
+        <span class="us-kicker">CAMPUS REVIEWS</span>
+        <h2 class="us-h2">在读生和访客怎么评价校园</h2>
+        <p class="us-sub">英文原评（Google 评价）直接放，帮你在住宿之外多一层参考。</p>
+        <div style="margin-top: 1.5rem; display: grid; gap: 1.25rem;">
+          {reviews.map((r) => (
+            <figure class="us-review us-reveal">
+              <div class="us-review__head">
+                <span class="us-review__author">{r.author}</span>
+                {typeof r.rating === 'number' && r.rating > 0 && (
+                  <span class="us-review__stars" aria-label={`${r.rating} 星`}>{stars(r.rating)}</span>
+                )}
+              </div>
+              <blockquote class="us-review__text">“{clip(r.text, 280)}”</blockquote>
+              <figcaption class="us-review__src">英文原评 · Google 评价{r.time ? ` · ${r.time}` : ''}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {cityProps.length > 0 && city && (
+    <section class="us-section us-section--tint">
+      <div class="us-wrap">
+        <span class="us-kicker">HOUSING NEARBY</span>
+        <h2 class="us-h2">{u.name} 同城房源精选</h2>
+        <p class="us-sub">{zhCity}评分与评价数靠前的房源，价格以运营方实时报价为准。</p>
+        <div class="mt-6 grid gap-4 lg:grid-cols-2">
+          {cityProps.map((p) => (
+            <PropertyCard
+              slug={p.slug}
+              name={p.name}
+              cityLabel={zhCity!}
+              currency={p.currency}
+              min_price={p.min_price}
+              price_duration={p.price_duration}
+              rating={p.rating}
+              g_reviews={p.g_reviews}
+              image={p.image}
+            />
+          ))}
+        </div>
+        <div class="mt-6">
+          <a href={`/chengshi/${city.country}/${city.slug}/`} class="us-btn us-btn--ghost us-btn--sm">
+            看{zhCity}全部 {fmtNum(city.property_count)} 套房源 →
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {!city && u.country && (
+    <section class="us-section us-section--tint">
+      <div class="us-wrap">
+        <span class="us-kicker">HOUSING</span>
+        <h2 class="us-h2">{countryZh}的学生公寓行情</h2>
+        <p class="us-sub">该校同城清单暂缺，先看{countryZh}整体：各城市房源数与起价一目了然。</p>
+        <div class="mt-6">
+          <a href={`/zhusu/${u.country}/`} class="us-btn us-btn--ghost us-btn--sm">进入{countryZh}住宿指南 →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="us-section us-section--paper">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <FaqBlock items={faqs} heading={`关于 ${u.name} 的住宿`} />
+    </div>
+  </section>
+
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <CtaCard
+        title={`去 ${u.name}，住宿交给小助手来排`}
+        desc={`发学院 + 预算 + 入住时间给住宿小助手，它按通勤圈帮你圈房源，公寓顾问跟进到签约。${SITE.disclaimer}`}
+      />
+    </div>
+  </section>
+</BaseLayout>

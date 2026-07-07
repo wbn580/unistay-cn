@@ -8,11 +8,8 @@ modDatetime: "2026-05-03T06:24:11Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/checklist-for-international-students-to-prepare-a-rent-payme-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/checklist-for-international-students-to-prepare-a-rent-payme-6161512.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 对于刚到海外的中国留学生来说，租房市场最常遇到的“死循环”是：房东要求提供**租金支付历史**来证明你的信用，但你刚落地，根本没有本地记录。根据美国消费者金融保护局（CFPB）2023年发布的《租赁信用报告市场研究》，约47%的房东会要求申请人提供至少12个月的租金支付记录作为筛选条件。同时，英国住宅房东协会（NRLA）2024年调查显示，缺乏本地信用记录的留学生被拒租的概率比本地申请人高出约2.3倍。这意味着，没有一份精心准备的“替代性租金历史”，你很可能在开学季的抢房大战中连申请门槛都过不去。本文从实操层面为你拆解6个关键步骤，帮你从零开始构建一份能被海外房东和中介认可的支付档案。

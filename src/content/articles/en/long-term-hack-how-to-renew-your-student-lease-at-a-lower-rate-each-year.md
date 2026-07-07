@@ -8,11 +8,8 @@ modDatetime: "2026-05-01T12:24:26Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/long-term-hack-how-to-renew-your-student-lease-at-a-lower-r-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/long-term-hack-how-to-renew-your-student-lease-at-a-lower-r-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年续租时，租金上涨似乎成了留学生的“必修课”。根据美国公寓租赁平台 Zumper 2024 年发布的《全国租金报告》，全美一居室公寓中位数租金在 2024 年 12 月达到 1,520 美元，同比上涨 3.2%。对于在英国伦敦租房的学生，英国国家统计局（ONS）2024 年 12 月数据显示，伦敦平均月租金已突破 2,200 英镑，年涨幅超过 6%。但续租谈判并非只能被动接受涨价——房东通常更愿意留住现有租客，而非承担空置期和重新招租的成本。这篇文章将拆解一套可复用的策略，帮你每年把学生公寓的续租租金压低 5%-15%。

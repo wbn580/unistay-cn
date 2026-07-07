@@ -5,19 +5,11 @@ category: "Seasonal"
 publishDate: "2026-03-16"
 pubDatetime: "2026-03-16T06:58:19Z"
 modDatetime: "2026-03-16T06:58:19Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/seasonal-demand-index-for-student-housing-in-hong-kong-pric-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/seasonal-demand-index-for-student-housing-in-hong-kong-pric-36688004.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/seasonal-demand-index-for-student-housing-in-hong-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/seasonal-demand-index-for-student-housing-in-hong-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港学生宿舍的租金并非全年恒定。根据香港差饷物业估价署2024年《香港物业报告》数据，私人住宅租金指数在2023年8月达到峰值189.2，而2月谷底为183.5，年度波幅约3.1%。对于计划2025年入学的留学生，这个看似不大的百分比意味着——一套位于港岛、月租15,000港币的单间，在8月签约比2月多付约855港币/月，一年下来差额超过10,000港币。理解香港学生住宿的**季节性需求指数**，是控制留学预算的关键第一步。

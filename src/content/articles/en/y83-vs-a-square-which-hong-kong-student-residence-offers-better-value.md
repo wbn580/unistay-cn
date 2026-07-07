@@ -5,19 +5,11 @@ category: "Y83"
 publishDate: "2026-02-18"
 pubDatetime: "2026-02-18T15:11:57Z"
 modDatetime: "2026-02-18T15:11:57Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/y83-vs-a-square-which-hong-kong-student-residence-offers-be-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/y83-vs-a-square-which-hong-kong-student-residence-offers-be-29299050.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/y83-vs-a-square-which-hong-kong-student-residence-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/y83-vs-a-square-which-hong-kong-student-residence-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 香港专上教育统计数据显示，2023/24学年非本地本科生人数达21,700人，较五年前增长约28%【教育局 2024 专上教育统计】。在这批涌入的学生中，超过六成选择私人学生公寓而非大学宿舍，因为港校宿位仅覆盖约35%的非本地生申请【大学教育资助委员会 2023 宿位报告】。面对Y83与A Square这两大热门私人学生公寓，你需要搞清楚：月租HK$8,000的Y83单人间，和HK$7,200的A Square双人间，到底哪个更划算？本文从价格、距离、配套设施三个核心维度，结合真实住户反馈，帮你做出不后悔的选择。

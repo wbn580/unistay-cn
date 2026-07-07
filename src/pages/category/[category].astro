@@ -1,27 +1,54 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CtaCard from '../../components/CtaCard.astro';
+import { fmtNum } from '../../lib/format';
 
 export async function getStaticPaths() {
-  const hardcoded: string[] = ['dorm', 'homestay'];
-  return hardcoded.map(cat => ({ params: { category: cat } }));
+  const all = await getCollection('articles');
+  const cats = [...new Set(all.map((a) => a.data.category).filter(Boolean))];
+  return cats.map((category) => ({ params: { category } }));
 }
 
 const { category } = Astro.params;
-const lang = (Astro.url.pathname.startsWith('/zh/')) ? 'zh' : 'en';
-const allEntries = await getCollection('articles');
-const entries = allEntries
-  .filter(e => e.data.lang === lang)
-  .filter(e => e.data.category === category || (e.data.tags && e.data.tags.includes(category)))
-  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+const entries = (await getCollection('articles'))
+  .filter((e) => e.data.category === category || (e.data.tags && e.data.tags.includes(category!)))
+  .sort((a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime());
+
+const title = `${category}：${entries.length} 篇租房指南 | UniStay 优住`;
+const description = `「${category}」相关的 ${entries.length} 篇留学生租房实操指南：可执行步骤、真实数据、避坑清单。配合优住房源库一起用。`;
 ---
-<BaseLayout title={`${category} — Articles`} description={`Articles about ${category}`} lang={lang}>
-  <section class="mx-auto max-w-4xl px-4 py-12">
-    <h1 class="font-mono text-3xl text-primary capitalize">{category.replace(/-/g, ' ')}</h1>
-    <p class="text-muted mt-2">{entries.length} article{entries.length !== 1 ? 's' : ''}</p>
-    <div class="mt-8 space-y-2">
-      {entries.map((entry) => <ArticleCard entry={entry} lang={lang} />)}
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '租房指南', href: '/guides/' }, { label: category! }]} />
+  </div>
+
+  <section class="us-wrap" style="padding-block: 0.5rem 2rem; max-width: 52rem;">
+    <h1 class="us-h" style="font-size: clamp(1.5rem, 3.6vw, 2.25rem);">{category}</h1>
+    <p class="us-sub" style="margin-top: 0.75rem;">{fmtNum(entries.length)} 篇指南，按发布时间排列。</p>
+  </section>
+
+  <section class="us-section us-section--paper" style="padding-block: 1rem 3rem;">
+    <div class="us-wrap">
+      <div class="grid gap-3 md:grid-cols-2">
+        {entries.map((a) => (
+          <a href={`/${a.id}/`} class="us-row us-reveal">
+            <span class="us-row__name">{a.data.title}</span>
+            <span class="us-row__meta">{(a.data.publishDate || '').slice(0, 10)}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <CtaCard
+        title="看完指南，房源让小助手帮你圈"
+        desc="把学校、预算、入住时间发给住宿小助手，按指南里的方法帮你比价核对，公寓顾问跟进到签约。"
+      />
     </div>
   </section>
 </BaseLayout>

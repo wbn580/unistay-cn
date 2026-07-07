@@ -8,11 +8,8 @@ modDatetime: "2026-05-14T11:19:52Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/should-you-take-over-someone-else-s-student-lease-for-the-su-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/should-you-take-over-someone-else-s-student-lease-for-the-su-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年5月至8月，美国、英国和澳大利亚的大学城会突然涌入一批“短期空房”——大量留学生因回国实习或旅行，急于将未到期的公寓租约转手。根据美国公寓租赁平台Apartment List在2023年发布的《夏季租赁市场报告》，大学周边6月至8月的短租挂牌量比学期内高出42%，但平均租金却比长期合约低18%-25%。与此同时，英国住宿网站StuRents在2024年的一项用户调查显示，超过60%的英国留学生表示愿意在夏季接手他人的租约，以节省高达30%的住宿成本。对于计划暑期在当地实习、语言课程或纯旅行的中国留学生来说，“接盘”一份学生转租合同，正在成为性价比最高的短期住宿方案之一。但其中涉及的法律责任、押金纠纷和合约细节，稍有不慎就会让省钱变成赔钱。

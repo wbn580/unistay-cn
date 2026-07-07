@@ -1,0 +1,18 @@
+---
+interface Props {
+  title: string;
+  desc: string;
+  btnLabel?: string;
+}
+const { title, desc, btnLabel = '找住宿小助手聊聊' } = Astro.props;
+---
+
+<div class="us-cta us-reveal">
+  <div>
+    <h3>{title}</h3>
+    <p>{desc}</p>
+  </div>
+  <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.()">
+    {btnLabel}
+  </button>
+</div>

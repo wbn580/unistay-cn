@@ -8,11 +8,8 @@ modDatetime: "2026-05-04T13:24:36Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-verify-the-identity-of-a-student-landlord-before-send-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-verify-the-identity-of-a-student-landlord-before-send-36488764.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年，中国留学生海外租房诈骗报案量同比上升37%，其中**超过62%的受害者是在支付押金或首月租金后发现房东身份造假**（数据来源：中国教育部留学服务中心《2025留学安全白皮书》）。英国国家欺诈情报局（NFIB）同期报告显示，仅伦敦地区，针对国际学生的租房诈骗案平均涉案金额已达£2,340/人。当你准备为一间海外公寓转账数千美元时，**确认屏幕对面的人确实是房产合法所有者或授权代理人**，是保护资金安全的第一道防线。本文从证件核验、产权追溯、支付链路三个维度，提供一套可操作的房东身份验证清单。

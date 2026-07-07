@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CtaCard from '../../components/CtaCard.astro';
+import { fmtNum } from '../../lib/format';
+
+const all = (await getCollection('articles')).sort(
+  (a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime()
+);
+
+// 按 category 分组（保持原文章 URL /{id}/）
+const byCat = new Map<string, typeof all>();
+for (const a of all) {
+  const cat = a.data.category || '其他';
+  if (!byCat.has(cat)) byCat.set(cat, []);
+  byCat.get(cat)!.push(a);
+}
+const cats = [...byCat.entries()].sort((a, b) => b[1].length - a[1].length);
+const latest = all.slice(0, 12);
+
+const title = `留学生租房指南全集：${fmtNum(all.length)} 篇实操攻略（押金·合同·避坑·房型）| UniStay 优住`;
+const description = `${fmtNum(all.length)} 篇留学生租房实操指南，覆盖押金合同、房型选择、跨国比价、纠纷处理。学长学姐口吻，只给可执行步骤，配合房源库一起用。`;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '租房指南' }]} />
+  </div>
+
+  <section class="us-wrap" style="padding-block: 0.5rem 2rem; max-width: 52rem;">
+    <h1 class="us-h" style="font-size: clamp(1.6rem, 4vw, 2.5rem);">租房指南</h1>
+    <p class="us-sub" style="margin-top: 1rem;">
+      {fmtNum(all.length)} 篇实操攻略：押金怎么退、合同看哪几条、房型怎么选、踩坑了怎么办。
+      看完指南，再去房源库比价，两边对着用最省事。
+    </p>
+    <nav style="margin-top: 1.25rem; display: flex; flex-wrap: wrap; gap: 0.5rem;" aria-label="按分类跳转">
+      {cats.map(([cat, list]) => (
+        <a href={`#cat-${encodeURIComponent(cat)}`} class="us-chip us-chip--tint">{cat}（{list.length}）</a>
+      ))}
+    </nav>
+  </section>
+
+  <section class="us-section us-section--paper" style="padding-block: 2rem;">
+    <div class="us-wrap">
+      <span class="us-kicker">LATEST</span>
+      <h2 class="us-h2">最新发布</h2>
+      <div class="mt-6 grid gap-3 md:grid-cols-2">
+        {latest.map((a) => (
+          <a href={`/${a.id}/`} class="us-row us-reveal">
+            <span class="us-row__name">{a.data.title}</span>
+            <span class="us-row__meta">{(a.data.publishDate || '').slice(0, 10)}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {cats.map(([cat, list], i) => (
+    <section
+      class={`us-section ${i % 2 === 0 ? 'us-section--tint' : 'us-section--paper'}`}
+      id={`cat-${encodeURIComponent(cat)}`}
+      style="padding-block: 2rem;"
+    >
+      <div class="us-wrap">
+        <h2 class="us-h2">{cat}</h2>
+        <div class="mt-6 grid gap-3 md:grid-cols-2">
+          {list.map((a) => (
+            <a href={`/${a.id}/`} class="us-row">
+              <span class="us-row__name">{a.data.title}</span>
+              <span class="us-row__meta">{(a.data.publishDate || '').slice(0, 10)}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <CtaCard
+        title="指南看完了，房源让小助手帮你圈"
+        desc="把学校、预算、入住时间发给住宿小助手，按指南里的方法帮你比价、核对合同要点，公寓顾问跟进到签约。"
+      />
+    </div>
+  </section>
+</BaseLayout>

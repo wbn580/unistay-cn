@@ -8,11 +8,8 @@ modDatetime: "2026-04-23T14:19:14Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/three-creative-ways-to-earn-extra-income-to-cover-your-stude-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/three-creative-ways-to-earn-extra-income-to-cover-your-stude-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据 **QS 2024 学生生活成本调查**，全球主要留学城市的平均学生宿舍月租金已占个人总支出的 **45%—60%**。以伦敦为例，一间校内标准单人间的月租中位数已达 **£950**，而悉尼市中心的学生公寓单间也突破了 **A$650/周**。对于多数依赖家庭汇款的中国留学生而言，房租压力正从“可承受”变为“必须分担”。与此同时，英国国家统计局（ONS）2024 年数据显示，**18-25 岁国际学生群体中，约 37% 已在学期内从事兼职**，但传统餐厅、零售岗位时薪仅略高于最低工资，且排班不稳定。本文不讨论“省吃俭用”或“换更便宜的房子”——我们聚焦三种被低估的、可独立操作的创收路径，帮助你用课余时间覆盖 30%-50% 的房租缺口，而不牺牲学业。

@@ -6,17 +6,10 @@ publishDate: "2026-05-20"
 pubDatetime: "2026-05-20T17:51:02Z"
 modDatetime: "2026-05-20T17:51:02Z"
 readingTime: 11
-<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/studio-ensuite-23385777.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/studio-ensuite-23385777.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/studio-ensuite-2026.jpg"
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/studio-ensuite-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 第一次独自海外租房，面对“Studio”“Ensuite”“Cluster Flat”这些术语时，很多留学生第一反应是打开小红书查攻略。但根据英国高等教育统计局（HESA 2022/23）数据，超过58%的国际学生在第一年住宿合同结束后选择更换房型，主要原因是对“私密性”和“实际开销”的预估偏差。品牌公寓（Purpose-Built Student Accommodation, PBSA）目前在英国、澳大利亚和北美主要留学城市已占据超过35%的住宿供应量（Savills 2023 PBSA市场报告），成为继学校宿舍之后最主流的选择。这篇攻略会直接拆解Studio、Ensuite、Non-Ensuite、One-Bedroom Apartment这四种核心房型的真实居住体验、价格区间和隐藏成本，帮你把预算花在刀刃上。

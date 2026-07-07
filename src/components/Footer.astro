@@ -1,14 +1,73 @@
 ---
+import { getCountries, getCities } from '../lib/data';
+import { cityShort, SITE } from '../lib/format';
+
+const topCountries = [...getCountries()]
+  .sort((a, b) => b.property_count - a.property_count)
+  .slice(0, 6);
+const topCities = [...getCities()]
+  .sort((a, b) => b.property_count - a.property_count)
+  .slice(0, 8);
+const year = 2026;
 ---
-<<<<<<< HEAD
-<footer class="bg-bg mt-24 border-t border-primary/15">
-  <div class="mx-auto max-w-4xl px-6 py-10 text-sm text-muted">© 2026 unistay.cn · 海外住宿编辑部 · 独立编辑<p class="mt-1">contact@unistay.cn</p></div>
-</footer>
-=======
-<footer class="bg-slate-50 mt-24 border-t border-slate-100">
-  <div class="mx-auto max-w-6xl px-4 sm:px-6 py-10 text-sm text-muted">
-    <p>© 2026 unistay.cn · 留学生公寓 · 独立编辑</p>
-    <p class="mt-1">contact@unistay.cn</p>
+
+<footer class="us-footer">
+  <div class="us-wrap" style="padding-block: 3rem 2rem;">
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-5">
+      <div class="col-span-2 md:col-span-1">
+        <a href="/" class="us-header__brand" aria-label="UniStay 优住 首页">
+          <img src="/favicon.svg" alt="" width="30" height="30" />
+          <span class="us-footer__brandname">UniStay 优住</span>
+        </a>
+        <p class="mt-3 text-sm leading-relaxed opacity-80">
+          中文留学生公寓查询平台：真房源、真价格、真评价。
+        </p>
+      </div>
+
+      <div>
+        <h4>热门国家</h4>
+        <ul class="space-y-2">
+          {topCountries.map((c) => (
+            <li><a href={`/zhusu/${c.slug}/`}>{c.zh}学生公寓</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h4>热门城市</h4>
+        <ul class="space-y-2">
+          {topCities.map((c) => (
+            <li><a href={`/chengshi/${c.country}/${c.slug}/`}>{cityShort(c)}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h4>查询入口</h4>
+        <ul class="space-y-2">
+          <li><a href="/zhusu/">按国家 / 城市找房</a></li>
+          <li><a href="/daxue/">按大学找房</a></li>
+          <li><a href="/guides/">租房指南</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>关于</h4>
+        <ul class="space-y-2">
+          <li><a href="/about/">关于优住</a></li>
+          <li>
+            <a href="#" onclick="window.aiwOpen?.(); return false;">咨询住宿小助手</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 border-t border-white/10 pt-6 text-xs leading-relaxed opacity-70">
+      <p>{SITE.disclaimer}</p>
+      <p class="mt-2">
+        © {year} UniStay 优住 · unistay.cn
+        <!-- 备案信息预留位：<a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备XXXXXXXX号</a> -->
+      </p>
+    </div>
   </div>
 </footer>
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)

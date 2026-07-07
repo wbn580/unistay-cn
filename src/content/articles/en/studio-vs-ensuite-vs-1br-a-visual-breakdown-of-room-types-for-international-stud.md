@@ -6,17 +6,10 @@ publishDate: "2026-02-21"
 pubDatetime: "2026-02-21T12:45:04Z"
 modDatetime: "2026-02-21T12:45:04Z"
 readingTime: 3
-<<<<<<< HEAD
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/studio-vs-ensuite-vs-1br-a-visual-breakdown-of-room-types-f-29174530.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/studio-vs-ensuite-vs-1br-a-visual-breakdown-of-room-types-f-29174530.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/studio-vs-ensuite-vs-1br-a-visual-breakdown-of-roo-2026.jpg"
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/studio-vs-ensuite-vs-1br-a-visual-breakdown-of-roo-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 刚到海外留学的第一周，你很可能被各种房型缩写砸晕：Studio、Ensuite、1BR、2B2B……每间房价格差出几千英镑，合同一签就是一年。根据英国高等教育统计局（HESA 2023）数据，2022/23学年在英中国留学生总数突破15.4万人，而澳大利亚教育部（2024年1月数据）显示在澳中国学生注册人数达15.6万。这两大留学目的地的学生住宿支出通常占生活费总额的40%–55%。选错房型，不仅每月多花300–500英镑，还可能因隐私、噪音或通勤距离影响一整年的学习状态。这篇评测直接拆解三种最常见房型——Studio、Ensuite、1BR——从价格区间、实际面积、隐私等级、社交属性四个维度做横向对比，并附上真实用户案例，帮你一次性理清每笔钱到底花在哪。

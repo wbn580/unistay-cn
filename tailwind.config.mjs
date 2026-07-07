@@ -1,40 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+/**
+ * UniStay 优住 — Tailwind v4 uses CSS-first config (@theme in src/styles/global.css).
+ * This file is kept as a valid minimal config so editor tooling / prettier plugins
+ * don't choke. Do NOT add theme values here — add them to global.css @theme instead.
+ */
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}'],
-  theme: {
-    extend: {
-      colors: {
-<<<<<<< HEAD
-        primary: '#9C5BD9',
-        accent:  '#4DB6AC',
-        bg:      '#FAFAFA',
-        ink:     '#212121',
-        muted:   '#757575',
-      },
-      fontFamily: {
-        heading: ['Sarasa Gothic SC', 'Georgia', 'serif'],
-        body:    ['PingFang SC', 'system-ui', 'sans-serif'],
-        mono:    ['IBM Plex Mono', 'ui-monospace', 'monospace'],
-      },
-      maxWidth: {
-        prose: '896px',
-=======
-        primary: '#0D9488',
-        accent:  '#F97316',
-        bg:      '#FFFFFF',
-        ink:     '#1E293B',
-        muted:   '#64748B',
-      },
-      fontFamily: {
-        heading: ['Noto Sans SC', 'system-ui', 'sans-serif'],
-        body:    ['Noto Sans SC', 'PingFang SC', 'system-ui', 'sans-serif'],
-        mono:    ['IBM Plex Mono', 'ui-monospace', 'monospace'],
-      },
-      maxWidth: {
-        prose: '768px',
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
-      },
-    },
-  },
-  plugins: [],
+  content: ['./src/**/*.{astro,md,ts,js}'],
 };

@@ -8,11 +8,8 @@ modDatetime: "2026-05-07T12:21:30Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/new-policy-requires-student-accommodation-providers-to-publi-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/new-policy-requires-student-accommodation-providers-to-publi-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年3月，英国学生住宿认证机构（ANUK）发布新规，要求所有旗下认证的**学生公寓供应商**必须在每年9月开学季之前，公开其每栋物业的**年度检查报告**，涵盖消防安全、电气合规、水质检测及结构维护等12项核心指标。据英国高等教育统计局（HESA）2024年数据显示，超过62%的国际留学生曾在住宿中遭遇过至少一项设施故障，其中电气问题占比高达28%。这项政策的出台，直接回应了近年来留学生住宿投诉量激增37%的行业现状（英国学生住宿投诉中心，2024年度报告）。对于正在选房的中国留学生而言，这意味着你第一次拥有了官方背书的数据来横向对比不同公寓的真实居住条件，而不再依赖中介的口头承诺或社交媒体上的模糊照片。

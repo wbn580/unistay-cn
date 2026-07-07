@@ -8,11 +8,8 @@ modDatetime: "2026-03-23T15:47:33Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-file-a-formal-complaint-against-your-student-housing-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-file-a-formal-complaint-against-your-student-housing-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据英国高等教育统计局（HESA）2023年数据，超过 **679,000 名** 国际学生在英国就读，而澳大利亚教育部同年报告显示该国国际学生人数突破 **720,000 人**。在这两个主要留学目的地，住宿投诉是学生咨询中最常见的问题之一，涉及押金纠纷、房屋维修、合同违约等。然而，许多学生不知道如何系统、有效地提交正式投诉，导致权益受损。本指南将为你拆解从证据收集到最终裁决的完整流程，覆盖英国、澳大利亚、美国和加拿大四个主流留学国家，确保你在海外租房时遇到问题能第一时间采取正确行动。

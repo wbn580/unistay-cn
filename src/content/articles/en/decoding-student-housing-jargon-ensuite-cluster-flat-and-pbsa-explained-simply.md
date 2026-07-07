@@ -8,11 +8,8 @@ modDatetime: "2026-02-27T03:59:36Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/decoding-student-housing-jargon-ensuite-cluster-flat-and-10902156.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/decoding-student-housing-jargon-ensuite-cluster-flat-and-10902156.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你刚拿到英国或澳洲的 offer，打开学生公寓预订网站，满屏的“Ensuite”“Studio”“Cluster Flat”“PBSA”扑面而来。这些词到底对应什么房型？价格差在哪里？根据 **QS 2025 年国际学生调查报告**，超过 67% 的中国留学生将“住宿类型不匹配”列为抵达后前两周的最大困扰。与此同时，英国高等教育统计局（HESA）2023-2024 学年的数据显示，全英 58.3% 的全日制国际学生选择入住校外专用学生公寓（PBSA），而非传统校内宿舍。理解这些术语，能帮你每年节省 2,000 至 5,000 英镑的隐性成本——选错房型不仅多花钱，还可能影响第一学期的社交与学习节奏。本文用卡片式信息拆解每一个核心概念，附带真实用户案例，让你 5 分钟看懂合同上的所有关键词。

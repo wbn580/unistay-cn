@@ -8,11 +8,8 @@ modDatetime: "2026-05-19T21:43:11Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/collaboration-tip-how-to-coordinate-a-shared-grocery-list-i-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/collaboration-tip-how-to-coordinate-a-shared-grocery-list-i-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 住进学生公寓的第一周，冰箱里就堆满了三份牛奶、四袋面包和两打鸡蛋——这是许多留学生共享厨房的真实写照。根据英国国家统计局（ONS）2023年发布的《学生生活成本调查》，合租学生每周因重复购买和食物浪费平均多花£12.40，折合一年约£645。与此同时，澳大利亚消费者组织CHOICE在2024年的调研显示，采用电子共享清单的合租小组，其人均食品支出比传统口头协商方式低18%-22%。这些数字说明，一张协调好的购物清单，不只是生活便利问题，更直接关系到你每年能否省下一笔往返机票钱。

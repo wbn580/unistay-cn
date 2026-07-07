@@ -8,11 +8,8 @@ modDatetime: "2026-05-19T18:00:58Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/guide-to-understanding-the-noise-policy-in-different-types-o-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/guide-to-understanding-the-noise-policy-in-different-types-o-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学租房，噪音往往是比房租更隐蔽的“隐形账单”。根据英国国家统计局（ONS）2023年发布的《私人租赁行业调查报告》，**超过38%的留学生租客曾因噪音问题与房东或邻居产生纠纷**，其中深夜派对、地板脚步声和墙体隔音差是三大投诉来源。与此同时，美国教育部2022年发布的《国际学生住宿满意度调查》指出，**噪音问题直接导致约15%的留学生在前三个月内申请换房**，不仅损失押金，还影响学业适应。不同住宿类型——校内宿舍、私人公寓、Homestay——的噪音政策差异巨大，从“宵禁时间”到“分贝上限”各有规则。这篇指南帮你拆解各类住房的噪音条款、维权路径和避坑技巧，让你在签合同前就看清“安静权”的底线。

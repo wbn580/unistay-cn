@@ -8,11 +8,8 @@ modDatetime: "2026-02-20T21:23:52Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/navigating-the-australian-student-housing-market-from-overse-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/navigating-the-australian-student-housing-market-from-overse-6161512.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025 年澳大利亚国际学生签证申请量已恢复至疫情前水平的 92%，内政部数据显示截至今年 3 月共收到 187,000 份 offshore 申请【澳大利亚内政部，2025，Student Visa Processing Report】。与此同时，悉尼和墨尔本市中心一居室公寓的中位周租金突破了 680 澳元，同比上涨 12.3%【Domain，2025，Rental Report Q1】。对于还在国内、尚未踏上澳洲土地的留学生来说，提前锁定住宿已经不再是“选哪个更方便”的问题，而是“如何不被中介和房东收割”的生存课题。从学生公寓的押金陷阱到 homestay 的隐性规则，从区域治安到通勤时间，这篇指南将用横评数据帮你避开 80% 的常见坑点。

@@ -8,11 +8,8 @@ modDatetime: "2026-04-14T00:04:13Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/data-visualization-rent-to-income-ratio-for-student-accommo-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/data-visualization-rent-to-income-ratio-for-student-accommo-6161512.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 一份来自英国国家统计局（ONS，2024年11月数据）的分析显示，伦敦学生公寓的平均周租金已达到£215，而同期英国全日制学生的平均生活费贷款上限仅为£277/周。这意味着，仅租金一项就吞噬了学生可支配资金的**77.6%**。与此同时，澳大利亚租房协会（REIA，2024 Housing Affordability Report）的数据表明，悉尼内城区的学生公寓租金中位数已攀升至A$520/周，与当地兼职平均周薪（A$580）的比值高达**89.7%**。对于计划2025年入学的留学生来说，**租金收入比**已不再是简单的预算问题，而是直接决定你能否在目标城市合法续签签证、维持学业的核心生存指标。本文基于全球10个主要留学城市的最新租赁数据，用卡片式信息拆解每个城市的真实住宿成本结构，帮你找到那个“付得起房租、还能吃上饭”的平衡点。

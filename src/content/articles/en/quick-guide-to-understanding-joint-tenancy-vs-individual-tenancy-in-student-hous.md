@@ -8,11 +8,8 @@ modDatetime: "2026-04-13T09:43:46Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/quick-guide-to-understanding-joint-tenancy-vs-individual-ten-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/quick-guide-to-understanding-joint-tenancy-vs-individual-ten-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学生在海外签租房合约时，最常踩的坑就是搞混“联合租赁（Joint Tenancy）”和“个人租赁（Individual Tenancy）”。根据英国住宅房东协会（NRLA）2023年的数据，约37%的学生合租纠纷源于对租赁类型权责的误解，而美国租户权益组织Tenants Union在2024年报告指出，联合租赁下的连带责任条款导致平均每起纠纷的财务损失高达2,800美元。这两种租赁模式直接决定了你的租金支付方式、室友违约时的责任归属，甚至影响退房押金能否全额拿回。本指南将从法律责任、财务风险、合同灵活性三个维度拆解差异，帮你避开海外租房最常见的法律陷阱。

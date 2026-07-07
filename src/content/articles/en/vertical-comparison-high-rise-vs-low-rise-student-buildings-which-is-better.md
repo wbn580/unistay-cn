@@ -8,11 +8,8 @@ modDatetime: "2026-03-27T01:36:57Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/vertical-comparison-high-rise-vs-low-rise-student-buildings-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/vertical-comparison-high-rise-vs-low-rise-student-buildings-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 当你拖着两个 23 公斤的行李箱站在一栋 30 层高的学生公寓楼下，和一栋只有 4 层、带小院子的低层建筑前，你会选哪个？这不仅是审美偏好，更直接关系到你每月 800-1500 英镑的房租花得值不值。根据英国高等教育统计局（HESA）2023/24 学年的数据，国际学生占英国高校非本地生源的 68%，而其中超过 40% 的学生在住宿选择上经历了至少一次后悔——主要集中在对楼栋类型的信息差上。另一份来自 Student Accommodation Network 2024 年的行业报告指出，高层学生公寓（15 层以上）在过去 5 年间的供应量增长了 32%，但退租率比低层（1-5 层）高出 17%。这不是谁更高级的问题，而是哪种结构更适合你的生活节奏、预算和安全敏感度。本文将从价格、通勤距离、配套设施、社交氛围和隐私五个维度，用横评卡片和数据告诉你答案。

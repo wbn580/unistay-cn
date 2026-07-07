@@ -5,19 +5,11 @@ category: "Interactive"
 publishDate: "2026-05-01"
 pubDatetime: "2026-05-01T20:35:25Z"
 modDatetime: "2026-05-01T20:35:25Z"
-<<<<<<< HEAD
 readingTime: 3
 tags: ["featured"]
 
 heroImage: "https://img.ulec.com.cn/unistay/interactive-decision-tree-helping-you-pick-between-hong-kong-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/interactive-decision-tree-helping-you-pick-between-hong-kong-36488760.jpg"
-=======
-heroImage: "https://img.ulec.com.cn/unistay/interactive-decision-tree-helping-you-pick-between-2026.jpg"
-readingTime: 3
-tags: ["featured"]
-
-ogImage: "https://img.ulec.com.cn/unistay/interactive-decision-tree-helping-you-pick-between-2026.jpg"
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年，中国内地赴香港留学生人数同比增长约12%（中国教育部《2024年度出国留学人员统计》），同时英国大学录取中国学生的offer发放量也回升至31,400份（UCAS 2025年2月数据）。当两地的录取通知书同时摆在面前，住宿选择往往成为压垮骆驼的最后一根稻草——香港一个15平方米的单间月租可达8,000-15,000港币，而伦敦Zone 1的studio月租则在1,200-2,000英镑之间。面对这两座全球最昂贵的留学城市，你的预算、通勤容忍度和生活偏好将直接决定哪个选项更划算。本文用一张决策树帮你拆解香港和英国学生住宿的每一个关键节点。

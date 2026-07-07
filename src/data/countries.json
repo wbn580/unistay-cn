@@ -1,0 +1,122 @@
+[
+ {
+  "name": "United States",
+  "zh": "美国",
+  "slug": "united-states",
+  "cc": "us",
+  "currency": "USD",
+  "property_count": 1454,
+  "city_count": 135,
+  "university_count": 98
+ },
+ {
+  "name": "United Kingdom",
+  "zh": "英国",
+  "slug": "united-kingdom",
+  "cc": "uk",
+  "currency": "GBP",
+  "property_count": 432,
+  "city_count": 13,
+  "university_count": 60
+ },
+ {
+  "name": "Spain",
+  "zh": "西班牙",
+  "slug": "spain",
+  "cc": "es",
+  "currency": "EUR",
+  "property_count": 383,
+  "city_count": 17,
+  "university_count": 21
+ },
+ {
+  "name": "Australia",
+  "zh": "澳大利亚",
+  "slug": "australia",
+  "cc": "au",
+  "currency": "AUD",
+  "property_count": 356,
+  "city_count": 8,
+  "university_count": 31
+ },
+ {
+  "name": "Canada",
+  "zh": "加拿大",
+  "slug": "canada",
+  "cc": "ca",
+  "currency": "CAD",
+  "property_count": 202,
+  "city_count": 14,
+  "university_count": 23
+ },
+ {
+  "name": "Germany",
+  "zh": "德国",
+  "slug": "germany",
+  "cc": "de",
+  "currency": "EUR",
+  "property_count": 148,
+  "city_count": 12,
+  "university_count": 38
+ },
+ {
+  "name": "Singapore",
+  "zh": "新加坡",
+  "slug": "singapore",
+  "cc": "sg",
+  "currency": "SGD",
+  "property_count": 129,
+  "city_count": 1,
+  "university_count": 4
+ },
+ {
+  "name": "France",
+  "zh": "法国",
+  "slug": "france",
+  "cc": "fr",
+  "currency": "EUR",
+  "property_count": 72,
+  "city_count": 22,
+  "university_count": 18
+ },
+ {
+  "name": "Ireland",
+  "zh": "爱尔兰",
+  "slug": "ireland",
+  "cc": "ie",
+  "currency": "EUR",
+  "property_count": 58,
+  "city_count": 2,
+  "university_count": 6
+ },
+ {
+  "name": "New Zealand",
+  "zh": "新西兰",
+  "slug": "new-zealand",
+  "cc": "nz",
+  "currency": "NZD",
+  "property_count": 7,
+  "city_count": 2,
+  "university_count": 8
+ },
+ {
+  "name": "UAE",
+  "zh": "阿联酋",
+  "slug": "uae",
+  "cc": "ae",
+  "currency": "AED",
+  "property_count": 4,
+  "city_count": 1,
+  "university_count": 11
+ },
+ {
+  "name": "Italy",
+  "zh": "意大利",
+  "slug": "italy",
+  "cc": "it",
+  "currency": "EUR",
+  "property_count": 1,
+  "city_count": 1,
+  "university_count": 21
+ }
+]

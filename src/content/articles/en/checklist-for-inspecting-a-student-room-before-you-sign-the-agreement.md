@@ -8,11 +8,8 @@ modDatetime: "2026-03-29T08:03:46Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/checklist-for-inspecting-a-student-room-before-you-sign-the-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/checklist-for-inspecting-a-student-room-before-you-sign-the-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 35 万名中国留学生在海外租房，但根据英国住宅房东协会（NRLA）2023 年的调查，约 42% 的租客在搬入后三个月内发现至少一处未在合同中标明的房屋缺陷。这些问题从发霉的墙角到故障的暖气，轻则影响居住体验，重则导致押金被扣甚至健康问题。对于 18-28 岁的留学生而言，签下租房协议前的那 15 分钟实地检查，往往决定了接下来一学期是安稳度过还是陷入维权拉锯。本 checklist 基于澳大利亚新南威尔士州公平交易厅（NSW Fair Trading）2024 年发布的《租户入住检查指南》和英国学生住宿协会（SAS）的年度报告，为你拆解必须核验的 7 个关键环节。

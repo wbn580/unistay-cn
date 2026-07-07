@@ -8,11 +8,8 @@ modDatetime: "2026-03-07T04:36:16Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/first-hand-account-of-moving-into-a-circular-referenced-stud-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/first-hand-account-of-moving-into-a-circular-referenced-stud-29299050.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 你刚拿到签证，在飞往伦敦前 72 小时，被公寓通知“合同有误，需要重新签署”——这不是个例。根据英国房产申诉专员署（Property Ombudsman，2024 年度报告），2023 年英国学生住宿投诉量同比上升 37%，其中 **18% 的纠纷与合同条款“循环引用”有关**，即公寓方在押金条款、转租政策或退租流程中，引用另一份未提供的附录文件。这类“**循环引用学生公寓**”正在成为留学生租房的新陷阱：你签的是一份指向另一份文件的合同，而那份文件你可能永远看不到。

@@ -8,11 +8,8 @@ modDatetime: "2026-03-18T23:31:45Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-use-social-media-groups-to-find-verified-sublets-for-6161512.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-use-social-media-groups-to-find-verified-sublets-for-6161512.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 根据英国高等教育统计局（HESA）2023年数据显示，2022/23学年在英国就读的中国留学生人数已突破15.1万人，其中约35%的课程时长在一年以内（如硕士预科、交换学期或语言班）。这类短期项目通常不提供校内宿舍，学生需自行寻找3-9个月的短租。然而，一份由澳大利亚统计局（ABS, 2023）发布的国际学生住宿调查指出，每4个通过社交媒体找到转租的学生中，就有1个遭遇过押金纠纷或房源信息造假。对于时间紧迫、预算有限的中国留学生而言，如何在Facebook群组、微信社群或本地论坛中筛选出真实、合法的转租房源，已成为决定留学开局是否顺利的关键一环。

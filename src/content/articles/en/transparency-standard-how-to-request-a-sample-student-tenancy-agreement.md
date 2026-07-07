@@ -8,11 +8,8 @@ modDatetime: "2026-04-28T03:57:04Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/transparency-standard-how-to-request-a-sample-student-tenan-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/transparency-standard-how-to-request-a-sample-student-tenan-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 **37 万** 中国留学生在海外租房（教育部《2023 中国留学白皮书》），但 **68%** 的受访者表示签合同时没有仔细阅读条款（OECD 2023 年《国际学生住房调查报告》）。一份标准的学生租赁协议（Student Tenancy Agreement）本应是保护双方权益的法律文件，但现实中，不少留学生因未提前审阅模板合同，陷入押金不退、提前解约罚款、维修责任不清等纠纷。问题核心在于：**你是否有权在签约前要求查看样本合同？** 答案是肯定的。在英国、澳大利亚、加拿大等主要留学国家，法律明确赋予租客在支付押金前索取标准合同副本的权利。本文从法律依据、实操步骤到条款陷阱，为你拆解如何系统性地请求并审查一份学生租赁协议样本。

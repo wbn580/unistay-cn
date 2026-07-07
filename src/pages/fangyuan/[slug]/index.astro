@@ -1,0 +1,313 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import PropertyCard from '../../../components/PropertyCard.astro';
+import FaqBlock from '../../../components/FaqBlock.astro';
+import CtaCard from '../../../components/CtaCard.astro';
+import {
+  getAllProperties,
+  getCities,
+  findCity,
+  numRating,
+  type PropertyFull,
+} from '../../../lib/data';
+import {
+  SITE,
+  cityShort,
+  cleanDesc,
+  clip,
+  cur,
+  durUnit,
+  fmtAvail,
+  fmtNum,
+  pickDims,
+  priceRange,
+  propImg,
+  stars,
+  unitLabel,
+} from '../../../lib/format';
+
+export async function getStaticPaths() {
+  return getAllProperties().map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+
+const { p } = Astro.props as { p: PropertyFull };
+const city = findCity(p.country, p.city_slug);
+const zhCity = city ? cityShort(city) : p.city;
+const unit = durUnit(p.price_duration);
+const range = priceRange(p);
+const img = propImg(p.image);
+const rating = p.g_rating ?? numRating(p.rating);
+const hasScore = !!(rating && p.g_reviews && p.g_reviews > 0);
+const dims = pickDims(p.rating_dims, 8);
+const avail = fmtAvail(p.available_from);
+const unis = city?.universities?.slice(0, 5) ?? [];
+
+// 同城房源 4 条（排除自己，优先有评分的）
+const siblings = getAllProperties()
+  .filter((s) => s.country === p.country && s.city_slug === p.city_slug && s.slug !== p.slug)
+  .sort((a, b) => (b.g_reviews ?? 0) - (a.g_reviews ?? 0))
+  .slice(0, 4);
+
+/* ── 编辑速评：由字段驱动、按 slug 散列换措辞，逐页差异化 ── */
+function hashPick<T>(arr: T[], salt = 0): T {
+  let h = salt;
+  for (const ch of p.slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return arr[h % arr.length];
+}
+const bits: string[] = [];
+bits.push(
+  hashPick([
+    `${p.name} 位于${zhCity}`,
+    `这套 ${p.name} 在${zhCity}`,
+    `${zhCity}的 ${p.name}`,
+  ])
+);
+if (range) bits.push(hashPick([`，挂牌价 ${range}`, `，价格区间 ${range}`, `，租金 ${range}`]));
+if (p.unit_types.length)
+  bits.push(`，提供${p.unit_types.slice(0, 3).map(unitLabel).join('、')}等房型`);
+bits.push('。');
+if (dims.length) {
+  const top = [...dims].sort((a, b) => b.value - a.value)[0];
+  const low = [...dims].sort((a, b) => a.value - b.value)[0];
+  if (top.value >= 4.2)
+    bits.push(hashPick([`住客对${top.label}评价最好（${top.value} 分）`, `${top.label}是它的强项（${top.value} 分）`]));
+  if (low.value <= 3.4 && low.key !== top.key)
+    bits.push(hashPick([`；${low.label}相对一般（${low.value} 分），介意的话入住前先问清`, `；短板在${low.label}（${low.value} 分），签约前建议确认`]));
+  bits.push('。');
+}
+if (hasScore) bits.push(`谷歌 ${fmtNum(p.g_reviews!)} 条评价、${rating} 分的底数摆在这，参考价值比单条好评高。`);
+else if (p.reviews.length === 0) bits.push('目前公开评价还少，建议让小助手帮你向运营方多要几组实拍和在住反馈。');
+if (avail) bits.push(`最近批次 ${avail} 起可入住。`);
+const editorNote = bits.join('');
+
+const faqs = [
+  {
+    q: `${p.name} 多少钱一${unit}？`,
+    a: `${range ? `目前挂牌区间 ${range}` : '价格随房型和房态浮动'}${p.deposit ? `，押金 ${typeof p.deposit === 'number' ? cur(p.currency) + fmtNum(p.deposit) : p.deposit}` : ''}${p.min_lease ? `，最短租期约 ${p.min_lease} 周` : ''}。不同楼层、朝向、租期价格不同，以运营方实时报价为准。`,
+  },
+  ...(unis.length
+    ? [{
+        q: `${p.name} 离${zhCity}的大学近吗？`,
+        a: `${zhCity}的 QS 上榜大学有${unis.map((u) => u.name).join('、')}。${p.address ? `本公寓地址：${p.address}，` : ''}具体通勤时间取决于校区位置，把你的学院发给住宿小助手，它会按步行/公交口径帮你算。`,
+      }]
+    : []),
+  {
+    q: '怎么预订这套房源？',
+    a: '点「帮我订这套」告诉住宿小助手你的学校、预算和入住时间，合作公寓顾问会核实实时房态、帮你走预订与签约流程；支持凭 Offer 远程预订，全程免费，费用按运营方挂牌价执行。',
+  },
+];
+
+const title = `${p.name}（${zhCity}）价格·房型·真实评价（2026）| UniStay 优住`;
+const description = `${p.name} ${zhCity}学生公寓：${range ?? '价格以实时报价为准'}${p.unit_types.length ? `，${p.unit_types.slice(0, 3).map(unitLabel).join('/')}` : ''}${hasScore ? `，谷歌 ${rating}/5（${fmtNum(p.g_reviews!)} 条评价）` : ''}。房态与预订由公寓顾问跟进，信息以运营方实时为准。`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'LodgingBusiness',
+    name: p.name,
+    url: `${SITE.url}/fangyuan/${p.slug}/`,
+    ...(img ? { image: img } : {}),
+    ...(p.address
+      ? { address: { '@type': 'PostalAddress', streetAddress: p.address, addressLocality: p.city, addressCountry: p.cc.toUpperCase() } }
+      : { address: { '@type': 'PostalAddress', addressLocality: p.city, addressCountry: p.cc.toUpperCase() } }),
+    ...(typeof (p as unknown as { lat?: number }).lat === 'number'
+      ? { geo: { '@type': 'GeoCoordinates', latitude: (p as unknown as { lat: number }).lat, longitude: (p as unknown as { lng: number }).lng } }
+      : {}),
+    ...(range ? { priceRange: range } : {}),
+    ...(hasScore
+      ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: rating, reviewCount: p.g_reviews, bestRating: 5 } }
+      : {}),
+  },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="us-wrap" style="padding-block: 2.5rem 0.5rem;">
+    <Breadcrumbs
+      items={[
+        { label: '首页', href: '/' },
+        { label: '找房源', href: '/zhusu/' },
+        { label: `${p.country_zh}`, href: `/zhusu/${p.country}/` },
+        { label: zhCity, href: `/chengshi/${p.country}/${p.city_slug}/` },
+        { label: p.name },
+      ]}
+    />
+  </div>
+
+  <!-- 标题区 -->
+  <section class="us-wrap" style="padding-block: 0.5rem 2rem;">
+    <h1 class="us-h" style="font-size: clamp(1.5rem, 3.6vw, 2.25rem);">{p.name}</h1>
+    <p style="margin-top: 0.5rem; color: var(--color-muted); font-size: 0.9375rem;">
+      {zhCity} · {p.country_zh}{p.address ? ` · ${p.address}` : ''}
+      {hasScore && (
+        <span class="us-score" style="margin-left: 0.5rem;">{rating}<small>/5 · {fmtNum(p.g_reviews!)} 条谷歌评价</small></span>
+      )}
+    </p>
+  </section>
+
+  <!-- 图 + 关键信息 -->
+  <section class="us-wrap" style="display: grid; gap: 1.5rem;" class:list={['lg:!grid-cols-[3fr_2fr]']}>
+    <div class="us-entry__media us-reveal" style="aspect-ratio: 3/2; border-radius: 10px; overflow: hidden; position: relative;">
+      <div class="us-entry__ph" aria-hidden="true" style="position: absolute; inset: 0;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width: 64px;">
+          <path d="M4 21V5.5A1.5 1.5 0 0 1 5.5 4h8A1.5 1.5 0 0 1 15 5.5V21M15 9h3.5A1.5 1.5 0 0 1 20 10.5V21M2 21h20" />
+        </svg>
+      </div>
+      {img && <img src={img} alt={`${p.name} 外观/公区照片`} loading="eager" decoding="async" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;" onerror="this.remove()" />}
+    </div>
+
+    <div class="us-panel us-reveal" style="padding: 1.5rem;">
+      <h2 style="font-size: 1rem; color: var(--color-muted); font-weight: 500;">关键信息</h2>
+      <p style="margin-top: 0.75rem; font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--color-primary);">
+        {range ?? '价格以实时报价为准'}
+        {range && <small style="font-size: 0.8125rem; font-weight: 400; color: var(--color-muted);">（以运营方实时报价为准）</small>}
+      </p>
+      <dl style="margin-top: 1rem; display: grid; gap: 0.55rem; font-size: 0.9rem;">
+        {p.deposit && <div style="display: flex; justify-content: space-between; gap: 1rem;"><dt style="color: var(--color-muted);">押金</dt><dd>{typeof p.deposit === 'number' ? `${cur(p.currency)}${fmtNum(p.deposit)}` : p.deposit}</dd></div>}
+        {p.min_lease && <div style="display: flex; justify-content: space-between; gap: 1rem;"><dt style="color: var(--color-muted);">最短租期</dt><dd>约 {p.min_lease} 周</dd></div>}
+        {avail && <div style="display: flex; justify-content: space-between; gap: 1rem;"><dt style="color: var(--color-muted);">最近可入住</dt><dd>{avail}</dd></div>}
+        <div style="display: flex; justify-content: space-between; gap: 1rem;"><dt style="color: var(--color-muted);">计价周期</dt><dd>按{unit}</dd></div>
+      </dl>
+      {p.unit_types.length > 0 && (
+        <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+          {p.unit_types.map((u) => <span class="us-chip us-chip--tint">{unitLabel(u)}</span>)}
+        </div>
+      )}
+      <button type="button" class="us-btn us-btn--primary" style="margin-top: 1.25rem; width: 100%;" onclick="window.aiwOpen?.()">
+        帮我订这套（免费）
+      </button>
+    </div>
+  </section>
+
+  <!-- 编辑速评 -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <span class="us-kicker">EDITOR NOTE</span>
+      <h2 class="us-h2">编辑速评</h2>
+      <p class="us-sub" style="margin-top: 1rem; line-height: 1.9;">{editorNote}</p>
+    </div>
+  </section>
+
+  <!-- 分维度评分 -->
+  {dims.length > 0 && (
+    <section class="us-section us-section--tint">
+      <div class="us-wrap" style="max-width: 52rem;">
+        <span class="us-kicker">RATINGS</span>
+        <h2 class="us-h2">住客分维度评分</h2>
+        <p class="us-sub">来自真实入住者的分项打分（5 分制）。</p>
+        <div style="margin-top: 1.5rem; display: grid; gap: 0.8rem;" class:list={['sm:!grid-cols-2']}>
+          {dims.map((d) => (
+            <div class="us-ratingbar us-reveal">
+              <span class="us-ratingbar__label">{d.label}</span>
+              <span class="us-ratingbar__track"><span class="us-ratingbar__fill" style={`width: ${Math.min(100, d.value * 20)}%;`}></span></span>
+              <span class="us-ratingbar__num">{d.value.toFixed(1)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 真实评价 -->
+  {p.reviews.length > 0 && (
+    <section class="us-section us-section--paper">
+      <div class="us-wrap" style="max-width: 52rem;">
+        <span class="us-kicker">REVIEWS</span>
+        <h2 class="us-h2">真实评价</h2>
+        <p class="us-sub">英文原评直接放，不删不改；来源标注在每条下方。</p>
+        <div style="margin-top: 1.5rem; display: grid; gap: 1.25rem;">
+          {p.reviews.map((r) => (
+            <figure class="us-review us-reveal">
+              <div class="us-review__head">
+                <span class="us-review__author">{r.author}</span>
+                {typeof r.rating === 'number' && r.rating > 0 && (
+                  <span class="us-review__stars" aria-label={`${r.rating} 星`}>{stars(r.rating)}</span>
+                )}
+              </div>
+              <blockquote class="us-review__text">“{clip(r.text, 300)}”</blockquote>
+              <figcaption class="us-review__src">
+                {r.source === 'google' ? '英文原评 · Google 评价' : '英文原评 · 入住者评价'}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {p.desc && (
+    <section class="us-section us-section--soft">
+      <div class="us-wrap" style="max-width: 52rem;">
+        <span class="us-kicker">ABOUT</span>
+        <h2 class="us-h2">运营方简介（英文原文）</h2>
+        <p class="us-sub" style="margin-top: 1rem;">{cleanDesc(p.desc)}</p>
+      </div>
+    </section>
+  )}
+
+  <!-- 附近大学 -->
+  {unis.length > 0 && (
+    <section class="us-section us-section--tint">
+      <div class="us-wrap">
+        <span class="us-kicker">UNIVERSITIES</span>
+        <h2 class="us-h2">{zhCity}的大学</h2>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {unis.map((u) => (
+            <a href={`/daxue/${u.slug}/`} class="us-row us-reveal">
+              <span class="us-row__name">{u.name}</span>
+              <span class="us-chip us-chip--rank">QS {u.rank}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 同城房源 -->
+  {siblings.length > 0 && (
+    <section class="us-section us-section--paper">
+      <div class="us-wrap">
+        <span class="us-kicker">MORE IN {p.city.toUpperCase()}</span>
+        <h2 class="us-h2">{zhCity}的其他房源</h2>
+        <div class="mt-6 grid gap-4 lg:grid-cols-2">
+          {siblings.map((s) => (
+            <PropertyCard
+              slug={s.slug}
+              name={s.name}
+              cityLabel={zhCity}
+              currency={s.currency}
+              min_price={s.min_price}
+              price_duration={s.price_duration}
+              rating={s.rating}
+              g_rating={s.g_rating}
+              g_reviews={s.g_reviews}
+              image={s.image}
+            />
+          ))}
+        </div>
+        <div class="mt-6">
+          <a href={`/chengshi/${p.country}/${p.city_slug}/`} class="us-btn us-btn--ghost us-btn--sm">看{zhCity}全部房源 →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ -->
+  <section class="us-section us-section--tint">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <FaqBlock items={faqs} heading={`关于 ${p.name}`} />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="us-section us-section--paper">
+    <div class="us-wrap">
+      <CtaCard
+        title="想订这套？让小助手对接公寓顾问"
+        desc={`把你的学校、预算和入住时间发给住宿小助手，顾问会核实 ${p.name} 的实时房态并跟进到签约。全程免费，${SITE.disclaimer}`}
+        btnLabel="帮我订这套"
+      />
+    </div>
+  </section>
+</BaseLayout>

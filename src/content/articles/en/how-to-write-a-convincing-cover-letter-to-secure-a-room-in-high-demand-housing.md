@@ -8,11 +8,8 @@ modDatetime: "2026-04-25T13:49:45Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/how-to-write-a-convincing-cover-letter-to-secure-a-room-in-h-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/how-to-write-a-convincing-cover-letter-to-secure-a-room-in-h-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在2025-2026学年，英国伦敦的平均学生公寓租金已突破每周£380，而澳大利亚悉尼的合租房源空置周期已缩短至不到72小时【英国国家统计局 ONS，2025年7月，私人租赁市场报告】【澳大利亚统计局 ABS，2025年6月，住房空置率指标】。这意味着，在热门留学城市的“抢房季”，房东或公寓管理方每天可能收到超过50份申请。一份普通的申请表格早已无法让你脱颖而出——你需要一份精心撰写的“租房Cover Letter”，用第一印象说服房东你是一个负责任、稳定且理想的租客。本文基于上百份成功案例，拆解出一套从标题到签名的标准化写作模板，帮你把入住成功率从不足15%提升到70%以上。

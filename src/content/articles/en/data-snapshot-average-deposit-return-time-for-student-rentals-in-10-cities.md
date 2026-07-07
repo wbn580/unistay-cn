@@ -8,11 +8,8 @@ modDatetime: "2026-05-05T15:50:54Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/data-snapshot-average-deposit-return-time-for-student-renta-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/data-snapshot-average-deposit-return-time-for-student-renta-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 中国留学生海外租房押金平均 41 天才能退回，这是根据 2024 年全球学生住宿平台 HousingAnywhere 对 10 个主要留学城市的追踪数据得出的中位数。对于每月支付 800-2500 英镑/澳元/欧元押金的学生来说，资金被冻结一个多月意味着生活费周转、机票预订甚至新学期注册都可能受到影响。英国租房押金保护计划（TDP）2023 年度报告显示，约 12% 的租客押金扣款争议最终需要仲裁解决，平均耗时 68 天。在开学季集中退租的 8-9 月，这一数字还会进一步拉长。本文基于 10 个城市的最新数据，帮你预判押金回收时间线，避免资金链断裂。

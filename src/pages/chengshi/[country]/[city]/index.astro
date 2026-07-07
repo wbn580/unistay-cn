@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import PropertyCard from '../../../../components/PropertyCard.astro';
+import FaqBlock from '../../../../components/FaqBlock.astro';
+import CtaCard from '../../../../components/CtaCard.astro';
+import { getCities, getPropertyIndex, type CityT } from '../../../../lib/data';
+import { cityDisplay, cityShort, cur, durUnit, fmtNum, sortForListing } from '../../../../lib/format';
+
+export async function getStaticPaths() {
+  return getCities().map((c) => ({
+    params: { country: c.country, city: c.slug },
+    props: { city: c },
+  }));
+}
+
+const { city } = Astro.props as { city: CityT };
+const zh = cityShort(city);
+
+const props = getPropertyIndex()
+  .filter((p) => p.country === city.country && p.city_slug === city.slug)
+  .sort(sortForListing);
+
+const weeklyCount = props.filter((p) => p.price_duration === 'weekly').length;
+const mainUnit = weeklyCount >= props.length / 2 ? '周' : '月';
+const ratedCount = props.filter((p) => (p.g_reviews ?? 0) > 0).length;
+
+const uniList = city.universities || [];
+const uniNames = uniList.slice(0, 3).map((u) => u.name).join('、');
+
+const faqs = [
+  {
+    q: `${zh}的学生公寓多少钱一${mainUnit}？`,
+    a: `优住在${zh}收录 ${fmtNum(city.property_count)} 套房源${city.min_price ? `，最低 ${cur(city.currency)}${fmtNum(city.min_price)} 一${mainUnit}起` : ''}，市中心和校区周边通常更贵。各套房源页标了价格区间，最终以运营方实时报价为准。`,
+  },
+  ...(uniList.length
+    ? [
+        {
+          q: `${zh}有哪些大学？住宿怎么配？`,
+          a: `${zh}进入 QS 排名的大学有${uniNames}${uniList.length > 3 ? ` 等 ${uniList.length} 所` : ''}。选房时先定通勤方式：走读圈内价格高但省时间，地铁/公交 30 分钟圈往往能省下两到四成租金。各大学页有对应的周边住宿参考。`,
+        },
+      ]
+    : []),
+  {
+    q: `在${zh}租学生公寓要注意什么？`,
+    a: `三件事：① 核对合同里的租期与退订条款；② 确认账单是否全包（水电网）；③ 看真实评价，尤其是维修响应和安保${ratedCount ? `——${zh}有 ${ratedCount} 套房源带真实评价可查` : ''}。拿不准的条款可以让住宿小助手帮你过一遍。`,
+  },
+  {
+    q: `人在国内，怎么预订${zh}的房源？`,
+    a: '多数学生公寓支持凭 Offer 远程预订、线上签约。选定房源后点页面里的咨询入口，住宿小助手会对接合作公寓顾问帮你核实房态、走流程，全程免费。',
+  },
+];
+
+const title = `${zh}留学生公寓/学生宿舍指南（2026）：${fmtNum(city.property_count)} 套真房源与价格 | UniStay 优住`;
+const description = `${zh}（${city.name}）留学生公寓全清单：${fmtNum(city.property_count)} 套真房源${city.min_price ? `，${cur(city.currency)}${fmtNum(city.min_price)}/${mainUnit}起` : ''}${uniNames ? `，覆盖${uniNames}等大学周边` : ''}。真实评价可查，价格以运营方实时报价为准。`;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs
+      items={[
+        { label: '首页', href: '/' },
+        { label: '找房源', href: '/zhusu/' },
+        { label: `${city.country_zh}学生公寓`, href: `/zhusu/${city.country}/` },
+        { label: zh },
+      ]}
+    />
+    <h1 style="font-size: clamp(1.625rem, 4vw, 2.25rem); margin-top: 1.25rem;">
+      {zh}留学生公寓/学生宿舍指南（2026）
+    </h1>
+    <p style="margin-top: 0.9rem; max-width: 47rem; color: var(--color-muted);">
+      直接说结论：优住在{zh}（{cityDisplay(city)}，{city.country_zh}）收录了
+      <strong style="color: var(--color-ink);">{fmtNum(city.property_count)} 套</strong>学生公寓真房源{city.min_price && (
+        <>，最低 <strong style="color: var(--color-accent-deep);">{cur(city.currency)}{fmtNum(city.min_price)}</strong> 一{mainUnit}起</>
+      )}{uniList.length > 0 ? (
+        <>；本地进入 QS 排名的大学有{uniNames}{uniList.length > 3 ? ` 等 ${uniList.length} 所` : ''}</>
+      ) : null}。下面是全部房源清单，按「有真实评价、评分高」优先排序{ratedCount ? `（其中 ${ratedCount} 套带真实评价）` : ''}；点进任何一套都能看到房型、价格区间和评价原文。价格以运营方实时报价为准。
+    </p>
+  </div>
+
+  <!-- 全部房源 -->
+  <section class="us-section us-section--tint" style="padding-block: 3rem;">
+    <div class="us-wrap">
+      <h2 class="us-h2">{zh}全部房源（{fmtNum(props.length)} 套）</h2>
+      <div class="mt-6 grid gap-4 lg:grid-cols-2">
+        {props.map((p) => (
+          <PropertyCard
+            slug={p.slug}
+            name={p.name}
+            currency={p.currency}
+            min_price={p.min_price}
+            price_duration={p.price_duration}
+            rating={p.rating}
+            g_reviews={p.g_reviews}
+            image={p.image}
+            metaExtra={`${zh}`}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 附近大学 -->
+  {uniList.length > 0 && (
+    <section class="us-section us-section--paper" style="padding-block: 3rem;">
+      <div class="us-wrap">
+        <h2 class="us-h2">{zh}的大学</h2>
+        <p class="us-sub">按 QS 排名排序，点进去看学校评价和更精确的周边住宿建议。</p>
+        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+          {uniList.map((u) => (
+            <a href={`/daxue/${u.slug}/`} class="us-row us-reveal">
+              <span class="us-row__name">{u.name}</span>
+              <span class="us-chip us-chip--rank">QS {u.rank}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ + CTA -->
+  <section class:list={['us-section', uniList.length > 0 ? 'us-section--tint' : 'us-section--paper']} style="padding-block: 3rem;">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <FaqBlock items={faqs} heading={`在${zh}租房，常见问题`} />
+    </div>
+    <div class="us-wrap mt-10">
+      <CtaCard
+        title={`${zh}这 ${fmtNum(props.length)} 套挑花眼了？`}
+        desc="把学校、预算、入住时间发给住宿小助手，它按通勤和性价比帮你先筛出三五套，再逐套对比。"
+      />
+    </div>
+  </section>
+</BaseLayout>

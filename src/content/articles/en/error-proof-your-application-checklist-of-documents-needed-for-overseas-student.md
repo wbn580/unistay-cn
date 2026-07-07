@@ -8,11 +8,8 @@ modDatetime: "2026-03-08T21:37:03Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/error-proof-your-application-checklist-of-documents-needed-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/error-proof-your-application-checklist-of-documents-needed-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年有超过 38 万名中国留学生赴海外攻读学位（教育部《2023 中国留学回国就业蓝皮书》），其中约 72% 的学生在抵达前需要通过线上申请租赁私人房源或学生公寓。然而，一份来自英国住宿行业协会（ANUK, 2024）的统计显示，近 30% 的海外学生租赁申请因文件不完整或格式错误被中介或房东直接退回，导致学生被迫支付临时酒店费用或接受更贵的短租方案。这意味着，在你提交租房申请的那一刻，文件清单的完整性直接决定了你是顺利入住还是多花 500-800 英镑的过渡成本。本文从实际申请流程出发，为你拆解一份经过验证的“防错文件清单”，覆盖身份、财务、担保、保险四个核心维度，帮你避开最常踩的坑。

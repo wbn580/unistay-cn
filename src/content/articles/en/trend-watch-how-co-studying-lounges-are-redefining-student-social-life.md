@@ -8,11 +8,8 @@ modDatetime: "2026-03-06T14:38:28Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/trend-watch-how-co-studying-lounges-are-redefining-student-36688004.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/trend-watch-how-co-studying-lounges-are-redefining-student-36688004.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 在澳大利亚，超过 42% 的国际学生每周在图书馆或咖啡馆自习超过 15 小时（澳大利亚教育部，2024，《国际学生体验年度调查》），但其中 67% 的人坦言“很难在住处附近找到安静又适合社交的自习空间”。与此同时，英国大学联盟（Universities UK）2023 年报告指出，学生住宿满意度与学业留存率直接挂钩——住在配备 **共享学习区** 的宿舍的学生，第一年退学率比传统宿舍低 19%。这两个数字指向同一个趋势：学生住宿正从“睡觉的地方”进化为“社交与学习的混合体”。**Co-Studying Lounges**（共享学习休息室）正是这一进化的核心产物——它不再是宿舍楼里一间带桌椅的空房，而是被精心设计的、融合自习、小组讨论和轻度社交的第三空间。对于正在筛选海外住宿的中国留学生来说，判断一所公寓或宿舍是否配备高质量 Co-Studying Lounge，正在成为比“房间面积”更关键的决策指标。

@@ -1,9 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="404">
-  <section class="mx-auto max-w-4xl px-6 py-24 text-center">
-    <h1 class="font-heading text-3xl text-primary">Page not found.</h1>
-    <p class="mt-4"><a href="/" class="text-accent underline">Back to the front page</a></p>
+
+<BaseLayout title="页面不存在（404）| UniStay 优住" description="你访问的页面不存在或已迁移。回首页继续找房，或让住宿小助手帮你直达。">
+  <section class="us-wrap" style="padding-block: 7rem 6rem; text-align: center; max-width: 40rem;">
+    <p style="font-size: 3rem; font-weight: 700; color: var(--color-primary); font-variant-numeric: tabular-nums;">404</p>
+    <h1 class="us-h" style="margin-top: 0.75rem; font-size: 1.5rem;">这个页面不在了</h1>
+    <p class="us-sub" style="margin-top: 0.9rem;">
+      可能链接旧了，或者房源已下架。别在这耗着——房源库和大学索引都是活的。
+    </p>
+    <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+      <a href="/" class="us-btn us-btn--primary">回首页</a>
+      <a href="/zhusu/" class="us-btn us-btn--ghost">按城市找房</a>
+      <button type="button" class="us-btn us-btn--ghost" onclick="window.aiwOpen?.()">让小助手带路</button>
+    </div>
   </section>
 </BaseLayout>

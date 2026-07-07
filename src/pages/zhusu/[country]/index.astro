@@ -1,0 +1,160 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import PropertyCard from '../../../components/PropertyCard.astro';
+import FaqBlock from '../../../components/FaqBlock.astro';
+import CtaCard from '../../../components/CtaCard.astro';
+import {
+  getCountries,
+  getCities,
+  getPropertyIndex,
+  getUniversities,
+  type CountryT,
+} from '../../../lib/data';
+import { cityDisplay, cityShort, cur, fmtNum, sortForListing } from '../../../lib/format';
+
+export async function getStaticPaths() {
+  return getCountries().map((c) => ({ params: { country: c.slug }, props: { country: c } }));
+}
+
+const { country } = Astro.props as { country: CountryT };
+
+const cities = getCities()
+  .filter((c) => c.country === country.slug)
+  .sort((a, b) => b.property_count - a.property_count);
+
+const cityMap = new Map(cities.map((c) => [c.slug, c]));
+
+const props = getPropertyIndex().filter((p) => p.country === country.slug);
+const minPrice = props.reduce<number | null>(
+  (m, p) => (p.min_price ? (m === null ? p.min_price : Math.min(m, p.min_price)) : m),
+  null
+);
+const featured = [...props].sort(sortForListing).slice(0, 6);
+
+const unis = getUniversities()
+  .filter((u) => u.country === country.slug)
+  .sort((a, b) => a.rank - b.rank);
+const topUnis = unis.slice(0, 10);
+
+const topCityNames = cities.slice(0, 3).map((c) => cityShort(c)).join('、');
+
+const faqs = [
+  {
+    q: `${country.zh}的学生公寓大概什么价位？`,
+    a: `优住在${country.zh}收录了 ${fmtNum(country.property_count)} 套房源，覆盖 ${country.city_count} 个城市，起价约 ${minPrice ? cur(country.currency) + fmtNum(minPrice) : '视城市而定'}（按运营方计价周期，多为周租或月租）。不同城市差距明显，具体以运营方实时报价为准。`,
+  },
+  {
+    q: `去${country.zh}留学，哪些城市房源最多？`,
+    a: `按在库房源数排，${country.zh}房源最集中的城市是${topCityNames || '主要留学城市'}。城市页里能看到全部房源、起价和周边大学，建议至少对比两座城市再定。`,
+  },
+  {
+    q: `在${country.zh}租学生公寓，人在国内怎么操作？`,
+    a: `多数${country.zh}学生公寓支持凭 Offer 远程预订、线上签约和支付定金。选定房源后，可以让住宿小助手对接合作公寓顾问，帮你核实房态、走预订流程，全程不额外收费。`,
+  },
+];
+
+const title = `${country.zh}学生公寓：${country.city_count} 城 ${fmtNum(country.property_count)} 套真房源与价格（2026）| UniStay 优住`;
+const description = `${country.zh}留学生公寓总览：${country.city_count} 个城市 ${fmtNum(country.property_count)} 套真房源${minPrice ? `，${cur(country.currency)}${fmtNum(minPrice)} 起` : ''}，另有 ${country.university_count} 所 QS 大学周边住宿参考。价格以运营方实时报价为准。`;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs
+      items={[
+        { label: '首页', href: '/' },
+        { label: '找房源', href: '/zhusu/' },
+        { label: `${country.zh}学生公寓` },
+      ]}
+    />
+    <h1 style="font-size: clamp(1.625rem, 4vw, 2.25rem); margin-top: 1.25rem;">
+      {country.zh}学生公寓总览（2026）
+    </h1>
+    <p style="margin-top: 0.9rem; max-width: 46rem; color: var(--color-muted);">
+      优住在{country.zh}共收录 <strong style="color: var(--color-ink);">{fmtNum(country.property_count)} 套</strong>学生公寓真房源，分布在
+      <strong style="color: var(--color-ink);">{country.city_count} 个城市</strong>{minPrice && (
+        <>，最低 <strong style="color: var(--color-accent-deep);">{cur(country.currency)}{fmtNum(minPrice)}</strong> 起（按运营方计价周期）</>
+      )}。房源最集中的是{topCityNames}；{country.zh}共有 {country.university_count} 所大学进入 QS 排名，各城市页都列了对应的周边大学。价格与房态以运营方实时为准。
+    </p>
+  </div>
+
+  <!-- 城市清单 -->
+  <section class="us-section us-section--tint" style="padding-block: 3rem;">
+    <div class="us-wrap">
+      <h2 class="us-h2">选城市</h2>
+      <p class="us-sub">{country.zh}的 {cities.length} 个城市，按在库房源数排序。</p>
+      <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {cities.map((city) => (
+          <a href={`/chengshi/${city.country}/${city.slug}/`} class="us-row us-reveal">
+            <span class="us-row__name">{cityDisplay(city)}</span>
+            <span class="us-row__meta">
+              {fmtNum(city.property_count)} 套{city.min_price ? ` · ${cur(city.currency)}${fmtNum(city.min_price)} 起` : ''}
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 精选房源 -->
+  {featured.length > 0 && (
+    <section class="us-section us-section--paper" style="padding-block: 3rem;">
+      <div class="us-wrap">
+        <h2 class="us-h2">{country.zh}精选房源</h2>
+        <p class="us-sub">评价多、评分靠前的 6 套，先看个大概。</p>
+        <div class="mt-6 grid gap-4 lg:grid-cols-2">
+          {featured.map((p) => {
+            const c = cityMap.get(p.city_slug);
+            return (
+              <PropertyCard
+                slug={p.slug}
+                name={p.name}
+                cityLabel={c ? cityShort(c) : p.city}
+                currency={p.currency}
+                min_price={p.min_price}
+                price_duration={p.price_duration}
+                rating={p.rating}
+                g_reviews={p.g_reviews}
+                image={p.image}
+              />
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- QS 大学 Top 10 -->
+  {topUnis.length > 0 && (
+    <section class="us-section us-section--tint" style="padding-block: 3rem;">
+      <div class="us-wrap">
+        <h2 class="us-h2">{country.zh} QS 排名靠前的大学</h2>
+        <p class="us-sub">共 {unis.length} 所进入 QS 排名，这里列前 {topUnis.length} 所；点进去看学校评价和周边住宿。</p>
+        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+          {topUnis.map((u) => (
+            <a href={`/daxue/${u.slug}/`} class="us-row us-reveal">
+              <span class="us-row__name">{u.name}</span>
+              <span class="us-chip us-chip--rank">QS {u.rank}</span>
+            </a>
+          ))}
+        </div>
+        <div class="mt-5">
+          <a href="/daxue/" class="us-btn us-btn--ghost us-btn--sm">全部大学 →</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ + CTA -->
+  <section class="us-section us-section--paper" style="padding-block: 3rem;">
+    <div class="us-wrap" style="max-width: 52rem;">
+      <FaqBlock items={faqs} heading={`关于${country.zh}租房，常见的三个问题`} />
+    </div>
+    <div class="us-wrap mt-10">
+      <CtaCard
+        title="拿不准去哪个城市？让小助手帮你比"
+        desc={`把学校（或候选学校）和预算发给住宿小助手，它会把${country.zh}几个候选城市的房源、价格、通勤摆到一起给你看。`}
+      />
+    </div>
+  </section>
+</BaseLayout>

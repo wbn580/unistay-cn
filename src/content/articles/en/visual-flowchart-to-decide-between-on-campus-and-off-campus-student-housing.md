@@ -8,11 +8,8 @@ modDatetime: "2026-04-07T22:06:55Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/visual-flowchart-to-decide-between-on-campus-and-off-campus-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/visual-flowchart-to-decide-between-on-campus-and-off-campus-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 选校内宿舍还是校外租房，是每个留学生落地前最纠结的决策之一。根据美国国家学生信息交换研究中心（NSC Research Center, 2023）的数据，全美四年制大学新生首年选择校内住宿的比例约为 73%，但到了第二年，这一比例骤降至 35% 以下。与此同时，英国高等教育统计局（HESA, 2022/23）的统计显示，国际学生在伦敦地区校外租房的平均月租金比校内宿舍高出 28% 至 42%，但空间面积平均多出 40%。这些数字说明：没有绝对正确的选项，只有适合你预算、生活习惯和学术节奏的路线。本文用一张可视化决策流程图的逻辑，帮你一步步拆解从预算、通勤到合同细节的所有关键节点。

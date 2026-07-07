@@ -8,11 +8,8 @@ modDatetime: "2026-03-09T18:47:39Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/environmental-angle-which-student-apartments-offer-the-best-29299050.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/environmental-angle-which-student-apartments-offer-the-best-29299050.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 当你每月多付 £30 电费，而室友的账单只有你的一半时，差距往往不在你的生活习惯，而在你住的公寓——它的 **能源效率等级（EPC 评级）**。根据英国政府 2024 年发布的《English Housing Survey》，全国私人租赁住宅中仍有 28% 的房产 EPC 评级在 D 或以下（即“不达标”），这意味着每年多浪费约 £400-£600 的取暖费用【英国住房与社区部，2024】。与此同时，澳大利亚新南威尔士州政府 2023 年的一项研究指出，学生公寓若配备 **6 星级以上的 NABERS 能源评级**，可降低租户 22%-35% 的夏季空调能耗【新南威尔士州规划与环境部，2023】。对于预算敏感、又希望减少碳足迹的留学生而言，选择高能效公寓已从“环保加分项”变为“钱包硬指标”。

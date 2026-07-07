@@ -8,11 +8,8 @@ modDatetime: "2026-03-18T20:07:21Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/top-five-student-residences-that-offer-24-hour-security-in-c-15953135.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/top-five-student-residences-that-offer-24-hour-security-in-c-15953135.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 伦敦中央区连续三年被《完全大学指南》列为中国留学生住宿安全关注度最高的区域之一。根据英国高等教育统计局（HESA）2023年数据，伦敦留学生夜间出行安全诉求同比上升37%，而24小时安保已成为超过62%中国家长在预订住宿时的硬性筛选条件。与此同时，大伦敦警察厅（Metropolitan Police）2024年第一季度报告指出，威斯敏斯特、肯辛顿等核心邮编区的夜间盗窃案同比下降12%，但针对学生的入室盗窃仍集中在安保薄弱的私人出租屋。这意味着，选择配备专业安保团队的官方学生公寓，能直接降低夜间风险敞口。本文将横评中央伦敦五所提供全天候安保的学生公寓，从价格区间、通勤距离、安保配套三个维度给出实测数据，并穿插真实住户反馈。

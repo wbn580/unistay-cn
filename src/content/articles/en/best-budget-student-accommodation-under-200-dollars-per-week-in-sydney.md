@@ -8,11 +8,8 @@ modDatetime: "2026-03-11T23:18:54Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/best-budget-student-accommodation-under-200-dollars-per-week-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/best-budget-student-accommodation-under-200-dollars-per-week-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 悉尼的房租在过去12个月里上涨了约18%，根据Domain 2024年第二季度租金报告，全市公寓中位周租金已突破720澳元。对于预算严格控制在200澳元/周以内的留学生来说，找到一处安全、通勤便利且配套齐全的住处，正变得越来越像一场需要策略的“寻宝游戏”。别急着绝望——悉尼依然存在一批被低估的住宿选项，它们可能藏在合租公寓的次卧、大学管理的经济型宿舍，或是远离CBD但火车直达的郊区。这篇评测将直接拆解5-7种可行的路径，用精确的价格、距离数据和真实用户案例，帮你把预算花在刀刃上。

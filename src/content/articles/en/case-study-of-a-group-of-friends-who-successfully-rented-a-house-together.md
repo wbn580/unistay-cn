@@ -8,11 +8,8 @@ modDatetime: "2026-05-09T16:15:15Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/case-study-of-a-group-of-friends-who-successfully-rented-a-h-32097953.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/case-study-of-a-group-of-friends-who-successfully-rented-a-h-32097953.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 留学圈里一直流传一个说法：四个人合租比两个人各自住单间平均每人每月省下 **£250-350**，但前提是你们得熬过“选房-签约-分账”这三道坎。根据 **QS 2024 年国际学生调查报告**，超过 62% 的中国留学生表示“与朋友合租”是首选的住宿方式，但其中近四成在入住后三个月内因费用分摊或房屋条件产生过矛盾。这个案例的主角是四位在伦敦读研的学生——小陈、阿杰、Lily 和 Kevin，他们用三个月时间从零开始，成功租下一套位于 Zone 2 的三居室公寓，人均月租金控制在 **£680**，比同区域单人 studio 便宜了 40%。他们的经验不是教科书，而是一套可复制的实操流程。

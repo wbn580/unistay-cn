@@ -8,11 +8,8 @@ modDatetime: "2026-01-27T19:43:00Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/unilodge-7893773.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/unilodge-7893773.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 2025年澳洲学生公寓市场经历了一场“供需双涨”的调整。根据澳大利亚房地产委员会（Property Council of Australia）2024年《学生住宿年度报告》，全澳获得认证的专用学生公寓床位已突破12万张，但悉尼和墨尔本的核心城区入住率仍维持在94%-96%的高位。与此同时，UniLodge作为澳洲最大的学生公寓运营商之一，在2024-2025学年对旗下超过40个物业进行了房型重组和价格调整，部分热门单间的周租金涨幅达到8%-12%。对于计划在2025年7月或2026年2月入学的中国留学生来说，搞清楚UniLodge的房型体系与真实价格区间，是避免“签完约才发现预算超支”的关键一步。

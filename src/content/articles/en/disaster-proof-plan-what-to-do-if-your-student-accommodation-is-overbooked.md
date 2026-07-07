@@ -8,11 +8,8 @@ modDatetime: "2026-03-30T10:11:42Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/disaster-proof-plan-what-to-do-if-your-student-accommodatio-36488764.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/disaster-proof-plan-what-to-do-if-your-student-accommodatio-36488764.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 每年9月开学季，约有12%的国际留学生遭遇住宿预订被取消或超额预订的问题，根据英国住宿行业协会（ANUK, 2023）年度报告，仅英国一地就有超过4,200名学生因此被迫临时更换住所。美国大学住房协会（ACUHO-I, 2024）数据进一步显示，全美高校宿舍超售比例在2023年达到7.3%，创下近十年新高。对于18-28岁的中国留学生而言，一张被取消的住宿确认单，意味着你可能在抵达机场后才发现自己无房可住。这篇文章将拆解一套可执行的“灾难预案”，从法律维权、临时落脚到长期置换，覆盖你从收到超售通知到安顿下来的每一步。

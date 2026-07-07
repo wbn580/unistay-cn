@@ -1,27 +1,50 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaCard from '../components/CtaCard.astro';
+import { getStats } from '../lib/data';
+import { fmtNum } from '../lib/format';
+
+const stats = getStats();
+const title = '关于优住 | UniStay 留学生公寓查询平台';
+const description = `优住（UniStay）是中文留学生公寓查询平台：${fmtNum(stats.properties)} 套真房源、${stats.cities} 个城市、真实入住评价，AI 小助手圈房源，公寓顾问跟进到签约。`;
 ---
-<<<<<<< HEAD
-<BaseLayout title="关于本编辑部" description="About 海外住宿编辑部">
-  <section class="mx-auto max-w-4xl px-6 py-16">
-    <h1 class="font-heading text-3xl md:text-4xl text-primary mb-8">关于本编辑部</h1>
-    <div class="font-body text-ink leading-relaxed">
-      <p>中国留学生海外住宿决策站（公寓/宿舍/homestay 横评 + 区域指南）</p>
-      <p class="mt-4">This is an independent editorial site. We are not affiliated with any institution mentioned unless explicitly disclosed. Content is researched and written for informational purposes.</p>
-      <p class="mt-4">Contact: <code>contact@unistay.cn</code></p>
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '关于' }]} />
+  </div>
+
+  <section class="us-wrap" style="padding-block: 0.5rem 3rem; max-width: 46rem;">
+    <h1 class="us-h" style="font-size: clamp(1.6rem, 4vw, 2.5rem);">关于优住</h1>
+    <div style="margin-top: 1.5rem; display: grid; gap: 1.1rem; line-height: 1.9; color: var(--color-ink);">
+      <p>
+        优住（UniStay）做一件事：把留学生找房这件麻烦事查清楚。我们把
+        {fmtNum(stats.properties)} 套在租学生公寓的价格、房型、起租时间和真实入住评价整理成可对比的清单，
+        覆盖 {stats.countries} 个国家、{stats.cities} 个城市，并按 {fmtNum(stats.universities)} 所 QS
+        大学整理了周边住宿参考。
+      </p>
+      <p>
+        评价我们只放真实的：英文原评（含 Google 评价）原文保留、注明来源，不删差评、不做评分注水；
+        中文「编辑速评」由评分维度和价格数据生成，帮你快速扫重点。
+      </p>
+      <p>
+        找房路径也很直接——把学校、预算、入住时间发给站内的住宿小助手，它先圈出合适的片区和房源；
+        选定后由合作公寓顾问对接运营方核实房态、走预订与签约流程。全程免费，你按运营方挂牌价签约，我们不加价。
+      </p>
+      <p style="color: var(--color-muted); font-size: 0.9rem;">
+        本站为独立编辑站点，与所提及院校、公寓品牌无隶属关系（另有说明除外）。信息仅供参考，价格与房态以运营方实时为准。
+        联系：<code>contact@unistay.cn</code>
+      </p>
+    </div>
+  </section>
+
+  <section class="us-section us-section--tint">
+    <div class="us-wrap">
+      <CtaCard
+        title="第一次留学租房，不知道从哪开始？"
+        desc="把学校和预算发给住宿小助手，三分钟拿到一份能直接比价的房源短名单。"
+      />
     </div>
   </section>
 </BaseLayout>
-=======
-<BaseLayout title="关于本站" description="About 留学生公寓">
-  <section class="mx-auto max-w-3xl px-4 sm:px-6 py-16">
-    <h1 class="font-heading text-3xl md:text-4xl font-bold text-ink mb-8">关于本站</h1>
-    <div class="text-ink leading-relaxed space-y-4">
-      <p>留学生公寓是一个独立编辑的学生住宿指南站点，覆盖澳洲、英国、美国、加拿大、香港等主流留学目的地。</p>
-      <p>我们提供实拍公寓展示、真实租金数据、通勤实测和学生公寓品牌横评，帮助中国留学生在出国前做出明智的住宿决策。</p>
-      <p>This is an independent editorial site. We are not affiliated with any institution mentioned unless explicitly disclosed. Content is researched and written for informational purposes.</p>
-      <p>Contact: <code>contact@unistay.cn</code></p>
-    </div>
-  </section>
-</BaseLayout>
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)

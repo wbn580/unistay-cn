@@ -8,11 +8,8 @@ modDatetime: "2026-04-21T17:38:50Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/data-backed-insight-walkable-student-housing-reduces-living-31969409.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/data-backed-insight-walkable-student-housing-reduces-living-31969409.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 选择步行可达的留学住宿，不只是节省通勤时间，更直接关联到真金白银的开销。根据美国住房与城市发展部（HUD）2023年发布的《可负担住房与交通支出报告》，居住在步行指数（Walk Score）高于70的社区，居民平均交通支出仅占收入的9%，而依赖驾车出行的社区这一比例高达18%。对于国际学生来说，这个差距更为明显。英国高等教育统计局（HESA）2022年的一项内部调研显示，住在距离校园步行15分钟以内的学生，学期内每月生活总支出比需要通勤30分钟以上的学生平均低10.2%。这笔节省主要来自交通费、外卖替代自行烹饪的溢价，以及因通勤疲劳导致的冲动消费。对于预算紧张的留学生群体，把“步行可达”作为选房核心指标，可能是比砍价更有效的省钱策略。

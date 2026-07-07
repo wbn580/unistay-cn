@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CtaCard from '../../components/CtaCard.astro';
+import { getStats, getCountries, getCities } from '../../lib/data';
+import { cityDisplay, cur, fmtNum } from '../../lib/format';
+
+const stats = getStats();
+const countries = [...getCountries()].sort((a, b) => b.property_count - a.property_count);
+const cities = getCities();
+
+const citiesByCountry = new Map<string, typeof cities>();
+for (const c of cities) {
+  if (!citiesByCountry.has(c.country)) citiesByCountry.set(c.country, []);
+  citiesByCountry.get(c.country)!.push(c);
+}
+for (const arr of citiesByCountry.values()) {
+  arr.sort((a, b) => b.property_count - a.property_count);
+}
+
+const title = `找房源：${stats.countries} 国 ${fmtNum(stats.cities)} 城留学生公寓目录（2026）| UniStay 优住`;
+const description = `按国家和城市浏览 ${fmtNum(stats.properties)} 套留学生公寓：英国、美国、澳大利亚、加拿大等 ${stats.countries} 个国家、${fmtNum(stats.cities)} 个城市，每套标真实价格与评价，价格以运营方实时报价为准。`;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '找房源' }]} />
+    <h1 style="font-size: clamp(1.625rem, 4vw, 2.25rem); margin-top: 1.25rem;">按国家和城市找房源</h1>
+    <p style="margin-top: 0.9rem; max-width: 46rem; color: var(--color-muted);">
+      优住目前收录 {stats.countries} 个国家、{fmtNum(stats.cities)} 个城市的
+      {fmtNum(stats.properties)} 套留学生公寓真房源。先选国家，再进城市页看全部房源、周租/月租起价和周边大学；拿不准去哪座城市，可以直接问右下角的住宿小助手。
+    </p>
+  </div>
+
+  <!-- 国家导航 -->
+  <section class="us-section" style="padding-block: 2rem;">
+    <div class="us-wrap">
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {countries.map((c) => (
+          <a href={`/zhusu/${c.slug}/`} class="us-row us-reveal">
+            <span class="us-row__name">{c.zh}学生公寓</span>
+            <span class="us-row__meta">{fmtNum(c.property_count)} 套 · {c.city_count} 城 · {c.university_count} 所大学</span>
+          </a>
+        ))}
+      </div>
+      <nav class="mt-8 flex flex-wrap gap-2" aria-label="国家锚点">
+        {countries.map((c) => (
+          <a href={`#${c.slug}`} class="us-chip us-chip--tint">{c.zh}</a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <!-- 228 城按国分组 -->
+  {countries.map((c, i) => {
+    const list = citiesByCountry.get(c.slug) ?? [];
+    return (
+      <section id={c.slug} class:list={['us-section', i % 2 === 0 ? 'us-section--tint' : 'us-section--paper']} style="padding-block: 3rem;">
+        <div class="us-wrap">
+          <h2 class="us-h2">{c.zh} · {list.length} 个城市</h2>
+          <p class="us-sub">共 {fmtNum(c.property_count)} 套房源，计价货币 {c.currency}。</p>
+          <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((city) => (
+              <a href={`/chengshi/${city.country}/${city.slug}/`} class="us-row">
+                <span class="us-row__name">{cityDisplay(city)}</span>
+                <span class="us-row__meta">
+                  {fmtNum(city.property_count)} 套{city.min_price ? ` · ${cur(city.currency)}${fmtNum(city.min_price)} 起` : ''}
+                </span>
+              </a>
+            ))}
+          </div>
+          <div class="mt-5">
+            <a href={`/zhusu/${c.slug}/`} class="us-btn us-btn--ghost us-btn--sm">进入{c.zh}总览 →</a>
+          </div>
+        </div>
+      </section>
+    );
+  })}
+
+  <section class="us-section us-section--paper" style="padding-block: 3rem;">
+    <div class="us-wrap">
+      <CtaCard
+        title="城市太多不知道从哪看起？"
+        desc="告诉住宿小助手你的学校或目标国家，它先帮你把范围缩到两三个城市，再逐套比价格和评价。"
+      />
+    </div>
+  </section>
+</BaseLayout>

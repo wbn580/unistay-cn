@@ -8,11 +8,8 @@ modDatetime: "2026-04-01T12:06:07Z"
 readingTime: 3
 tags: ["featured"]
 
-<<<<<<< HEAD
 heroImage: "https://img.ulec.com.cn/unistay/story-of-a-successful-rent-negotiation-that-saved-3000-dolla-36488760.jpg"
 ogImage: "https://img.ulec.com.cn/unistay/story-of-a-successful-rent-negotiation-that-saved-3000-dolla-36488760.jpg"
-=======
->>>>>>> 3299e1a (重设计: 留学生公寓 现代清新视觉 + heroImage配图 + 全站部署)
 ---
 
 去年秋天，一位在墨尔本大学读研的中国留学生，通过三次邮件和一次实地看房，成功将一套两居室公寓的周租金从 **520 澳元压到 465 澳元**，一年省下 **2,860 澳元（约合人民币 13,500 元）**。这不是运气，而是有策略的谈判。根据澳大利亚房地产协会（REIA，2023）的《租赁市场报告》，全澳首府城市空置率在 2023 年 6 月降至 **1.2%**，为历史最低点，但墨尔本内城区部分老楼空置周期却拉长到 **4-6 周**。这意味着，只要找准时机和房源类型，留学生完全有筹码谈价。这篇文章拆解这次谈判的全过程，并给出可复用的模板和工具，帮你把房租降下来。
