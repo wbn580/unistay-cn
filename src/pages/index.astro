@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PropertyCard from '../components/PropertyCard.astro';
 import FaqBlock from '../components/FaqBlock.astro';
+import UsAiWizard from '../components/UsAiWizard.astro';
 import {
   getStats,
   getCountries,
@@ -170,9 +171,9 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
         {fmtNum(stats.properties)} 套真房源 · {stats.cities} 个城市 · {stats.countries} 个国家 · 条条带真实评价
       </p>
       <div style="margin-top: 2.25rem; display: flex; flex-wrap: wrap; gap: 0.9rem;">
-        <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.()">
+        <a href="#us-wizard" class="us-btn us-btn--primary">
           AI 帮我找房
-        </button>
+        </a>
         <a href="/zhusu/" class="us-btn us-btn--ghost-light">按城市浏览</a>
       </div>
 
@@ -192,6 +193,29 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
             <span style="font-size: 0.8125rem; color: rgba(255,255,255,0.7);">{l}</span>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- AI 找房向导 -->
+  <section id="us-wizard" class="us-section us-section--tint">
+    <div class="us-wrap">
+      <div style="display:grid;gap:2.5rem;align-items:center;grid-template-columns:1fr;" class="md:!grid-cols-2">
+        <div>
+          <span class="us-kicker">AI 找房向导</span>
+          <h2 class="us-h2">点几下，我从 3,246 套真房源里帮你挑</h2>
+          <p class="us-sub" style="margin-top:1rem;">
+            选学校、定预算、挑入住时间和房型——不到一分钟，拿到匹配你条件的已核实房源，还能让顾问帮你锁房、核实房态。全程免费、免学生中介费。
+          </p>
+          <ul style="margin-top:1.5rem;display:grid;gap:.7rem;color:var(--color-primary-deep);font-size:.95rem;">
+            <li>✓ 房源条条带真实谷歌评价，不是宣传图</li>
+            <li>✓ 原生货币显示，预算档按当地行情自动生成</li>
+            <li>✓ 顾问一个工作日内跟进，帮你核实房态</li>
+          </ul>
+        </div>
+        <div style="display:flex;justify-content:center;">
+          <UsAiWizard />
+        </div>
       </div>
     </div>
   </section>
@@ -365,9 +389,9 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
           <h3>把学校和预算发给小助手，剩下的交给它</h3>
           <p>圈房源、比价格、对接公寓顾问跟进到签约——全程免费，价格以运营方实时报价为准。</p>
         </div>
-        <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.()">
+        <a href="#us-wizard" class="us-btn us-btn--primary">
           AI 帮我找房
-        </button>
+        </a>
       </div>
     </div>
   </section>
