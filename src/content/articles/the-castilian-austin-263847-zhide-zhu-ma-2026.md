@@ -1,6 +1,6 @@
 ---
 title: "The Castilian（奥斯汀）怎么样？2026 价格·房型·真实评价"
-description: "这是一篇关于奥斯汀   The Castilian   的住宿决策参考，数据来源为独立学生公寓信息库，仅供参考。  ---     这个公寓适合谁，不适合谁    The Castilian   位于德州大学奥斯汀分校（UT Austin）校园附近，地址是 Austin, TX 78705, USA"
+description: "The Castilian（奥斯汀）怎么样？2026 价格·房型·真实评价 的房源位置、租金区间、房型选择、适合人群和预订注意事项整理，供留学生比较住宿方案时参考。"
 category: "房源点评"
 publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T18:16:12Z"

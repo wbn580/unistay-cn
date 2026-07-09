@@ -1,6 +1,6 @@
 ---
 title: "Canvas Burjassot（瓦伦西亚）怎么样？2026 价格·房型·真实评价"
-description: "这是一篇面向留学生、帮你判断「Canvas Burjassot 这套公寓值不值得住」的决策文。所有数据都来自 2026 年 7 月之前收录的信息，具体价格以运营方实时报价为准。  ---     Canvas Burjassot 适合什么样的人  这套公寓位于瓦伦西亚北部的 Burjassot 镇，"
+description: "Canvas Burjassot（瓦伦西亚）怎么样？2026 价格·房型·真实评价 的房源位置、租金区间、房型选择、适合人群和预订注意事项整理，供留学生比较住宿方案时参考。"
 category: "房源点评"
 publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T23:46:36Z"

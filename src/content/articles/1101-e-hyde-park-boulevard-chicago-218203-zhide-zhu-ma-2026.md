@@ -1,6 +1,6 @@
 ---
 title: "1101 E. Hyde Park Boulevard（芝加哥）怎么样？2026 价格·房型·真实评价"
-description: "这是一篇关于芝加哥 Hyde Park 地区公寓   1101 E. Hyde Park Boulevard   的决策型文章。数据全部来自你提供的真实信息，无任何虚构。  ---     这套公寓的基本盘  1101 E. Hyde Park Boulevard 位于芝加哥南部的 Hyde Par"
+description: "1101 E. Hyde Park Boulevard（芝加哥）怎么样？2026 价格·房型·真实评价 的房源位置、租金区间、房型选择、适合人群和预订注意事项整理，供留学生比较住宿方案时参考。"
 category: "房源点评"
 publishDate: "2026-06-30"
 pubDatetime: "2026-06-30T14:56:02Z"
