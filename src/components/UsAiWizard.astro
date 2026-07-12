@@ -97,6 +97,8 @@
   var setBar=function(p){bar.style.width=p+'%';};
   var fmtG=function(n){return (n||0).toLocaleString('en-US');};
   var cn=function(c){return (c&&(c.name_zh||c.name))||'';};
+  // 计价周期 → 中文单位：weekly→周，monthly→月，未知→期。各国惯例不同，不可混用
+  var durU=function(d){return d==='weekly'?'周':d==='monthly'?'月':'期';};
   var band=function(b){
     if(!b)return b;
     if(/^flexible$/i.test(b))return '预算灵活';
@@ -138,7 +140,7 @@
 
   function step2(){setBar(40);var c=S.destCity;var o=(c.bands||[]).concat(['Flexible']);
     view.innerHTML='<div class="usw-body"><div class="usw-sh"><span class="usw-sn">第 2 / 5 步</span><button class="usw-back" data-b="1">‹ 返回</button></div>'+
-      '<div class="usw-q">每周预算大概多少？</div>'+
+      '<div class="usw-q">每'+durU(c.du)+'预算大概多少？</div>'+
       '<div class="usw-opts two">'+o.map(function(x){return '<button type="button" class="usw-opt" data-v="'+esc(x)+'"><span class="t">'+esc(band(x))+'</span></button>';}).join('')+'</div></div>';
     bindBack(step1); bindOpts(function(v){S.budget=v;step3();});
   }
@@ -176,7 +178,7 @@
       var img=p.i?IMG+p.i:'';
       return '<a class="usw-pc" href="/fangyuan/'+p.s+'/"><div class="im" style="'+(img?'background-image:url(\''+img+'\')':'')+'"><span class="vb">✓ 已核实</span></div>'+
         '<div><h4>'+esc(p.n)+'</h4><div class="rt">'+(p.r?'<b>★ '+p.r+'</b> · ':'')+fmtG(p.g)+' 条谷歌评价</div></div>'+
-        '<div class="pr"><b>'+c.cur+p.p.toLocaleString('en-US')+'</b><s>/周</s></div></a>';
+        '<div class="pr"><b>'+c.cur+p.p.toLocaleString('en-US')+'</b><s>/'+durU(p.u||c.du)+'</s></div></a>';
     }).join('');
     view.innerHTML='<div class="usw-rh"><span class="lab">✓ 已核实匹配</span><h3>'+esc(S.dest)+' 附近的房源</h3>'+
       (S.notes?'<div class="usw-kb">✨ AI 已匹配：「'+esc(S.notes.slice(0,46))+(S.notes.length>46?'…':'')+'」</div>':'')+'</div>'+

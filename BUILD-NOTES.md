@@ -22,3 +22,8 @@
 ## 已知风险 / 后续
 - 评论原文为英文（真实性优先），中文速评已补；后续可派 Hermes 批量生成更细的中文摘译
 - name_zh 只覆盖 ~100 主要城市，其余显示英文名（数据层可后补）
+
+## ⚠️ wizard_cities.json 计价周期约束（2026-07-10）
+AI 找房向导按每套房源真实 price_duration 显示单位（周/月）。
+重新生成 public/wizard_cities.json 时**必须**：每套房源 props 带 `u`（"weekly"/"monthly"，join 自 src/data/properties/*.json 的 price_duration）+ 每城市带 `du`（该城主导周期）。
+缺 `u`/`du` 会导致卡片单位回退不准 / 周月混用失真。各国惯例不同（US/CA/EU 多月租，AU/UK 周租，IE 混合），不可按国家一刀切。
