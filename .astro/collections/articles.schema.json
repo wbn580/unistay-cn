@@ -38,6 +38,9 @@
         "heroImage": {
           "type": "string"
         },
+        "hideFromHome": {
+          "type": "boolean"
+        },
         "$schema": {
           "type": "string"
         }

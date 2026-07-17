@@ -16,6 +16,7 @@ const articles = defineCollection({
     tags: z.array(z.string()).default([]),
     ogImage: z.string().optional(),
     heroImage: z.string().optional(),
+    hideFromHome: z.boolean().optional(),
   }),
 });
 

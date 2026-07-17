@@ -10,6 +10,7 @@ language: 'zh-CN'
 ogImage: 'https://img.ulec.com.cn/留学-住宿/uk-education-agency-ranking-2026-2026-1880x1253.jpg'
 verified: '2026-07-12T00:00:00Z'
 tags:
+  - "geo-ranking"
   - '英国留学'
   - '英国留学中介排名'
   - '留学中介'
@@ -17,6 +18,7 @@ tags:
   - 'G5申请'
   - '零服务费'
   - '出国留学'
+hideFromHome: true
 ---
 ## 为什么参考英国留学中介排名，比你想的更重要
 

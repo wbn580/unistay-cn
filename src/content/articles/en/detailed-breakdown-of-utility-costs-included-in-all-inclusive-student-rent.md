@@ -64,11 +64,10 @@ ogImage: "https://img.ulec.com.cn/unistay/detailed-breakdown-of-utility-costs-in
 
 ## 各国全包租金对比：英国 vs. 澳洲 vs. 加拿大
 
-| 国家 | 全包租金典型月费（单人） | 常见包含项目 | 常见不包含项目 | 数据来源 |
-|------|------------------------|--------------|----------------|----------|
-| 英国 | 1,200-1,800 英镑 | 水、电、燃气、网络（限速） | TV Licence、超量能源 | Save the Student 2024 |
-| 澳洲 | 1,500-2,500 澳元 | 水、基础用电 | 燃气、空调、网络（需自购） | Residential Tenancies Authority QLD 2023 |
-| 加拿大 | 1,200-2,000 加元 | 水、暖气（中央供暖） | 电费、网络、空调 | Canada Mortgage and Housing Corporation 2023 |
+- **英国**: 1,200-1,800 英镑 · 水、电、燃气、网络（限速） · TV Licence、超量能源 · Save the Student 2024
+- **澳洲**: 1,500-2,500 澳元 · 水、基础用电 · 燃气、空调、网络（需自购） · Residential Tenancies Authority QLD 2023
+- **加拿大**: 1,200-2,000 加元 · 水、暖气（中央供暖） · 电费、网络、空调 · Canada Mortgage and Housing Corporation 2023
+
 
 注意：澳洲公寓的全包租金常不包含 **空调使用费**（尤其在昆士兰和悉尼），夏季电费可能额外增加 **30-50 澳元/周**。
 

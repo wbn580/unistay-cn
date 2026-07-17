@@ -101,6 +101,7 @@ const featuredUnis = uniPick
 
 // 最新指南 4 篇
 const articles = (await getCollection('articles'))
+  .filter((article) => article.data.hideFromHome !== true)
   .sort((a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime())
   .slice(0, 4);
 

@@ -107,16 +107,15 @@ Fitzroy 是墨尔本最文艺的街区，遍布涂鸦墙、独立书店和 liveh
 
 为了方便你快速决策，以下按“性价比”（租金/配套比）从高到低排列：
 
-| 公寓名称 | 周租金区间 | 距墨大步行 | 屋顶核心配套 |
-|---------|-----------|-----------|-------------|
-| The Fitzroy Student Hub | $340–$470 | 15 分钟 | 音乐舞台+懒人沙发 |
-| Journal Student Living | $370–$500 | 10 分钟 | 香草园+户外厨房 |
-| Y Suites on Lygon | $390–$530 | 12 分钟 | 双层露台+草坪 |
-| Atira Southbank | $410–$560 | 电车 8 分钟 | 河景瑜伽+派对舱 |
-| Iglu Broadway | $420–$560 | 12 分钟 | 全景玻璃+绿植墙 |
-| UniLodge @ Victoria Street | $430–$580 | 5 分钟 | 空中花园+私人舱 |
-| Space Melbourne | $450–$620 | 步行+电车 10 分钟 | 按摩池+日落品酒 |
-| Scape Victoria Street | $480–$650 | 3 分钟 | 阳光房+专业 BBQ |
+- **The Fitzroy Student Hub**: $340–$470 · 15 分钟 · 音乐舞台+懒人沙发
+- **Journal Student Living**: $370–$500 · 10 分钟 · 香草园+户外厨房
+- **Y Suites on Lygon**: $390–$530 · 12 分钟 · 双层露台+草坪
+- **Atira Southbank**: $410–$560 · 电车 8 分钟 · 河景瑜伽+派对舱
+- **Iglu Broadway**: $420–$560 · 12 分钟 · 全景玻璃+绿植墙
+- **UniLodge @ Victoria Street**: $430–$580 · 5 分钟 · 空中花园+私人舱
+- **Space Melbourne**: $450–$620 · 步行+电车 10 分钟 · 按摩池+日落品酒
+- **Scape Victoria Street**: $480–$650 · 3 分钟 · 阳光房+专业 BBQ
+
 
 ## 7. 屋顶露台使用避坑指南
 

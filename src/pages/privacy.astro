@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = '隐私政策 | UniStay 优住';
+const description = 'UniStay 优住隐私政策：我们收集哪些信息、如何使用和保护信息，以及用户可以行使的选择权。';
+const updated = '2026 年 7 月 16 日';
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '隐私政策' }]} />
+  </div>
+
+  <section class="us-wrap us-legal" style="padding-block: 0.5rem 4rem; max-width: 48rem;">
+    <span class="us-kicker">PRIVACY</span>
+    <h1 class="us-h" style="font-size: clamp(1.6rem, 4vw, 2.5rem);">隐私政策</h1>
+    <p style="margin-top: 0.6rem; color: var(--color-muted); font-size: 0.9rem;">最近更新：{updated}</p>
+
+    <div style="margin-top: 1.5rem; display: grid; gap: 1.5rem; line-height: 1.9;">
+      <section>
+        <h2>1. 我们收集的信息</h2>
+        <p>当你使用找房表单、在线咨询或邮件联系我们时，我们可能收集你主动提供的姓名、电子邮箱、电话号码、学校、预算、入住时间和住宿偏好。</p>
+        <p>网站也可能自动记录基本技术信息，例如访问时间、来源页面、浏览器类型、设备类型、IP 地址和页面交互，用于安全、归因和改善服务。</p>
+      </section>
+      <section>
+        <h2>2. 信息用途</h2>
+        <p>我们使用这些信息来回应咨询、生成住宿匹配、安排顾问跟进、核实房态、改进网站体验、防止滥用，并衡量内容或合作链接的效果。</p>
+      </section>
+      <section>
+        <h2>3. 服务商与合作方</h2>
+        <p>为完成上述用途，必要信息可能由代表我们提供网站托管、分析、客户支持或住宿咨询服务的供应商处理。当你主动前往第三方公寓、保险、旅行或其他服务商网站时，其隐私政策将独立适用。</p>
+      </section>
+      <section>
+        <h2>4. Cookie、分析与归因</h2>
+        <p>我们可能使用 Cookie 或类似技术维持基本功能、理解页面使用情况并记录咨询或合作链接的来源。你可以在浏览器中限制 Cookie，但部分功能可能因此受影响。</p>
+      </section>
+      <section>
+        <h2>5. 保存与安全</h2>
+        <p>信息仅在提供服务、履行合理业务和合规需要所必需的期间内保存。我们采取合理的技术和组织措施保护信息，但任何互联网传输或存储方式都无法保证绝对安全。</p>
+      </section>
+      <section>
+        <h2>6. 你的选择</h2>
+        <p>你可以要求查询、更正或删除你提交的个人信息，也可以要求停止非必要联系。为保护信息安全，我们可能需要先核实请求人的身份。</p>
+      </section>
+      <section>
+        <h2>7. 联系方式</h2>
+        <p>隐私相关请求请发送至 <a href="mailto:contact@unistay.cn">contact@unistay.cn</a>。</p>
+      </section>
+    </div>
+  </section>
+
+  <style>
+    .us-legal h2 { font-size: 1.15rem; margin-bottom: 0.4rem; }
+    .us-legal p + p { margin-top: 0.55rem; }
+  </style>
+</BaseLayout>

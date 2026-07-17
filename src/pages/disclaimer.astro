@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = '免责声明与合作披露 | UniStay 优住';
+const description = 'UniStay 优住关于住宿信息、价格房态、评价、AI 匹配、第三方服务和合作链接的说明。';
+const updated = '2026 年 7 月 16 日';
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="us-wrap" style="padding-block: 2.5rem 1rem;">
+    <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '免责声明与合作披露' }]} />
+  </div>
+
+  <section class="us-wrap us-legal" style="padding-block: 0.5rem 4rem; max-width: 48rem;">
+    <span class="us-kicker">DISCLOSURE</span>
+    <h1 class="us-h" style="font-size: clamp(1.6rem, 4vw, 2.5rem);">免责声明与合作披露</h1>
+    <p style="margin-top: 0.6rem; color: var(--color-muted); font-size: 0.9rem;">最近更新：{updated}</p>
+
+    <div style="margin-top: 1.5rem; display: grid; gap: 1.5rem; line-height: 1.9;">
+      <section>
+        <h2>独立信息服务</h2>
+        <p>UniStay 优住是独立的留学生住宿查询和内容服务，并非房东、公寓运营方、房地产经纪、学校或法律顾问。除页面明确说明外，我们与所提及的院校和住宿品牌不存在隶属关系。</p>
+      </section>
+      <section>
+        <h2>价格、房态与合同</h2>
+        <p>页面展示的价格、优惠、起租时间、房型和设施来自公开信息或合作数据，可能随库存和运营方政策变化。签约或付款前，请直接向运营方核实最新房态、完整费用、押金、取消条款和合同主体。</p>
+      </section>
+      <section>
+        <h2>评价与编辑内容</h2>
+        <p>第三方评价会尽量保留原始含义并注明来源。评分、摘要和编辑速评用于帮助比较，不代表每位住户的体验，也不构成质量保证。发现来源或事实错误，可通过<a href="/contact/">联系我们</a>提交更正依据。</p>
+      </section>
+      <section>
+        <h2>AI 匹配与顾问服务</h2>
+        <p>AI 找房结果基于用户输入和现有数据生成，仅供筛选参考，可能存在遗漏或不准确。顾问可以协助核实信息和对接运营方，但不能保证特定房源一定可订、签证结果或任何第三方履约结果。</p>
+      </section>
+      <section>
+        <h2>合作链接披露</h2>
+        <p>部分页面可能包含住宿、旅行、保险、电信或其他服务的合作链接。如果你通过这些链接购买，我们可能获得佣金；在通常情况下，这不会增加你的价格。商业合作不会购买好评、删除差评或决定我们的独立编辑结论。</p>
+      </section>
+      <section>
+        <h2>第三方网站</h2>
+        <p>第三方网站的内容、价格、隐私政策、付款和售后由其自行负责。离开本站前往第三方服务时，请自行阅读对方条款并判断是否适合你的情况。</p>
+      </section>
+      <section>
+        <h2>联系</h2>
+        <p>对本说明有疑问，请发送邮件至 <a href="mailto:contact@unistay.cn">contact@unistay.cn</a>。</p>
+      </section>
+    </div>
+  </section>
+
+  <style>
+    .us-legal h2 { font-size: 1.15rem; margin-bottom: 0.4rem; }
+  </style>
+</BaseLayout>
