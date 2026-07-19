@@ -22,7 +22,7 @@ const nav = [
 
     <nav class="us-nav" aria-label="主导航">
       {nav.map((n) => <a href={n.href}>{n.label}</a>)}
-      <button type="button" class="us-btn us-btn--primary us-btn--sm" onclick="window.aiwOpen?.()">
+      <button type="button" class="us-btn us-btn--primary us-btn--sm" onclick="window.usFindHome?.()">
         AI 帮我找房
       </button>
     </nav>
@@ -44,7 +44,7 @@ const nav = [
 
 <div class="us-mnav" id="us-mobile-nav" data-us-mnav>
   {nav.map((n) => <a href={n.href}>{n.label}</a>)}
-  <button type="button" class="us-btn us-btn--primary" onclick="window.aiwOpen?.(); document.querySelector('[data-us-mnav]')?.classList.remove('is-open');">
+  <button type="button" class="us-btn us-btn--primary" onclick="window.usFindHome?.(); document.querySelector('[data-us-mnav]')?.classList.remove('is-open');">
     AI 帮我找房
   </button>
 </div>

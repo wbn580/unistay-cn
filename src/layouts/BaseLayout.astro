@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import AiWizardModal from '../components/AiWizardModal.astro';
 
 interface Props {
   title: string;
@@ -72,6 +73,9 @@ const { title, description, ogImage, ogType, canonical, jsonLd, noindex, overlay
         }
       })();
     </script>
+
+    <!-- AI 找房向导 · 弹窗（全站 window.aiwOpen 入口） -->
+    <AiWizardModal />
 
     <!-- UniStay 优住 · chatbot / 留资 / 归因 三件套 -->
     <script

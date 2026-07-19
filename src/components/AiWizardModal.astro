@@ -1,0 +1,192 @@
+---
+// AiWizardModal.astro — 优住 AI 找房向导 · 弹窗版
+// 全站任意 "AI 找房 / AI 帮我找房" 入口（调 window.aiwOpen）都弹出此 modal，
+// 内含首页同款找房向导（UsWizard 内核）+ 背景遮蔽。
+// 放在 BaseLayout 里，全站每页可用。
+---
+
+<!-- 找房向导内核（全站只此一处加载，供首页内联卡片 + 本 modal 共用） -->
+<script is:inline src="/us-wizard-engine.js"></script>
+
+<div class="aiw" id="aiwModal" hidden aria-hidden="true">
+  <div class="aiw-backdrop" data-aiw-close></div>
+  <div class="aiw-dialog" role="dialog" aria-modal="true" aria-label="AI 找房向导">
+    <button type="button" class="aiw-x" data-aiw-close aria-label="关闭">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+    <div class="usw" id="aiwModalCard" data-usw-init="0">
+      <div class="usw-tag"><span class="dot" aria-hidden="true"></span>AI 找房匹配 · 77 万条真实评价</div>
+      <div class="usw-bar"><i></i></div>
+      <div class="usw-view"><div class="usw-load">正在准备房源…</div></div>
+      <div class="usw-foot"><a href="/zhusu/">找不到合适的？浏览全部房源 →</a></div>
+    </div>
+  </div>
+</div>
+
+<style is:global>
+  .aiw {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .aiw[hidden] {
+    display: none;
+  }
+  .aiw-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(11, 26, 33, 0.55);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  .aiw-dialog {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+    transition: opacity 0.28s cubic-bezier(0.2, 0.7, 0.3, 1), transform 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+  .aiw.is-open .aiw-backdrop {
+    opacity: 1;
+  }
+  .aiw.is-open .aiw-dialog {
+    opacity: 1;
+    transform: none;
+  }
+  .aiw-x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #16303d;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(22, 48, 61, 0.18);
+  }
+  .aiw-x:hover {
+    background: #fff;
+  }
+  .aiw .usw {
+    max-width: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .aiw-backdrop,
+    .aiw-dialog {
+      transition: none;
+    }
+  }
+  body.aiw-lock {
+    overflow: hidden;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var modal = document.getElementById('aiwModal');
+    if (!modal || modal.dataset.aiwBound === '1') return;
+    modal.dataset.aiwBound = '1';
+
+    var card = document.getElementById('aiwModalCard');
+    var lastFocus = null;
+    var mounted = false;
+
+    function ensureMounted() {
+      if (mounted) return;
+      if (window.UsWizard && card) {
+        window.UsWizard.mount(card);
+        mounted = true;
+      }
+    }
+
+    function open() {
+      lastFocus = document.activeElement;
+      modal.hidden = false;
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('aiw-lock');
+      // reflow → 触发过渡
+      void modal.offsetWidth;
+      modal.classList.add('is-open');
+      // 内核可能尚未 load 完成（async），轮询挂载
+      ensureMounted();
+      if (!mounted) {
+        var tries = 0;
+        var t = setInterval(function () {
+          ensureMounted();
+          if (mounted || ++tries > 50) clearInterval(t);
+        }, 100);
+      }
+      var x = modal.querySelector('.aiw-x');
+      if (x) x.focus();
+    }
+
+    function close() {
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('aiw-lock');
+      var done = function () {
+        modal.hidden = true;
+        modal.removeEventListener('transitionend', done);
+      };
+      modal.addEventListener('transitionend', done);
+      // 兜底（reduced-motion 无过渡时 transitionend 不触发）
+      setTimeout(function () {
+        if (!modal.classList.contains('is-open')) modal.hidden = true;
+      }, 320);
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+    }
+
+    modal.querySelectorAll('[data-aiw-close]').forEach(function (el) {
+      el.addEventListener('click', close);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('is-open')) close();
+    });
+
+    // 站内所有 "AI 找房" 入口统一走这个专属全局。
+    window.usFindHome = open;
+    window.usFindHomeClose = close;
+    window.aiwClose = close;
+
+    // 用访问器锁定外部 chatbot 脚本（chat.unistay.cn/lead.js · async 加载）暴露的两个入口：
+    //   · window.aiwOpen —— 兼容别名
+    //   · window.__leadOpenHousingForm —— 右下角"AI 找房"悬浮气泡的 onclick，
+    //     原本弹出「留学选校评估」问卷，改为弹出本站找房向导 modal。
+    // getter 恒返回本 modal 的 open；setter 静默忽略外部覆盖（严格模式下也不抛错），
+    // 无论外部脚本何时加载，点击气泡/按钮始终打开找房向导。
+    function lockOpener(name) {
+      try {
+        Object.defineProperty(window, name, {
+          configurable: true,
+          get: function () {
+            return open;
+          },
+          set: function () {
+            /* 忽略外部脚本的覆盖 */
+          },
+        });
+      } catch (e) {
+        window[name] = open;
+      }
+    }
+    lockOpener('aiwOpen');
+    lockOpener('__leadOpenHousingForm');
+  })();
+</script>
