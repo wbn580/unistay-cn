@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PropertyCard from '../components/PropertyCard.astro';
 import FaqBlock from '../components/FaqBlock.astro';
-import UsAiWizard from '../components/UsAiWizard.astro';
 import {
   getStats,
   getCountries,
@@ -172,9 +171,9 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
         {fmtNum(stats.properties)} 套真房源 · {stats.cities} 个城市 · {stats.countries} 个国家 · 条条带真实评价
       </p>
       <div style="margin-top: 2.25rem; display: flex; flex-wrap: wrap; gap: 0.9rem;">
-        <a href="#us-wizard" class="us-btn us-btn--primary">
+        <button type="button" class="us-btn us-btn--primary" onclick="window.usFindHome?.()">
           AI 帮我找房
-        </a>
+        </button>
         <a href="/zhusu/" class="us-btn us-btn--ghost-light">按城市浏览</a>
       </div>
 
@@ -215,7 +214,9 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
           </ul>
         </div>
         <div style="display:flex;justify-content:center;">
-          <UsAiWizard />
+          <button type="button" class="us-btn us-btn--primary" style="font-size:1.05rem;padding:1rem 2.25rem;" onclick="window.usFindHome?.()">
+            AI 帮我找房 →
+          </button>
         </div>
       </div>
     </div>
@@ -390,9 +391,9 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
           <h3>把学校和预算发给小助手，剩下的交给它</h3>
           <p>圈房源、比价格、对接公寓顾问跟进到签约——全程免费，价格以运营方实时报价为准。</p>
         </div>
-        <a href="#us-wizard" class="us-btn us-btn--primary">
+        <button type="button" class="us-btn us-btn--primary" onclick="window.usFindHome?.()">
           AI 帮我找房
-        </a>
+        </button>
       </div>
     </div>
   </section>
