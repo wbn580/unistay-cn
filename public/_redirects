@@ -1,0 +1,3 @@
+/en https://unistay.net/ 301
+/en/ https://unistay.net/ 301
+/en/* https://unistay.net/:splat 301

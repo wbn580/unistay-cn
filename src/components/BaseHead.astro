@@ -23,6 +23,7 @@ const {
 } = Astro.props;
 
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
+const isHome = Astro.url.pathname === '/';
 ---
 
 <meta charset="utf-8" />
@@ -30,13 +31,16 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
+{isHome && <link rel="alternate" hreflang="zh-CN" href="https://unistay.cn/" />}
+{isHome && <link rel="alternate" hreflang="en" href="https://unistay.net/" />}
+{isHome && <link rel="alternate" hreflang="x-default" href="https://unistay.net/" />}
 {noindex && <meta name="robots" content="noindex, follow" />}
 
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
-<meta name="theme-color" content="#22485A" />
+<meta name="theme-color" content="#4B3FE4" />
 
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

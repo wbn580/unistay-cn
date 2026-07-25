@@ -124,7 +124,7 @@
     loadData(function (err) {
       if (err) {
         view.innerHTML =
-          '<div class="usw-load">找房功能即将开放，先<a href="/zhusu/" style="color:#22485a;font-weight:600">按城市浏览全部房源</a>。</div>';
+          '<div class="usw-load">找房功能即将开放，先<a href="/zhusu/" style="color:#4B3FE4;font-weight:600">按城市浏览全部房源</a>。</div>';
         return;
       }
       step1();
@@ -257,7 +257,7 @@
       view.innerHTML =
         '<div class="usw-body"><div class="usw-sh"><span class="usw-sn">第 5 / 5 步</span><button class="usw-back">‹ 返回</button></div>' +
         '<div class="usw-q">还有什么特别在意的？</div>' +
-        '<p style="color:#5a7079;font-size:13.5px;margin:-8px 0 12px">用你自己的话告诉 AI——它会拿去和真实住客评价做匹配。选填。</p>' +
+        '<p style="color:#6B6880;font-size:13.5px;margin:-8px 0 12px">用你自己的话告诉 AI——它会拿去和真实住客评价做匹配。选填。</p>' +
         '<textarea class="usw-ta uswNotes" placeholder="例如：楼里安静、步行 10 分钟到校、带独卫和大书桌、附近有超市…"></textarea>' +
         '<div class="usw-hints">' +
         h

@@ -1,22 +1,22 @@
 /* ============================================================
    UniStay 优住 — 全站设计系统
-   墨青 × 杏金 × 暖白纸感 · 清单式信息密度 · 系统中文黑体栈
+   UniStay Campus·elevated · 靛蓝 × 柠绿 × 近白 · 系统中文黑体栈
    ============================================================ */
 @import 'tailwindcss';
 
 @theme {
   /* 品牌色 */
-  --color-primary: #22485a; /* 墨青 */
-  --color-primary-deep: #16303d;
-  --color-primary-tint: #e8eef1;
-  --color-accent: #c9873b; /* 杏金 */
-  --color-accent-deep: #a86d28;
-  --color-accent-soft: #f8efdf;
-  --color-madder: #b24e3f; /* 茜红 · 评分点缀 */
-  --color-paper: #faf8f3; /* 暖白纸感 */
-  --color-ink: #26221d;
-  --color-muted: #6b655c;
-  --color-line: #e8e2d6;
+  --color-primary: #4b3fe4; /* UniStay indigo */
+  --color-primary-deep: #3a2fc4;
+  --color-primary-tint: #eeecff;
+  --color-accent: #cdeb5a; /* lime accent */
+  --color-accent-deep: #b6d843;
+  --color-accent-soft: #f5fad8;
+  --color-madder: #ff6455; /* review / warning accent */
+  --color-paper: #faf9fc;
+  --color-ink: #14122a;
+  --color-muted: #6b6880;
+  --color-line: #e4e1f0;
 
   --font-sans:
     -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei',
@@ -29,8 +29,8 @@
 /* ---------- 基础 ---------- */
 :root {
   --us-header-h: 4rem;
-  --us-shadow-card: 0 1px 2px rgba(38, 34, 29, 0.05), 0 4px 14px rgba(38, 34, 29, 0.06);
-  --us-shadow-card-hover: 0 2px 4px rgba(38, 34, 29, 0.06), 0 10px 26px rgba(38, 34, 29, 0.1);
+  --us-shadow-card: 0 1px 2px rgba(20, 18, 42, 0.05), 0 4px 14px rgba(75, 63, 228, 0.07);
+  --us-shadow-card-hover: 0 2px 4px rgba(20, 18, 42, 0.06), 0 10px 26px rgba(75, 63, 228, 0.13);
 }
 
 html {
@@ -366,6 +366,8 @@ a:hover {
 /* ---------- 清单行（城市 / 大学索引） ---------- */
 .us-row {
   display: flex;
+  width: 100%;
+  min-width: 0;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -382,6 +384,7 @@ a:hover {
   box-shadow: var(--us-shadow-card);
 }
 .us-row__name {
+  flex: 1 1 auto;
   font-weight: 600;
   color: var(--color-primary-deep);
   min-width: 0;
