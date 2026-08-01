@@ -1,0 +1,49 @@
+{
+  "site": "unistay-cn",
+  "domain": "unistay.cn",
+  "articles": [
+    {
+      "slug": "unistay-cn-0821",
+      "title": "2026海外留学生租房渠道全解析：从选房到签约的避坑指南",
+      "release_date": "2026-02-14",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "5002934cb1cf21987d767ce369238326ccbac6c763bec0366a44bb8457d586ca"
+    },
+    {
+      "slug": "unistay-cn-0823",
+      "title": "2026 海外留学生活成本拆解：从住宿锚点到每一笔可控支出",
+      "release_date": "2026-03-01",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "203fc968b9d8430583fedfd5e68ad8f905afb7c2277f58292b9acdebc9e9b128"
+    },
+    {
+      "slug": "unistay-cn-0826",
+      "title": "2026 年家长陪同与首次落地海外留学清单：从出发到入住的全流程准备",
+      "release_date": "2026-04-18",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "ce95207d57251d27393c75f89c0fd70cd848e96b2bdbf5554bf1281dff516c4e"
+    },
+    {
+      "slug": "unistay-cn-0822",
+      "title": "2026留学住宿选择指南：学生公寓与校外租房如何决策",
+      "release_date": "2026-04-19",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "5fb2f44d70257ada4592424cbfd0ba34f09d98ff92a8fa6b144dda9c50ef6e65"
+    },
+    {
+      "slug": "unistay-cn-0824",
+      "title": "2026 年海外学费支付与跨境汇款路径全解析",
+      "release_date": "2026-06-02",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "0cd292ded507a0389e543018eb1992f1e67db785ffc27384920c1cdcd4551501"
+    },
+    {
+      "slug": "unistay-cn-0825",
+      "title": "2026 留学落地必备：电话卡、银行卡与交通卡办理顺序",
+      "release_date": "2026-07-17",
+      "source": "workbuddy-bulk-repair-v1",
+      "source_sha256": "ee79e0242d55bb294d3b734046d710044f47ae8f1a2fe471ef6bbb3d03775cc6"
+    }
+  ],
+  "generated_at": "2026-08-01T12:49:47Z"
+}
