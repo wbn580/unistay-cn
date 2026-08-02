@@ -6,7 +6,7 @@ publishDate: "2026-07-08"
 pubDatetime: "2026-07-08T00:00:00Z"
 modDatetime: "2026-07-08T00:00:00Z"
 tags: ["property"]
-ogImage: ""
+ogImage: "https://img.ulec.com.cn/留学/住宿/carrer-del-comte-d-urgell-160-planta-4-l-eixample-barcelona-1235647-review-2026-2026-1880x1111.jpg"
 ---
 
 ## 什么是“决策评论”以及如何阅读它

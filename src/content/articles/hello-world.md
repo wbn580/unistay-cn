@@ -7,6 +7,7 @@ pubDatetime: "2026-05-19T00:00:00Z"
 modDatetime: "2026-07-07T00:00:00Z"
 readingTime: 1
 tags: ["公告"]
+ogImage: "https://img.ulec.com.cn/留学/住宿/hello-world-2026-1280x854.jpg"
 ---
 
 UniStay 优住正式上线。我们把 12 个国家、228 个城市的 3,246 套留学生公寓房源整理成可以直接查的清单：每套都有价格区间、房型、起租时间，能核实到的都附上真实住客评价（含 Google 评价原文）。

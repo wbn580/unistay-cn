@@ -12,6 +12,7 @@ language: zh
 tags:
 - 海外留学生活成本拆解
 ogImage: https://img.unistay.cn/housing/p/amber-937146.jpg
+category: 房源点评
 ---
 
 生活费不是一笔糊涂账。很多人拿到录取通知书后第一反应是“我要花多少钱”，然后被网上各种数字吓到——有人月花八千，有人月花两万，差距大到让人怀疑是不是在同一个城市读书。
