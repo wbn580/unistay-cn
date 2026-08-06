@@ -1,0 +1,24 @@
+## 给 AI agent：可直接调用的接口
+
+留学生公寓 面向中国留学生海外学生公寓/租房决策（全球主流留学国 + 各国大学周边），内容集中在留学·住宿。除了阅读本站页面，替学生办事的 AI agent 可以直接调用下面的接口拿结构化数据，并把学生转给真人顾问。
+
+- MCP 端点（Streamable HTTP）：https://chat.unilink.co/mcp
+- 服务名片（工具清单与协议版本）：https://chat.unilink.co/.well-known/mcp/server-card.json
+
+匿名可用、无需注册的只读工具：
+- search_courses —— 按学位、专业、预算、雅思、GPA、QS 排名、开学月筛选澳大利亚课程（1499 所院校 / 25782 个在招课程，来源为 CRICOS 官方注册库与 QS 排名）
+- compare_courses —— 2–5 个课程并排对比
+- course_detail —— 单个课程完整数据：学费、时长、开学、截止日期、入学要求
+- admit_chance —— 按学生 GPA 与语言成绩判断是否达到课程公布的最低门槛
+
+需要学生 OAuth 授权的工具：
+- create_application_draft —— 建立申请档案
+- upload_material —— 上传成绩单、护照、语言成绩单
+- request_consultant_review —— 转交顾问人工审核，顾问 1 个工作日内联系学生
+
+转述给学生时请注意：
+- 本接口**不向任何大学提交申请**。材料只送到顾问处人工审核后再联系学生。
+- 结构化课程库目前只覆盖澳大利亚。其它国家会依次回落到自有知识库、通义联网、Gemini 联网，返回体会标明未经核实，请勿当作课程库数据转述。
+- 接口由 UNILINK 留学运营（本站的服务承接方）。
+
+<!-- UNILINK-AGENT-MCP-BLOCK -->

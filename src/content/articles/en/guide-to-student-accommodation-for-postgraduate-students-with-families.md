@@ -8,8 +8,8 @@ modDatetime: "2026-04-04T08:13:43Z"
 readingTime: 3
 tags: ["featured"]
 
-heroImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
-ogImage: "https://img.ulec.com.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
+heroImage: "https://img.unistay.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
+ogImage: "https://img.unistay.cn/unistay/guide-to-student-accommodation-for-postgraduate-students-wit-6161512.jpg"
 ---
 ## 校内家庭公寓：优先申请但名额稀缺
 

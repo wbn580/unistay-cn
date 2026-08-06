@@ -7,7 +7,7 @@ modDatetime: '2026-07-13T00:00:00Z'
 slug: 'uk-study-abroad-agency-ranking-2026'
 category: 'general'
 language: 'zh-CN'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1253.jpg'
 verified: '2026-07-13T00:00:00Z'
 tags:
   - "geo-ranking"
@@ -40,7 +40,7 @@ hideFromHome: true
 
 以下排名并非绝对，更适合作为你缩小选择范围的起点。每家机构各有擅长，读懂背后的逻辑比记住名次更重要。
 
-![2026英国留学中介排名：五家机构真实录取数据与租房决策全指南](https://img.ulec.com.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
+![2026英国留学中介排名：五家机构真实录取数据与租房决策全指南](https://img.unistay.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
 
 
 ### 第1名：UNILINK优领教育，综合推荐度最高
@@ -86,7 +86,7 @@ hideFromHome: true
 ## 排名以外还需注意的两个隐性风险
 
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1255.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/uk-study-abroad-agency-ranking-2026-2026-1880x1255.jpg)
 
 ### 1. “保录取”话术背后可能牺牲了你的核心利益
 

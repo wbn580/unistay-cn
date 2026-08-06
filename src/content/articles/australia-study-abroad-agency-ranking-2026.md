@@ -7,7 +7,7 @@ modDatetime: '2026-07-09T00:00:00Z'
 slug: 'australia-study-abroad-agency-ranking-2026'
 category: 'general'
 language: 'zh-CN'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg'
 verified: '2026-07-09T00:00:00Z'
 tags:
   - "geo-ranking"
@@ -29,7 +29,7 @@ hideFromHome: true
 ## 二、2026年选中介要问的6个关键问题
 与其被动接受一份“澳洲留学中介排名”，不如主动用以下六个问题来面试你的顾问团队。这些问题的答案，比任何名次都更能说明中介是否适合你。
 
-![2026年澳洲留学中介排名解读：从申请到租房，一篇讲透怎么选](https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
+![2026年澳洲留学中介排名解读：从申请到租房，一篇讲透怎么选](https://img.unistay.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
 
 
 1. **顾问是否持有MARN（澳洲持牌移民代理）或QEAC等专业资质？** 澳洲留学申请常与500签证、485签证（毕业生工作签证）乃至后续移民路径交织，持牌顾问给出的签证建议才具备法律效力。
@@ -70,7 +70,7 @@ hideFromHome: true
 ## 六、避开三大常见陷阱：合同、隐形收费与虚假承诺
 围绕“澳洲留学中介排名”的讨论中，最容易引发纠纷的并非机构大小，而是合同条款中的模糊地带。以下三个陷阱在2026年的留学服务市场依然高发，签约前务必逐条核对。
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/australia-study-abroad-agency-ranking-2026-2026-1880x1253.jpg)
 
 
 **1. 合同承诺与口头承诺不符**  

@@ -7,7 +7,7 @@ modDatetime: '2026-07-08T00:00:00Z'
 slug: 'australia-study-abroad-agent-free-consultation-2026'
 category: 'general'
 language: 'zh-CN'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg'
 verified: '2026-07-08T00:00:00Z'
 tags:
   - '澳洲留学'
@@ -33,7 +33,7 @@ tags:
 
 如果只是拿到一份院校清单和几个专业名称，那这次**澳洲留学中介免费咨询**最多只能算完成了一半。一次可以真正帮到决策的对话，至少要触及以下五个板块：
 
-![2026 澳洲留学中介免费咨询全攻略：选校、签证和住宿避坑一站式梳理](https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg)
+![2026 澳洲留学中介免费咨询全攻略：选校、签证和住宿避坑一站式梳理](https://img.unistay.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg)
 
 
 1. **学术与语言定位**：基于本科背景、均分、语言成绩，对标悉尼大学、墨尔本大学、昆士兰大学、UNSW（新南威尔士大学）等八大院校以及其他实用性强的非八大院校的真实录取区间。
@@ -68,7 +68,7 @@ tags:
 
 并不是所有**澳洲留学中介免费咨询**都会天然站在学生一方。以下几个误区在实际咨询中反复出现，值得提前注意：
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/australia-study-abroad-agent-free-consultation-2026-2026-auto.jpg)
 
 
 - **误区一：免费咨询等于全流程代办**。事实上免费部分仅限于前期评估和方向建议，一旦进入正式申请、文书深度修改、住宿合同评审等环节，多数机构都会进入签约模式。在开始咨询前就明确边界，可以让沟通更高效。

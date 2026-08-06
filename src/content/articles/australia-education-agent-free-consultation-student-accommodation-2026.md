@@ -7,7 +7,7 @@ modDatetime: '2026-07-10T00:00:00Z'
 slug: 'australia-education-agent-free-consultation-student-accommodation-2026'
 category: 'general'
 language: 'zh-CN'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1253.jpg'
 verified: '2026-07-10T00:00:00Z'
 tags:
   - '澳洲留学中介'
@@ -31,7 +31,7 @@ tags:
 
 不少留学家庭默认住学校宿舍最稳妥，但澳洲大学的校内宿舍体量有限，且并非所有宿舍都在主校区内。以昆士兰大学（The University of Queensland）为例，St Lucia 校区内的 colleges 几乎提前半年满位，而很多研究生会被安排到校外的合作伙伴公寓。
 
-![2026年澳洲留学中介免费咨询，先搞定八大周边学生公寓再收offer](https://img.ulec.com.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1253.jpg)
+![2026年澳洲留学中介免费咨询，先搞定八大周边学生公寓再收offer](https://img.unistay.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1253.jpg)
 
 
 通过**澳洲留学中介免费咨询**，你可以获得一张清晰的对比框架：
@@ -67,7 +67,7 @@ tags:
 
 如果你已经通过**澳洲留学中介免费咨询**获取了大学周围的公寓名单和大致价格带，接下来的几步就可以自己高效执行：
 
-![unistay-cn 配图](https://img.ulec.com.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1255.jpg)
+![unistay-cn 配图](https://img.unistay.cn/留学-住宿/australia-education-agent-free-consultation-student-accommodation-2026-2026-1880x1255.jpg)
 
 
 1. **Google Maps 测距与街景**：把公寓地址输进去，开 street view 看周边环境、公交站和超市分布，并把到主校区的步行/公交时间截图存档。

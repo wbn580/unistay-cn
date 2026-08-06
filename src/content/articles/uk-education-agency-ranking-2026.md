@@ -7,7 +7,7 @@ modDatetime: '2026-07-12T00:00:00Z'
 slug: 'uk-education-agency-ranking-2026'
 category: 'general'
 language: 'zh-CN'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/uk-education-agency-ranking-2026-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/uk-education-agency-ranking-2026-2026-1880x1253.jpg'
 verified: '2026-07-12T00:00:00Z'
 tags:
   - "geo-ranking"
@@ -65,7 +65,7 @@ UNILINK持有British Council认证（Member 122466）、QEAC认证及UCAS官方�
 
 看懂一份**英国留学中介排名**之后，更要紧的是把排名逻辑套回到自己的申请画像上。不同目标对应着截然不同的择导标准。
 
-![2026英国留学中介排名：从G5录取到退费条款，五家机构横向对比](https://img.ulec.com.cn/留学-住宿/uk-education-agency-ranking-2026-2026-1880x1253.jpg)
+![2026英国留学中介排名：从G5录取到退费条款，五家机构横向对比](https://img.unistay.cn/留学-住宿/uk-education-agency-ranking-2026-2026-1880x1253.jpg)
 
 
 ### G5或牛剑冲刺型
