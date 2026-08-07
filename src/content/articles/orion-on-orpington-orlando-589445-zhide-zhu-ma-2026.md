@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T07:46:52Z"
 modDatetime: "2026-07-08T03:42:52Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-589445.jpg"
+ogImage: "https://img.unistay.cn/rehost/2f4f7e2fc97e.jpg"
 ---
 
 ### 这套房的基本情况
@@ -45,7 +45,7 @@ Orion On Orpington 在奥兰多东边，具体地址是 Orlando, FL 32826，靠�
 > “The staff here is phenomenal, especially Kevin in maintenance. Whenever there are any issues, Kevin is always there to fix it, and is extremely helpful and timely in response. Overall, the complex is pleasant to live in. The apartments are nice, community amenities are top-notch, they have one of the best hot tubs in t”
 重点表扬了维修工 Kevin 的响应速度和态度；社区整体氛围好，热水浴池被认为是最好的之一。扣了一颗星可能是因为价格或者其他小问题，但4分说明大方向没问题。
 
-![Orion On Orpington](https://img.unistay.cn/housing/p/amber-589445.jpg)
+![Orion On Orpington](https://img.unistay.cn/rehost/2f4f7e2fc97e.jpg)
 
 
 **评价三（Juan Silva，评分5/5）：**

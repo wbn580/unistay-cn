@@ -6,7 +6,7 @@ publishDate: "2026-07-03"
 pubDatetime: "2026-07-03T20:24:38Z"
 modDatetime: "2026-07-07T08:31:38Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-40795.jpg"
+ogImage: "https://img.unistay.cn/rehost/bcf6944d5465.jpg"
 ---
 
 ## 总体印象
@@ -21,7 +21,7 @@ Ion Lincoln Park 这栋公寓在芝加哥林肯公园区域，地址是 Chicago,
 
 ## 房型与租期
 
-![Ion Lincoln Park](https://img.unistay.cn/housing/p/amber-40795.jpg)
+![Ion Lincoln Park](https://img.unistay.cn/rehost/bcf6944d5465.jpg)
 
 房型提供 2b、3b、4b（即两卧、三卧、四卧），没有 studio 或 1b。这意味着你必须合租。最低租期 9 个月，从 2026 年 3 月 9 日起可入住（available_from 标注为 03-09-2026）。如果你计划秋季入学，需要提前确认房源释放时间——通常秋季开始的新租约会在 6-8 月放出来，3 月这个日期可能只是部分房源的起租点。
 

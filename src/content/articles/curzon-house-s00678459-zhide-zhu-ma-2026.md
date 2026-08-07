@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T08:31:53Z"
 modDatetime: "2026-07-07T08:39:53Z"
 tags: ["property", "united-kingdom"]
-ogImage: "https://img.unistay.cn/housing/p/uh-s00678459.jpg"
+ogImage: "https://img.unistay.cn/rehost/3a496842c71e.jpg"
 ---
 
 ### 适合谁住
@@ -43,7 +43,7 @@ Curzon House 最对口的住户是诺丁汉特伦特大学的学生。从公寓�
 
 公寓提供两种主要房型：
 
-![Curzon House](https://img.unistay.cn/housing/p/uh-s00678459.jpg)
+![Curzon House](https://img.unistay.cn/rehost/3a496842c71e.jpg)
 
 
 1. **En-suite**（独立卫浴，共用厨房客厅）：每周109–135英镑。适合一个人住，隐私好。厨房一般4–6人共用，需要和室友协调使用。

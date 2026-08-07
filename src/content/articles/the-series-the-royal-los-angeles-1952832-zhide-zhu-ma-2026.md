@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T11:56:04Z"
 modDatetime: "2026-07-08T09:52:04Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1952832.jpg"
+ogImage: "https://img.unistay.cn/rehost/12f336082832.jpg"
 ---
 
 ### 公寓概况
@@ -38,7 +38,7 @@ The Series The Royal 位于洛杉矶市中心南边的大学城区域，具体�
 - 预算相对宽裕、喜欢独立私密空间的同学——只有 1b 房型，没有室友干扰。
 - 不常使用紧急服务、白天有规律作息的人，不太会被 lockout 政策困扰。
 
-![The Series The Royal](https://img.unistay.cn/housing/p/amber-1952832.jpg)
+![The Series The Royal](https://img.unistay.cn/rehost/12f336082832.jpg)
 
 
 **不适合：**

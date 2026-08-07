@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T21:25:24Z"
 modDatetime: "2026-07-07T08:31:24Z"
 tags: ["university", "tampere-university"]
-ogImage: "https://img.unistay.cn/housing/p/amber-589445.jpg"
+ogImage: "https://img.unistay.cn/rehost/2f4f7e2fc97e.jpg"
 ---
 
 ## 校园评价透露什么
@@ -31,7 +31,7 @@ Tampere 是芬兰第三大城市，生活成本比赫尔辛基略低，但作为
 
 ## 预算档建议
 
-![Tampere University](https://img.unistay.cn/housing/p/amber-589445.jpg)
+![Tampere University](https://img.unistay.cn/rehost/2f4f7e2fc97e.jpg)
 
 拿到 offer 后，建议根据自己的月生活费（不含学费）设定住宿预算。以下是一个参考框架，注意所有价格均为大致范围，具体以运营方实时报价为准。
 

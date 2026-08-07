@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T05:36:42Z"
 modDatetime: "2026-07-08T09:44:42Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1393861.jpg"
+ogImage: "https://img.unistay.cn/rehost/7802f9959d33.jpg"
 ---
 
 ### 整体印象与定位
@@ -49,7 +49,7 @@ Liberty Ridge 在 San Antonio 算是一个中档价位的公寓小区，地址�
 
 ### 价格在同城什么水平
 
-![Liberty Ridge](https://img.unistay.cn/housing/p/amber-1393861.jpg)
+![Liberty Ridge](https://img.unistay.cn/rehost/7802f9959d33.jpg)
 
 
 根据 Amber 平台的数据，San Antonio 共有约 20 个学生公寓或普通公寓（同城物业）。最低起步价是 634 美元/月，Liberty Ridge 的最低价格 749 美元/月比最低价高出约 115 美元，最高则到 1050 美元/月。对比同城整体范围，Liberty Ridge 处于中位偏上的位置，但考虑到它提供带顶棚停车位和露台，不算离谱。两居室分摊后单人成本大约 375–525 美元（以 2b 最高 1050 美元两人分算），这对合租来说挺划算。不过要注意的是，同城可能有更便宜且评价更好的选项，建议多对比几家再决定。

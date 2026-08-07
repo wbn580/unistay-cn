@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T11:18:37Z"
 modDatetime: "2026-07-08T08:45:37Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-184588.jpg"
+ogImage: "https://img.unistay.cn/rehost/489da77999ee.jpg"
 ---
 
 ### 整体印象与适合人群
@@ -38,7 +38,7 @@ The Residences At The Sutton 位于俄亥俄州哥伦布市附近的 Bexley，�
 
 ### 价格在同城的位置
 
-![The Residences At The Sutton](https://img.unistay.cn/housing/p/amber-184588.jpg)
+![The Residences At The Sutton](https://img.unistay.cn/rehost/489da77999ee.jpg)
 
 
 Bexley 全市（或哥伦布周边）目前有 61 个学生公寓/出租房源，最低起价约 695 美元/月。The Residences At The Sutton 的起步价是 1220 美元/月，在同城属于中等偏上区间。最高到 5409 美元这个价格段，应该对应面积较大的 apartment 或顶层户型。整体来看，如果你预算在 1200-2000 美元之间，这里能选到 studio 或 2b 的合租方案；如果追求性价比，同城还有大量低于 1000 美元的选择。不过要注意，1220 美元是最低价，且价格会随楼层、朝向、租期变化，实际价格需要以运营方实时报价为准。

@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T12:21:42Z"
 modDatetime: "2026-07-08T04:19:42Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1344656.jpg"
+ogImage: "https://img.unistay.cn/rehost/9c4c885f61cf.jpg"
 ---
 
 ### AVA Capitol Hill 值不值得住？西雅图 Capitol Hill 区的留学生公寓实探
@@ -50,7 +50,7 @@ Google 上 304 条评价平均 4.4 分，整体偏正面，但细节里能看出
 
 这位住客直观点名了一位员工 Johnny Le，说他能主动发现问题、跟进解决问题，改善了整栋楼的居住体验。说明员工层面的服务质量可以很高，但可能因人而异。
 
-![AVA Capitol Hill](https://img.unistay.cn/housing/p/amber-1344656.jpg)
+![AVA Capitol Hill](https://img.unistay.cn/rehost/9c4c885f61cf.jpg)
 
 
 **小结：** 公共区域干净、健身房好、包 bill、宠物友好是大部分好评的共同点。差评主要集中在退租时的沟通问题，以及“双面性”。如果你不是频繁和公寓打交道的人，大概率会住得比较顺心。

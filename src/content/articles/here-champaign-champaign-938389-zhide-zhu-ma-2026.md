@@ -6,7 +6,7 @@ publishDate: "2026-07-03"
 pubDatetime: "2026-07-03T19:20:05Z"
 modDatetime: "2026-07-08T04:49:05Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-938389.jpg"
+ogImage: "https://img.unistay.cn/rehost/228f67399e8a.jpg"
 ---
 
 ### 一句话认识 HERE Champaign
@@ -49,7 +49,7 @@ Google 上 257 条评论整体给了 4.1 分，但最热门的几条评论两极
 
 ### 价格在同城什么水位
 
-![HERE Champaign](https://img.unistay.cn/housing/p/amber-938389.jpg)
+![HERE Champaign](https://img.unistay.cn/rehost/228f67399e8a.jpg)
 
 
 Champaign 目前有 30 个左右的校外学生公寓项目。全市最低月租从 579 美元起（通常是更老旧的 4 卧室户型，不包水电）。  

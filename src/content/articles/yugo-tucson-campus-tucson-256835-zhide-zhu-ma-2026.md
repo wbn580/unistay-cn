@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T03:56:50Z"
 modDatetime: "2026-07-07T08:27:50Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-256835.jpg"
+ogImage: "https://img.unistay.cn/rehost/90d437e574f1.jpg"
 ---
 
 ### Yugo Tucson Campus：这栋宿舍到底值不值得签？
@@ -27,7 +27,7 @@ Google 上 238 条评论，总评分 3.2。最密集的抱怨集中在空调和�
 
 引用一条比较中性的评论：Quinn McElvain 说“I’ve spent 2 full years in three different nearby apartments including Yugo so take it from me to give an honest and as unbiased (as possible) review. This place is a solid option as a roof over your head, but it’s as bare minimum as it gets. If none of the surrounding apartments are available to you, Yugo is alright”——意思是附近没有其他空房的话，Yugo 算及格。
 
-![Yugo Tucson Campus](https://img.unistay.cn/housing/p/amber-256835.jpg)
+![Yugo Tucson Campus](https://img.unistay.cn/rehost/90d437e574f1.jpg)
 
 
 另一条更尖锐的来自 William Wong III：“3/25 update: Yugo hasn't stopped failing ever since the last review. For one the hot tub is cold 24/7 and it seems like there is no attempt to fix it… the whole building air conditioning stopped working and we had to endure 90 degree temperatures in our units!!!”（注意原文有感叹号，文中只保留一个）这说明设备维护存在系统性滞后。

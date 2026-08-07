@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T16:52:14Z"
 modDatetime: "2026-07-08T04:10:14Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1444497.jpg"
+ogImage: "https://img.unistay.cn/rehost/dfb22b2bfc2e.jpg"
 ---
 
 ## The Social Normal 值不值得住？
@@ -41,7 +41,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1444497.jpg"
 
 综合 Google 4.2 分（316 条评价），多数人给了好评，但差评集中在维修响应和不请自入。这类问题在大型公寓社区里不算罕见，但如果你特别看重边界感，需要提前沟通。
 
-![The Social Normal](https://img.unistay.cn/housing/p/amber-1444497.jpg)
+![The Social Normal](https://img.unistay.cn/rehost/dfb22b2bfc2e.jpg)
 
 
 ### 价格在 Bloomington 算什么水平？

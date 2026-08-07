@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T03:30:02Z"
 modDatetime: "2026-07-07T09:34:02Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1206355.jpg"
+ogImage: "https://img.unistay.cn/rehost/4f71dd0e28cf.jpg"
 ---
 
 ### 这套值不值得住？适合哪种留学生？
@@ -40,7 +40,7 @@ Google评分4.2（2381条评价），整体口碑不错。这里引用三条原�
 **Peter Kim（5分）**  
 > “I've stayed at The Royal Sonesta in Dupont Circle twice before with my family, so when I was planning an end-of-school-year trip for my son and 7 of this best friends to go to DC, it was a no-brainer to choose this hotel we've always had a good time at. The trip almost started going off the rails before it started when”
 
-![Royal Sonesta](https://img.unistay.cn/housing/p/amber-1206355.jpg)
+![Royal Sonesta](https://img.unistay.cn/rehost/4f71dd0e28cf.jpg)
 
 
 他是老顾客，带儿子和7个朋友来过（多间房），因为之前入住体验好，毫不犹豫又选这家。说明这里整体满意度稳定，适合团体或多日住宿。

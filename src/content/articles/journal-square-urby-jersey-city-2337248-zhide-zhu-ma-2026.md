@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T23:27:58Z"
 modDatetime: "2026-07-08T07:34:58Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-256835.jpg"
+ogImage: "https://img.unistay.cn/rehost/90d437e574f1.jpg"
 ---
 
 ### 这套值不值得住：Journal Square Urby
@@ -47,7 +47,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-256835.jpg"
 
 > “Stayed here recently and had a very disappointing experience. The location is convenient, right next to the PATH, but the immediate surroundings felt unsafe, with people loitering outside and restricted access just to enter the building. Cleanliness was a major issue. Towels had visible stains, utensils in the kitchen...”
 
-![Journal Square Urby](https://img.unistay.cn/housing/p/amber-256835.jpg)
+![Journal Square Urby](https://img.unistay.cn/rehost/90d437e574f1.jpg)
 
 
 他除了吐槽周边氛围，还提到房间清洁有问题，毛巾有污渍、厨具不干净。如果你是卫生标准比较高的人，入住前一定要求先看房或者跟管理方确认保洁细节。

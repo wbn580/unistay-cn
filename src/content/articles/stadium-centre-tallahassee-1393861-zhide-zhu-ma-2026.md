@@ -6,7 +6,7 @@ publishDate: "2026-07-05"
 pubDatetime: "2026-07-05T09:41:04Z"
 modDatetime: "2026-07-08T02:21:04Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1393861.jpg"
+ogImage: "https://img.unistay.cn/rehost/7802f9959d33.jpg"
 ---
 
 ## 谁适合住Stadium Centre，谁可能需要避开
@@ -31,7 +31,7 @@ Stadium Centre 在 Google 上的综合评分为 3.8 分，共 664 条评论。�
 
 ## 价格在同城是什么水平
 
-![Stadium Centre](https://img.unistay.cn/housing/p/amber-1393861.jpg)
+![Stadium Centre](https://img.unistay.cn/rehost/7802f9959d33.jpg)
 
 Tallahassee 的学生公寓市场共有 12 处物业（根据本次数据来源），价格跨度比较大。全城最低月租金为 499 美元，Stadium Centre 的最低月租金是 874 美元，最高 1934 美元。这意味着它的入门价比城市最低价高出约 75%，属于中档偏上。
 

@@ -6,7 +6,7 @@ publishDate: "2026-06-30"
 pubDatetime: "2026-06-30T20:04:30Z"
 modDatetime: "2026-07-07T08:35:30Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-184588.jpg"
+ogImage: "https://img.unistay.cn/rehost/489da77999ee.jpg"
 ---
 
 ## Solstice On The Park：芝加哥大学旁边这套公寓，值不值得住？
@@ -44,7 +44,7 @@ Solstice On The Park 的地址是 Chicago, IL 60637, USA，坐标 41.7935803, -8
 
 芝加哥全市学生公寓的最低价格大约 600 美元/月（多为合租单间或 Studios），一共有 95 个房源在出租。Solstice On The Park 的月租在 2990 到 5650 美元之间，明显高于平均水平。这个价格对应的是一整间独立公寓（1b/2b/3b）或者豪华的 Studio 公寓，而非普通合租。
 
-![Solstice On The Park](https://img.unistay.cn/housing/p/amber-184588.jpg)
+![Solstice On The Park](https://img.unistay.cn/rehost/489da77999ee.jpg)
 
 
 具体来说，2990 美元起步可以租到最小的 Studio 或 1b1b；如果是 3b 套间（三个卧室），价格会到 5000 多，人均分摊后约 1700-1900 美元/月。这个人均水平在芝加哥高端公寓里仍然偏高，但考虑到位置、湖景、健身房、洗衣设施、双人入住政策（dual occupancy）等配套，它瞄准的是预算比较宽裕的同学。

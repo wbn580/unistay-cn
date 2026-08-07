@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T10:15:16Z"
 modDatetime: "2026-07-08T07:38:16Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1219937.jpg"
+ogImage: "https://img.unistay.cn/rehost/74963c655766.jpg"
 ---
 
 ### The Celeste 戴维斯学生公寓：适合谁、怎么选、真实反馈如何
@@ -27,7 +27,7 @@ The Celeste 位于加州大学戴维斯分校所在的戴维斯市，地址是 D
 
 ## 住客真实评价怎么说
 
-![The Celeste](https://img.unistay.cn/housing/p/amber-1219937.jpg)
+![The Celeste](https://img.unistay.cn/rehost/74963c655766.jpg)
 
 Google 上的三条评价（来自 2024-2025 年左右留下的）提供了不同角度的体验。我们引用原文，并做中性总结。
 

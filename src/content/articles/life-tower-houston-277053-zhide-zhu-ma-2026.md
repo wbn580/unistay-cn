@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T13:56:42Z"
 modDatetime: "2026-07-08T04:09:42Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1219937.jpg"
+ogImage: "https://img.unistay.cn/rehost/74963c655766.jpg"
 ---
 
 ### 适合哪类留学生
@@ -47,7 +47,7 @@ Life Tower 位于休斯顿的 Texas Medical Center 区域，地址是 Houston, T
 
 ### 价格在休斯顿属于什么水平
 
-![Life Tower](https://img.unistay.cn/housing/p/amber-1219937.jpg)
+![Life Tower](https://img.unistay.cn/rehost/74963c655766.jpg)
 
 
 休斯顿目前平台上共有约 40 个学生公寓房源，起价从 649 美元/月起步。Life Tower 的最低月租是 1229 美元（4b 户型中的单间），最高 1789 美元（可能是 studio 或 1b）。对比一下：

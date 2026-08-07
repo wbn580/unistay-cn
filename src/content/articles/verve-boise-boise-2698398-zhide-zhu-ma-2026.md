@@ -6,7 +6,7 @@ publishDate: "2026-07-08"
 pubDatetime: "2026-07-08T01:01:43Z"
 modDatetime: "2026-07-08T04:52:43Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1393861.jpg"
+ogImage: "https://img.unistay.cn/rehost/7802f9959d33.jpg"
 ---
 
 ### 这套公寓适合谁，不适合谁
@@ -44,7 +44,7 @@ Verve Boise 是一栋2026年8月18日起可入住的现代化学生公寓，位�
 
 博伊西目前有3个学生公寓房源，Verve Boise的起步价899美元比同城最低价759美元高出约18%。最高价1499美元则高出近一倍。具体水位参考：
 
-![Verve Boise](https://img.unistay.cn/housing/p/amber-1393861.jpg)
+![Verve Boise](https://img.unistay.cn/rehost/7802f9959d33.jpg)
 
 
 - 同城最低价：759美元/月（对应户型大概率是标准2b或3b的开间）

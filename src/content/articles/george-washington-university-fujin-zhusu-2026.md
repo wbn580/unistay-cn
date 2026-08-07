@@ -6,7 +6,7 @@ publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T15:51:41Z"
 modDatetime: "2026-07-07T09:12:41Z"
 tags: ["university", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-938389.jpg"
+ogImage: "https://img.unistay.cn/rehost/228f67399e8a.jpg"
 ---
 
 ## 校园评价透露什么
@@ -27,7 +27,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-938389.jpg"
 
 ## 走读圈 vs 公交圈如何取舍
 
-![George Washington University](https://img.unistay.cn/housing/p/amber-938389.jpg)
+![George Washington University](https://img.unistay.cn/rehost/228f67399e8a.jpg)
 
 乔治华盛顿大学主校区面积不大，建筑集中。步行15分钟圈内覆盖大部分教学楼、图书馆和健身房。如果住在校园周围（如I St NW、New Hampshire Ave NW、21st St NW范围），可以完全依靠步行，每月交通费几乎为零。缺点是房源紧俏、租金较高。
 

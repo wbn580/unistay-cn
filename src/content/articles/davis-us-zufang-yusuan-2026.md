@@ -6,7 +6,7 @@ publishDate: "2026-06-30"
 pubDatetime: "2026-06-30T15:58:58Z"
 modDatetime: "2026-07-07T08:56:58Z"
 tags: ["city", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1950754.jpg"
+ogImage: "https://img.unistay.cn/rehost/82dee84ee2ee.jpg"
 ---
 
 ## 预算怎么分配？戴维斯租房决策指南
@@ -52,7 +52,7 @@ UCD的校园呈长方形，主要教学楼集中在南北向的老校区。不�
 
 **第一：空调不是标配**。戴维斯夏天非常热，7月平均最高温34°C，有时会超过40°C。很多旧公寓只有暖气，没有空调。看房时一定要问清楚是否带中央空调或窗机。如果没有，你得自己买移动空调，而且部分社区禁止在窗户装窗机。我们平台的房源信息里通常会标注空调情况，但你自己也要和运营方确认。
 
-![Davis](https://img.unistay.cn/housing/p/amber-1950754.jpg)
+![Davis](https://img.unistay.cn/rehost/82dee84ee2ee.jpg)
 
 
 **第二：lease起始日和暑假转租问题**。大多数公寓的租期从8月底或9月初开始，到次年6月或7月结束。如果你暑假打算回国或者去实习，6–8月的房租可能白白浪费。部分公寓允许暑假转租，但需要提前申请并支付管理费。也有少数房源提供9–12个月的灵活租期，但价格会上浮10%左右。签约前问清楚转租政策。

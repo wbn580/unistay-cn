@@ -6,7 +6,7 @@ publishDate: "2026-07-05"
 pubDatetime: "2026-07-05T23:06:03Z"
 modDatetime: "2026-07-08T02:32:03Z"
 tags: ["property", "australia"]
-ogImage: "https://img.unistay.cn/housing/p/amber-937000.jpg"
+ogImage: "https://img.unistay.cn/rehost/cd853b9891cf.jpg"
 ---
 
 ### 这套位于 Enmore 的 9 卧室公寓单间，适合谁？不适合谁？
@@ -43,7 +43,7 @@ Enmore 是悉尼内西区一个比较有生活气息的社区，离市中心不�
 - 如果你选择的是非独立卫浴单间（non_ensuite），通常价格会落在 300-380 澳元。而 studio 可能要到 400 以上。
 - 注意，这里是“周租金”，悉尼通常按周付。月费大约是周租金乘以 4.33，即 320 澳元/周 ≈ 1386 澳元/月，470 澳元/周 ≈ 2035 澳元/月。
 
-![Room in a 9 Bedroom Apartment, 5 Liberty Street, Enmore](https://img.unistay.cn/housing/p/amber-937000.jpg)
+![Room in a 9 Bedroom Apartment, 5 Liberty Street, Enmore](https://img.unistay.cn/rehost/cd853b9891cf.jpg)
 
 
 对比城市最低价 175 澳元，这套价格高了 80% 以上，但考虑位置（内西区 Enmore）、独立庭院和无限网络，这个溢价合理。如果你在 UNSW 或西悉尼上学，且通勤时间在你接受范围内（比如到 UNSW 可能需要公交 30-40 分钟），那么 320 澳元/周是很值得考虑的选项。

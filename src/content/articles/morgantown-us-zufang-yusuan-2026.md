@@ -6,7 +6,7 @@ publishDate: "2026-07-03"
 pubDatetime: "2026-07-03T02:32:31Z"
 modDatetime: "2026-07-07T09:05:31Z"
 tags: ["city", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-973604.jpg"
+ogImage: "https://img.unistay.cn/rehost/96df4fdfa9c2.jpg"
 ---
 
 ### 摩根敦租房，预算怎么分才不踩坑
@@ -51,7 +51,7 @@ WVU的三个校区分布松散。如果你主修商科、传媒、文科，大�
 
 #### 3个避坑点
 
-![Morgantown](https://img.unistay.cn/housing/p/amber-973604.jpg)
+![Morgantown](https://img.unistay.cn/rehost/96df4fdfa9c2.jpg)
 
 
 1. **房东押金退还套路**  

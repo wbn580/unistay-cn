@@ -6,7 +6,7 @@ publishDate: "2026-07-03"
 pubDatetime: "2026-07-03T23:59:35Z"
 modDatetime: "2026-07-07T08:05:35Z"
 tags: ["university", "canada"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1211308.jpg"
+ogImage: "https://img.unistay.cn/rehost/1b67437a0010.jpg"
 ---
 
 ### 拿到 McGill 的 offer 后，住宿怎么安排？一份基于行动清单的指南
@@ -42,7 +42,7 @@ McGill 在 Google 上收获 4.5 星评分（1519 条评价），其中几条评�
 - **走读圈（步行 15 分钟以内）**：主要覆盖 Vieux-Montréal（老城区）、Plateau-Mont-Royal 东部、以及 Milton Park 区域（俗称 McGill Ghetto）。好处是省下交通费，随时回宿舍或图书馆，晚上活动也方便。缺点是租金略高，且一些老建筑的隔音一般。适合课表密集、喜欢利用校园设施（健身房、图书馆、活动中心）的同学。
 - **公交圈（地铁/公交 20-40 分钟）**：比如 Verdun、Côte-des-Neiges、Rosemont 区域。月租可能便宜 200-300 加元，但每月交通费另算（学生地铁月票约 50-60 加元）。适合课表分散、对居住空间要求更高、或者喜欢安静社区的同学。注意蒙特利尔冬季漫长，暴风雪天等公交可能比较辛苦。
 
-![McGill University](https://img.unistay.cn/housing/p/amber-1211308.jpg)
+![McGill University](https://img.unistay.cn/rehost/1b67437a0010.jpg)
 
 
 一个折中方案：选择位于地铁橙线或绿线沿途的站点，换乘一次以内到达 McGill 站，通勤总时间控制在 30 分钟以内。

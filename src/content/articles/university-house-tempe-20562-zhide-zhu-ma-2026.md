@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T17:25:25Z"
 modDatetime: "2026-07-07T08:15:25Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1206355.jpg"
+ogImage: "https://img.unistay.cn/rehost/4f71dd0e28cf.jpg"
 ---
 
 ### 值得住吗？先看整体情况
@@ -45,7 +45,7 @@ University House Tempe 位于亚利桑那州坦佩（Tempe），距离亚利桑�
 
 ### 价格对比：在同城算什么水位？
 
-![University House](https://img.unistay.cn/housing/p/amber-1206355.jpg)
+![University House](https://img.unistay.cn/rehost/4f71dd0e28cf.jpg)
 
 
 Chandler（含 Tempe 地区）的留学生公寓中，最低周租金为 166 美元（约 664 美元/月）。University House 的月租金从 829 美元起，最高到 1649 美元，覆盖 studio、1b、2b、3b、4b、5b 六种户型。如果你选择合租（比如 3b 或 5b），个人分摊后的月支出通常在 500-800 美元之间，这样反而比市面最低价还低。但如果你是单独租 studio 或 1b，起步价 829 美元就高于许多其他公寓的 studio 报价。建议你对比同区域其他房源时，重点看单位面积和配套。停车位、瑜伽室、Clubroom 这些设施在其他公寓可能需要额外付费，这里包含在租金里（确认以运营方实时报价为准）。

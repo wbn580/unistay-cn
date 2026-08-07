@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T13:50:43Z"
 modDatetime: "2026-07-08T05:45:43Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-952155.jpg"
+ogImage: "https://img.unistay.cn/rehost/71d6438be6d0.jpg"
 ---
 
 ### 这套值不值得住 —— City Place Montrose Apartments
@@ -33,7 +33,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-952155.jpg"
 
 #### 价格在同城什么水位
 
-![City Place Montrose Apartments](https://img.unistay.cn/housing/p/amber-952155.jpg)
+![City Place Montrose Apartments](https://img.unistay.cn/rehost/71d6438be6d0.jpg)
 
 
 休斯顿 Amber 平台上的学生公寓最低价是 649 美元，房源总数约 40 套。City Place Montrose 的起步价 1375 美元处于休斯顿学生公寓价格的前 30% 左右（按从低到高排序）。对比同区域的其他 Montrose 房源，这个价格算中等偏上，但它的谷歌评分 4.4 在休斯顿房源里算很好的（很多公寓评分在 3.5-4.0 之间）。如果你愿意多花一点钱换地段和服务，这个差价是合理的。

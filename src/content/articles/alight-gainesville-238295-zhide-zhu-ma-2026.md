@@ -6,7 +6,7 @@ publishDate: "2026-06-30"
 pubDatetime: "2026-06-30T15:04:14Z"
 modDatetime: "2026-07-07T08:20:14Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-238295.jpg"
+ogImage: "https://img.unistay.cn/rehost/15139e821b70.jpg"
 ---
 
 ### 公寓概况与位置
@@ -41,7 +41,7 @@ Alight Gainesville 位于佛罗里达州 Gainesville 市区，地址是 Gainesvi
 
 ### 价格在同城处于什么水平
 
-![Alight Gainesville](https://img.unistay.cn/housing/p/amber-238295.jpg)
+![Alight Gainesville](https://img.unistay.cn/rehost/15139e821b70.jpg)
 
 
 整个 Gainesville 的学生公寓起价是 535 美元/月（数据来源同城参考）。Alight Gainesville 的起步价 839 美元，比最低价高出约 57%，但价格区间跨度较大，最高的 1649 美元对应的是面积更大的户型。以 2026-2027 学年来算，这个价格在 Gainesville 属于中等偏上。对比其他公寓，Alight 的优势是位置靠近校园和市区，健身房、游戏室等配套比较新。如果你预算有限，可以考虑合租 4b 户型（单价会低于小户型），或者选择同城起价更低的公寓。不过要注意，Alight 的评分总体不算差，性价比在 value_for_money 维度拿了 5.0 分，说明部分住客觉得物有所值。

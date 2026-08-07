@@ -6,7 +6,7 @@ publishDate: "2026-07-03"
 pubDatetime: "2026-07-03T00:48:33Z"
 modDatetime: "2026-07-08T02:37:33Z"
 tags: ["property", "australia"]
-ogImage: "https://img.unistay.cn/housing/p/amber-937024.jpg"
+ogImage: "https://img.unistay.cn/rehost/a7ca66ff541d.jpg"
 ---
 
 ### 146 Flinders, Paddington——这套27人合租公寓值不值得住？
@@ -42,7 +42,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-937024.jpg"
 
 根据数据，该公寓提供两种单元类型：Studio和独立房屋（Independent House）。但要结合名称“27 Bedroom Apartment”来理解——这很可能是一栋联排别墅或大型住宅改造的合租公寓，内部有多个独立房间和公共区域。
 
-![Room in a 27 Bedroom Apartment, 146 Flinders, Paddington](https://img.unistay.cn/housing/p/amber-937024.jpg)
+![Room in a 27 Bedroom Apartment, 146 Flinders, Paddington](https://img.unistay.cn/rehost/a7ca66ff541d.jpg)
 
 
 - **Studio**：通常指带独立厨房和卫浴的单间。如果你不想和人共用卫生间，优先考虑Studio。不过在这种大型合租房里，Studio的数量可能很少，价格也会接近520澳元上限。  

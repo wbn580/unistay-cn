@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T13:25:25Z"
 modDatetime: "2026-07-07T08:45:25Z"
 tags: ["university", "university-of-science-and-technology-beijing"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1567828.jpg"
+ogImage: "https://img.unistay.cn/rehost/aea861740778.jpg"
 ---
 
 ## 拿到北京科技大学 offer 后，住宿怎么解决？
@@ -63,7 +63,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1567828.jpg"
 - **知春路/大运村**：13号线沿线的老小区，合租单间3000元左右，骑共享单车到学校也只要10分钟。
 - **西土城/蓟门桥**：直接靠北科大学生公寓旁边，但房源少且贵，适合不差钱且不想走远的同学。
 
-![University of Science and Technology Beijing](https://img.unistay.cn/housing/p/amber-1567828.jpg)
+![University of Science and Technology Beijing](https://img.unistay.cn/rehost/aea861740778.jpg)
 
 
 我的建议：第一年可以优先抢学校宿舍或步行圈合租，等熟悉北京交通后再考虑搬到更远但空间更大的房子。

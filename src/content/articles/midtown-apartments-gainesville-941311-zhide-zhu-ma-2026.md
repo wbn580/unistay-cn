@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T16:54:03Z"
 modDatetime: "2026-07-08T04:30:03Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-941311.jpg"
+ogImage: "https://img.unistay.cn/rehost/2b87356b1a50.jpg"
 ---
 
 ### 这套公寓适合谁，不适合谁
@@ -39,7 +39,7 @@ Midtown Apartments 位于 Gainesville 的 FL 32603 区域，紧邻 University of
 
 Gainesville 目前有 32 个学生公寓项目在运营，最低月租为 535 美元。Midtown Apartments 的月租范围是 **1089–1554 美元**，明显高于城市最低线，但考虑到以下因素，这个差价有对应的理由：
 
-![Midtown Apartments](https://img.unistay.cn/housing/p/amber-941311.jpg)
+![Midtown Apartments](https://img.unistay.cn/rehost/2b87356b1a50.jpg)
 
 
 1. **位置**：地址位于 UF 校园核心区（邮编 32603），步行到教学楼和商业街都在 10 分钟内。

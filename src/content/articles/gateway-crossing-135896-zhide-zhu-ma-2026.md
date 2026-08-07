@@ -6,7 +6,7 @@ publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T05:39:22Z"
 modDatetime: "2026-07-07T08:57:22Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1393861.jpg"
+ogImage: "https://img.unistay.cn/rehost/7802f9959d33.jpg"
 ---
 
 ### 公寓概况与地理位置
@@ -41,7 +41,7 @@ Google 评论里三条留言正好代表了三种截然不同的体验。下面�
 “Friendly neighborhood and a Great Place to live. The staff, maintenance are all helpful. A good Gym with most of the equipment's but not maintained well. Pool is bit small. Limited parking space for visitors.” —— Milo Kat，评分 4/5  
 这篇评论肯定了邻里友好、工作人员和维修响应积极，但指出健身房器材维护不佳，游泳池偏小，访客停车位有限。对于注重健身和社交的租客来说，这些细节可能会影响日常生活体验。
 
-![Gateway Crossing Apartments](https://img.unistay.cn/housing/p/amber-1393861.jpg)
+![Gateway Crossing Apartments](https://img.unistay.cn/rehost/7802f9959d33.jpg)
 
 
 **3. 好评：认为差评是恶意刷评**  

@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T16:43:03Z"
 modDatetime: "2026-07-08T10:00:03Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-218206.jpg"
+ogImage: "https://img.unistay.cn/rehost/b6c15f3fd348.jpg"
 ---
 
 ## East Park Tower 值不值得住——芝加哥 Hyde Park 的平衡选择
@@ -39,7 +39,7 @@ EPT 在 Google 上评分 3.2 星（21 条评论），不算高，但内部各维
    “The maintenance is horrible. The radiator makes noise and wakes me up every midnight when the boiler is on. It has been three weeks and I have no idea when they can fix the problem. Update: After more than THREE months, they still cannot fix the noise and said they cannot do anything on it. Don't rent here unless you e”  
    暖气辐射器噪音问题拖了三个月未解决，物业表示无能为力。这对于需要安静睡眠环境的人来说是重大缺陷。
 
-![East Park Tower](https://img.unistay.cn/housing/p/amber-218206.jpg)
+![East Park Tower](https://img.unistay.cn/rehost/b6c15f3fd348.jpg)
 
 
 3. **Marleea Pickett（评分 3）**：  

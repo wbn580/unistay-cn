@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T04:57:59Z"
 modDatetime: "2026-07-08T09:02:59Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1950754.jpg"
+ogImage: "https://img.unistay.cn/rehost/82dee84ee2ee.jpg"
 ---
 
 ### 适合谁，不适合谁
@@ -47,7 +47,7 @@ Google 评分4.2，共52条评论。虽然数量不多，但评语集中反映�
 
 戴维斯共有11个在学生公寓平台上的房源（含合租、整租、户型差异），价格跨度较大。Seville 起步价$2595/月，最高$3470/月，价格按月计算，不含可能的管理费、水电网等（具体需以合同为准）。同城最低价为$509/月——这个数字通常是合租单间或小户型旧公寓的起步价，不代表 Seville 这类中高端社区。简单对比：
 
-![Seville At Mace Ranch](https://img.unistay.cn/housing/p/amber-1950754.jpg)
+![Seville At Mace Ranch](https://img.unistay.cn/rehost/82dee84ee2ee.jpg)
 
 
 - $500~$1000/月：老旧House的单个卧室，公用厨卫，步行或骑车距离。

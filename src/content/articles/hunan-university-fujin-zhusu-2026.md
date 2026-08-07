@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T01:36:32Z"
 modDatetime: "2026-07-07T08:06:32Z"
 tags: ["university", "hunan-university"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1344656.jpg"
+ogImage: "https://img.unistay.cn/rehost/9c4c885f61cf.jpg"
 ---
 
 ### 湖南大学住宿怎么解决？从拿到 offer 到安顿的实操清单
@@ -52,7 +52,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1344656.jpg"
 
 2. **设定预算底线** —— 用数字算一笔账：预计每月生活费（吃、行、话费、杂支）约 2000 - 3000 元，房租不宜超过总生活费的一半。比如预算充足，可以接受 2500 元以内的单间；紧张的话，控制 1500 元以下。
 
-![Hunan University](https://img.unistay.cn/housing/p/amber-1344656.jpg)
+![Hunan University](https://img.unistay.cn/rehost/9c4c885f61cf.jpg)
 
 
 3. **划定具体区域** —— 打开地图，以“湖南大学（南校区/北校区）”为中心，分别标记步行圈（红色）、公交圈（黄色）。重点看两个区域：**麓山南路沿线（近湖大、近美食街）** 和 **阜埠河路 - 天马路交叉口附近（靠近地铁、公交枢纽）**。这两个点房源最多、也最受留学生欢迎。

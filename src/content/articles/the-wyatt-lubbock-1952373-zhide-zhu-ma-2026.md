@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T04:04:21Z"
 modDatetime: "2026-07-08T08:56:21Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-941096.jpg"
+ogImage: "https://img.unistay.cn/rehost/25f4e4011531.jpg"
 ---
 
 ### 这套值不值得住：The Wyatt 在 Lubbock 的真实面貌
@@ -41,7 +41,7 @@ Lubbock 目前有 18 套学生公寓在线上挂牌。最低月租金是 350 美
 
 #### 房型怎么选
 
-![The Wyatt](https://img.unistay.cn/housing/p/amber-941096.jpg)
+![The Wyatt](https://img.unistay.cn/rehost/25f4e4011531.jpg)
 
 
 The Wyatt 提供 2b、3b、4b、5b 四种合租户型。目前没有公开的细化 floor plan 和每间卧室的面积差异，但根据典型美式学生公寓经验，几点可以留意：

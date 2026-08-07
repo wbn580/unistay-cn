@@ -6,7 +6,7 @@ publishDate: "2026-07-07"
 pubDatetime: "2026-07-07T14:41:32Z"
 modDatetime: "2026-07-08T08:47:32Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1567828.jpg"
+ogImage: "https://img.unistay.cn/rehost/aea861740778.jpg"
 ---
 
 ### 这套值不值得住？
@@ -47,7 +47,7 @@ Google 评分 4.9（60 条评价），非常高。我们看了三条原文评论
 
 ### 在 Kansas City 的价格水位
 
-![520 East](https://img.unistay.cn/housing/p/amber-1567828.jpg)
+![520 East](https://img.unistay.cn/rehost/aea861740778.jpg)
 
 
 整个 Kansas City 的学生公寓市场有 33 处房源，起步价从 745 美元到 2000 美元左右不等。520 East 的价格区间是 1000-1995 美元每月，属于中上水平。具体来说：

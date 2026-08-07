@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T20:30:39Z"
 modDatetime: "2026-07-08T10:24:39Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-938389.jpg"
+ogImage: "https://img.unistay.cn/rehost/228f67399e8a.jpg"
 ---
 
 ## 谁适合住 The Ella，谁该绕道
@@ -40,7 +40,7 @@ Dr. Lee 给了 5 星，原文：
 
 ## 价格在同城什么水位
 
-![The Ella](https://img.unistay.cn/housing/p/amber-938389.jpg)
+![The Ella](https://img.unistay.cn/rehost/228f67399e8a.jpg)
 
 芝加哥学生公寓 95 个房源中，起步价最便宜的是 600 美元/月（通常是多人合租的单间或 studio），The Ella 最便宜的 studio 报价 924 美元，高于全市最低线。但在 Hyde Park 区域，一套 studio 通常在 900-1200 美元之间，The Ella 的 924 美元属于该区域中等偏平价位。公寓未公开 deposit 金额，需要直接向物业确认。
 

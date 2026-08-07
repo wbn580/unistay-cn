@@ -6,7 +6,7 @@ publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T03:17:12Z"
 modDatetime: "2026-07-07T09:36:12Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1211308.jpg"
+ogImage: "https://img.unistay.cn/rehost/1b67437a0010.jpg"
 ---
 
 ### 位置与基本情况
@@ -42,7 +42,7 @@ Google 评分 4.3，1950 条评论，可信度较高。三条给定的评论原�
 
 2. **Valeria Belyaeva（5 分）**：“I have been staying at and loving this hotel since it was built. I live nearby myself, but I occasionally make use of this wonderful place. The rooms are small but functional; if you need a kettle or a fridge, they will bring one right to your room. It is quiet inside—despite being a light sleeper, I was never once wok...” 她强调房间小但功能完备、可以要求送热水壶/冰箱到房间、隔音好（轻睡眠者也没被吵醒）。这是公寓作为“长期性酒店”的使用体验，暗示服务响应快、居住舒适。
 
-![Williamsburg](https://img.unistay.cn/housing/p/amber-1211308.jpg)
+![Williamsburg](https://img.unistay.cn/rehost/1b67437a0010.jpg)
 
 
 3. **Normal Email（1 分）**：“Pod Brooklyn Hotel not only charges barely-revealed junk fees (what exactly is an 'amenities fee' and why isn't it part of the base rate?), but on top of that, they charged my credit card WITHOUT DISCLOSING IT. Background: I came here for work; my employer made the reservation and pre-paid for the room. When I arrived,...” 这位住客差评集中在隐藏费用（设施费未提前告知）和未授权扣款。注意：该评论描述的是“Pod Brooklyn Hotel”，与我们的房源名称 Williamsburg 不同，但可能是同一运营方（或者同一栋楼不同名称）。这条差评提醒：预订前务必确认所有额外费用（如设施费、清洁费、押金），并要求运营方提供书面费用明细。

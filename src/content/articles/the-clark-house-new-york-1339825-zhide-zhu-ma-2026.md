@@ -6,7 +6,7 @@ publishDate: "2026-07-04"
 pubDatetime: "2026-07-04T09:51:37Z"
 modDatetime: "2026-07-08T10:34:37Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1339825.jpg"
+ogImage: "https://img.unistay.cn/rehost/01b36e40478f.jpg"
 ---
 
 ## The Clark House：纽约哈莱姆区的长租公寓到底值不值得住
@@ -44,7 +44,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1339825.jpg"
 
 ### 房型怎么选
 
-![The Clark House](https://img.unistay.cn/housing/p/amber-1339825.jpg)
+![The Clark House](https://img.unistay.cn/rehost/01b36e40478f.jpg)
 
 
 公寓官网列出了两种单元类型：1b（一居室）和 apartment（整间公寓）。但根据住客评论，实际出租的很可能是一整层被分成多个卧室的合租公寓（比如 3B2B），每个卧室独立出租。Louis 提到自己有两名室友，说明至少是 3 卧室的户型；Chloe 的 “Executive suite” 则是带私人浴室的单间。

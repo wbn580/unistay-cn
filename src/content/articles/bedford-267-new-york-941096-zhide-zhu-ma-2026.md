@@ -6,7 +6,7 @@ publishDate: "2026-07-05"
 pubDatetime: "2026-07-05T17:50:15Z"
 modDatetime: "2026-07-08T11:19:15Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-941096.jpg"
+ogImage: "https://img.unistay.cn/rehost/25f4e4011531.jpg"
 ---
 
 ### 适合谁 / 不适合谁
@@ -41,7 +41,7 @@ Bedford 267 位于纽约布鲁克林区，地址是 Brooklyn, NY 11221，是一�
 
 提供四种单元类型：4b、6b、7b 以及 apartment（整间公寓）。
 
-![Bedford 267](https://img.unistay.cn/housing/p/amber-941096.jpg)
+![Bedford 267](https://img.unistay.cn/rehost/25f4e4011531.jpg)
 
 
 - **4b（4卧室）**：合租人数最少，公共空间相对宽裕，适合希望室友数量可控、对厨房和客厅使用压力较小的学生。

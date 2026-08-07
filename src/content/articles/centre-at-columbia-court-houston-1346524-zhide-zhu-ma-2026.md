@@ -6,7 +6,7 @@ publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T23:06:35Z"
 modDatetime: "2026-07-08T04:20:35Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1346524.jpg"
+ogImage: "https://img.unistay.cn/rehost/c2d020f19f42.jpg"
 ---
 
 ### 位置与周边
@@ -50,7 +50,7 @@ Google 评分 3.9，一共 299 条评论。除了前面提到的 Bianca 和 Vero
 
 ### 价格在休斯顿什么水平？
 
-![Centre At Columbia Court](https://img.unistay.cn/housing/p/amber-1346524.jpg)
+![Centre At Columbia Court](https://img.unistay.cn/rehost/c2d020f19f42.jpg)
 
 
 学生公寓的价格因位置、设施、户型差异很大。Centre At Columbia Court 的起步价是 995 美元/月，最高到 1295 美元/月。作为参考：

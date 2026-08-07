@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T04:17:09Z"
 modDatetime: "2026-07-08T07:46:09Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-2411192.jpg"
+ogImage: "https://img.unistay.cn/rehost/30bdb629aac3.jpg"
 ---
 
 ### 4S Turtle Bay 适合谁，不适合谁
@@ -33,7 +33,7 @@ Amy Danielowski 也是 5 分评论：“My daughter just moved in last month and
 
 需要考虑的是：这个价格不含水电煤？房源信息里没写是否包 utilities，订房时一定要跟运营方确认。另外押金也没标注，需要单独问。
 
-![4S Turtle Bay](https://img.unistay.cn/housing/p/amber-2411192.jpg)
+![4S Turtle Bay](https://img.unistay.cn/rehost/30bdb629aac3.jpg)
 
 
 对比同区域类似的 1b 房源：Turtle Bay 靠近联合国总部，地段安静又方便，东边是东河，西边是中央车站。这个位置 1b 普遍在 3500 以上，所以 4S Turtle Bay 的价格在合理的水位，没有明显溢价或偏低。如果你想省一点，可以看看曼哈顿上城或布鲁克林，但会牺牲通勤时间。

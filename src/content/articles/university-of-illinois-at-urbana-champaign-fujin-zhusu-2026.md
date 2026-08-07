@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T04:38:49Z"
 modDatetime: "2026-07-07T08:34:49Z"
 tags: ["university", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-938389.jpg"
+ogImage: "https://img.unistay.cn/rehost/228f67399e8a.jpg"
 ---
 
 ### 从校园评价看 UIUC 的住宿需求
@@ -52,7 +52,7 @@ UIUC 校园横跨厄巴纳和香槟两个城市，主校区东西长约 3 公里
 2. **确定预算和区域偏好**  
    根据家庭能支撑的月租上限，划定经济档、中档或舒适档。同时考虑你是 prefer 步行还是公交，是否要离特定学院近（比如工学院在东侧，商学院偏西）。可以在 Google Maps 上测量距离。
 
-![University of Illinois at Urbana-Champaign](https://img.unistay.cn/housing/p/amber-938389.jpg)
+![University of Illinois at Urbana-Champaign](https://img.unistay.cn/rehost/228f67399e8a.jpg)
 
 
 3. **收集备选公寓清单并实地考察（或视频看房）**  

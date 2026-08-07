@@ -6,7 +6,7 @@ publishDate: "2026-07-06"
 pubDatetime: "2026-07-06T01:30:29Z"
 modDatetime: "2026-07-07T08:01:29Z"
 tags: ["university", "australia"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1211308.jpg"
+ogImage: "https://img.unistay.cn/rehost/1b67437a0010.jpg"
 ---
 
 ## 拿到麦考瑞大学 offer 后的住宿行动清单
@@ -72,7 +72,7 @@ Macquarie 大学的地铁站（Macquarie University Station）就在校园东侧
 2. **合租私人公寓（Macquarie Park 核心区两房公寓）**  
    例如位于 4–6 Halifax Street 的高层公寓，步行到地铁站 3 分钟，到校园 8 分钟。两房公寓 2026 年周租金约 800–880 澳元，两人分摊每人 400–440 澳元。不含账单（水电网约每周 30–50 澳元）。需自己联系中介或房东签约，押金 4 周租金。适合有室友且对生活质量有要求的学生。
 
-![Macquarie University](https://img.unistay.cn/housing/p/amber-1211308.jpg)
+![Macquarie University](https://img.unistay.cn/rehost/1b67437a0010.jpg)
 
 
 3. **地铁沿线通勤房源（Chatswood 单间）**  

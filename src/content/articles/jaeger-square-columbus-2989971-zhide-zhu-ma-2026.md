@@ -6,7 +6,7 @@ publishDate: "2026-07-05"
 pubDatetime: "2026-07-05T16:28:37Z"
 modDatetime: "2026-07-08T07:30:37Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-1344656.jpg"
+ogImage: "https://img.unistay.cn/rehost/9c4c885f61cf.jpg"
 ---
 
 ### 这套值不值得住：Jaeger Square
@@ -55,7 +55,7 @@ Google 评分 4.6（106条评论），属于高分。已收录的三条评论全
 
 - **dimitri kritikos**：“Really loved the vibe of Jeager Sqaure! I was looking to relocate for work to Columbus and German Village is so cute and quaint. I love that they have 1st floor apartments since I have a dog and it is super easy to get in and out and being so close to Schiller Park is the best! Cameron my leasing agent was extremely he”（注意原文拼写“Jeager”为笔误，公寓正确名称为 Jaeger Square）
 
-![Jaeger Square](https://img.unistay.cn/housing/p/amber-1344656.jpg)
+![Jaeger Square](https://img.unistay.cn/rehost/9c4c885f61cf.jpg)
 
 
 - **Jennifer Wangler**：“We've lived at Jaeger Square for over a year now and love the apartment but more importantly the team here! Mackenzie, Cam and Sydney in the office are always friendly, plan great community events and spoil our dog (very dog friendly building). Odelle and Jayel on the maintenance team are super responsive. Just last ni”（原文未结束，但能看出好评）

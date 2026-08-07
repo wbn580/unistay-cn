@@ -6,7 +6,7 @@ publishDate: "2026-07-01"
 pubDatetime: "2026-07-01T14:27:40Z"
 modDatetime: "2026-07-08T02:58:40Z"
 tags: ["property", "united-states"]
-ogImage: "https://img.unistay.cn/housing/p/amber-973604.jpg"
+ogImage: "https://img.unistay.cn/rehost/96df4fdfa9c2.jpg"
 ---
 
 ### 公寓位置与基本概况
@@ -27,7 +27,7 @@ morganne sparks（1星）则重点针对网络：“EDIT: Do not live here, plai
 
 ### 价格在同城什么水位
 
-![West Run](https://img.unistay.cn/housing/p/amber-973604.jpg)
+![West Run](https://img.unistay.cn/rehost/96df4fdfa9c2.jpg)
 
 
 Morgantown 在房源平台上目前只有West Run这一处公寓挂牌数据，最低起步价是425美元/月。这个价位在全美大学城里属于中等偏低，但单独看城里，没有其他公寓做直接对比。作为参考，西弗吉尼亚大学周边私人出租的普通两室月租通常也在400-700美元区间，West Run的定价基本在正常范围内。425-695美元的范围涵盖不同房型和楼层，具体费用以运营方实时报价为准。如果预算紧张，合租大房型（3b或4b）的人均分摊会更低，可能不到400美元。

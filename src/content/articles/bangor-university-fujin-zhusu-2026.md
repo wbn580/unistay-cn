@@ -6,7 +6,7 @@ publishDate: "2026-07-02"
 pubDatetime: "2026-07-02T23:39:48Z"
 modDatetime: "2026-07-07T08:46:48Z"
 tags: ["university", "united-kingdom"]
-ogImage: "https://img.unistay.cn/housing/p/amber-238295.jpg"
+ogImage: "https://img.unistay.cn/rehost/15139e821b70.jpg"
 ---
 
 ## 拿到 Bangor 大学 offer 后的住宿行动清单
@@ -46,7 +46,7 @@ Bangor 大学主校区（College Road 和 Deiniol Road）位于市中心以东�
 
 ### 拿到 offer 后的行动清单（分步骤）
 
-![Bangor University](https://img.unistay.cn/housing/p/amber-238295.jpg)
+![Bangor University](https://img.unistay.cn/rehost/15139e821b70.jpg)
 
 
 **步骤 1：确认接受 offer 后，马上查宿舍申请窗口**  
