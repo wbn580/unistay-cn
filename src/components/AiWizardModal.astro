@@ -3,6 +3,7 @@
 // 全站任意 "AI 找房 / AI 帮我找房" 入口（调 window.aiwOpen）都弹出此 modal，
 // 内含首页同款找房向导（UsWizard 内核）+ 背景遮蔽。
 // 放在 BaseLayout 里，全站每页可用。
+import '../styles/us-wizard.css'; // .usw* 向导视觉（唯一正本；本文件只负责 .aiw* 弹层布局）
 ---
 
 <!-- 找房向导内核（全站只此一处加载，供首页内联卡片 + 本 modal 共用） -->
