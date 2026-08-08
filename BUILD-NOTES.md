@@ -27,3 +27,14 @@
 AI 找房向导按每套房源真实 price_duration 显示单位（周/月）。
 重新生成 public/wizard_cities.json 时**必须**：每套房源 props 带 `u`（"weekly"/"monthly"，join 自 src/data/properties/*.json 的 price_duration）+ 每城市带 `du`（该城主导周期）。
 缺 `u`/`du` 会导致卡片单位回退不准 / 周月混用失真。各国惯例不同（US/CA/EU 多月租，AU/UK 周租，IE 混合），不可按国家一刀切。
+
+## 🐞 AI 找房弹窗裸奔修复（2026-08-08）
+现象：全站点「AI 找房 / AI 帮我找房」弹窗打开后没有白卡、没有按钮样式，文字直接压在首页 hero 上。
+根因：向导视觉（`.usw*`）当初只写在 `src/components/UsAiWizard.astro` 的 `<style is:global>` 里，
+而该组件**全站没有任何页面 import**，Astro 因此不会打包这段 CSS；真正渲染向导的是 BaseLayout 里的
+`AiWizardModal.astro`，它只带 `.aiw*` 弹层布局，所以卡片是裸 HTML。
+修复：抽出 `src/styles/us-wizard.css` 作为 `.usw*` 唯一正本，`AiWizardModal.astro` 与 `UsAiWizard.astro`
+都在 frontmatter `import` 它（Astro 会去重）。**注意**：这段 CSS 是纯 .css 文件，末尾不得残留 `</style>`，
+否则整份 bundle 从该处起被浏览器丢弃（会连带干掉 `.aiw{position:fixed}`，弹窗跑到页面底部）。
+验收：本地 dist + 线上 unistay.cn 均实测 —— `.aiw` position:fixed、卡片 #fff/22px 圆角、6 个城市 chip、
+第 2 步选项卡样式正常；桌面 1470px 与移动 390px 均居中无横向溢出；首页按钮、右下角悬浮气泡、/zhusu/ 内页三个入口都正常。
