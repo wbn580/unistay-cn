@@ -16,7 +16,7 @@ ogImage: https://img.unistay.cn/rehost/8658e11e1aee.jpg
 
 拿到录取通知之后，找住的地方往往是第一个真正需要自己动手解决的任务。不同国家的租房渠道差异很大，了解每一种渠道的运作方式，能帮你避开那些反复让学生吃亏的坑。
 
-![2026年海外留学生租房渠道与避坑全指南](https://img.unistay.net/housing/p/amber-1567828.jpg)
+![2026年海外留学生租房渠道与避坑全指南](https://img.unistay.net/rehost/8658e11e1aee.jpg)
 
 ## 主要租房渠道
 
