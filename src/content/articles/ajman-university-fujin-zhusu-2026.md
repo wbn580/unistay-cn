@@ -23,7 +23,7 @@ Ajman 的租金水平大约比迪拜便宜 30%–50%（以运营方实时报价�
 
 **第一步：确认学校是否提供校内住宿**
 
-Ajman University 的官网（https://www.ajman.ac.ae）上有一个“Housing”或“Student Life”栏目。先查一遍有没有官方宿舍——如果有，价格通常比校外同等条件的房子便宜 10%–20%，而且水电、网络都包了，省心。宿舍名额往往有限，国际生要尽早申请。如果官网没找到相关信息，直接发邮件给“Student Affairs”或者“Admissions”，标题写“Inquiry about on-campus accommodation for new intake 2026”，他们会回复或者转给负责的部门。
+Ajman University 的官网（<https://www.ajman.ac.ae>）上有一个“Housing”或“Student Life”栏目。先查一遍有没有官方宿舍——如果有，价格通常比校外同等条件的房子便宜 10%–20%，而且水电、网络都包了，省心。宿舍名额往往有限，国际生要尽早申请。如果官网没找到相关信息，直接发邮件给“Student Affairs”或者“Admissions”，标题写“Inquiry about on-campus accommodation for new intake 2026”，他们会回复或者转给负责的部门。
 
 **第二步：根据你的出行习惯，选定“走读圈”还是“公交圈”**
 

@@ -32,7 +32,7 @@ ogImage: "https://img.unistay.cn/housing/p/uh-s00017721.jpg"
 2. **中等预算（每月 300–450 美元/约 13 万–19.5 万坚戈）**：在学校步行 15–20 分钟范围内租一个一居室或 studio，或者在校内宿舍申请一个席位。这个区间在 Satpaev Street 附近比较常见，能保证通勤时间和居住质量的平衡。
 3. **较高预算（每月 500 美元以上/约 22 万坚戈起）**：离教学楼 5 分钟以内的精装一居室，或者更好的公寓小区。适合需要安静学习环境、不介意多付费的同学。
 
-实际租金每年变化，建议你在拿到 offer 后立刻上 Kyzylorda.kz 或 krisha.kz 等当地租房网站（注意：不能提其他特定海外域名，此处仅举例本地平台）搜索“Satpaev”或“Almaty center”查看最新价格。另外，学校官网（https://www.satbayev.university/）的“International Students”栏目通常会提供宿舍信息和推荐租房渠道。
+实际租金每年变化，建议你在拿到 offer 后立刻上 Kyzylorda.kz 或 krisha.kz 等当地租房网站（注意：不能提其他特定海外域名，此处仅举例本地平台）搜索“Satpaev”或“Almaty center”查看最新价格。另外，学校官网（<https://www.satbayev.university/>）的“International Students”栏目通常会提供宿舍信息和推荐租房渠道。
 
 ### 三、走读圈 vs 公交圈：怎么取舍
 

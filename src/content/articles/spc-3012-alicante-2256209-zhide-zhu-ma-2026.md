@@ -66,7 +66,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-2256209.jpg"
 平台没有列出SPC 3012的具体房型列表。但从评论可以推测出一些信息：
 
 - 有“big room with balcony”（大房间带阳台）的家庭房型，适合2-4人合住。
-- 看图片（https://assets.amberstudent.com/inventories/2256671/e01b4683.webp）是典型的公寓外观，内部可能有多人间和单人间。
+- 看房源图片是典型的公寓外观，内部可能有多人间和单人间。
 - 标签有电梯（Lift）和Wi-Fi，没有提到空调、洗衣设施等，可提前问清楚。
 
 **选房建议：**

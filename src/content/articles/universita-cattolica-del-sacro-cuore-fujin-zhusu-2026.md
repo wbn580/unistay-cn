@@ -58,7 +58,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1014345.jpg"
 拿到 offer 只是第一步，真正的行动可以从以下步骤开始：
 
 1. **确认宿舍申请截止时间**  
-   圣心大学提供有限的校内住宿（Residenza Universitaria），通常在每年 5–7 月开放申请。去学校官网（https://www.unicatt.it/）的“Servizi”板块查找“Alloggi”或“Residenze”。如果申请到宿舍，每月约 600–800 欧元，含水电和网络，性价比很高。但名额少，务必在截止前提交。
+   圣心大学提供有限的校内住宿（Residenza Universitaria），通常在每年 5–7 月开放申请。去学校官网（<https://www.unicatt.it/>）的“Servizi”板块查找“Alloggi”或“Residenze”。如果申请到宿舍，每月约 600–800 欧元，含水电和网络，性价比很高。但名额少，务必在截止前提交。
 
 ![Università Cattolica del Sacro Cuore](https://img.unistay.cn/housing/p/amber-1014345.jpg)
 

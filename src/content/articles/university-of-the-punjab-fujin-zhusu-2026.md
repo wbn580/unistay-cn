@@ -19,7 +19,7 @@ ogImage: "https://img.unistay.cn/housing/p/uh-s01520037.jpg"
 
 #### 1. 确认校内宿舍名额
 
-- 官网地址：http://www.pu.edu.pk/，找“Student Affairs”或“Hostels”栏目。通常 2026 或 2027 学年的宿舍申请会在开学前 2-3 个月开放。
+- 官网地址：<http://www.pu.edu.pk/>，找“Student Affairs”或“Hostels”栏目。通常 2026 或 2027 学年的宿舍申请会在开学前 2-3 个月开放。
 - 关注邮件：学校可能会通过申请邮箱发送住宿指南，别漏看。
 - 如果校内宿舍已满或你更倾向校外，再往下看。
 

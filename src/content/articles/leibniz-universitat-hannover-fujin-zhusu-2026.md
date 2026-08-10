@@ -41,7 +41,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-937264.jpg"
 
 
 **Step 1：确认 offer 后，立即申请 Studentenwerk 宿舍**
-访问 Studentenwerk Hannover 官网（www.studentenwerk-hannover.de），在线提交申请表。可以选择 3–5 个偏好区域。通常会在开学前 4–8 周收到回复。即使排不上，也拿到了一个排队号，后面有空缺时会通知。
+访问 Studentenwerk Hannover 官网（[www.studentenwerk-hannover.de](https://www.studentenwerk-hannover.de/)），在线提交申请表。可以选择 3–5 个偏好区域。通常会在开学前 4–8 周收到回复。即使排不上，也拿到了一个排队号，后面有空缺时会通知。
 
 **Step 2：同步开始搜私人房源**
 在 WG-Gesucht、ImmoScout24 以及独立留学生公寓平台上注册账号，设置关键字“Hannover、Nordstadt、Student、WG”。如果德语不好，可以先用英语发简短介绍，但回复率可能较低。建议准备一份标准模板（包含姓名、专业、入学时间、有无收入、是否吸烟、是否养宠物），方便快速回复。

@@ -36,7 +36,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-937155.jpg"
 ## 拿到 offer 后的行动清单
 
 ### 第一步：确认校内宿舍申请截止日期
-IIT Delhi 校内宿舍（hostels）通常 4 月到 5 月开放申请，名额有限。去官网「https://home.iitd.ac.in/」看「Accommodation」页面，或者直接邮件询问国际学生办公室。如果学校明确说没有宿舍给硕士/短期项目，立刻转向校外。
+IIT Delhi 校内宿舍（hostels）通常 4 月到 5 月开放申请，名额有限。去官网「<https://home.iitd.ac.in/>」看「Accommodation」页面，或者直接邮件询问国际学生办公室。如果学校明确说没有宿舍给硕士/短期项目，立刻转向校外。
 
 ### 第二步：标记通勤范围
 用 Google Maps 画一个以 IIT Delhi 正门为中心的 3 公里步行圈，以及 5 公里公交圈。重点看 Hauz Khas、Saket、Munirka、Malviya Nagar、R.K. Puram。把这些区域的名字记下来，后续找房源时直接搜。

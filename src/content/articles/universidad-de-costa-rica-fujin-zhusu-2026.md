@@ -55,7 +55,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-2683154.jpg"
 拿到offer后，你通常会有一到两个月的时间确定住宿。以下步骤可以帮你系统化操作：
 
 **第一步：确认学校是否提供校内宿舍（1周内完成）**  
-上学校官网（http://www.ucr.ac.cr/）搜索“housing”或“residencias”。如果提供，立即申请——名额有限，很多在4-5月就满了。如果不提供或已满，进入下一步。
+上学校官网（<http://www.ucr.ac.cr/>）搜索“housing”或“residencias”。如果提供，立即申请——名额有限，很多在4-5月就满了。如果不提供或已满，进入下一步。
 
 **第二步：设定预算与区域偏好（第2周）**  
 根据自己的总生活费（学费+生活）算出每月能用于房租的上限。然后再看上面三类预算档，圈定1-2个潜在区域。你可以用Google Maps手动模拟从候选区域到学校（地址：Ciudad Universitaria Rodrigo Facio Brenes, San José, San Pedro）的步行/公交时间。

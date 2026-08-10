@@ -56,7 +56,7 @@ Fakhruddin Vaghela 的留言则提醒我们：Sarland 大学有国际学生办�
 在你的 Zulassungsbescheid（录取通知书）上找到学期开始日期（通常冬季学期 10 月，夏季学期 4 月）。注册必须在指定日期前完成，否则宿舍申请可能失效。
 
 **2. 立即申请学生宿舍**  
-Studentenwerk Saarland 的宿舍申请通常提前 3–4 个月开放。例如冬季学期 10 月入学，7 月就可以在线提交申请。网址：www.studentenwerk-saarland.de。申请时需要提供注册证明或录取通知书。宿舍房间按等待时长和国籍比例分配，国际学生有优先权，但尽早申请依然关键。
+Studentenwerk Saarland 的宿舍申请通常提前 3–4 个月开放。例如冬季学期 10 月入学，7 月就可以在线提交申请。申请入口在 Studentenwerk Saarland 官网。申请时需要提供注册证明或录取通知书。宿舍房间按等待时长和国籍比例分配，国际学生有优先权，但尽早申请依然关键。
 
 **3. 开始搜索私房市场（WG 或单人公寓）**  
 常用平台包括 WG-Gesucht.de、ImmoScout24、Immowelt。搜索时输入“Saarbrücken 66123”定位 campus 附近，或“Saarbrücken Innenstadt”定位市区。注意：

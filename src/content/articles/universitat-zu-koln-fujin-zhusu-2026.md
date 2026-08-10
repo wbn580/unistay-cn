@@ -84,7 +84,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1193299.jpg"
 
 ### 数据截至
 
-本文所引用的 Google 评论及评分采集自 2026 年，学生租金范围为 2025–2026 年科隆学生服务处及常见私人房源的价格区间，具体数字请以运营方实时报价为准。科隆大学地址：Albertus-Magnus-Platz, 50923 Köln, Germany。学校官网：http://uni-koeln.de/（可用于核实招生与宿舍最新信息）。
+本文所引用的 Google 评论及评分采集自 2026 年，学生租金范围为 2025–2026 年科隆学生服务处及常见私人房源的价格区间，具体数字请以运营方实时报价为准。科隆大学地址：Albertus-Magnus-Platz, 50923 Köln, Germany。学校官网：<http://uni-koeln.de/>（可用于核实招生与宿舍最新信息）。
 
 **相关页面：**[数据页](/daxue/universitat-zu-koln/) · [同类浏览](/zhusu/germany/)
 

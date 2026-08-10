@@ -25,7 +25,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-2182719.jpg"
 
 ![Qatar University](https://img.unistay.cn/housing/p/amber-2182719.jpg)
 
-1. **确认录取后立刻查询住宿选项**。QU 官网（http://www.qu.edu.qa/）有 Housing 或 Student Life 栏目。先看是否有校内宿舍可申请，以及申请截止日期。公立大学通常会给国际生提供少量宿舍名额，但竞争激烈，建议在收到 offer 后两周内完成申请。
+1. **确认录取后立刻查询住宿选项**。QU 官网（<http://www.qu.edu.qa/>）有 Housing 或 Student Life 栏目。先看是否有校内宿舍可申请，以及申请截止日期。公立大学通常会给国际生提供少量宿舍名额，但竞争激烈，建议在收到 offer 后两周内完成申请。
 
 2. **决定住校还是走读**。住校的好处是步行上课、省交通费、便于融入校园社交圈。走读则选择更多、空间更大、价格可能更低。多哈的公共交通以公交和地铁为主，QU 附近有地铁站吗？查一下多哈地铁金线（Gold Line）是否经过学校附近。如果地铁站步行可达，走读通勤时间可以控制在 30 分钟内。
 

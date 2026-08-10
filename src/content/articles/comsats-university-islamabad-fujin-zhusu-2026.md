@@ -42,7 +42,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-144010.jpg"
 
 以下是我整理的一套步骤，按拿到 offer 后的时间线排列：
 
-1.  **第 1-2 周：确认学校是否提供宿舍，并申请。** 访问学校官网（http://www.comsats.edu.pk/），找“Accommodation”或“Student Housing”页面。通常每年 6-7 月开放申请，先到先得。如果宿舍满了或条件不符合你的期望，立刻转向校外。
+1.  **第 1-2 周：确认学校是否提供宿舍，并申请。** 访问学校官网（<http://www.comsats.edu.pk/>），找“Accommodation”或“Student Housing”页面。通常每年 6-7 月开放申请，先到先得。如果宿舍满了或条件不符合你的期望，立刻转向校外。
 
 2.  **第 3-4 周：划定搜索区域。** 以校园为中心，用 Google Maps 查步行距离。推荐区域：Shahzad 镇（校园所在）、Tarlai Kalan、G-12、F-12。在 Facebook 搜索“COMSATS Islamabad Accommodation”群组、查看当地房产网站（如 Zameen.com，但只作信息参考，不要通过第三方中介付费）。另外可以联系已在校的学长学姐，他们通常有转租房源信息。
 

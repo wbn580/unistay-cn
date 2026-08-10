@@ -33,7 +33,7 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1279878.jpg"
 拿到offer后，按以下三步制定计划：
 
 **第一档：预算150-250欧元/月（合租或宿舍）**
-- 立即：4-5月填写学校宿舍申请（官网https://www.auth.gr/en/services/accommodation/，但注意不要提域名，只说“学校官网住宿页面”）。同时加入Facebook群组“AUTH Rooms for Rent”或“Thessaloniki Student Accommodation”。
+- 立即：4-5月填写学校宿舍申请（官网<https://www.auth.gr/en/services/accommodation/>，但注意不要提域名，只说“学校官网住宿页面”）。同时加入Facebook群组“AUTH Rooms for Rent”或“Thessaloniki Student Accommodation”。
 - 5-6月：主动联系即将毕业的师兄师姐承接转租房（通常免中介费）。注意：合租室友事先视频见面，确认卫生习惯和是否吸烟。
 - 7月：若仍无着落，启动第二档预算方案。
 
