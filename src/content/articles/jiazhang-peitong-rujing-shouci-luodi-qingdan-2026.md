@@ -16,7 +16,7 @@ ogImage: https://img.unistay.cn/rehost/371935103f63.jpg
 
 把学费和生活费安全、准时地汇到海外院校账户，是留学准备中绕不开的一环。学费通常金额大、有明确截止日期，生活费则需要持续、低成本地汇出，两类资金对汇款路径的要求并不相同。本文梳理当前主流的跨境支付方式，覆盖银行电汇、学校合作支付平台、第三方跨境汇款工具和信用卡等渠道，帮助你根据资金类型和时效要求做出选择。
 
-![2026年海外学费支付与跨境汇款路径：从电汇到第三方平台的完整操作指南](https://img.unistay.net/housing/p/amber-2315027.jpg)
+![2026年海外学费支付与跨境汇款路径：从电汇到第三方平台的完整操作指南](https://img.unistay.cn/housing/p/amber-2315027.jpg)
 
 ## 大额学费支付：银行电汇仍是接受度最高的方式
 
@@ -67,3 +67,13 @@ ogImage: https://img.unistay.cn/rehost/371935103f63.jpg
 对于每月生活费，第三方跨境汇款工具和支付宝、微信的跨境汇款功能在成本和速度上通常优于传统电汇。建议在出发前开通并试操作一次小额汇款，确认收款账户能够正常接收。
 
 最后提醒：各渠道的费率、汇率、到账时效和额度限制会随市场环境和监管政策调整，建议在每次汇款前通过银行官网、学校财务办公室或支付平台官方页面获取最新信息，并根据自身情况做出判断。
+
+<!-- AFF-CARD:v1:START -->
+<div class="cc-aff-stack" data-affiliate-plain="true" data-pagefind-ignore>
+  <a class="cc-aff-card cc-aff-card--flywire" href="https://go.compares.cheap/flywire-edu?p=unistay-cn/jiazhang-peitong-rujing-shouci-luodi-qingdan-2026" target="_blank"
+     rel="sponsored nofollow noopener noreferrer" data-cta="aff-card-flywire-edu"
+     data-affiliate-card="flywire-edu" aria-label="用 Flywire 缴学费 - 去缴费"><span class="cc-aff-card__mark" aria-hidden="true">GO</span><span class="cc-aff-card__body"><span class="cc-aff-card__eyebrow">合作伙伴</span><span class="cc-aff-card__title">用 Flywire 缴学费</span><span class="cc-aff-card__note">按院校指定通道跨境缴学费，汇率与到账状态全程可查。</span></span><span class="cc-aff-card__cta">去缴费</span></a>
+  <p class="cc-aff-stack__note">以上为合作伙伴链接，通过它们购买不会增加你的费用，我们可能获得一笔佣金。</p>
+</div>
+<style id="cc-affiliate-card-css">.cc-aff-card{--cc-accent:#2563eb;--cc-ink:#111827;--cc-muted:#4b5563;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;max-width:680px;margin:26px auto;padding:18px 20px;border:1px solid color-mix(in srgb,var(--cc-accent) 24%,#d7dee9);border-radius:16px;background:linear-gradient(135deg,color-mix(in srgb,var(--cc-accent) 8%,#fff) 0%,#fff 52%,color-mix(in srgb,var(--cc-accent) 12%,#fff) 100%);box-shadow:0 18px 42px -30px rgba(15,23,42,.42);color:var(--cc-ink)!important;text-decoration:none!important;line-height:1.35;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;max-width:min(680px,100%)}.cc-aff-card:hover,.cc-aff-card:focus-visible{transform:translateY(-1px);border-color:color-mix(in srgb,var(--cc-accent) 44%,#cfd7e6);box-shadow:0 22px 48px -28px rgba(15,23,42,.5);outline:none;text-decoration:none!important}.cc-aff-card__mark{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:var(--cc-accent);color:#fff;font-weight:850;font-size:13px;letter-spacing:0;flex:none;box-shadow:0 12px 24px -16px var(--cc-accent)}.cc-aff-card__body{min-width:0}.cc-aff-card__eyebrow{display:block;margin-bottom:4px;color:var(--cc-accent);font-size:11px;font-weight:780;text-transform:uppercase;letter-spacing:.08em}.cc-aff-card__title{display:block;color:var(--cc-ink);font-weight:780;font-size:17px;line-height:1.28;letter-spacing:0;overflow-wrap:anywhere}.cc-aff-card__note{display:block;margin-top:5px;color:var(--cc-muted);font-size:13.5px;line-height:1.48;letter-spacing:0;overflow-wrap:anywhere}.cc-aff-card__cta{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#111827;color:#fff;font-weight:720;font-size:13.5px;line-height:1;padding:11px 16px;white-space:nowrap}.cc-aff-card__cta:after{content:\"↗\";margin-left:7px;font-size:12px}.cc-aff-card--oshc,.cc-aff-card--ovhc,.cc-aff-card--studenthealth{--cc-accent:#0f766e}.cc-aff-card--flywire{--cc-accent:#1d4ed8}.cc-aff-card--sleek{--cc-accent:#7c3aed}.cc-aff-card--airalo{--cc-accent:#0891b2}.cc-aff-card--kkday,.cc-aff-card--shopping{--cc-accent:#db2777}.cc-aff-card--bizcover{--cc-accent:#b45309}.cc-aff-card--dataforseo{--cc-accent:#0f766e}@media(max-width:560px){.cc-aff-card{grid-template-columns:auto 1fr;margin:24px 0;padding:16px;gap:12px}.cc-aff-card__cta{grid-column:1/-1;width:100%;padding:12px 14px}.cc-aff-card__mark{width:40px;height:40px;border-radius:12px}.cc-aff-card__title{font-size:16px}}.cc-aff-stack{margin:30px 0 8px}.cc-aff-stack .cc-aff-card{margin:0 0 12px}.cc-aff-stack__note{margin:0;font-size:12px;line-height:1.6;color:#6b7280}</style>
+<!-- AFF-CARD:v1:END -->
