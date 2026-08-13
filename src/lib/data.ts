@@ -4,6 +4,7 @@
  * 也避免 Vite 把大 JSON 打进模块图），模块级缓存，只在构建期执行。
  */
 import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 export interface CountryT {
   name: string;
@@ -102,8 +103,13 @@ export interface StatsT {
 }
 
 function load<T>(rel: string): T {
-  const url = new URL(`../data/${rel}`, import.meta.url);
-  return JSON.parse(readFileSync(url, 'utf-8')) as T;
+  // 从项目根解析，不要用 import.meta.url。Astro 6 构建到「Rearranging server
+  // assets」这一步会把服务端产物挪进 dist/.prerender/，届时 import.meta.url 指向
+  // dist/.prerender/chunks/ 里的编译产物，`../data/xxx.json` 会解析成
+  // dist/.prerender/data/xxx.json —— 那里根本没有这个文件，构建当场 ENOENT 挂掉。
+  // 这些数据只在构建期读，构建的工作目录就是项目根，用 cwd 稳定且不受产物挪位影响。
+  const abs = join(process.cwd(), 'src', 'data', rel);
+  return JSON.parse(readFileSync(abs, 'utf-8')) as T;
 }
 
 let _stats: StatsT | null = null;
