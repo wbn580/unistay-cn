@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-08-12-f17e1fb5b3'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-12-f17e1fb5b3-image-01-2026-auto.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-12-f17e1fb5b3-image-01-2026-auto.jpg'
 verified: '2026-08-12T00:00:00Z'
 tags:
   - '托福听力'
@@ -32,7 +32,7 @@ tags:
 
 关键词捕捉训练侧重于在听力过程中识别并记录最能体现主旨和重要细节的词汇。考生需要通过练习，学会区分主要信息和次要信息，抓住名词、动词和形容词等实词，以及转折、因果等逻辑信号词。结合2026年真题场景分类练习，考生可以针对不同学科（如生物学、天文学、历史等）和对话场景（如校园服务、学术讨论）建立关键词库，提升答题时的定位速度和准确率。
 
-![托福听力专项训练场景，学生进行影子跟读和听写练习](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-12-f17e1fb5b3-image-01-2026-auto.jpg)
+![托福听力专项训练场景，学生进行影子跟读和听写练习](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-12-f17e1fb5b3-image-01-2026-auto.jpg)
 
 
 ## 结合2026年真题场景分类练习
