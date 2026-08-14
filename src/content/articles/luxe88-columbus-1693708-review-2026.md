@@ -95,4 +95,4 @@ Luxe 88 是一个特点鲜明的中高端出租选择。它的吸引力在于灵
 
 For live availability and personalised booking assistance, feel free to use the on-site chat assistant on this page.
 
-**See also:** [listing details](/property/luxe88-columbus-1693708/) · [browse more](/housing/united-states/bexley/)
+**See also:** [listing details](/fangyuan/luxe88-columbus-1693708/) · [browse more](/chengshi/united-states/bexley/)

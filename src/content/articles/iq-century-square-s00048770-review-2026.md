@@ -72,4 +72,4 @@ iQ Century Square 的价格区间为每周 119 英镑至 227 英镑（2026/2027 
 
 如需了解当前空房情况、具体房型及实时价格，可使用页面右下角的在线助手进行查询。
 
-**See also:** [listing details](/property/iq-century-square-s00048770/) · [browse more](/housing/united-kingdom/sheffield/)
+**See also:** [listing details](/fangyuan/iq-century-square-s00048770/) · [browse more](/chengshi/united-kingdom/sheffield/)

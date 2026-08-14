@@ -4,16 +4,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CtaCard from '../../components/CtaCard.astro';
 import { fmtNum } from '../../lib/format';
+import { CANONICAL_ARTICLE_CATEGORIES } from '../../lib/articleCategories';
 
 export async function getStaticPaths() {
-  const all = await getCollection('articles');
-  const cats = [...new Set(all.map((a) => a.data.category).filter(Boolean))];
-  return cats.map((category) => ({ params: { category } }));
+  const all = await getCollection('articles', ({ data }) => data.draft !== true);
+  const used = new Set(all.map((article) => article.data.category));
+  return CANONICAL_ARTICLE_CATEGORIES
+    .filter((category) => used.has(category))
+    .map((category) => ({ params: { category } }));
 }
 
 const { category } = Astro.params;
-const entries = (await getCollection('articles'))
-  .filter((e) => e.data.category === category || (e.data.tags && e.data.tags.includes(category!)))
+const entries = (await getCollection('articles', ({ data }) => data.draft !== true))
+  .filter((entry) => entry.data.category === category)
   .sort((a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime());
 
 const title = `${category}：${entries.length} 篇租房指南 | UniStay 优住`;

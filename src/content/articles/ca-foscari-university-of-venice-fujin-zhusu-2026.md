@@ -9,7 +9,7 @@ tags: ["university", "italy"]
 ogImage: "https://img.unistay.cn/housing/p/amber-1348705.jpg"
 ---
 
-# 拿到 Ca' Foscari University of Venice 的 offer 后，住宿怎么解决？
+## 拿到 Ca' Foscari University of Venice 的 offer 后，住宿怎么解决？
 
 恭喜你拿到 Ca' Foscari University of Venice 的 offer。这所大学在 2026 年 QS 世界大学排名中位列 660，位于意大利威尼斯主岛的 Dorsoduro 区。威尼斯是一座建在水上的城市，住宿的选择和方式跟其他欧洲大学城不太一样，需要提前规划。以下从校园评价、城市行情、预算档位、通勤策略、具体房源例子和行动清单几个方面，帮你理清拿到 offer 后该做的住宿准备。
 

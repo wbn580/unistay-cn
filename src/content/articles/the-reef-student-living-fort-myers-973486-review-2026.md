@@ -88,4 +88,4 @@ The Reef Student Living 位于佛罗里达州 Fort Myers，地址为 Fort Myers,
 
 如果您想了解当前可用房型或有任何具体问题，请使用本页的在线聊天助手获取实时帮助。
 
-**See also:** [listing details](/property/the-reef-student-living-fort-myers-973486/) · [browse more](/housing/united-states/fort-myers/)
+**See also:** [listing details](/fangyuan/the-reef-student-living-fort-myers-973486/) · [browse more](/chengshi/united-states/fort-myers/)

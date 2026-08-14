@@ -81,4 +81,4 @@ Google 评分 4.2 星（共121条评价），但反馈两极分化。以下引�
 
 如需了解当前可用房间和实时价格，请使用页面上的在线助手直接咨询。
 
-**See also:** [listing details](/property/garbi-barcelona-225671/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/garbi-barcelona-225671/) · [browse more](/chengshi/spain/barcelona/)

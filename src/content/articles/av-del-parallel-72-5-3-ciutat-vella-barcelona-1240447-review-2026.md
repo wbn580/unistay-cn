@@ -79,4 +79,4 @@ Av. Del Parallel 72 5-3 Ciutat Vella 位于巴塞罗那老城区（Ciutat Vella�
 
 如需了解该房源的最新状态或寻找其他可租选项，请使用页面右下角的在线助理，输入你的入住日期和偏好，获取实时空房信息。
 
-**See also:** [listing details](/property/av-del-parallel-72-5-3-ciutat-vella-barcelona-1240447/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/av-del-parallel-72-5-3-ciutat-vella-barcelona-1240447/) · [browse more](/chengshi/spain/barcelona/)

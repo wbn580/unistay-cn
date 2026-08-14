@@ -110,4 +110,4 @@ One Eleven South 目前由学生住宿平台代理，但实际运营方是公寓
 
 如您需要查询 One Eleven South 的当前空房情况和实时价格，可使用页面底部的在线助手直接联系运营方。
 
-**See also:** [listing details](/property/one-eleven-south-statesboro-1865498/) · [browse more](/housing/united-states/statesboro/)
+**See also:** [listing details](/fangyuan/one-eleven-south-statesboro-1865498/) · [browse more](/chengshi/united-states/statesboro/)

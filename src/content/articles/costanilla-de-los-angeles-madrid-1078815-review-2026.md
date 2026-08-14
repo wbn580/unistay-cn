@@ -90,4 +90,4 @@ Costanilla De Los Angeles 是一处位于马德里市中心的学生公寓，具
 
 如需了解 Costanilla De Los Angeles 的实时房间可用性、最新价格或安排线上看房，您可以使用页面上方的在线助手与住宿顾问直接沟通。
 
-**See also:** [listing details](/property/costanilla-de-los-angeles-madrid-1078815/) · [browse more](/housing/spain/getafe/)
+**See also:** [listing details](/fangyuan/costanilla-de-los-angeles-madrid-1078815/) · [browse more](/chengshi/spain/getafe/)

@@ -94,4 +94,4 @@ Vita Student Crosshall St. 的核心卖点在于“管家式”服务：免费�
 
 如需了解当前具体的空房情况和价格，可使用本页面上的在线助手（on-site assistant）获取实时帮助。
 
-**See also:** [listing details](/property/vita-student-crosshall-st-s00013467/) · [browse more](/housing/united-kingdom/liverpool/)
+**See also:** [listing details](/fangyuan/vita-student-crosshall-st-s00013467/) · [browse more](/chengshi/united-kingdom/liverpool/)

@@ -88,4 +88,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-955070.jpg"
 
 如需了解最新房态与价格，可使用站内在线助手查询实时房源信息。
 
-**See also:** [listing details](/property/the-cat-house-los-angeles-955070/) · [browse more](/housing/united-states/los-angeles/)
+**See also:** [listing details](/fangyuan/the-cat-house-los-angeles-955070/) · [browse more](/chengshi/united-states/los-angeles/)

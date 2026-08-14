@@ -85,4 +85,4 @@ Graham Park At The Highlands 位于美国俄亥俄州哥伦布市郊的 Bexley �
 
 如需获取当前空房信息和实时报价，请使用网站内的在线助手与房源运营商直接联系。
 
-**See also:** [listing details](/property/graham-park-at-the-highlands-columbus-1672354/) · [browse more](/housing/united-states/bexley/)
+**See also:** [listing details](/fangyuan/graham-park-at-the-highlands-columbus-1672354/) · [browse more](/chengshi/united-states/bexley/)

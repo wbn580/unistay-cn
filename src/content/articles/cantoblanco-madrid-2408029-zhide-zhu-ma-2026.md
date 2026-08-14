@@ -9,7 +9,7 @@ tags: ["property", "spain"]
 ogImage: "https://img.unistay.cn/housing/p/amber-2408029.jpg"
 ---
 
-# Cantoblanco：马德里北部大学城旁的公寓，住起来到底怎么样？
+## Cantoblanco：马德里北部大学城旁的公寓，住起来到底怎么样？
 
 如果你正考虑来马德里读大学，尤其是要去 Universidad Autónoma de Madrid（UAM）或附近的 Complutense、Politécnica，Cantoblanco 这个名字大概率会出现在你的选项里。它就在 UAM 校区内（地址是 km. 0,500, Fuencarral-El Pardo），由 Amber 平台运营，定位偏向「校园内酒店式公寓」——只是这里也能签长期合同，月租走的是学生公寓的路子。
 

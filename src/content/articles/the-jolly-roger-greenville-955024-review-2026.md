@@ -95,4 +95,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-955024.jpg"
 
 如需确认该公寓当前是否有空房、具体价格及租期，可使用网站提供的在线助手获取实时信息。
 
-**See also:** [listing details](/property/the-jolly-roger-greenville-955024/) · [browse more](/housing/united-states/greenville/)
+**See also:** [listing details](/fangyuan/the-jolly-roger-greenville-955024/) · [browse more](/chengshi/united-states/greenville/)

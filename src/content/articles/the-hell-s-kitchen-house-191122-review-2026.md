@@ -84,4 +84,4 @@ The Hells Kitchen House 位于纽约市曼哈顿中城西侧，具体地址是 N
 
 如你想了解当前的具体房型、价格或可用情况，可以随时使用页面上的现场助手获取实时信息。
 
-**See also:** [listing details](/property/the-hell-s-kitchen-house-191122/) · [browse more](/housing/united-states/new-york-city/)
+**See also:** [listing details](/fangyuan/the-hell-s-kitchen-house-191122/) · [browse more](/chengshi/united-states/new-york-city/)

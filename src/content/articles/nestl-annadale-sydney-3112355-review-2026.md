@@ -70,4 +70,4 @@ Annandale区域内有Woolworths、IGA等超市，步行可达。公共交通方�
 
 如果您想了解NESTL Annandale的实时空房和价格，可以使用页面上的在线助手进行查询。
 
-**See also:** [listing details](/property/nestl-annadale-sydney-3112355/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/nestl-annadale-sydney-3112355/) · [browse more](/chengshi/australia/sydney/)

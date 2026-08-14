@@ -9,7 +9,7 @@ tags: ["property", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-1432591.jpg"
 ---
 
-# Axis Apartments & Lofts：芝加哥这间公寓值不值得住？
+## Axis Apartments & Lofts：芝加哥这间公寓值不值得住？
 
 如果你正在芝加哥找校外住所，看到Axis Apartments & Lofts这个名字可能会被它的地段吸引——位于密歇根大道附近，邮编60611，离市中心、西北大学芝加哥校区、伊利诺伊理工学院都不算远。但当你打开Google评分看到2.7分（共162条评价）时，大概会犹豫。我整理了一下它在amber学生平台上的真实数据，结合住客的原始评论，帮你理清这里到底适合谁、不适合谁。
 

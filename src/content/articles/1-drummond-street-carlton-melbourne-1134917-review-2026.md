@@ -83,4 +83,4 @@ Sources & data date：2026-07。所有价格均为 indicative — confirm with t
 
 For live availability and detailed booking information, please use the on-site assistant on this page.
 
-**See also:** [listing details](/property/1-drummond-street-carlton-melbourne-1134917/) · [browse more](/housing/australia/melbourne/)
+**See also:** [listing details](/fangyuan/1-drummond-street-carlton-melbourne-1134917/) · [browse more](/chengshi/australia/melbourne/)

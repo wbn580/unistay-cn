@@ -73,4 +73,4 @@ Dupont 提供两种房型：标准一居室（1b）和品牌独立屋（branded_
 
 如需查询 Dupont 或其他 College Park 房源的实时空房与价格，可使用网站右下角的在线助手进行即时沟通。
 
-**See also:** [listing details](/property/common-parkway-dupont-washington-dc-932055/) · [browse more](/housing/united-states/college-park/)
+**See also:** [listing details](/fangyuan/common-parkway-dupont-washington-dc-932055/) · [browse more](/chengshi/united-states/college-park/)

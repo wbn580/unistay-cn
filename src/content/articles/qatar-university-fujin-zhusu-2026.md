@@ -9,7 +9,7 @@ tags: ["university", "qatar-university"]
 ogImage: "https://img.unistay.cn/housing/p/amber-2182719.jpg"
 ---
 
-# 拿到 Qatar University 的 Offer 后，住宿怎么解决？
+## 拿到 Qatar University 的 Offer 后，住宿怎么解决？
 
 如果你刚收到 Qatar University（QU）的录取通知，先恭喜你。这所大学在 2026 年 QS 排名中位列全球第 112 位，是卡塔尔唯一一所公立大学，位于多哈北部近郊。接下来最实际的问题就是：住哪儿？怎么找？预算多少？这篇文章会按照“拿到 offer 后的行动清单”顺序，一步步帮你理清思路。
 

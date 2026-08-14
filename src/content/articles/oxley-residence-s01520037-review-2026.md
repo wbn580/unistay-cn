@@ -83,4 +83,4 @@ Sources & data date: 2026-07。所有价格、评分、描述均为该时间点�
 
 如需了解 Oxley Residence 当前是否有空房、最新租金及具体房型细节，可直接使用本页面上的在线助手，它将为您查询实时数据并帮助您与运营商取得联系。
 
-**See also:** [listing details](/property/oxley-residence-s01520037/) · [browse more](/housing/united-kingdom/leeds/)
+**See also:** [listing details](/fangyuan/oxley-residence-s01520037/) · [browse more](/chengshi/united-kingdom/leeds/)

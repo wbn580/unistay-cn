@@ -9,7 +9,7 @@ tags: ["property", "spain"]
 ogImage: "https://img.unistay.cn/housing/p/amber-1262265.jpg"
 ---
 
-# Cirilo Amoros 瓦伦西亚学生公寓：这套值不值得住
+## Cirilo Amoros 瓦伦西亚学生公寓：这套值不值得住
 
 Cirilo Amoros 位于瓦伦西亚的 L'Eixample 区，地址是 3D, L'Eixample, 46004 València。离瓦伦西亚理工大学（UPV）和瓦伦西亚大学（UV）都不算远，步行或公交都能到。整栋楼是 branded independent house 类型，有公共洗衣房、账单全包、Wi-Fi 覆盖，但根据当前标签显示为“not_available”，说明可能暂时没有空房。不过，这类房源会不定期释放房间，了解它的特点和价格水位，还是能帮你判断要不要持续关注。
 

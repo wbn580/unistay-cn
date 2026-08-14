@@ -9,7 +9,7 @@ tags: ["property", "united-kingdom"]
 ogImage: "https://img.unistay.cn/housing/p/uh-s01576671.jpg"
 ---
 
-# Winfield Court 值不值得住？诺丁汉高性价比公寓的真实分析
+## Winfield Court 值不值得住？诺丁汉高性价比公寓的真实分析
 
 诺丁汉的学生住宿选择不少，有 31 处公寓，起步价低至每周 86 英镑。Winfield Court 位于 The Island Quarter 区域，周租金从 155 英镑到 250 英镑不等，属于当地中高价位的一档。它自称“premium”公寓，还配了免费班车往返诺丁汉大学和诺丁汉特伦特大学。到底这套房适合什么人？性价比如何？我把手头的数据和常见情况拆开聊一聊。
 

@@ -87,4 +87,4 @@ Iglu Brisbane City 是布里斯班市中心的一处学生公寓，位于 Brisba
 
 如需了解 Iglu Brisbane City 当前的实时空房和价格，可使用网站上的在线助手（assistant）进行即时查询。
 
-**See also:** [listing details](/property/iglu-brisbane-city-138162/) · [browse more](/housing/australia/brisbane/)
+**See also:** [listing details](/fangyuan/iglu-brisbane-city-138162/) · [browse more](/chengshi/australia/brisbane/)

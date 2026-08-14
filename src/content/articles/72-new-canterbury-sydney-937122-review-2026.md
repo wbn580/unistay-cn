@@ -63,4 +63,4 @@ Petersham 主街有 IGA、本地杂货店和亚洲超市，步行 10 分钟可�
 
 如需要查询该公寓当前是否有空房，或者有其他租赁疑问，可以使用页面右下角的在线助手获取实时可用性信息。
 
-**See also:** [listing details](/property/72-new-canterbury-sydney-937122/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/72-new-canterbury-sydney-937122/) · [browse more](/chengshi/australia/sydney/)

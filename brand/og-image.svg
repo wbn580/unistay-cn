@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F4F2FF"/>
+      <stop offset="1" stop-color="#E8E3FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#302788" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="70" r="210" fill="#FFD27A" opacity=".42"/>
+  <circle cx="80" cy="590" r="230" fill="#8E82FF" opacity=".22"/>
+  <g transform="translate(84 82)">
+    <rect width="1032" height="466" rx="42" fill="#FFFFFF" filter="url(#shadow)"/>
+    <g transform="translate(54 55)">
+      <rect width="88" height="88" rx="26" fill="#4B3FE4"/>
+      <path d="M24 45 44 27l20 18v24H24z" fill="#fff"/>
+      <rect x="38" y="49" width="12" height="20" rx="3" fill="#FFD27A"/>
+    </g>
+    <text x="172" y="114" fill="#4B3FE4" font-size="34" font-weight="800" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK SC',sans-serif">UniStay 优住</text>
+    <text x="54" y="246" fill="#241E55" font-size="74" font-weight="800" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK SC',sans-serif">留学生住宿，先把选择看清</text>
+    <text x="58" y="324" fill="#655E86" font-size="30" font-weight="500" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK SC',sans-serif">房源 · 大学 · 城市 · 合同与入住指南</text>
+    <g transform="translate(58 372)">
+      <rect width="286" height="58" rx="20" fill="#4B3FE4"/>
+      <text x="143" y="39" text-anchor="middle" fill="#fff" font-size="24" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif">unistay.cn</text>
+    </g>
+  </g>
+</svg>

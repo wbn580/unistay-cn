@@ -89,4 +89,4 @@ Google 评论中多次提到 staff 的友善与帮助。Jasmine Palafox 写道�
 
 如想查询该公寓当前的实时空房情况与具体租金，请使用站内助手获取动态信息。
 
-**See also:** [listing details](/property/nunez-morgado-madrid-1080292/) · [browse more](/housing/spain/getafe/)
+**See also:** [listing details](/fangyuan/nunez-morgado-madrid-1080292/) · [browse more](/chengshi/spain/getafe/)

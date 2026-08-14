@@ -9,7 +9,7 @@ tags: ["property", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-1193387.jpg"
 ---
 
-# Apollo Tempe 到底值不值得住？
+## Apollo Tempe 到底值不值得住？
 
 如果你正在找 Chandler 附近的校外住处，而且对公共空间和社交氛围有要求，Apollo Tempe 可能会出现在你的备选清单里。这栋公寓在 Google 上拿到 4 分（613 条评价），月租金 899 到 1599 美元，有 1b、2b、3b、4b 四种房型，最早 2026 年 8 月 15 日入住。下面我从几个维度帮你拆一拆，看看它适不适合你。
 

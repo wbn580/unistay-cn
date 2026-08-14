@@ -9,7 +9,7 @@ tags: ["property", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-191122.jpg"
 ---
 
-# The Hells Kitchen House 值不值得住
+## The Hells Kitchen House 值不值得住
 
 如果你正在纽约找一套带社区氛围、位置在曼哈顿核心区的房子，The Hells Kitchen House 可能会出现在你的候选清单里。它位于纽约市 10036 区，Hell’s Kitchen 街区，靠近时代广场和哈德逊河。月租金从 2290 美元到 2750 美元不等，房型包括 1b（一居室）和 apartment（公寓套间）。下面从几个角度帮你判断它适不适合你。
 

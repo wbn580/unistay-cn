@@ -75,4 +75,4 @@ Edinburgh College Residence 位于 348 West Granton Road，属于爱丁堡北部
 
 如需了解当前空房情况、最新报价或预约看房，请使用页面上的在线助手（on-site assistant）查询实时可用性（live availability）。
 
-**See also:** [listing details](/property/edinburgh-college-residence-s01550019/) · [browse more](/housing/united-kingdom/edinburgh/)
+**See also:** [listing details](/fangyuan/edinburgh-college-residence-s01550019/) · [browse more](/chengshi/united-kingdom/edinburgh/)

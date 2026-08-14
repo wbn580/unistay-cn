@@ -39,6 +39,9 @@
     "hideFromHome": {
       "type": "boolean"
     },
+    "draft": {
+      "type": "boolean"
+    },
     "$schema": {
       "type": "string"
     }

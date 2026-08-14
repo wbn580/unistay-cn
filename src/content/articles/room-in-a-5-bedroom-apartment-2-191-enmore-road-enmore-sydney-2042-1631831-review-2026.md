@@ -67,4 +67,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1631831.jpg"
 
 如需了解该物业当前的空房状态、具体入住日期或房间照片，可以使用网站内置的在线助手进行实时查询。
 
-**See also:** [listing details](/property/room-in-a-5-bedroom-apartment-2-191-enmore-road-enmore-sydney-2042-1631831/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/room-in-a-5-bedroom-apartment-2-191-enmore-road-enmore-sydney-2042-1631831/) · [browse more](/chengshi/australia/sydney/)

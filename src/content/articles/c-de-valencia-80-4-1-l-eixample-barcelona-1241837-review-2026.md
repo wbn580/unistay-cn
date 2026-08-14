@@ -95,4 +95,4 @@ C/ De València 80 4- 1 L’Eixample 是一处位于巴塞罗那市中心扩展�
 
 如需了解该房源是否已开放预订或查看其他巴塞罗那选项，可以使用页面上的在线助手查询实时可用性。
 
-**See also:** [listing details](/property/c-de-valencia-80-4-1-l-eixample-barcelona-1241837/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/c-de-valencia-80-4-1-l-eixample-barcelona-1241837/) · [browse more](/chengshi/spain/barcelona/)

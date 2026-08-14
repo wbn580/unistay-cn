@@ -84,4 +84,4 @@ This article draws on data from the property listing (source: amber) as of July 
 
 If you want live availability or personalized answers, you can ask the on‑site assistant using the chat tool on the property page.
 
-**See also:** [listing details](/property/the-gathering-at-salisbury-salisbury-2446044/) · [browse more](/housing/united-states/salisbury-md/)
+**See also:** [listing details](/fangyuan/the-gathering-at-salisbury-salisbury-2446044/) · [browse more](/chengshi/united-states/salisbury-md/)

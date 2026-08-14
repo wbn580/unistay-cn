@@ -109,4 +109,4 @@ Gibson Street 是一栋位于格拉斯哥西区的学生公寓，步行范围内
 
 如需了解 Gibson Street 当前空闲房间和实时价格，可使用本页的在线助手与房源运营方直接沟通。
 
-**See also:** [listing details](/property/gibson-street-s00013353/) · [browse more](/housing/united-kingdom/glasgow/)
+**See also:** [listing details](/fangyuan/gibson-street-s00013353/) · [browse more](/chengshi/united-kingdom/glasgow/)

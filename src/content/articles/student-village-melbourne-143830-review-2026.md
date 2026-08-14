@@ -83,4 +83,4 @@ Student Village 位于墨尔本 Carlton 区，邮编 3053，步行范围内有�
 
 如需查看当前空房情况及最新价格，请使用页面底部或侧边栏的站内助手查询实时信息。
 
-**See also:** [listing details](/property/student-village-melbourne-143830/) · [browse more](/housing/australia/melbourne/)
+**See also:** [listing details](/fangyuan/student-village-melbourne-143830/) · [browse more](/chengshi/australia/melbourne/)

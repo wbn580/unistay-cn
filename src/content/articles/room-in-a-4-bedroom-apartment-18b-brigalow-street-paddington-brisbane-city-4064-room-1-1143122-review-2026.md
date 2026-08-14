@@ -76,4 +76,4 @@ Paddington区位于布里斯班CBD以西约2公里。到QUT Gardens Point校区�
 
 如需了解实时可用性和具体房源信息，可使用本网站的现场助手，它将帮助你直接查询当前空房并安排看房。
 
-**See also:** [listing details](/property/room-in-a-4-bedroom-apartment-18b-brigalow-street-paddington-brisbane-city-4064-room-1-1143122/) · [browse more](/housing/australia/brisbane/)
+**See also:** [listing details](/fangyuan/room-in-a-4-bedroom-apartment-18b-brigalow-street-paddington-brisbane-city-4064-room-1-1143122/) · [browse more](/chengshi/australia/brisbane/)

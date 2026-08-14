@@ -9,6 +9,7 @@ category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
 ogImage: ''
+draft: true
 verified: '2026-08-14T00:00:00Z'
 tags:
   - '推荐信'

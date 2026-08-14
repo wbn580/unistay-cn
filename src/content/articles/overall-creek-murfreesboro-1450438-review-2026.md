@@ -82,4 +82,4 @@ Sources & data date: 2026-07
 
 以上信息仅基于当前平台数据，实际租金、空房情况及政策会随时间变化。你可以使用页面上的在线助手获取最新房源状态与直接沟通渠道。
 
-**See also:** [listing details](/property/overall-creek-murfreesboro-1450438/) · [browse more](/housing/united-states/murfreesboro/)
+**See also:** [listing details](/fangyuan/overall-creek-murfreesboro-1450438/) · [browse more](/chengshi/united-states/murfreesboro/)

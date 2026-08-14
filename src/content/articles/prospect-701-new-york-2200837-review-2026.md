@@ -85,4 +85,4 @@ Sources & data date: 2026-07
 
 如需实时可用性和最新价格，您可以使用网站上的现场助理查询当前库存（live availability）。
 
-**See also:** [listing details](/property/prospect-701-new-york-2200837/) · [browse more](/housing/united-states/new-york-city/)
+**See also:** [listing details](/fangyuan/prospect-701-new-york-2200837/) · [browse more](/chengshi/united-states/new-york-city/)

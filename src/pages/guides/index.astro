@@ -4,15 +4,17 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CtaCard from '../../components/CtaCard.astro';
 import { fmtNum } from '../../lib/format';
+import { isCanonicalArticleCategory } from '../../lib/articleCategories';
 
-const all = (await getCollection('articles')).sort(
+const all = (await getCollection('articles', ({ data }) => data.draft !== true)).sort(
   (a, b) => new Date(b.data.pubDatetime).getTime() - new Date(a.data.pubDatetime).getTime()
 );
 
 // 按 category 分组（保持原文章 URL /{id}/）
 const byCat = new Map<string, typeof all>();
 for (const a of all) {
-  const cat = a.data.category || '其他';
+  const cat = a.data.category;
+  if (!isCanonicalArticleCategory(cat)) continue;
   if (!byCat.has(cat)) byCat.set(cat, []);
   byCat.get(cat)!.push(a);
 }

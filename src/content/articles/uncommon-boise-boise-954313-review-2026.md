@@ -111,4 +111,4 @@ Uncommon Boise 提供三种基本房型：
 
 *所有价格均为指示性，请与运营商确认实际金额和空房情况。如需了解当前可预订单元和最新优惠，请使用本页面的线上助手进行查询。*
 
-**See also:** [listing details](/property/uncommon-boise-boise-954313/) · [browse more](/housing/united-states/boise/)
+**See also:** [listing details](/fangyuan/uncommon-boise-boise-954313/) · [browse more](/chengshi/united-states/boise/)

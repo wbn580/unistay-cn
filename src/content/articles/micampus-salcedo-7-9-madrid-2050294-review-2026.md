@@ -99,4 +99,4 @@ Getafe 是马德里南部的一个城市，拥有较为成熟的学生住房市�
 
 对于实时空房情况和最新价格，您可以使用页面上的在线助手进行查询，以获取最准确的住宿状态。
 
-**See also:** [listing details](/property/micampus-salcedo-7-9-madrid-2050294/) · [browse more](/housing/spain/getafe/)
+**See also:** [listing details](/fangyuan/micampus-salcedo-7-9-madrid-2050294/) · [browse more](/chengshi/spain/getafe/)

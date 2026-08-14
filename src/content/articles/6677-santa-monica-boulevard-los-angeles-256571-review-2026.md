@@ -90,4 +90,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1194611.jpg"
 
 本文数据来源于平台统计及公开评价。价格、房源状态和评分可能随时间变化。如需获取最新的房间可用性、优惠信息及直接预订，请使用本页面的在线助手，工作人员会实时回复您的查询。
 
-**See also:** [listing details](/property/6677-santa-monica-boulevard-los-angeles-256571/) · [browse more](/housing/united-states/los-angeles/)
+**See also:** [listing details](/fangyuan/6677-santa-monica-boulevard-los-angeles-256571/) · [browse more](/chengshi/united-states/los-angeles/)

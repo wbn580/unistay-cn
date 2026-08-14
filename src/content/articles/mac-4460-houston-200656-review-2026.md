@@ -81,4 +81,4 @@ Mac 4460 提供四种户型，各有适用场景：
 
 使用本站的在线助手查询 Mac 4460 或休斯顿其他学生公寓的实时房源信息和最新价格。
 
-**See also:** [listing details](/property/mac-4460-houston-200656/) · [browse more](/housing/united-states/houston/)
+**See also:** [listing details](/fangyuan/mac-4460-houston-200656/) · [browse more](/chengshi/united-states/houston/)

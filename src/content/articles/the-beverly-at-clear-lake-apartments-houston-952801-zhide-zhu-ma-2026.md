@@ -9,7 +9,7 @@ tags: ["property", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-952801.jpg"
 ---
 
-# The Beverly At Clear Lake Apartments：休斯顿这套公寓值不值得住
+## The Beverly At Clear Lake Apartments：休斯顿这套公寓值不值得住
 
 如果你是正在找休斯顿长租公寓的留学生，The Beverly At Clear Lake Apartments 大概是你在网上刷到过的选项之一。它位于休斯顿 Clear Lake 区域，地址是 Houston, TX 77062，距离 Rice University 和 University of Houston 都有一定车程。这套公寓在谷歌上有 3.8 分、331 条评价，价格从每月 779 美元到 2055 美元不等，租期最短 6 个月。下面我们从实际居住角度拆开看看，这套公寓到底适合谁、不适合谁，以及真实住户怎么说。
 

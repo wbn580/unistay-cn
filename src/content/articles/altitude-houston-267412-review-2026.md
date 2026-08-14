@@ -92,4 +92,4 @@ Altitute 地址为 Houston, TX 77021。主要大学包括 Rice University（约 
 
 如需了解当前可用房型和实时价格，请使用网页上的在线助理获取最新信息。
 
-**See also:** [listing details](/property/altitude-houston-267412/) · [browse more](/housing/united-states/houston/)
+**See also:** [listing details](/fangyuan/altitude-houston-267412/) · [browse more](/chengshi/united-states/houston/)

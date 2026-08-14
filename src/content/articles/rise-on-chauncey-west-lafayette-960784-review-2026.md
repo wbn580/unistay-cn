@@ -94,4 +94,4 @@ Rise On Chauncey 位于 West Lafayette 的大学核心区域，是一栋设施�
 
 对于具体户型的实时房源、当前优惠及空房情况，可咨询网页上的官方客服助手以获取最新信息。
 
-**See also:** [listing details](/property/rise-on-chauncey-west-lafayette-960784/) · [browse more](/housing/united-states/west-lafayette/)
+**See also:** [listing details](/fangyuan/rise-on-chauncey-west-lafayette-960784/) · [browse more](/chengshi/united-states/west-lafayette/)

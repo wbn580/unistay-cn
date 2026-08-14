@@ -67,4 +67,4 @@ Collegelands 提供两种主要房型：**套间（en-suite）** 和 **单间公
 
 如需了解当前空房情况和实时价格，可以在网站上使用“在线咨询”助手，它会帮助你直接对接运营方。
 
-**See also:** [listing details](/property/collegelands-s00017414/) · [browse more](/housing/united-kingdom/glasgow/)
+**See also:** [listing details](/fangyuan/collegelands-s00017414/) · [browse more](/chengshi/united-kingdom/glasgow/)

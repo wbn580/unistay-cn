@@ -76,4 +76,4 @@ Vita Student 通常有标准的退租和转租条款。大多数合同中不允�
 
 如需查询当前空房和精准报价，可使用页面上的在线助手，它将直接对接实时数据库，无需额外搜索。
 
-**See also:** [listing details](/property/vita-student-lewisham-exchange-s01502973/) · [browse more](/housing/united-kingdom/london/)
+**See also:** [listing details](/fangyuan/vita-student-lewisham-exchange-s01502973/) · [browse more](/chengshi/united-kingdom/london/)

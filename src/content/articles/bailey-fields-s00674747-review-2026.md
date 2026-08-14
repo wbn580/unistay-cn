@@ -79,4 +79,4 @@ Bailey Fields 提供两类主流房型：
 
 如需了解当前可用的房型、真实空房情况或获取个性化推荐，您可以使用页面内的在线助手进行实时查询，它可以直接对接运营商的房态系统。
 
-**See also:** [listing details](/property/bailey-fields-s00674747/) · [browse more](/housing/united-kingdom/sheffield/)
+**See also:** [listing details](/fangyuan/bailey-fields-s00674747/) · [browse more](/chengshi/united-kingdom/sheffield/)

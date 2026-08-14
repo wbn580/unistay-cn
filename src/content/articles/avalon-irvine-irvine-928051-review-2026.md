@@ -87,4 +87,4 @@ Avalon Irvine 是一处位于加利福尼亚州尔湾市的出租住宅社区，
 
 如需了解该房源当前是否可预订以及最新价格和空房信息，请使用网站上的现场助手进行实时查询。
 
-**See also:** [listing details](/property/avalon-irvine-irvine-928051/) · [browse more](/housing/united-states/irvine/)
+**See also:** [listing details](/fangyuan/avalon-irvine-irvine-928051/) · [browse more](/chengshi/united-states/irvine/)

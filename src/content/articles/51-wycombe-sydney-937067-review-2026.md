@@ -103,4 +103,4 @@ Neutral Bay位于悉尼港北岸。若前往悉尼大学（Camperdown校区）�
 
 如需查询该物业当前是否有空房、具体房型及最新价格，可以使用页面上的在线助手，输入你的入住时间和偏好，获取即时反馈。
 
-**See also:** [listing details](/property/51-wycombe-sydney-937067/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/51-wycombe-sydney-937067/) · [browse more](/chengshi/australia/sydney/)

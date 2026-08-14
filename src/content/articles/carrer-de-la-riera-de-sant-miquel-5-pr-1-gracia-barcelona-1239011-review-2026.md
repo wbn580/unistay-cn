@@ -80,4 +80,4 @@ suu 111的评论确实反映了她的不安全感，指出厨房中遇到“full
 
 如你对远期可用性或具体合同条款有疑问，网站上设有实时助手，可为你提供最新的空房状态与申请指导。
 
-**See also:** [listing details](/property/carrer-de-la-riera-de-sant-miquel-5-pr-1-gracia-barcelona-1239011/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/carrer-de-la-riera-de-sant-miquel-5-pr-1-gracia-barcelona-1239011/) · [browse more](/chengshi/spain/barcelona/)

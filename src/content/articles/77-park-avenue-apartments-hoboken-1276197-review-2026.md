@@ -101,4 +101,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-1276197.jpg"
 
 如需查询实时空房信息和最新价格，可使用本站的在线助手，获取具体入住时间的可选项。
 
-**See also:** [listing details](/property/77-park-avenue-apartments-hoboken-1276197/) · [browse more](/housing/united-states/new-york-city/)
+**See also:** [listing details](/fangyuan/77-park-avenue-apartments-hoboken-1276197/) · [browse more](/chengshi/united-states/new-york-city/)

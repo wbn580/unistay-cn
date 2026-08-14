@@ -9,7 +9,7 @@ tags: ["city", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-2442081.jpg"
 ---
 
-# 林肯租房预算指南：给威斯康星大学麦迪逊分校同学的参考
+## 林肯租房预算指南：给威斯康星大学麦迪逊分校同学的参考
 
 ## 为什么把林肯放进你的租房地图？
 

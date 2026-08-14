@@ -82,4 +82,4 @@ ogImage: "https://img.unistay.cn/housing/p/amber-945379.jpg"
 
 如需了解当前房源空置情况和最新价格，请在站内使用在线助手查询实时可用性。
 
-**See also:** [listing details](/property/ramz-apartments-on-broad-1730750/) · [browse more](/housing/united-states/richmond/)
+**See also:** [listing details](/fangyuan/ramz-apartments-on-broad-1730750/) · [browse more](/chengshi/united-states/richmond/)

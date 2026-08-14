@@ -138,4 +138,4 @@ Carrer del Comte d'Urgell, 160 位于巴塞罗那的 **L’Eixample 区**，这�
 
 如需查看该物业最新的实时空房信息，请使用页面上的在线助手，它会直接查询运营方的库存系统。
 
-**See also:** [listing details](/property/carrer-del-comte-d-urgell-160-planta-4-l-eixample-barcelona-1235647/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/carrer-del-comte-d-urgell-160-planta-4-l-eixample-barcelona-1235647/) · [browse more](/chengshi/spain/barcelona/)

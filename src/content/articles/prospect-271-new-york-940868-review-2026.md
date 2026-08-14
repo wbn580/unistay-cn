@@ -85,4 +85,4 @@ Google上81条评价平均4.8分，几乎全是正面反馈。以下摘录两位
 
 以上信息基于公开数据整理，价格和可用性为指示性信息，请直接与运营商确认实时情况。如需查询当前空房或更多细节，可使用本平台的在线助手获取最新可用性。
 
-**See also:** [listing details](/property/prospect-271-new-york-940868/) · [browse more](/housing/united-states/new-york-city/)
+**See also:** [listing details](/fangyuan/prospect-271-new-york-940868/) · [browse more](/chengshi/united-states/new-york-city/)

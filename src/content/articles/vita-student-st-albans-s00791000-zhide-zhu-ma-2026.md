@@ -9,7 +9,7 @@ tags: ["property", "united-kingdom"]
 ogImage: "https://img.unistay.cn/housing/p/uh-s00791000.jpg"
 ---
 
-# Vita Student St. Albans 值不值得住？利兹市中心的高端 Studio 公寓
+## Vita Student St. Albans 值不值得住？利兹市中心的高端 Studio 公寓
 
 如果你正在找利兹大学附近的单人住所，而且预算相对宽松，Vita Student St. Albans 应该是你会反复看到的名字。它位于 Cross Belgrave Street，属于利兹市中心的核心地段，离 University of Leeds 主校区步行大概十来分钟。整栋楼只提供 Studio（单间套房），没有合租选项，所以目标人群很明确：想要完全独立空间的学生。
 

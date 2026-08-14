@@ -71,4 +71,4 @@ Sources & data date: 2026-07
 
 Use the on-site assistant on this page for live availability checks.
 
-**See also:** [listing details](/property/queensland-place-s01563089/) · [browse more](/housing/united-kingdom/liverpool/)
+**See also:** [listing details](/fangyuan/queensland-place-s01563089/) · [browse more](/chengshi/united-kingdom/liverpool/)

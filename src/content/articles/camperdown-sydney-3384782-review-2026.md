@@ -86,4 +86,4 @@ Camperdown 地处悉尼传统学生活跃区，步行范围内有多所大学校
 
 若您对 Camperdown 或悉尼其他学生公寓有进一步疑问，欢迎使用网站内置的现场助理工具，获取最新的房源状态和预订帮助。
 
-**See also:** [listing details](/property/camperdown-sydney-3384782/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/camperdown-sydney-3384782/) · [browse more](/chengshi/australia/sydney/)

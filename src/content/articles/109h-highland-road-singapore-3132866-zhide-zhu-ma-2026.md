@@ -9,7 +9,7 @@ tags: ["property", "singapore"]
 ogImage: "https://img.unistay.cn/housing/p/amber-3132866.jpg"
 ---
 
-# 109H Highland Road：这套新加坡学生公寓值不值得住
+## 109H Highland Road：这套新加坡学生公寓值不值得住
 
 109H Highland Road 是一套位于新加坡的合租型公寓，地址在 Singapore 544927，紧邻 Lavender MRT 地铁站。公寓提供非独立卫浴（non-ensuite）、独立卫浴（ensuite）、一居室（1b）和整套公寓（apartment）几种房型，月租金范围在 1100 到 2200 新加坡元之间。房源在 Amber 平台上显示 Google 评分 4.3，共 618 条评价。下面从几个角度帮你判断它是否适合你。
 

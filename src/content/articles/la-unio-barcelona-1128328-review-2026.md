@@ -100,4 +100,4 @@ Sources: Amberstudent listing data (ID amber-1128328), Google reviews (rating 4.
 
 您可以使用本站的在线助理，查询任何物业的实时空房情况。
 
-**See also:** [listing details](/property/la-unio-barcelona-1128328/) · [browse more](/housing/spain/barcelona/)
+**See also:** [listing details](/fangyuan/la-unio-barcelona-1128328/) · [browse more](/chengshi/spain/barcelona/)

@@ -93,4 +93,4 @@ Sydney Student Living Top Ryde 位于悉尼北部的 Ryde 区，具体地址为 
 
 如需查询 Sydney Student Living Top Ryde 当前的可选房型与实时空房情况，可使用网站上的在线助手；它将根据你的入住日期和预算显示最新可用列表。
 
-**See also:** [listing details](/property/sydney-student-living-top-ryde-137900/) · [browse more](/housing/australia/sydney/)
+**See also:** [listing details](/fangyuan/sydney-student-living-top-ryde-137900/) · [browse more](/chengshi/australia/sydney/)

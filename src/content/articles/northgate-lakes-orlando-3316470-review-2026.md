@@ -95,4 +95,4 @@ Northgate Lakes 位于美国佛罗里达州奥维耶多（Oviedo, FL 32765），
 
 如需了解该物业当前的空房情况和最新租金，可使用网站内置的在线助手查看实时库存。
 
-**See also:** [listing details](/property/northgate-lakes-orlando-3316470/) · [browse more](/housing/united-states/orlando/)
+**See also:** [listing details](/fangyuan/northgate-lakes-orlando-3316470/) · [browse more](/chengshi/united-states/orlando/)

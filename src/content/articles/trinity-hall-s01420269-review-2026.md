@@ -83,4 +83,4 @@ Holborn Approach 靠近利兹市中心，步行范围内有多家超市（如 Mo
 
 如需查询 Trinity Hall 的实时空房情况和最新价格，请使用网页右下角的在线咨询助理（on-site assistant），工作人员将提供即时帮助。
 
-**See also:** [listing details](/property/trinity-hall-s01420269/) · [browse more](/housing/united-kingdom/leeds/)
+**See also:** [listing details](/fangyuan/trinity-hall-s01420269/) · [browse more](/chengshi/united-kingdom/leeds/)

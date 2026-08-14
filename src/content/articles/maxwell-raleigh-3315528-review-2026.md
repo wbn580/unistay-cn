@@ -107,4 +107,4 @@ Maxwell 在 Google 上获得 3.5 星（共 168 条评价）。以下为三条被
 
 如需了解 Maxwell 当前房间空缺、实时价格或预约看房，可使用页面右下角的在线助手查询最新库存与预订状态。
 
-**See also:** [listing details](/property/maxwell-raleigh-3315528/) · [browse more](/housing/united-states/raleigh/)
+**See also:** [listing details](/fangyuan/maxwell-raleigh-3315528/) · [browse more](/chengshi/united-states/raleigh/)

@@ -9,7 +9,7 @@ tags: ["property", "united-states"]
 ogImage: "https://img.unistay.cn/housing/p/amber-825822.jpg"
 ---
 
-# Greene Crossing 值不值得住？在哥伦比亚市租房前先看这些
+## Greene Crossing 值不值得住？在哥伦比亚市租房前先看这些
 
 Greene Crossing 位于南卡罗来纳州哥伦比亚市（Columbia, SC 29201），是当地学生和年轻人常会考虑的校外公寓之一。公寓配备了健身房、洗衣设施和学习区，但谷歌评分只有 3.1 分（287 条评论），且系统标签显示目前“not_available”。这篇文章帮你梳理它的真实情况，结合住客评价、同城价格和选择建议，供你判断是否适合自己。
 

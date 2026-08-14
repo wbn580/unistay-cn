@@ -9,7 +9,7 @@ tags: ["property", "united-kingdom"]
 ogImage: "https://img.unistay.cn/housing/p/uh-s01467825.jpg"
 ---
 
-# true Glasgow 格拉斯哥全包式学生公寓，值不值得住？
+## true Glasgow 格拉斯哥全包式学生公寓，值不值得住？
 
 如果你正在找格拉斯哥的住处，应该已经注意到市里学生公寓选择不少。true Glasgow 是其中评分较高的一栋（4.6/5，109条评价），价格覆盖每周 188 到 378 英镑，位置在 221 New City Road，步行能到格拉斯哥大学和思克莱德大学。这篇会从实际角度拆解它的“性价比”——不谈最便宜或最好，只给数据和步骤，帮你判断它适不适合你。
 
