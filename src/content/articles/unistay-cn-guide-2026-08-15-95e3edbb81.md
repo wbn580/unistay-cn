@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-08-15-95e3edbb81'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-15-95e3edbb81-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-15-95e3edbb81-image-01-2026-1880x1253.jpg'
 verified: '2026-08-15T00:00:00Z'
 tags:
   - '时间管理'
@@ -33,7 +33,7 @@ tags:
 
 优先级矩阵（又称艾森豪威尔矩阵）帮助你快速判断任务的轻重缓急，从而决定先做什么、可以推迟或放弃什么。
 
-![学生用笔记本进行时间块规划与优先级矩阵](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-15-95e3edbb81-image-01-2026-1880x1253.jpg)
+![学生用笔记本进行时间块规划与优先级矩阵](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-15-95e3edbb81-image-01-2026-1880x1253.jpg)
 
 
 你可以把任务按两个维度分类：

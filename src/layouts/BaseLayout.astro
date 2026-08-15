@@ -91,14 +91,18 @@ const { title, description, ogImage, ogType, canonical, jsonLd, noindex, overlay
       async
       data-color="#4B3FE4"
       data-accent="#CDEB5A"></script>
-    <script
-      src="https://chat.unistay.cn/assistant.js"
-      data-site="unistay-cn"
-      data-lang="zh-CN"
-      data-bot-name="住宿小助手"
-      data-channel="organic"
-      data-color="#4B3FE4"
-      data-accent="#CDEB5A"
-      async data-no-bubble="1"></script>
+    <!--
+      2026-08-15 · R195：本站是简体中文站（lang: zh-CN），简中页不得出现任何对话式界面，
+      咨询入口一律指向本站企业微信客服。原来这里常驻加载 chat.unistay.cn/assistant.js
+      （「住宿小助手」对话框），已移除。
+
+      移除后仍然齐全，不留空窗：
+        · 咨询 —— 上面的 lead.js 在简中分支渲染「微信咨询」按钮，指向本站专属客服号
+          （岛主主体，准源 credentials.wecom_arrivau.kf_accounts；小程序主体例外见
+          wechat-kf-dual-subject-ref.md §1）。
+        · 主功能 —— <AiWizardModal /> 的 AI 找房向导照旧，它是分步**表单**不是对话框，
+          R195 明确「非对话式的工具（表单、测算、比价、筛选、下载）不受本条影响」。
+    -->
+
   </body>
 </html>

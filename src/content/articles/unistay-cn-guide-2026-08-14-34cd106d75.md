@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-08-14-34cd106d75'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: "https://img.ulec.com.cn/留学/住宿/unistay-cn-guide-2026-08-14-34cd106d75-2026-1280x854.jpg"
+ogImage: "https://img.unistay.cn/留学/住宿/unistay-cn-guide-2026-08-14-34cd106d75-2026-1280x854.jpg"
 draft: true
 verified: '2026-08-14T00:00:00Z'
 tags:

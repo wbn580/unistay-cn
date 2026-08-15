@@ -9,7 +9,7 @@ tags:
 - 英国
 - Council Tax
 - 学生豁免
-ogImage: "https://img.ulec.com.cn/留学/住宿/uk-council-tax-student-exemption-2026-1280x854.jpg"
+ogImage: "https://img.unistay.cn/留学/住宿/uk-council-tax-student-exemption-2026-1280x854.jpg"
 ---
 
 英国 Council Tax 按住户情况计算。全日制学生通常被视为“不计入人数”（disregarded），但这不等于任何带学生身份的人、任何时间段或任何合租组合都会自动得到同样结果。判断时要同时看课程是否符合全日制定义、住户里有没有非学生，以及所在地 council 是否已经登记你的状态。
