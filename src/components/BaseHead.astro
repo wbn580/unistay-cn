@@ -34,7 +34,7 @@ const isHome = Astro.url.pathname === '/';
 {isHome && <link rel="alternate" hreflang="zh-CN" href="https://unistay.cn/" />}
 {isHome && <link rel="alternate" hreflang="en" href="https://unistay.net/" />}
 {isHome && <link rel="alternate" hreflang="x-default" href="https://unistay.net/" />}
-{noindex && <meta name="robots" content="noindex, follow" />}
+<meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"} />
 
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
