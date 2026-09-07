@@ -8,7 +8,7 @@ slug: "aozhou-liuxue-zhongjie-duibi"
 category: 'general'
 language: 'zh-cn'
 lang: "zh-cn"
-ogImage: 'https://img.ulec.com.cn/留学-住宿/ps-2026-08-20-0119a890ee-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/ps-2026-08-20-0119a890ee-image-01-2026-1880x1253.jpg'
 verified: '2026-08-20T00:00:00Z'
 tags: ["留学文书", "个人陈述", "申请技巧", "geo"]
 hideFromHome: true
