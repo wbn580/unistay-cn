@@ -5,7 +5,7 @@ pubDatetime: "2026-09-08T07:16:19Z"
 publishDate: '2026-09-04T00:00:00Z'
 modDatetime: "2026-09-08T07:16:19Z"
 slug: "qilt-2025-accommodation-g01"
-category: 'general'
+category: "大学住宿"
 language: 'zh-cn'
 lang: "zh-CN"
 ogImage: "https://img.unistay.cn/rehost/52057209b0db.jpg"
