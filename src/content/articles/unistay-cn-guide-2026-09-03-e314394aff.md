@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-09-03-e314394aff'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-03-e314394aff-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-03-e314394aff-image-01-2026-1880x1253.jpg'
 verified: '2026-09-03T00:00:00Z'
 tags:
   - '推荐信'
@@ -23,7 +23,7 @@ tags:
 
 如果教授没有及时回复，可以在等待一段时间后礼貌地再发一封邮件提醒。注意不要频繁催促，保持尊重和理解。
 
-![学生给教授发邮件请求推荐信的场景](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-03-e314394aff-image-02-2026-1880x1253.jpg)
+![学生给教授发邮件请求推荐信的场景](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-03-e314394aff-image-02-2026-1880x1253.jpg)
 
 
 ## 提供个人材料帮助教授写出具体有力推荐信

@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-09-07-73ce2a1774'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-07-73ce2a1774-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-07-73ce2a1774-image-01-2026-1880x1253.jpg'
 verified: '2026-09-07T00:00:00Z'
 tags:
   - '学生贷款'
@@ -34,7 +34,7 @@ tags:
 - **理性评估条款**：仔细阅读贷款合同的每一条款，特别是利率、还款方式和违约金，不要被快速放款等字眼迷惑。
 - **寻求专业建议**：如有疑虑，可咨询学校财务顾问或信任的成年人，不要独自做决定。
 
-![学生贷款骗局警示图示](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-07-73ce2a1774-image-02-2026-1880x1253.jpg)
+![学生贷款骗局警示图示](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-07-73ce2a1774-image-02-2026-1880x1253.jpg)
 
 
 ## 如果成为受害者

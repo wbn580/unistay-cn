@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-08-31-362c06e93c'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-31-362c06e93c-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-31-362c06e93c-image-01-2026-1880x1253.jpg'
 verified: '2026-08-31T00:00:00Z'
 tags:
   - '时间管理'
@@ -24,7 +24,7 @@ tags:
 
 优先级矩阵帮助你判断任务的轻重缓急。将任务按"重要程度"和"紧急程度"分为四个象限：优先处理重要且紧急的事；重要但不紧急的事要提前安排；紧急但不重要的事尽量委托或减少；不重要也不紧急的事可以放最后。在留学生活中，学业通常属于重要且紧急，打工和社交可以根据截止日期灵活调整。
 
-![留学生用日程表规划时间块和优先级](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-08-31-362c06e93c-image-02-2026-1880x1253.jpg)
+![留学生用日程表规划时间块和优先级](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-08-31-362c06e93c-image-02-2026-1880x1253.jpg)
 
 
 ## 把方法应用到留学生日常

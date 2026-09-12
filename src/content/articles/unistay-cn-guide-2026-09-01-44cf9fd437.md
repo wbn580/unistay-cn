@@ -8,7 +8,7 @@ slug: 'unistay-cn-guide-2026-09-01-44cf9fd437'
 category: 'general'
 language: 'zh-cn'
 lang: 'zh-cn'
-ogImage: 'https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-01-2026-1880x1253.jpg'
+ogImage: 'https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-01-2026-1880x1253.jpg'
 verified: '2026-09-01T00:00:00Z'
 tags:
   - '推荐信'
@@ -23,7 +23,7 @@ tags:
 
 当你联系教授请求推荐信时，邮件应该简洁、礼貌，并说明请求的目的。以下是一个邮件模板示例：
 
-![学生正在笔记本电脑上撰写邮件](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-02-2026-1880x1253.jpg)
+![学生正在笔记本电脑上撰写邮件](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-02-2026-1880x1253.jpg)
 
 
 主题：推荐信请求 - [你的姓名] - [课程/项目名称]
@@ -59,7 +59,7 @@ tags:
 
 如果教授没有在预期的截止日期前回复，你可以礼貌地跟进。建议在首次请求后的一至两周内发送一封简短的跟进邮件，询问教授是否需要更多信息或是否有任何问题。例如：
 
-![教授正在审阅学生材料](https://img.ulec.com.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-03-2026-1880x1255.jpg)
+![教授正在审阅学生材料](https://img.unistay.cn/留学-住宿/unistay-cn-guide-2026-09-01-44cf9fd437-image-03-2026-1880x1255.jpg)
 
 
 主题：推荐信跟进 - [你的姓名]
