@@ -1,4 +1,4 @@
-/* us-wizard-engine.js — 优住 AI 找房向导引擎（共享内核）
+/* us-wizard-engine.js — 优住城市找房向导引擎（共享内核）
  * window.UsWizard.mount(rootCardEl) 可挂载多个独立实例（首页内联卡片 + 弹窗 modal 共用）。
  * 城市数据 /wizard_cities.json 全站只 fetch 一次，多实例共享。
  * 每个实例拥有独立的 state / view / bar 闭包，互不干扰。 */
@@ -194,6 +194,7 @@
         '<div class="usw-q">每' +
         durU(c.du) +
         '预算大概多少？</div>' +
+        '<p>预算、入住时间和房型仅作为住宿需求登记，不参与下方城市房源的筛选。填写联系方式并提交后，顾问才会收到这些需求。</p>' +
         '<div class="usw-opts two">' +
         o
           .map(function (x) {
@@ -257,7 +258,7 @@
       view.innerHTML =
         '<div class="usw-body"><div class="usw-sh"><span class="usw-sn">第 5 / 5 步</span><button class="usw-back">‹ 返回</button></div>' +
         '<div class="usw-q">还有什么特别在意的？</div>' +
-        '<p style="color:#6B6880;font-size:13.5px;margin:-8px 0 12px">用你自己的话告诉 AI——它会拿去和真实住客评价做匹配。选填。</p>' +
+        '<p style="color:#6B6880;font-size:13.5px;margin:-8px 0 12px">可填写希望顾问核实的事项。这里不会检索评价，也不会据此筛选下方房源。选填。</p>' +
         '<textarea class="usw-ta uswNotes" placeholder="例如：楼里安静、步行 10 分钟到校、带独卫和大书桌、附近有超市…"></textarea>' +
         '<div class="usw-hints">' +
         h
@@ -266,7 +267,7 @@
           })
           .join('') +
         '</div>' +
-        '<button type="button" class="usw-cta uswGo">帮我匹配房源 →</button></div>';
+        '<button type="button" class="usw-cta uswGo">查看城市房源 →</button></div>';
       bindBack(step4);
       var notesEl = view.querySelector('.uswNotes');
       Array.prototype.forEach.call(view.querySelectorAll('.usw-hint'), function (b) {
@@ -283,11 +284,9 @@
     function think() {
       var c = S.destCity;
       view.innerHTML =
-        '<div class="usw-think"><div class="usw-orb"></div><div class="t">正在为你匹配房源…</div>' +
+        '<div class="usw-think"><div class="usw-orb"></div><div class="t">正在展示城市房源…</div>' +
         '<div class="s">' +
-        (S.notes
-          ? '在 77 万条评价里搜索「' + esc(S.notes.slice(0, 38)) + (S.notes.length > 38 ? '…' : '') + '」'
-          : '正在筛选 ' + esc(cn(c)) + ' 的已核实房源') +
+        ('正在读取 ' + esc(cn(c)) + ' 的房源参考信息') +
         '</div></div>';
       setTimeout(results, 1400);
     }
@@ -302,7 +301,7 @@
             p.s +
             '/"><div class="im" style="' +
             (img ? "background-image:url('" + img + "')" : '') +
-            '"><span class="vb">✓ 已核实</span></div>' +
+            '"><span class="vb">房源参考</span></div>' +
             '<div><h4>' +
             esc(p.n) +
             '</h4><div class="rt">' +
@@ -310,8 +309,9 @@
             fmtG(p.g) +
             ' 条谷歌评价</div></div>' +
             '<div class="pr"><b>' +
-            c.cur +
-            p.p.toLocaleString('en-US') +
+            (typeof p.p === 'number' && isFinite(p.p) && p.p > 0
+              ? esc(c.cur) + p.p.toLocaleString('en-US')
+              : '价格待核实') +
             '</b><s>/' +
             durU(p.u || c.du) +
             '</s></div></a>'
@@ -319,13 +319,14 @@
         })
         .join('');
       view.innerHTML =
-        '<div class="usw-rh"><span class="lab">✓ 已核实匹配</span><h3>' +
-        esc(S.dest) +
-        ' 附近的房源</h3>' +
-        (S.notes ? '<div class="usw-kb">✨ AI 已匹配：「' + esc(S.notes.slice(0, 46)) + (S.notes.length > 46 ? '…' : '') + '」</div>' : '') +
+        '<div class="usw-rh"><span class="lab">城市房源参考</span><h3>' +
+        esc(cn(c)) +
+        ' 的房源参考</h3>' +
+        '<p>以下最多展示该城市的三套房源，不按预算、房型、入住时间或备注筛选，也不代表距离学校最近。价格与可订情况需向运营方核实。</p>' +
+        (S.notes ? '<div class="usw-kb">你填写的待核实事项：「' + esc(S.notes.slice(0, 46)) + (S.notes.length > 46 ? '…' : '') + '」</div>' : '') +
         '</div>' +
         '<div class="usw-list">' +
-        cards +
+        (cards || '<p>该城市暂无房源参考，请浏览其他城市或请顾问核实。</p>') +
         '</div>' +
         '<div class="usw-lead"><h4>想让顾问帮你锁定一套？</h4>' +
         '<p>留个联系方式——住宿顾问会在一个工作日内帮你核实房态。免费，无预订费。</p>' +

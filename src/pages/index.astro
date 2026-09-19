@@ -172,7 +172,7 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
       </p>
       <div style="margin-top: 2.25rem; display: flex; flex-wrap: wrap; gap: 0.9rem;">
         <button type="button" class="us-btn us-btn--primary" onclick="window.usFindHome?.()">
-          AI 帮我找房
+          查看城市房源
         </button>
         <a href="/zhusu/" class="us-btn us-btn--ghost-light">按城市浏览</a>
       </div>
@@ -197,25 +197,25 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
     </div>
   </section>
 
-  <!-- AI 找房向导 -->
+  <!-- 城市找房向导 -->
   <section id="us-wizard" class="us-section us-section--tint">
     <div class="us-wrap">
       <div style="display:grid;gap:2.5rem;align-items:center;grid-template-columns:1fr;" class="md:!grid-cols-2">
         <div>
-          <span class="us-kicker">AI 找房向导</span>
-          <h2 class="us-h2">点几下，我从 3,246 套真房源里帮你挑</h2>
+          <span class="us-kicker">城市找房向导</span>
+          <h2 class="us-h2">选一座城市，看看房源参考</h2>
           <p class="us-sub" style="margin-top:1rem;">
-            选学校、定预算、挑入住时间和房型——不到一分钟，拿到匹配你条件的已核实房源，还能让顾问帮你锁房、核实房态。全程免费、免学生中介费。
+            输入学校或城市，查看所在城市的最多三套房源参考。预算、入住时间和房型仅作为需求登记，不参与筛选；提交联系方式后可请顾问核实房态。全程免费、免学生中介费。
           </p>
           <ul style="margin-top:1.5rem;display:grid;gap:.7rem;color:var(--color-primary-deep);font-size:.95rem;">
-            <li>✓ 房源条条带真实谷歌评价，不是宣传图</li>
-            <li>✓ 原生货币显示，预算档按当地行情自动生成</li>
+            <li>✓ 查看房源详情，价格与房态以运营方核实为准</li>
+            <li>✓ 参考价标注当地货币与计价周期</li>
             <li>✓ 顾问一个工作日内跟进，帮你核实房态</li>
           </ul>
         </div>
         <div style="display:flex;justify-content:center;">
           <button type="button" class="us-btn us-btn--primary" style="font-size:1.05rem;padding:1rem 2.25rem;" onclick="window.usFindHome?.()">
-            AI 帮我找房 →
+            查看城市房源 →
           </button>
         </div>
       </div>
@@ -230,7 +230,7 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
       <p class="us-sub">三步，从「不知道住哪」到「有人跟进到签约」。</p>
       <div class="mt-8 grid gap-5 md:grid-cols-3">
         {[
-          ['01', '告诉小助手学校和预算', '点「AI 帮我找房」，说清楚去哪所学校、预算多少、什么时候入住，它先帮你圈出合适的城市片区和房源。'],
+          ['01', '告诉小助手学校和预算', '点「查看城市房源」，按学校所在城市或所选城市查看房源参考；预算和入住需求留待顾问核实，不用于自动筛选。'],
           ['02', '对比真实价格和评价', '每套房源都有价格区间、房型、分维度评分和英文原评，横着比完再决定，不用来回翻十个网站。'],
           ['03', '公寓顾问跟进到签约', '选定后由合作公寓顾问对接运营方，帮你核实房态、走预订和签约流程，价格以运营方实时报价为准。'],
         ].map(([n, t, d]) => (
@@ -392,7 +392,7 @@ const description = `留学住哪儿，先上优住查。覆盖 ${stats.countrie
           <p>圈房源、比价格、对接公寓顾问跟进到签约——全程免费，价格以运营方实时报价为准。</p>
         </div>
         <button type="button" class="us-btn us-btn--primary" onclick="window.usFindHome?.()">
-          AI 帮我找房
+          查看城市房源
         </button>
       </div>
     </div>

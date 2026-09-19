@@ -1,6 +1,6 @@
 ---
-// AiWizardModal.astro — 优住 AI 找房向导 · 弹窗版
-// 全站任意 "AI 找房 / AI 帮我找房" 入口（调 window.aiwOpen）都弹出此 modal，
+// AiWizardModal.astro — 优住城市找房向导 · 弹窗版
+// 全站任意 "AI 找房 / 查看城市房源" 入口（调 window.aiwOpen）都弹出此 modal，
 // 内含首页同款找房向导（UsWizard 内核）+ 背景遮蔽。
 // 放在 BaseLayout 里，全站每页可用。
 import '../styles/us-wizard.css'; // .usw* 向导视觉（唯一正本；本文件只负责 .aiw* 弹层布局）
@@ -11,14 +11,14 @@ import '../styles/us-wizard.css'; // .usw* 向导视觉（唯一正本；本文�
 
 <div class="aiw" id="aiwModal" hidden aria-hidden="true">
   <div class="aiw-backdrop" data-aiw-close></div>
-  <div class="aiw-dialog" role="dialog" aria-modal="true" aria-label="AI 找房向导">
+  <div class="aiw-dialog" role="dialog" aria-modal="true" aria-label="城市找房向导">
     <button type="button" class="aiw-x" data-aiw-close aria-label="关闭">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
       </svg>
     </button>
     <div class="usw" id="aiwModalCard" data-usw-init="0">
-      <div class="usw-tag"><span class="dot" aria-hidden="true"></span>AI 找房匹配 · 77 万条真实评价</div>
+      <div class="usw-tag"><span class="dot" aria-hidden="true"></span>城市房源参考 · 登记住宿需求</div>
       <div class="usw-bar"><i></i></div>
       <div class="usw-view"><div class="usw-load">正在准备房源…</div></div>
       <div class="usw-foot"><a href="/zhusu/">找不到合适的？浏览全部房源 →</a></div>
