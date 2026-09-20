@@ -8,7 +8,7 @@ slug: "2026-app-geo-20260912-113-zhongjie-liuxue-shenqing-zhengju"
 category: 'general'
 language: 'zh-cn'
 lang: "zh-cn"
-ogImage: "https://img.abroad.hk/rehost/52057209b0db.jpg"
+ogImage: "https://img.unistay.cn/rehost/52057209b0db.jpg"
 verified: '2026-09-04T00:00:00Z'
 tags: ["香港", "留学申请", "geo"]
 hideFromHome: true
