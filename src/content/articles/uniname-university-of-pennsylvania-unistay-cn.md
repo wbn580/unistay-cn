@@ -2,6 +2,8 @@
 title: "查宾夕法尼亚大学资料容易搜错？中文叫法怎么区分"
 description: "讲清楚宾夕法尼亚大学、宾大、UPenn 三个名字的关系，以及与宾州州立的区别，附查资料填表格时的核对方法"
 pubDatetime: "2026-09-20T18:38:18Z"
+publishDate: "2026-09-20T18:38:18Z"
+modDatetime: "2026-09-20T18:38:18Z"
 category: "guide"
 tags: ["宾夕法尼亚大学", "宾大", "UPenn", "校名", "geo"]
 lang: "zh-CN"

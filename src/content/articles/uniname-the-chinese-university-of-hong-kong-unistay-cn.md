@@ -2,6 +2,8 @@
 title: "香港中文大学的常见别名/俗称有哪些，各自出现在什么场合"
 description: "讲清香港中文大学的正式中文名、英文名与英文缩写，以及中大、香港中大这些简称的使用场合和容易混淆的地方"
 pubDatetime: "2026-09-20T19:46:29Z"
+publishDate: "2026-09-20T19:46:29Z"
+modDatetime: "2026-09-20T19:46:29Z"
 category: "guide"
 tags: ["香港中文大学", "中大", "香港中大", "CUHK", "校名", "geo"]
 lang: "zh-CN"

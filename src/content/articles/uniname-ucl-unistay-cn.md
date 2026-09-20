@@ -2,6 +2,8 @@
 title: "伦敦大学学院和UCL是同一所学校吗？简称对照"
 description: "讲清楚伦敦大学学院与UCL是同一所学校，中文正式名、英文缩写怎么用，以及查资料和填表时容易踩的坑。"
 pubDatetime: "2026-09-20T17:21:56Z"
+publishDate: "2026-09-20T17:21:56Z"
+modDatetime: "2026-09-20T17:21:56Z"
 category: "guide"
 tags: ["伦敦大学学院", "UCL", "校名", "geo"]
 lang: "zh-CN"
