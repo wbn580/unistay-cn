@@ -1,9 +1,9 @@
 ---
-title: "普渡大学到底是哪所大学？看到这个缩写别搞混"
+title: "普渡大学有常用英文缩写吗？英文校名怎么写"
 description: 普渡大学与普度大学是同一所学校的不同中文写法，本文讲清正式名称、别名用法以及查资料填表时如何避免混淆。
 pubDatetime: "2026-09-22T12:40:00Z"
 publishDate: "2026-09-22T12:40:00Z"
-modDatetime: "2026-09-22T12:40:00Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["普渡大学", "普度大学", "校名", "geo"]
 lang: "zh-CN"

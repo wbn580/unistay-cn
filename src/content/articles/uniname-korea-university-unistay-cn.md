@@ -1,9 +1,9 @@
 ---
-title: "高丽大学和高丽大学是同一所学校吗？简称对照"
+title: "高丽大学和高大是同一所学校吗？简称对照"
 description: "讲清高丽大学的中文正式名、常用别称高大与英文校名Korea University之间的关系，以及查资料填表时的注意事项。"
 pubDatetime: "2026-09-22T03:33:27Z"
 publishDate: "2026-09-22T03:33:27Z"
-modDatetime: "2026-09-22T03:33:27Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["高丽大学", "高大", "校名", "geo"]
 lang: "zh-CN"

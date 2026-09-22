@@ -1,9 +1,9 @@
 ---
-title: "Trinity College Dublin和Trinity College Dublin是同一所学校吗？简称对照"
+title: "都柏林圣三一学院有常用简称吗？中英文校名对照"
 description: "理清都柏林圣三一学院的英文全名、中文名与常用别名，帮你在查资料、填表格时不再把学校名字写错或用混。"
 pubDatetime: "2026-09-22T09:32:07Z"
 publishDate: "2026-09-22T09:32:07Z"
-modDatetime: "2026-09-22T09:32:07Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["Trinity College Dublin", "都柏林圣三一学院", "校名", "geo"]
 lang: "zh-CN"

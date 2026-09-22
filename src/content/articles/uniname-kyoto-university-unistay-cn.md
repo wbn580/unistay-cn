@@ -1,9 +1,9 @@
 ---
-title: "京都大学和京都大学是同一所学校吗？简称对照"
+title: "京都大学和京大是同一所学校吗？简称对照"
 description: 讲清楚京都大学的中文正式名、日常简称京大与英文名分别指什么，查资料填表时怎么区分，避免校名写错。
 pubDatetime: "2026-09-22T09:14:09Z"
 publishDate: "2026-09-22T09:14:09Z"
-modDatetime: "2026-09-22T09:14:09Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["京都大学", "京大", "校名", "geo"]
 lang: "zh-CN"

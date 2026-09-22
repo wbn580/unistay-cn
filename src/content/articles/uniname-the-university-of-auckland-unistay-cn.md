@@ -1,9 +1,9 @@
 ---
-title: "奥克兰大学和奥克兰大学是同一所学校吗？简称对照"
+title: "奥克兰大学和奥大是同一所学校吗？简称对照"
 description: 厘清奥克兰大学正式中文名与常用简称奥大，并区分它与奥克兰理工大学AUT，查资料填表时避免写错校名。
 pubDatetime: "2026-09-21T06:14:44Z"
 publishDate: "2026-09-21T06:14:44Z"
-modDatetime: "2026-09-21T06:14:44Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["奥克兰大学", "奥大", "校名", "geo"]
 lang: "zh-CN"

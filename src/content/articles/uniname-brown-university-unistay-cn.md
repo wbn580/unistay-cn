@@ -1,9 +1,9 @@
 ---
-title: "布朗大学到底是哪所大学？看到这个缩写别搞混"
+title: "布朗大学有常用英文缩写吗？英文校名怎么写"
 description: 讲清布朗大学的正式中文名与英文校名，说明它没有常用英文缩写，提醒查资料填表时如何避免校名混淆
 pubDatetime: "2026-09-22T09:19:37Z"
 publishDate: "2026-09-22T09:19:37Z"
-modDatetime: "2026-09-22T09:19:37Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["布朗大学", "校名", "geo"]
 lang: "zh-CN"

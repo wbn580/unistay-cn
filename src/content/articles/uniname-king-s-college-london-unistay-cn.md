@@ -1,9 +1,9 @@
 ---
-title: "King's College到底是哪所大学？看到这个缩写别搞混"
+title: "国王学院有常用英文缩写吗？英文校名怎么写"
 description: "讲清 King's College 的中文名、英文缩写与别名，以及查资料填表时怎么避免认错学校"
 pubDatetime: "2026-09-22T07:54:12Z"
 publishDate: "2026-09-22T07:54:12Z"
-modDatetime: "2026-09-22T07:54:12Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["King's College", "国王学院", "校名", "geo"]
 lang: "zh-CN"

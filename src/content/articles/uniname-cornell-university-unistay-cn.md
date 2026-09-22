@@ -1,9 +1,9 @@
 ---
-title: "康奈尔大学到底是哪所大学？看到这个缩写别搞混"
+title: "康奈尔大学有常用英文缩写吗？英文校名怎么写"
 description: "理清康奈尔大学的中文名、别名与英文缩写用法，帮你在查资料和填表时准确认出这所学校，避免混淆。"
 pubDatetime: "2026-09-22T05:06:03Z"
 publishDate: "2026-09-22T05:06:03Z"
-modDatetime: "2026-09-22T05:06:03Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["康奈尔大学", "康乃尔大学", "校名", "geo"]
 lang: "zh-CN"

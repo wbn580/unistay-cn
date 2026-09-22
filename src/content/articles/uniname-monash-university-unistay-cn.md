@@ -1,9 +1,9 @@
 ---
-title: "Monash University到底是哪所大学？看到这个缩写别搞混"
+title: "莫纳什大学有常用英文缩写吗？英文校名怎么写"
 description: 莫纳什大学、蒙纳士大学、Monash到底是不是同一所学校，Monash是缩写吗，查资料和填表时该怎么写，一篇讲清。
 pubDatetime: "2026-09-22T07:34:14Z"
 publishDate: "2026-09-22T07:34:14Z"
-modDatetime: "2026-09-22T07:34:14Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["Monash University", "Monash", "莫纳什大学", "校名", "geo"]
 lang: "zh-CN"

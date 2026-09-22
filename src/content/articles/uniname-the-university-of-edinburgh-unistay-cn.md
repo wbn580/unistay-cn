@@ -1,9 +1,9 @@
 ---
-title: "The University of Edinburgh和The University of Edinburgh是同一所学校吗？简称对照"
+title: "爱丁堡大学有常用简称吗？中英文校名对照"
 description: "讲清 The University of Edinburgh 的官方英文名、中文名与各部门服务名的区别，帮你填表查资料不混淆。"
 pubDatetime: "2026-09-22T07:49:35Z"
 publishDate: "2026-09-22T07:49:35Z"
-modDatetime: "2026-09-22T07:49:35Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["The University of Edinburgh", "Registry Services", "The University of Edinburgh Accommodation & Catering", "校名", "geo"]
 lang: "zh-CN"

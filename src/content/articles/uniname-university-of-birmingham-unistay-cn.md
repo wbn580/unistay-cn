@@ -1,9 +1,9 @@
 ---
-title: "伯明翰大学和伯明翰大学是同一所学校吗？简称对照"
+title: "伯明翰大学和伯大是同一所学校吗？简称对照"
 description: "讲清伯明翰大学的中文名、简称伯大与英文原名的关系，以及填表查资料时怎么避免校名混淆"
 pubDatetime: "2026-09-22T03:58:45Z"
 publishDate: "2026-09-22T03:58:45Z"
-modDatetime: "2026-09-22T03:58:45Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["伯明翰大学", "伯大", "校名", "geo"]
 lang: "zh-CN"

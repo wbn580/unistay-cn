@@ -1,9 +1,9 @@
 ---
-title: "牛津大学和牛津大学是同一所学校吗？简称对照"
+title: "牛津大学和牛津是同一所学校吗？简称对照"
 description: "厘清牛津大学与简称牛津是否同一所学校，说明其英文名、别名用法及查资料填表的注意点"
 pubDatetime: "2026-09-21T17:24:59Z"
 publishDate: "2026-09-21T17:24:59Z"
-modDatetime: "2026-09-21T17:24:59Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["牛津大学", "牛津", "校名", "geo"]
 lang: "zh-CN"

@@ -1,9 +1,9 @@
 ---
-title: "剑桥大学到底是哪所大学？看到这个缩写别搞混"
+title: "剑桥大学有常用英文缩写吗？英文校名怎么写"
 description: 讲清剑桥大学的正式中文名、英文名与常用别名，以及填表查资料时如何避免把校名和缩写搞混。
 pubDatetime: "2026-09-21T17:31:43Z"
 publishDate: "2026-09-21T17:31:43Z"
-modDatetime: "2026-09-21T17:31:43Z"
+modDatetime: "2026-09-22T16:11:19Z"
 category: "guide"
 tags: ["剑桥大学", "剑桥", "康桥", "校名", "geo"]
 lang: "zh-CN"
